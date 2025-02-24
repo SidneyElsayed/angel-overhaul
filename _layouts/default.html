@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <title>{{page.title}}</title>
-</head>
+<!-- Head -->
+{% include site-head.html %}
 
-<body>
+   <style>
+         :root {
+            --featured-color-dark-navy: {{site.data.style.featured-color-dark-navy}};
+            --featured-color-angel-blue: {{site.data.style.featured-color-angel-blue}};
+            --featured-color-medium-blue: {{site.data.style.featured-color-medium-blue}};
+            --featured-color-light-blue: {{site.data.style.featured-color-light-blue}};
+            --featured-color-v-light-blue: {{site.data.style.featured-color-v-light-blue}};
+            --featured-color-green: {{site.data.style.featured-color-green}};
+            --featured-color-light-green: {{site.data.style.featured-color-light-green}};
+            --base-color: {{site.data.style.base-color}};
+         }
+    </style>
+
+<body class="bg-base-color text-featured-dark-navy">
+    <!-- Header -->
+    {% include header.html %}
+
+    {% for block in page.blocks %}
+    <!-- {{block.id}} -->
+
+    {% if block.type == 'experience' %}
+      {% assign number = block.experience-number %}
+      {% assign item = site.experiences[number] %}
+         
+         {% include /blocks/{{block.id}}.html item=item %}
+
+      {% else %}
+      {% assign item = block %}
+      {% include /blocks/{{block.id}}.html link=link item=item %}
+      <!-- This passes the message on to the include that the information (link) is indeed a link and to use it -->
+
+       {% endif %}
+    {% endfor %}
+
     {{content}}
+    
+    <!-- Footer -->
+    {% include footer.html %}
+    
+
+
+<script src="main.js"></script>
+
 </body>
 
 </html>
