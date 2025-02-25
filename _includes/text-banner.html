@@ -1,0 +1,27 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+  <div class="grid grid-cols-2 gap-12 p-8 sm:p-16">
+    <div class="featured-text text-5xl font-extrabold uppercase tracking-wide {% if block.large-text-width == 'full' %} col-span-2 {% elsif block.large-text-width == 'half' %} col-span-1 {% endif %}">{{block.heading}}</div>
+
+    <div class="{% if block.large-text-placement == 'right' %} md:order-first {% endif %}
+
+    {% if block.paragraph-width == 'full' %} col-span-2 {% elsif block.paragraph-width == 'half' %} col-span-1 {% endif %}">
+      {% if block.text-1 %}
+        <p class="pb-4 font-thin">{{block.text-1}}</p>
+      {% endif %}
+
+      {% if block.text-2 %}
+        <p class="pb-4 font-thin">{{block.text-2}}</p>
+      {% endif %}
+
+      {% if block.text-3 %}
+        <p class="pb-4 font-thin">{{block.text-3}}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Don't delete the below; these are for the starting id and class above -->
+</div>
+</section>

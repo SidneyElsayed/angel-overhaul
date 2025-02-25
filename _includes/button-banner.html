@@ -1,0 +1,27 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+  <div class="p-12 flex justify-center gap-6 md:gap-14">
+  {% if block.button-1-link and block.button-1-text %}
+  <div class="p-4 px-8 button-1 rounded-lg">
+    <a href="{{block.button-1-link}}" class="p-4 px-8 font-bold featured-text uppercase tracking-wide">{{block.button-1-text}}</a>
+  </div>
+  {% endif %}
+
+  {% if block.button-2-link and block.button-2-text %}
+  <div class="p-4 px-8 button-2 rounded-lg">
+    <a href="{{block.button-2-link}}" class="p-4 px-8 font-bold featured-text uppercase tracking-wide">{{block.button-2-text}}</a>
+  </div>
+  {% endif %}
+
+  {% if block.button-3-link and block.button-3-text %}
+  <div class="p-4 px-8 button-3 rounded-lg">
+    <a href="{{block.button-3-link}}" class="p-4 px-8 font-bold featured-text uppercase tracking-wide">{{block.button-3-text}}</a>
+  </div>
+  {% endif %}
+</div>
+
+  <!-- Don't delete the below; these are for the starting id and class above -->
+</div>
+</section>

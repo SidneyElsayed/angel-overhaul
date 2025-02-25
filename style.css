@@ -34,4 +34,17 @@ h3 i {
 }
 
 /* Button Styles */
+.button-1 {
+    background-color: #BDCD36;
+    color: #0F2343;
+}
 
+.button-2 {
+    background-color: #489ED4;
+    color: #F7FBFD;
+}
+
+.button-3 {
+    background-color: #0F2343;
+    color: #CEE7F3;
+}
