@@ -2,7 +2,7 @@
   <div class="max-width mx-auto">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="min-h-screen grid md:grid-cols-2">
+  <div class="min-h-screen grid md:grid-cols-2 {{block.scheme-name}}">
     <!-- md:h-full on the div negates the h-72, h-full on the image is still needed because of the position absolute -->
     <div class="grow relative h-72 md:h-full"> 
       <img class="absolute w-full h-full object-cover object-center" style="object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" src="{{block.image}}" alt="{{block.alt}}">
@@ -23,13 +23,15 @@
       {% endif %}
       {% endfor %}
 
-      {% if item.button-1-link and item.button-1-text %}
-      <a href="{{block.button-1-link}}" class="border-1 border-black p-4 px-8 relative font-bold featured-text uppercase tracking-wide {{block.button-1-bg}}">{{block.button-1-text}}</a>
-      {% endif %}
+      <div class="pt-6">
+        {% if item.button-1-link and item.button-1-text %}
+        <a href="{{block.button-1-link}}" class="p-4 relative font-bold featured-text uppercase tracking-wide {{block.button-1-bg}}">{{block.button-1-text}}</a>
+        {% endif %}
 
-      {% if item.button-2-link and item.button-2-text %}
-      <a href="{{block.button-2-link}}" class="border-1 border-black p-4 px-8 relative font-bold featured-text uppercase tracking-wide {{block.button-2-bg}}">{{block.button-2-text}}</a>
-      {% endif %}
+        {% if item.button-2-link and item.button-2-text %}
+        <a href="{{block.button-2-link}}" class="p-4 relative font-bold featured-text uppercase tracking-wide {{block.button-2-bg}}">{{block.button-2-text}}</a>
+        {% endif %}
+      </div>
 
     </div>
   </div>

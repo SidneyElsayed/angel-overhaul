@@ -47,19 +47,20 @@
     {% for block in page.blocks %}
     <!-- {{block.id}} -->
 
-    {% if block.type == 'experience' %}
-      {% assign number = block.experience-number %}
-      {% assign item = site.experiences[number] %}
-         
-         {% include /blocks/{{block.id}}.html item=item %}
+    {% if block.type == 'events' %}
+      {% assign item = site.data.events.card-loop %}
+
+   {% elsif block.type == 'programs' %}
+      {% assign item = site.data.programs.card-loop %}
 
       {% else %}
-      {% assign item = block %}
-      {% include /blocks/{{block.id}}.html link=link item=item %}
-      <!-- This passes the message on to the include that the information (link) is indeed a link and to use it -->
+      {% assign item = block.items %}
 
-       {% endif %}
-    {% endfor %}
+   {% endif %}
+
+   {% include /{{block.id}}.html link=link item=item %}
+
+   {% endfor %}
 
     {{content}}
     
