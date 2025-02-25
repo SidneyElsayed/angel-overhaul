@@ -47,8 +47,8 @@
     {% for block in page.blocks %}
     <!-- {{block.id}} -->
 
-    {% if block.type == 'events' %}
-      {% assign item = site.data.events.card-loop %}
+    {% if block.type == 'calendar' %}
+      {% assign item = site.data.calendar.card-loop %}
 
    {% elsif block.type == 'programs' %}
       {% assign item = site.data.programs.card-loop %}

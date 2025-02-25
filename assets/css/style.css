@@ -452,6 +452,9 @@ video {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
 .m-16 {
   margin: 4rem;
 }
@@ -506,6 +509,12 @@ video {
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.place-items-center {
+  place-items: center;
+}
 .content-center {
   align-content: center;
 }
@@ -541,6 +550,12 @@ video {
 }
 .rounded-lg {
   border-radius: 0.5rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-\[100\] {
+  border-radius: 100;
 }
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
@@ -590,6 +605,18 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -616,6 +643,9 @@ video {
 }
 .text-center {
   text-align: center;
+}
+.align-middle {
+  vertical-align: middle;
 }
 .text-3xl {
   font-size: 1.875rem;
@@ -645,6 +675,18 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -662,6 +704,12 @@ video {
 }
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 /* Custom CSS */
