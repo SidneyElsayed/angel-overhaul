@@ -14,7 +14,32 @@
             --featured-color-green: {{site.data.style.featured-color-green}};
             --featured-color-light-green: {{site.data.style.featured-color-light-green}};
             --base-color: {{site.data.style.base-color}};
+
+            --max-width: {{site.data.style.max-width}}px;
+            --side-gap: {{site.data.style.horizontal-padding}};
+            --vert-gap: {{site.data.style.vertical-padding}};
+            --animation-speed: {{site.data.style.animation-speed}};
+            --small-padding: {{site.data.style.small-padding}};
+            --heading-font-family: 'Noto Serif Display';
+            --body-font-family: Mulish, sans-serif;
          }
+
+    body{
+        --max-width-side-padding: max({{site.data.style.horizontal-padding}},  calc( calc(100vw - var(--max-width)) / 2) );
+      }
+
+         :root,{% for scheme in site.data.style.schemes %}
+            .scheme-{{scheme.scheme_name}} {
+                  --bg-color: {{scheme.bg-color}};
+                  --text-color: {{scheme.text-color}};
+                  --featured-color: {{scheme.featured-color}};
+                  --colored-button-1-bg: {{scheme.colored-button-1-bg-color}};
+                  --colored-button-1-text: {{scheme.colored-button-1-text-color}};
+                  --colored-button-2-bg: {{scheme.colored-button-2-bg-color}};
+                  --colored-button-2-text: {{scheme.colored-button-2-text-color}};
+            }
+         {% endfor %}
+
     </style>
 
 <body class="bg-base-color text-featured-dark-navy">

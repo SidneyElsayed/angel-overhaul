@@ -9,3 +9,19 @@
 @tailwind utilities;
 
 /* Custom CSS */
+
+/* Italic for color-highlight hack */
+h1 i {
+    font-style: normal;
+    color: var(--featured-color);
+}
+
+h2 i {
+    font-style: normal;
+    color: var(--featured-color);
+}
+
+h3 i {
+    font-style: normal;
+    color: var(--featured-color);
+}

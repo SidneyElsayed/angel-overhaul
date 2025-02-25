@@ -6,3 +6,74 @@ featured-color-v-light-blue: '#CEE7F3'
 featured-color-green: '#BDCD36'
 featured-color-light-green: '#D1DC73'
 base-color: '#F7FBFD'
+schemes:
+  - scheme_name: white-background
+    bg-color: '#F7FBFD'
+    text-color: '#0F2343'
+    featured-color: '#BDCD36'
+    colored-button-1-bg-color: '#0F2343'
+    colored-button-1-text-color: '#F7FBFD'
+    colored-button-2-bg-color: '#BDCD36'
+    colored-button-2-text-color: '#0F2343'
+  - scheme_name: angel-blue-background
+    bg-color: '#1D4382'
+    text-color: '#F7FBFD'
+    featured-color: '#86BFE3'
+    colored-button-1-bg-color: '#489ED4'
+    colored-button-1-text-color: '#F7FBFD'
+    colored-button-2-bg-color: '#BDCD36'
+    colored-button-2-text-color: '#0F2343'
+  - scheme_name: dark-navy-background
+    bg-color: '#0F2343'
+    text-color: '#F7FBFD'
+    featured-color: '#489ED4'
+    colored-button-1-bg-color: '#489ED4'
+    colored-button-1-text-color: '#F7FBFD'
+    colored-button-2-bg-color: '#F7FBFD'
+    colored-button-2-text-color: '#0F2343'
+  - scheme_name: medium-blue-background
+    bg-color: '#489ED4'
+    text-color: '#0F2343'
+    featured-color: '#F7FBFD'
+    colored-button-1-bg-color: '#1D4382'
+    colored-button-1-text-color: '#F7FBFD'
+    colored-button-2-bg-color: '#BDCD36'
+    colored-button-2-text-color: '#0F2343'
+  - scheme_name: light-blue-background
+    bg-color: '#86BFE3'
+    text-color: '#0F2343'
+    featured-color: '#F7FBFD'
+    colored-button-1-bg-color: '#1D4382'
+    colored-button-1-text-color: '#F7FBFD'
+    colored-button-2-bg-color: '#F7FBFD'
+    colored-button-2-text-color: '#0F2343'
+  - scheme_name: v-light-blue-background
+    bg-color: '#CEE7F3'
+    text-color: '#0F2343'
+    featured-color: '#1D4382'
+    colored-button-1-bg-color: '#1D4382'
+    colored-button-1-text-color: '#F7FBFD'
+    colored-button-2-bg-color: '#489ED4'
+    colored-button-2-text-color: '#F7FBFD'
+  - scheme_name: green-background
+    bg-color: '#BDCD36'
+    text-color: '#0F2343'
+    featured-color: '#F7FBFD'
+    colored-button-1-bg-color: '#0F2343'
+    colored-button-1-text-color: '#F7FBFD'
+    colored-button-2-bg-color: '#F7FBFD'
+    colored-button-2-text-color: '#0F2343'
+  - scheme_name: light-green-background
+    bg-color: '#D1DC73'
+    text-color: '#0F2343'
+    featured-color: '#1D4382'
+    colored-button-1-bg-color: '#0F2343'
+    colored-button-1-text-color: '#F7FBFD'
+    colored-button-2-bg-color: '#F7FBFD'
+    colored-button-2-text-color: '#0F2343'
+max-width: 1280
+animation-speed: .4s
+small-padding: 1rem
+vertical-padding: min( 5vw , 4rem)
+horizontal-padding: max(5vw , 2rem)
+split_banner_gap: 5%
