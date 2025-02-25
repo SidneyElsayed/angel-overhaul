@@ -1,0 +1,52 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+  <div class="grid grid-cols-2">
+    <div class="col-span-1"> 
+      <div class="m-16">
+        <img class="rounded-2xl object-cover object-center" style="object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" src="{{block.image}}" alt="{{block.alt}}">
+      </div>
+      <!-- Color block -->
+      <div class="bg-slate-400 w-44"></div>
+    </div>
+
+    <!-- Text -->
+    <div class="p-8 sm:p-16 col-span-1 pr-12 {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %} 
+    
+    {% if block.image-placement == 'right' %} md:order-first {% endif %}">
+      <div>
+        <h2 class="pb-8 featured-text text-6xl font-extrabold uppercase tracking-wide">{{block.heading}}</h2>
+      </div>
+
+      <div class="col-span-6 lg:col-span-3 flex">
+        {% for item in block.facts-loop | limit:3 %}
+        {% if item.number and item.text %}
+        <div class="m-auto pr-3 pb-6 md:pb-0">
+            <p class="text-3xl sm:text-5xl font-extrabold block">{{item.number}}</p>
+            <p class="text-sm/5 font-semibold block">{{item.text}}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+      {% if block.description%}
+        <p class="py-4 relative font-thin">{{block.description}}</a>
+        {% endif %}
+
+      <div class="pt-6">
+        {% if block.button-1-link and block.button-1-text %}
+        <a href="{{block.button-1-link}}" class="p-4 relative font-bold featured-text uppercase tracking-wide {{block.button-1-bg}}">{{block.button-1-text}}</a>
+        {% endif %}
+
+        {% if block.button-2-link and block.button-2-text %}
+        <a href="{{block.button-2-link}}" class="p-4 relative font-bold featured-text uppercase tracking-wide {{block.button-2-bg}}">{{block.button-2-text}}</a>
+        {% endif %}
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Don't delete the below; these are for the starting id and class above -->
+  </div>
+</section>
