@@ -10,6 +10,13 @@
 
 /* Custom CSS */
 
+/* Typography */
+body {
+    font-family: "Open Sans", serif;
+}
+
+.featured-text { font-family: "Montserrat", serif;}
+
 /* Italic for color-highlight hack */
 h1 i {
     font-style: normal;
@@ -25,3 +32,4 @@ h3 i {
     font-style: normal;
     color: var(--featured-color);
 }
+
