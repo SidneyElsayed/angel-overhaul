@@ -54,7 +54,8 @@
       {% assign item = site.data.programs.card-loop %}
 
       {% else %}
-      {% assign item = block.items %}
+      {% assign item = block.item %}
+      <!-- This copy above means if it's not in the yml, then point just to the block -->
 
    {% endif %}
 

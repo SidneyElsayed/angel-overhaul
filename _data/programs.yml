@@ -1,25 +1,57 @@
 card-loop:
       - heading: Emergency Financial Assistance (EFA)
-        short-description: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet 
+        short-description: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error.
         button-text: Read more
         button-link: /index
         image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
+        question: Can patients visit the Angel Foundation™ office to expedite the process?
+        answer: While we are unable to take walk-ins, we are available by phone or email to answer questions. 
+        question: Can a patient apply again after the initial financial assistance is received?
+        answer: Patients are able to receive one general grant from Angel Foundation™.
+        question: What if a patient dies during the application process or hadn’t used up their entire amount of financial assistance?
+        answer: As long as the application is approved prior to the date of death, the patient’s immediate family members have the rights to the remaining financial assistance dollar amount.
+        question:
+        answer:
       - heading: Financial Cancer Care (FCC)
-        short-description: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut eveniet ebitis aut rerum necessitatibus saepe eveniet 
+        short-description: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error. Aepe evenie ebitis aut eveniet ebitis aut rerum necessitatibus saepe eveniet 
         button-text: Read more
         button-link: /index
         image: https://images.unsplash.com/photo-1631217871099-88310a909a32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D
         alt:
-      - heading: Adult & Family Programs
-        short-description: Lorem ebitis ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet 
+        question:
+        answer:
+        question:
+        answer:
+        question:
+        answer:
+        question:
+        answer:
+      - heading: Adult & Family Programs (AFP)
+        short-description: Lorem ebitis ebitis aut rerum necessitatibusdolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error. Necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie.
         button-text: Read more
         button-link: /index
         image: https://images.unsplash.com/photo-1580281667316-a9b64f3080a7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjA3fHx8ZW58MHx8fHx8
         alt:
+        question: What services do the Adult & Family Programs provide?
+        answer: The Adult & Family Programs focus on how a parental cancer diagnosis affects the entire family. In addition to our in-person programming, we provide consultations and a variety of online resources to provide support for the whole family throughout all stages of the cancer experience.
+        question: Who qualifies for Adult & Family Programs?
+        answer: Adult & Family Programs are offered to Minnesota families with children, preteens, and teens who have a grown up in their life that has cancer. Program activities are provided free-of-charge, including those who do not qualify for Angel Foundation’s™ Emergency Financial Assistance program.
+        question: How do we offer support to parents and caregivers?
+        answer: Parenting through cancer can be difficult. Adult & Family programming and Angel Packs™ offer parents guidance on how to open up healthy lines of communication with their children; how to talk honestly about their diagnosis; and different behaviors that may manifest in their child. Parents are also encouraged to reflect on their own needs, identify reliable self-care techniques, and build a support network through interaction with other families who attend program activities.
+        question: What support do we offer children, preteens, and teens?
+        answer: Children learn about cancer in age-appropriate and evidence-based programs and activities, such as Camp Angel, medical play sessions, and family retreats. These activities help children understand they can’t “catch” cancer like a cold or influenza, they didn’t cause their parent’s cancer by anything they did or said, and that it’s okay to cry. Children benefit from peer support with other kids who are going through a similar experience. Through Angel Foundation’s™ community of support, they see that they do not have to go through the cancer experience alone.
       - heading: Angel Packs
-        short-description: Lorem ebitis aut rerum necessitatibus aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet 
+        short-description: Lorem ebitis aut rerum necessitatibus aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error.
         button-text: Read more
         button-link: /index
         image: https://images.unsplash.com/photo-1577896849786-738ed6c78bd3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjczfHx8ZW58MHx8fHx8
         alt:
+        question:
+        answer:
+        question:
+        answer:
+        question:
+        answer:
+        question:
+        answer:
