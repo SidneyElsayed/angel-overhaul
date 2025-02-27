@@ -16,21 +16,20 @@
       <div class="bg-slate-400 w-44"></div>
     </div>
 
+    {% for item in item %}
     <!-- Quote -->
-    <div class="p-8 sm:p-16 col-span-2 pr-12">
-
-        {% if block.quote%}
-        <p class="py-4 relative font-thin">{{block.quote}}</a>
-        {% endif %}
-
-      <div class="pt-6">
-        {% if block.name %}
-        <p class="p-4 relative font-thin text-sm tracking-wide">{{block.name}}</p>
+    <div class="p-8 sm:p-16 col-span-2 grid grid-cols-8">
+      <div class="col-span-1 text-7xl text-center">&ldquo;</div>
+      <div class="pt-6 col-span-6">
+        <p class="py-4 relative font-thin text-lg">{{item.quote}}</p>
+        {% if item.name %}
+        <p class="p-4 relative font-thin text-xs featured-text uppercase tracking-wide text-right">– {{item.name}}</p>
         {% endif %}
       </div>
-
+      <div class="col-span-1 text-7xl place-content-end pb-10 pl-2">&rdquo;</div>
     </div>
   </div>
+  {% endfor %}
 
   <!-- Don't delete the below; these are for the starting id and class above -->
   </div>
