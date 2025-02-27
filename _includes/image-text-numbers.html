@@ -1,7 +1,15 @@
 <section id="section-{{forloop.index}}">
-  <div class="max-width mx-auto py-16">
+  <div class="max-width mx-auto p-8 sm:p-16 py-16">
 
   <!-- Actual content starts here, so that the above has the max width -->
+
+
+  <!-- Section Heading -->
+  {% if block.section-heading %}
+
+  <h2 class="px-8 sm:px-16 pt-16 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
+
+  {% endif %}
 
   <!-- Image -->
   <div class="grid grid-cols-2">
@@ -12,7 +20,6 @@
         <span class="z-10 absolute left-3 top-[103%] w-[calc(100%_-_80px)] font-thin text-xs featured-text tracking-wide ">{{block.subtitle}}</span>
         <!-- Color block -->
         <span class="z-0 absolute -right-[30px] -bottom-14 h-full w-[100px] bg-[var(--text-color)] rounded-2xl"></span>
-        <!-- Caption -->
       </div>
     </div>
 
@@ -20,16 +27,18 @@
     <div class="p-8 sm:p-16 col-span-1 pr-12 {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %} 
     
     {% if block.image-placement == 'right' %} md:order-first {% endif %}">
-      <!-- Heading -->
-    <div>
-        <h2 class="pb-8 featured-text text-6xl font-extrabold uppercase tracking-wide">{{block.heading}}</h2>
+      <!-- Text Block Heading -->
+      {% if block.text-block-heading %}
+      <div>
+        <h2 class="pb-8 featured-text text-6xl font-extrabold uppercase tracking-wide">{{block.text-block-heading}}</h2>
       </div>
+      {% endif %}
 
       <!-- Facts -->
-      <div class="col-span-6 lg:col-span-3 flex">
+      <div class="grid grid-cols-3">
         {% for item in block.facts-loop | limit:3 %}
         {% if item.number and item.text %}
-        <div class="mx-auto pr-3 pb-6 md:pb-0">
+        <div class="py-4 pr-3">
             <p class="text-3xl sm:text-5xl font-extrabold block text-[var(--featured-color)]">{{item.number}}</p>
             <p class="text-sm/5 font-semibold block">{{item.text}}</p>
         </div>
@@ -37,11 +46,13 @@
         {% endfor %}
       </div>
 
-      {% if block.description%}
-        <p class="py-4 relative font-thin">{{block.description}}</a>
+      <!-- Description -->
+      {% if block.description %}
+        <p class="relative font-thin">{{block.description}}</a>
         {% endif %}
 
-      <div class="pt-6">
+      <!-- Buttons -->
+      <div class="pt-10">
         {% if block.button-1-link and block.button-1-text %}
         <a href="{{block.button-1-link}}" class="p-4 relative button-1 {{block.button-1-bg}}">{{block.button-1-text}}</a>
         {% endif %}

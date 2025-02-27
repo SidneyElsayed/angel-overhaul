@@ -2,7 +2,7 @@
   <div class="max-width mx-auto">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="min-h-screen grid md:grid-cols-2 {{block.scheme-name}}">
+  <div class="{% if block.screen-height == 'full' %} min-h-screen {% elsif block.screen-height == '80%' %} min-h-[80%] {% elsif block.screen-height == '60%' %} min-h-[60%] {% endif %}  grid md:grid-cols-2">
     <!-- md:h-full on the div negates the h-72, h-full on the image is still needed because of the position absolute -->
     <div class="grow relative h-72 md:h-full"> 
       <img class="absolute w-full h-full object-cover object-center" style="object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" src="{{block.image}}" alt="{{block.alt}}">
@@ -11,10 +11,12 @@
     <div class="p-8 sm:p-16 col-span-1 pr-12 {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %} 
     
     {% if block.image-placement == 'right' %} md:order-first {% endif %}">
+      <!-- Heading -->
       <div>
         <h2 class="pb-8 featured-text text-6xl font-extrabold uppercase tracking-wide">{{block.heading}}</h2>
       </div>
 
+      <!-- Paragraph text -->
       {% for item in block.info-loop %}
       {% if item.text %}
       <div>
@@ -23,6 +25,7 @@
       {% endif %}
       {% endfor %}
 
+      <!-- Buttons -->
       <div class="pt-6">
         {% if block.button-1-link and block.button-1-text %}
         <a href="{{block.button-1-link}}" class="p-4 relative button-1 {{block.button-1-bg}}">{{block.button-1-text}}</a>

@@ -6,7 +6,7 @@
 
   {% if block.section-heading %}
 
-  <h2 class="pb-8 featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl {% if block.text-placement == 'left' %} text-left {% elsif block.text-placement == 'center' %} text-center {% endif %}">{{block.section-heading}}</h2>
+  <h2 class="pb-8 featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
 
   {% endif %}
 
@@ -14,8 +14,8 @@
     <!-- Card Loop -->
     <!-- Image -->
     <div class="grid grid-cols-6"> 
-      <div class="col-span-2 m-8">
-        <img class="rounded-2xl object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}">
+      <div class="col-span-2 aspect-3/2 m-8">
+        <img class="aspect-3/2 rounded-2xl object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}">
       </div>
 
       <!-- Text -->

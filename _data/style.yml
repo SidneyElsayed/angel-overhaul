@@ -62,11 +62,11 @@ schemes:
     bg-color: '#86BFE3'
     text-color: '#0F2343'
     featured-color: '#F7FBFD'
-    button-1-bg-color: '#1D4382'
+    button-1-bg-color: '#0F2343'
     button-1-text-color: '#F7FBFD'
     button-2-bg-color: '#F7FBFD'
     button-2-text-color: '#0F2343'
-    button-3-bg-color: '#0F2343'
+    button-3-bg-color: '#1D4382'
     button-3-text-color: '#F7FBFD'
   - scheme-name: v-light-blue-background
     bg-color: '#CEE7F3'
