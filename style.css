@@ -21,8 +21,6 @@ section {
 
 }
 
-
-
 .featured-text { font-family: "Montserrat", serif;}
 
 /* Italic for color-highlight hack */
@@ -79,6 +77,10 @@ h3 i {
   .dropdown-content a:hover {
     color: var(--featured-color-v-light-blue)
   }
+
+  footer a:hover {
+    color: var(--featured-color-v-light-blue)
+  }
   
   .hamburger-button {
       cursor: pointer;
@@ -123,6 +125,16 @@ h3 i {
 /* Button Styles */
 [class*='button'] {
     border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
 }
 
 .button-1 {

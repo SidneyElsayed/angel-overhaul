@@ -16,17 +16,23 @@
 
       <!-- Card Loop -->
       <div class="flex grid-cols-5 gap-12">
+        <!-- Date cirlce -->
         <div class="col-span-1 self-center">
-          <p class="p-4 px-7 rounded-full font-semibold text-md text-center bg-slate-200">{{item.month}}<br><span class="text-2xl">{{item.day}}</span></p>
+          <p class="p-4 px-7 rounded-full font-semibold text-md text-center bg-[var(--featured-color)]">{{item.month}}<br><span class="text-2xl">{{item.day}}</span></p>
         </div>
+
         <div class="col-span-4 self-center">
-          <p class="font-semibold uppercase text-xs tracking-widest">{{item.type}}</p>
+          <!-- Overline -->
+          <p class="font-semibold uppercase text-xs tracking-widest text-[var(--featured-color)]">{{item.type}}</p>
+          <!-- Heading -->
           <h3 class="featured-text font-semibold py-2 text-lg">{{item.heading}}</h3>
+          <!-- Description -->
           {% if item.short-description %}
           <p class="pb-6 font-thin">{{item.short-description}}</p>
           {% endif %}
+          <!-- Button -->
           {% if item.button-link and item.button-text %}
-          <a href="{{item.button-link}}" class="text-sm font-semibold uppercase tracking-wide"> {{item.button-text}} &#10143;</a>
+          <a href="{{item.button-link}}" class="text-sm font-semibold uppercase tracking-wide text-[var(--featured-color)]"> {{item.button-text}} &#10143;</a>
           {% endif %}
         </div>
       </div>

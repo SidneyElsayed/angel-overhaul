@@ -1,20 +1,22 @@
 <section id="section-{{forloop.index}}">
-  <div class="max-width mx-auto">
+  <div class="max-width mx-auto py-16">
 
   <!-- Actual content starts here, so that the above has the max width -->
+
+  <!-- Image -->
   <div class="grid grid-cols-2">
     <div class="col-span-1"> 
       <div class="relative m-16">
         <img class="relative z-10 rounded-2xl object-cover object-center" style="object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" src="{{block.image}}" alt="{{block.alt | default: block.subtitle}}">
         <!-- Caption -->
-        <span class="z-10 absolute left-0 top-full w-[calc(100%_-_80px)] border border-black">{{block.subtitle}}</span>
+        <span class="z-10 absolute left-3 top-[103%] w-[calc(100%_-_80px)] font-thin text-xs featured-text tracking-wide ">{{block.subtitle}}</span>
         <!-- Color block -->
         <span class="z-0 absolute -right-[30px] -bottom-14 h-full w-[100px] bg-[var(--text-color)] rounded-2xl"></span>
         <!-- Caption -->
       </div>
     </div>
 
-    <!-- Text -->
+    <!-- Text Block -->
     <div class="p-8 sm:p-16 col-span-1 pr-12 {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %} 
     
     {% if block.image-placement == 'right' %} md:order-first {% endif %}">
@@ -28,7 +30,7 @@
         {% for item in block.facts-loop | limit:3 %}
         {% if item.number and item.text %}
         <div class="mx-auto pr-3 pb-6 md:pb-0">
-            <p class="text-3xl sm:text-5xl font-extrabold block">{{item.number}}</p>
+            <p class="text-3xl sm:text-5xl font-extrabold block text-[var(--featured-color)]">{{item.number}}</p>
             <p class="text-sm/5 font-semibold block">{{item.text}}</p>
         </div>
         {% endif %}
@@ -41,11 +43,11 @@
 
       <div class="pt-6">
         {% if block.button-1-link and block.button-1-text %}
-        <a href="{{block.button-1-link}}" class="p-4 relative font-bold featured-text uppercase tracking-wide button-1 {{block.button-1-bg}}">{{block.button-1-text}}</a>
+        <a href="{{block.button-1-link}}" class="p-4 relative button-1 {{block.button-1-bg}}">{{block.button-1-text}}</a>
         {% endif %}
 
         {% if block.button-2-link and block.button-2-text %}
-        <a href="{{block.button-2-link}}" class="p-4 relative font-bold featured-text uppercase tracking-wide button-2 {{block.button-2-bg}}">{{block.button-2-text}}</a>
+        <a href="{{block.button-2-link}}" class="p-4 relative button-2 {{block.button-2-bg}}">{{block.button-2-text}}</a>
         {% endif %}
       </div>
 
