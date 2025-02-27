@@ -1,0 +1,43 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+  <div class="px-8 sm:px-16 py-32">
+
+  {% if block.section-heading %}
+
+  <h2 class="pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl">{{block.section-heading}}</h2>
+
+  {% endif %}
+
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-10 pt-10 text-center">
+
+    {% for item in block.card-loop %}
+
+      <!-- Card Loop -->
+      <!-- Container -->
+      <div class="container">
+        <!-- Card -->
+        <div class="card">
+          <!-- Front and Back -->
+          <div class="front rounded-lg place-content-center bg-slate-500">
+            <p class="text-xl sm:text-2xl featured-text uppercase font-extrabold block ">{{item.front}}</p>
+          </div>
+
+          <div class="back rounded-lg justify-center align-middle place-content-center bg-slate-200">
+            <p class="p-6 text-sm font-thin block">{{item.back}}</p>
+          </div>
+
+        </div>
+        
+      </div>
+    
+    {% endfor %}
+
+  </div>
+  
+</div>
+
+<!-- Don't delete the below; these are for the starting id and class above -->
+</div>
+</section>

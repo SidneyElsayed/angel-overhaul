@@ -3,7 +3,7 @@
   
   <!-- Actual content starts here, so that the above has the max width -->
   {% if block.image %}
-  <section class="overlay bg-cover bg-no-repeat flex flex-col grow justify-center min-h-[80vh]" style="background-image: url('{{block.image}}'); object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" alt="{{block.alt}}" >
+  <section class="{{block.overlay}} bg-cover bg-no-repeat flex flex-col grow justify-center min-h-[80vh]" style="background-image: url('{{block.image}}'); object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" alt="{{block.alt}}" >
   {% endif %}
   
     <h1 class="m-12 md:m-36 text-center featured-text text-6xl font-extrabold uppercase tracking-wide">{{block.heading}}</h1>
