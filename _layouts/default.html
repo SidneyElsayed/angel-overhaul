@@ -27,14 +27,16 @@
       }
 
          :root,{% for scheme in site.data.style.schemes %}
-            .scheme-{{scheme.scheme_name}} {
+            .scheme-{{scheme.scheme-name}} {
                   --bg-color: {{scheme.bg-color}};
                   --text-color: {{scheme.text-color}};
                   --featured-color: {{scheme.featured-color}};
                   --button-1-bg: {{scheme.button-1-bg-color}};
-                  --button-1-text: {{scheme.button-1-text-color}};
+                  --button-1-text-color: {{scheme.button-1-text-color}};
                   --button-2-bg: {{scheme.button-2-bg-color}};
-                  --button-2-text: {{scheme.button-2-text-color}};
+                  --button-2-text-color: {{scheme.button-2-text-color}};
+                  --button-3-bg: {{scheme.button-3-bg-color}};
+                  --button-3-text-color: {{scheme.button-3-text-color}};
             }
          {% endfor %}
 
@@ -46,7 +48,7 @@
 
     {% for block in page.blocks %}
     <!-- {{block.id}} -->
-
+   <div class="scheme-{{block.scheme-name}}">
     {% if block.type == 'calendar' %}
       {% assign item = site.data.calendar.card-loop %}
 
@@ -66,7 +68,7 @@
    {% endif %}
 
    {% include /{{block.id}}.html link=link item=item %}
-
+   </div>   
    {% endfor %}
 
     {{content}}

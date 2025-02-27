@@ -15,6 +15,14 @@ body {
     font-family: "Open Sans", serif;
 }
 
+section {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+}
+
+
+
 .featured-text { font-family: "Montserrat", serif;}
 
 /* Italic for color-highlight hack */
@@ -113,19 +121,23 @@ h3 i {
     }
 
 /* Button Styles */
+[class*='button'] {
+    border-radius: 0.5rem;
+}
+
 .button-1 {
-    background-color: var(--featured-color-green);
-    color: var(--featured-color-dark-navy);
+    background-color: var(--button-1-bg);
+    color: var(--button-1-text-color);
 }
 
 .button-2 {
-    background-color: var(--featured-color-medium-blue);
-    color: var(--base-color);
+    background-color: var(--button-2-bg);
+    color: var(--button-2-text-color);
 }
 
 .button-3 {
-    background-color: var(--featured-color-dark-navy);
-    color: var(--featured-color-v-light-blue);
+    background-color: var(--button-3-bg);
+    color: var(--button-3-text-color);
 }
 
 /* Image Styles */

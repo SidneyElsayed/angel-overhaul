@@ -3,25 +3,10 @@
 
   <!-- Actual content starts here, so that the above has the max width -->
   <div class="p-12 flex justify-center gap-6 md:gap-14">
-  {% for item in item %}
-  
-  {% if item.button-1-link and item.button-1-text %}
-  <div class="p-4 px-8 button-1 rounded-lg">
-    <a href="{{item.button-1-link}}" class="p-4 px-8 font-bold featured-text uppercase tracking-wide">{{item.button-1-text}}</a>
+  {% for item in block.button-loop %}
+  <div class="p-4 px-8 button-{% cycle '1','2','3' %} rounded-lg">
+    <a href="{{item.link}}" class="p-4 px-8 font-bold featured-text uppercase tracking-wide">{{item.text}}</a>
   </div>
-  {% endif %}
-
-  {% if item.button-2-link and item.button-2-text %}
-  <div class="p-4 px-8 button-2 rounded-lg">
-    <a href="{{item.button-2-link}}" class="p-4 px-8 font-bold featured-text uppercase tracking-wide">{{item.button-2-text}}</a>
-  </div>
-  {% endif %}
-
-  {% if item.button-3-link and item.button-3-text %}
-  <div class="p-4 px-8 button-3 rounded-lg">
-    <a href="{{item.button-3-link}}" class="p-4 px-8 font-bold featured-text uppercase tracking-wide">{{item.button-3-text}}</a>
-  </div>
-  {% endif %}
   {% endfor %}
 </div>
 
