@@ -8,6 +8,7 @@
       <h2 class="pb-8 featured-text text-6xl font-extrabold uppercase tracking-wide {% if block.text-alignment == 'right' %} text-right {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'left' %} text-left {% endif %}">{{block.heading}}</h2>
     </div>
 
+    <!-- Image -->
     <div class="col-span-1"> 
       <div class="m-8">
         <img class="rounded-2xl object-cover object-center" style="object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" src="{{block.image}}" alt="{{block.alt}}">
@@ -26,7 +27,7 @@
         <p class="p-4 relative font-thin text-xs featured-text uppercase tracking-wide text-right">– {{item.name}}</p>
         {% endif %}
       </div>
-      <div class="col-span-1 text-7xl place-content-end pb-10 pl-2">&rdquo;</div>
+      <div class="col-span-1 text-7xl place-content-end pb-4 pl-2">&rdquo;</div>
     </div>
   </div>
   {% endfor %}

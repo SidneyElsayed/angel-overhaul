@@ -1,0 +1,41 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+  <div class="px-8 sm:px-16 py-32">
+
+  {% if block.section-heading %}
+
+  <h2 class="pb-8 featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl {% if block.text-placement == 'left' %} text-left {% elsif block.text-placement == 'center' %} text-center {% endif %}">{{block.section-heading}}</h2>
+
+  {% endif %}
+
+    {% for item in item %}
+    <!-- Card Loop -->
+    <!-- Image -->
+    <div class="grid grid-cols-6"> 
+      <div class="col-span-2 m-8">
+        <img class="rounded-2xl object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}">
+      </div>
+
+      <!-- Text -->
+      <div class="col-span-4 p-8">
+        <div class="self-center">
+          <p class="font-semibold uppercase text-xs tracking-widest">{{item.date}}</p>
+          <h3 class="featured-text font-semibold py-3 text-lg">{{item.heading}}</h3>
+          {% if item.short-description %}
+          <p class="pb-3 font-thin">{{item.short-description}}</p>
+          {% endif %}
+          <a href="{{item.button-link}}" class="text-sm font-semibold uppercase tracking-wide"> Read more &#10143;</a>
+        </div>
+      </div>
+    </div>
+
+    {% endfor %}
+
+  
+</div>
+
+<!-- Don't delete the below; these are for the starting id and class above -->
+</div>
+</section>

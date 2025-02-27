@@ -53,6 +53,9 @@
    {% elsif block.type == 'programs' %}
       {% assign item = site.data.programs.card-loop %}
 
+   {% elsif block.type == 'news' %}
+      {% assign item = site.data.news.card-loop %}
+
    {% elsif block.type == 'testimonials' %}
       {% assign item = site.data.testimonials.quote-loop %}
 
