@@ -47,9 +47,17 @@
       </div>
 
       <!-- Description -->
-      {% if block.description %}
-        <p class="relative font-thin">{{block.description}}</a>
-        {% endif %}
+      {% if block.description-1 %}
+        <p class="pb-4 font-thin block">{{block.description-1}}</p>
+      {% endif %}
+
+      {% if block.description-2 %}
+        <p class="pb-4 font-thin">{{block.description-2}}</p>
+      {% endif %}
+
+      {% if block.description-3 %}
+        <p class="pb-4 font-thin">{{block.description-3}}</p>
+      {% endif %}
 
       <!-- Buttons -->
       <div class="pt-10">

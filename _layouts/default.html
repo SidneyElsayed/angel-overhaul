@@ -61,6 +61,9 @@
    {% elsif block.type == 'testimonials' %}
       {% assign item = site.data.testimonials.quote-loop %}
 
+   {% elsif block.type == 'people' %}
+      {% assign item = site.data.people.card-loop %}
+
       {% else %}
       {% assign item = block.item %}
       <!-- This copy above means if it's not in the yml, then point just to the block -->
