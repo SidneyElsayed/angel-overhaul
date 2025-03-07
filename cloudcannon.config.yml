@@ -1,0 +1,12 @@
+collections_config:
+  data:
+    path: _data
+    name: Data
+    icon: data_usage
+paths:
+  static: ''
+  uploads: uploads
+timezone: Asia/Riyadh
+markdown:
+  engine: commonmark
+  options: {}
