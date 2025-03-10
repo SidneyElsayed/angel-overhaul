@@ -10,6 +10,10 @@
 
 /* Custom CSS */
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* Typography */
 body {
     font-family: "Open Sans", serif;
@@ -58,10 +62,11 @@ h3 i {
   
   .dropdown-content {
     position: absolute;
-    top: 100%;
+    top: 85%;
     left: -1rem;
     padding: 0.8rem;
-    display:none; 
+    padding-top: 0;
+    display: none; 
     background-color: var(--featured-color-angel-blue);
     color: var(--base-color);
     z-index: 3;
