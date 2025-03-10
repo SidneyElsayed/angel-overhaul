@@ -519,6 +519,9 @@ video {
 .m-8 {
   margin: 2rem;
 }
+.m-2 {
+  margin: 0.5rem;
+}
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -533,6 +536,9 @@ video {
 }
 .mr-4 {
   margin-right: 1rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 .block {
   display: block;
@@ -659,9 +665,18 @@ video {
 .border {
   border-width: 1px;
 }
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
 .border-\[\#0F2343\] {
   --tw-border-opacity: 1;
   border-color: rgb(15 35 67 / var(--tw-border-opacity));
+}
+.border-b-inherit {
+  border-bottom-color: inherit;
 }
 .bg-\[var\(--featured-color\)\] {
   background-color: var(--featured-color);
@@ -672,6 +687,9 @@ video {
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+.bg-\[var\(--bg-color\)\] {
+  background-color: var(--bg-color);
 }
 .bg-cover {
   background-size: cover;
@@ -777,6 +795,9 @@ video {
 .pt-6 {
   padding-top: 1.5rem;
 }
+.pt-2 {
+  padding-top: 0.5rem;
+}
 .text-left {
   text-align: left;
 }
@@ -857,6 +878,15 @@ video {
 .leading-8 {
   line-height: 2rem;
 }
+.leading-relaxed {
+  line-height: 1.625;
+}
+.leading-normal {
+  line-height: 1.5;
+}
+.leading-snug {
+  line-height: 1.375;
+}
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -868,6 +898,12 @@ video {
 }
 .text-\[var\(--featured-color\)\] {
   color: var(--featured-color);
+}
+.underline {
+  text-decoration-line: underline;
+}
+.underline-offset-2 {
+  text-underline-offset: 2px;
 }
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
@@ -1141,9 +1177,35 @@ h3 i {
   color: var(--featured-color-v-light-blue);
 }
 
+.visited\:text-\[var\(--featured-color\)\]:visited {
+  color: var(--featured-color);
+}
+
+.visited\:text-\[var\(--bg-color\)\]:visited {
+  color: var(--bg-color);
+}
+
+.hover\:border-b-\[var\(--bg-color\)\]:hover {
+  border-bottom-color: var(--bg-color);
+}
+
+.hover\:text-\[var\(--bg-color\)\]:hover {
+  color: var(--bg-color);
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
   .sm\:p-16 {
     padding: 4rem;
@@ -1193,6 +1255,9 @@ h3 i {
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
   .md\:content-center {
     align-content: center;

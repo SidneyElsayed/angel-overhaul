@@ -4,7 +4,7 @@
   <!-- Actual content starts here, so that the above has the max width -->
   <div class="grid grid-cols-2 gap-12 px-8 sm:px-16 py-24">
     <!-- Large Text -->
-    <div class="featured-text text-5xl font-extrabold uppercase tracking-wide 
+    <div class="featured-text text-5xl font-extrabold uppercase tracking-wide leading-snug
 
     {% if block.large-text-width == 'full' %} col-span-2 {% elsif block.large-text-width == 'half' %} col-span-2 md:col-span-1 {% endif %}
     
@@ -17,7 +17,7 @@
     
     {% if block.paragraph-text-alignment == 'left' %} text-left {% elsif block.paragraph-text-alignment == 'center' %} text-center {% elsif block.paragraph-text-alignment == 'right' %} text-right {% endif %}">
       {% if block.text-1 %}
-        <p class="pb-4 font-thin block">{{block.text-1}}</p>
+        <p class="pt-2 pb-4 font-thin block">{{block.text-1}}</p>
       {% endif %}
 
       {% if block.text-2 %}

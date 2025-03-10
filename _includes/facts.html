@@ -1,0 +1,28 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto p-8 sm:p-16 py-16">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+
+
+  <!-- Section Heading -->
+  {% if block.section-heading %}
+
+  <h2 class="px-8 sm:px-16 py-16 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
+
+  {% endif %}
+
+  <!-- Facts -->
+  <div class="grid grid-cols-5 justify-center">
+    {% for item in block.facts-loop | limit:5 %}
+    {% if item.number and item.text %}
+    <div class="py-4 pr-5 text-center justify-center">
+        <p class="pb-3 text-3xl sm:text-5xl font-extrabold block text-[var(--featured-color)]">{{item.number}}</p>
+        <p class="text-sm/5 font-semibold block">{{item.text}}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <!-- Don't delete the below; these are for the starting id and class above -->
+  </div>
+</section>

@@ -1,0 +1,35 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+  <div class="px-8 sm:px-16 py-32">
+
+  {% if block.section-heading %}
+
+  <h2 class="pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl">{{block.section-heading}}</h2>
+
+  {% endif %}
+
+  <div class="gap-10 pt-10 grid grid-cols-2 md:grid-cols-4">
+
+    {% for item in item %}
+    <div class="p-5 sm:p-8 pb-8 text-center rounded-2xl bg-[var(--featured-color)]">
+      <h3 class="featured-text font-semibold py-2 text-3xl">{{item.year}}</h3>
+      <!-- Annual Report -->
+      <div class="block mb-2">
+        <a href="{{item.annual-report}}" target="_blank" class="hover:text-[var(--bg-color)] border-b hover:border-b-[var(--bg-color)]">Annual Report</a>
+      </div>
+      <!-- 990 Form -->
+      <div class="block mb-2">
+        <a href="{{item.annual-990-form}}" target="_blank"  class="hover:text-[var(--bg-color)] border-b hover:border-b-[var(--bg-color)]">990 Form</a>
+      </div>
+      <!-- udited Financials -->
+      <div class="block mb-2">
+        <a href="{{item.audited-financials}}" target="_blank" class="hover:text-[var(--bg-color)] border-b hover:border-b-[var(--bg-color)]">Audited Financials</a>
+      </div>
+    </div>
+    {% endfor %}
+
+  <!-- Don't delete the below; these are for the starting id and class above -->
+</div>
+</section>
