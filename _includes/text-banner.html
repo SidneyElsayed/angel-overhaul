@@ -4,10 +4,18 @@
   <!-- Actual content starts here, so that the above has the max width -->
   <div class="grid grid-cols-2 gap-12 px-8 sm:px-16 py-24">
     <!-- Large Text -->
-    <div class="featured-text text-5xl font-extrabold uppercase tracking-wide {% if block.large-text-width == 'full' %} col-span-2 {% elsif block.large-text-width == 'half' %} col-span-2 md:col-span-1 {% endif %}">{{block.heading}}</div>
+    <div class="featured-text text-5xl font-extrabold uppercase tracking-wide 
+
+    {% if block.large-text-width == 'full' %} col-span-2 {% elsif block.large-text-width == 'half' %} col-span-2 md:col-span-1 {% endif %}
+    
+    {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}"> {{block.heading}} </div>
 
     <!-- Paragraphs -->
-    <div class="{% if block.paragraph-width == 'full' %} col-span-2 {% elsif block.paragraph-width == 'half' %} col-span-2 md:col-span-1 {% endif %} {% if block.large-text-placement == 'right' %} md:order-first {% endif %}">
+    <div class="{% if block.paragraph-width == 'full' %} col-span-2 {% elsif block.paragraph-width == 'half' %} col-span-2 md:col-span-1 {% endif %} 
+    
+    {% if block.large-text-placement == 'right' %} md:order-first {% endif %}
+    
+    {% if block.paragraph-text-alignment == 'left' %} text-left {% elsif block.paragraph-text-alignment == 'center' %} text-center {% elsif block.paragraph-text-alignment == 'right' %} text-right {% endif %}">
       {% if block.text-1 %}
         <p class="pb-4 font-thin block">{{block.text-1}}</p>
       {% endif %}
@@ -23,11 +31,11 @@
       <!-- Buttons -->
       <div class="pt-4">
         {% if block.button-1-link and block.button-1-text %}
-        <a href="{{block.button-1-link}}" class="p-4 relative button-1 {{block.button-1-bg}}">{{block.button-1-text}}</a>
+        <a href="{{block.button-1-link}}" class="pt-4 mr-4 relative button-1 {{block.button-1-bg}}">{{block.button-1-text}}</a>
         {% endif %}
 
         {% if block.button-2-link and block.button-2-text %}
-        <a href="{{block.button-2-link}}" class="p-4 relative button-2 {{block.button-2-bg}}">{{block.button-2-text}}</a>
+        <a href="{{block.button-2-link}}" class="p-4 my-4 relative button-2 {{block.button-2-bg}}">{{block.button-2-text}}</a>
         {% endif %}
       </div>
 

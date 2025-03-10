@@ -51,6 +51,10 @@ h3 i {
     padding: 0.25rem 0.5rem;
     display: inline-block;
   }
+
+  .dropdown-title a:hover {
+    color: var(--featured-color-v-light-blue)
+  }
   
   .dropdown-content {
     position: absolute;
@@ -218,4 +222,53 @@ h3 i {
 
 .back {
     transform: rotateY(180deg);
+}
+
+/* Accordion Styles */
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  border-radius: 1rem;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: var(--featured-color-v-light-blue);
+  color: var(--featured-color-dark-navy);
+  display: none;
+  overflow: hidden;
+  border-radius: 1rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+} 
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  float: right;
+  margin-left: 5px;
+  border-radius: 1rem;
+  color: var(--featured-color-v-light-blue);
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  color: var(--featured-color-v-light-blue);
 }

@@ -1,5 +1,5 @@
 card-loop:
-      - heading: Emergency Financial Assistance (EFA)
+      - heading: Emergency Financial Assistance
         short-description: 
         button-text: Read more
         button-link: /index
@@ -14,8 +14,8 @@ card-loop:
             answer: As long as the application is approved prior to the date of death, the patient’s immediate family members have the rights to the remaining financial assistance dollar amount.
           - question:
             answer:
-      - heading: Financial Cancer Care (FCC)
-        short-description: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error. Aepe evenie ebitis aut eveniet ebitis aut rerum necessitatibus saepe eveniet 
+      - heading: Financial Cancer Care
+        short-description: 
         button-text: Read more
         button-link: /index
         image: https://images.unsplash.com/photo-1631217871099-88310a909a32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D
@@ -29,8 +29,8 @@ card-loop:
         answer:
         question:
         answer:
-      - heading: Adult & Family Programs (AFP)
-        short-description: Lorem ebitis ebitis aut rerum necessitatibusdolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error. Necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie.
+      - heading: Adult & Family Programs
+        short-description: 
         button-text: Read more
         button-link: /index
         image: https://images.unsplash.com/photo-1580281667316-a9b64f3080a7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjA3fHx8ZW58MHx8fHx8
@@ -44,7 +44,7 @@ card-loop:
         question: What support do we offer children, preteens, and teens?
         answer: Children learn about cancer in age-appropriate and evidence-based programs and activities, such as Camp Angel, medical play sessions, and family retreats. These activities help children understand they can’t “catch” cancer like a cold or influenza, they didn’t cause their parent’s cancer by anything they did or said, and that it’s okay to cry. Children benefit from peer support with other kids who are going through a similar experience. Through Angel Foundation’s™ community of support, they see that they do not have to go through the cancer experience alone.
       - heading: Angel Packs
-        short-description: Lorem ebitis aut rerum necessitatibus aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error.
+        short-description: 
         button-text: Read more
         button-link: /index
         image: https://images.unsplash.com/photo-1577896849786-738ed6c78bd3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjczfHx8ZW58MHx8fHx8
