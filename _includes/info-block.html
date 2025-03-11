@@ -14,19 +14,36 @@
     <!-- Card Loop -->
     <!-- Image -->
     <div class="grid grid-cols-6"> 
-      <div class="col-span-2 aspect-3/2 m-8">
+      <div class="col-span-2 m-8">
         <img class="aspect-3/2 rounded-2xl object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}">
       </div>
 
       <!-- Text -->
       <div class="col-span-4 p-8">
         <div class="self-center">
-          <p class="font-semibold uppercase text-xs tracking-widest">{{item.date}}</p>
+          <p class="font-semibold uppercase text-xs tracking-widest text-[var(--featured-color)]">{{item.overline}}</p>
           <h3 class="featured-text font-semibold py-3 text-lg">{{item.heading}}</h3>
           {% if item.short-description %}
           <p class="pb-3 font-thin">{{item.short-description}}</p>
           {% endif %}
-          <a href="{{item.button-link}}" class="text-sm font-semibold uppercase tracking-wide"> Read more &#10143;</a>
+
+          <!-- Article button "Read more" -->
+          {% if item.article == true %}
+          <a href="{{item.article-link}}" class="text-sm font-semibold uppercase tracking-wide"> Read more &#10143;</a>
+          {% endif %}
+
+          <!-- Other buttons -->
+          {% if item.button-1-link and item.button-1-text %}
+          <div class="pt-4">
+            <a href="{{item.button-1-link}}" class="mr-4  button-1 {{item.button-1-bg}}">{{item.button-1-text}}</a>
+            {% endif %}
+
+            {% if item.button-2-link and item.button-2-text %}
+            <a href="{{item.button-2-link}}" class="my-4 p-4 button-2 {{item.button-2-bg}}">{{item.button-2-text}}</a>
+            {% endif %}
+          </div>
+
+          
         </div>
       </div>
     </div>

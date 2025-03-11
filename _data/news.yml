@@ -1,20 +1,23 @@
 card-loop:
       - image: https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
         alt:
-        date: February 1, 2025
+        overline: February 1, 2025
         type: Making Memories
         heading: Kare-11 News Segment
         short-description: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
-        button-link: /index
+        article: true
+        article-link: /index
       - image: https://images.unsplash.com/photo-1576091160651-e028ca26a943?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzA4fHx8ZW58MHx8fHx8
         alt:
-        date: January 26, 2025
+        overline: January 26, 2025
         heading: Washington Post Article
         short-description: Snt et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet ut et voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
-        button-link: /index
+        article: true
+        article-link: /index
       - image: https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
         alt:
-        date: November 3, 2024
+        overline: November 3, 2024
         heading: Feature in the New York Times
         short-description: Voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet. 
-        button-link: /index
+        article: true
+        article-link: /index

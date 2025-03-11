@@ -67,6 +67,9 @@
    {% elsif block.type == 'financials' %}
       {% assign item = site.data.financials.card-loop %}
 
+   {% elsif block.type == 'volunteer-opportunities' %}
+      {% assign item = site.data.volunteer-opportunities.card-loop %}
+
       {% else %}
       {% assign item = block.item %}
       <!-- This copy above means if it's not in the yml, then point just to the block -->
