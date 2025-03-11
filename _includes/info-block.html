@@ -2,11 +2,11 @@
   <div class="max-width mx-auto">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="px-8 sm:px-16 py-32">
+  <div class="px-8 sm:px-16 py-24">
 
   {% if block.section-heading %}
 
-  <h2 class="pb-8 featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
+  <h2 class="pb-8 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-5xl {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
 
   {% endif %}
 
@@ -14,29 +14,31 @@
     <!-- Card Loop -->
     <!-- Image -->
     <div class="grid grid-cols-6"> 
-      <div class="col-span-2 m-8">
-        <img class="aspect-3/2 rounded-2xl object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}">
+      <div class="col-span-6 sm:col-span-2 m-8 aspect-square">
+        <img class="inset-0 h-full w-full rounded-2xl object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}">
       </div>
 
       <!-- Text -->
-      <div class="col-span-4 p-8">
+      <div class="col-span-6 sm:col-span-4 p-8">
         <div class="self-center">
           <!-- Overline -->
           <p class="font-semibold uppercase text-xs tracking-widest text-[var(--featured-color)]">{{item.overline}}</p>
           <!-- Heading -->
-          <h3 class="featured-text font-semibold py-3 text-lg">{{item.heading}}</h3>
+          <h3 class="featured-text font-semibold py-3 text-2xl">{{item.heading}}</h3>
           {% if item.short-description %}
           <!-- Short Description -->
           <p class="pb-3 font-thin">{{item.short-description}}</p>
           {% endif %}
 
           <!-- Icon Info Section -->
-          <div class="inline-block mr-2">
+          {% if item.location and item.commitment  %}
+          <div class="inline-block mr-4">
             <p class=""><i class="fa-solid fa-location-dot pr-1"></i> {{item.location}} </p>
           </div>
-          <div class="inline-block mr-2">
+          <div class="inline-block mr-4">
             <p class=""><i class="fa-solid fa-clock pr-1"></i> {{item.commitment}} </p>
           </div>
+          {% endif %}
 
           <!-- Article button "Read more" -->
           {% if item.article-link %}
@@ -44,8 +46,8 @@
           {% endif %}
 
           <!-- Other buttons -->
-          {% if item.button-1-link and item.button-1-text %}
-          <div class="pt-4">
+          <div class="pt-5">
+            {% if item.button-1-link and item.button-1-text %}
             <a href="{{item.button-1-link}}" class="mr-4  button-1 {{item.button-1-bg}}">{{item.button-1-text}}</a>
             {% endif %}
 

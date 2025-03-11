@@ -16,9 +16,14 @@
 
       <!-- Card Loop -->
       <div class="rounded-lg bg-slate-200">
+        <!-- Image -->
+        {% if item.image %}
         <div class="">
           <img class="aspect-square rounded-t-lg  object-cover w-full" src="{{item.image}}" alt="{{item.alt}}">
         </div>
+        {% endif %}
+
+        <!-- Text -->
         <div class="p-5 sm:p-8 pb-8 {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %} ">
           <h3 class="featured-text font-semibold py-2 text-xl">{{item.heading}}</h3>
 

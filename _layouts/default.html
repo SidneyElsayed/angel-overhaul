@@ -67,6 +67,9 @@
    {% elsif block.type == 'financials' %}
       {% assign item = site.data.financials.card-loop %}
 
+   {% elsif block.type == 'donate' %}
+      {% assign item = site.data.donate.card-loop %}
+
    {% elsif block.type == 'volunteer-opportunities' %}
       {% assign item = site.data.volunteer-opportunities.card-loop %}
 

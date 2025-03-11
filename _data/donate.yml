@@ -1,0 +1,13 @@
+card-loop:
+      - heading: Blue Ribbon Circle
+        short-description: Curabitur ut augue eu tellus congue suscipit eget in magna. Sed porttitor laoreet ipsum at vestibulum. Nunc volutpat viverra orci nec posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+        button-text: 
+        button-link: 
+      - heading: Donor Advised Funds
+        short-description: Nam ornare turpis vel enim posuere, a laoreet magna feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+        button-text: 
+        button-link: 
+      - heading: Planned Giving
+        short-description: Duis sed velit ornare, hendrerit nunc in, tristique eros. In at libero augue. Donec et tellus iaculis, placerat arcu eget, tincidunt erat. Proin gravida ex risus, a dictum est accumsan non.
+        button-text: 
+        button-link: 
