@@ -21,14 +21,25 @@
       <!-- Text -->
       <div class="col-span-4 p-8">
         <div class="self-center">
+          <!-- Overline -->
           <p class="font-semibold uppercase text-xs tracking-widest text-[var(--featured-color)]">{{item.overline}}</p>
+          <!-- Heading -->
           <h3 class="featured-text font-semibold py-3 text-lg">{{item.heading}}</h3>
           {% if item.short-description %}
+          <!-- Short Description -->
           <p class="pb-3 font-thin">{{item.short-description}}</p>
           {% endif %}
 
+          <!-- Icon Info Section -->
+          <div class="inline-block mr-2">
+            <p class=""><i class="fa-solid fa-location-dot pr-1"></i> {{item.location}} </p>
+          </div>
+          <div class="inline-block mr-2">
+            <p class=""><i class="fa-solid fa-clock pr-1"></i> {{item.commitment}} </p>
+          </div>
+
           <!-- Article button "Read more" -->
-          {% if item.article == true %}
+          {% if item.article-link %}
           <a href="{{item.article-link}}" class="text-sm font-semibold uppercase tracking-wide"> Read more &#10143;</a>
           {% endif %}
 
