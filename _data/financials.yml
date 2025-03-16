@@ -1,41 +1,41 @@
 card-loop:
-      - year: 2024
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
-      - year: 2023
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
-      - year: 2022
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
-      - year: 2021
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
-      - year: 2020
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
-      - year: 2019
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
-      - year: 2018
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
-      - year: 2017
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
-      - year: 2016
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
-      - year: 2015
-        annual-report: /index
-        990-form: /index
-        audited-financials: /index
+  - year: 2024
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
+  - year: 2023
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
+  - year: 2022
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
+  - year: 2021
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
+  - year: 2020
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
+  - year: 2019
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
+  - year: 2018
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
+  - year: 2017
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
+  - year: 2016
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
+  - year: 2015
+    annual-report: /index
+    990-form: /index
+    audited-financials: /index
