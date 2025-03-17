@@ -1,6 +1,14 @@
 collections_config:
+  pages:
+    path: ''
+    url: '/[full_slug]/'
+    glob: 
+      - '*.html'
+    name: Pages
+    icon: data_usage
   data:
     path: _data
+    disable_url: true
     name: Data
     icon: data_usage
 paths:
