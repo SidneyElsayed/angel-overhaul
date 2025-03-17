@@ -502,11 +502,20 @@ video {
 .top-full {
   top: 100%;
 }
+.top-0 {
+  top: 0px;
+}
 .z-0 {
   z-index: 0;
 }
 .z-10 {
   z-index: 10;
+}
+.z-30 {
+  z-index: 30;
+}
+.order-first {
+  order: -9999;
 }
 .col-span-1 {
   grid-column: span 1 / span 1;
@@ -858,6 +867,12 @@ video {
 }
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+.pl-10 {
+  padding-left: 2.5rem;
+}
+.pl-12 {
+  padding-left: 3rem;
 }
 .text-left {
   text-align: left;
@@ -1282,6 +1297,9 @@ h3 i {
 @media (min-width: 768px) {
   .md\:order-first {
     order: -9999;
+  }
+  .md\:order-last {
+    order: 9999;
   }
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
