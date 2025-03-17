@@ -493,23 +493,20 @@ video {
 .left-3 {
   left: 0.75rem;
 }
+.right-0 {
+  right: 0px;
+}
 .top-\[103\%\] {
   top: 103%;
 }
 .top-full {
   top: 100%;
 }
-.right-0 {
-  right: 0px;
-}
 .z-0 {
   z-index: 0;
 }
 .z-10 {
   z-index: 10;
-}
-.order-last {
-  order: 9999;
 }
 .col-span-1 {
   grid-column: span 1 / span 1;
@@ -553,12 +550,6 @@ video {
 .mr-4 {
   margin-right: 1rem;
 }
-.mr-2 {
-  margin-right: 0.5rem;
-}
-.mr-6 {
-  margin-right: 1.5rem;
-}
 .block {
   display: block;
 }
@@ -576,12 +567,6 @@ video {
 }
 .aspect-square {
   aspect-ratio: 1 / 1;
-}
-.aspect-\[2\/3\] {
-  aspect-ratio: 2/3;
-}
-.aspect-\[3\/5\] {
-  aspect-ratio: 3/5;
 }
 .h-72 {
   height: 18rem;
@@ -752,6 +737,14 @@ video {
 .p-8 {
   padding: 2rem;
 }
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -759,6 +752,10 @@ video {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .py-16 {
   padding-top: 4rem;
@@ -776,6 +773,10 @@ video {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -787,18 +788,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
 }
 .py-6 {
   padding-top: 1.5rem;
@@ -831,6 +820,9 @@ video {
 .pl-2 {
   padding-left: 0.5rem;
 }
+.pr-1 {
+  padding-right: 0.25rem;
+}
 .pr-12 {
   padding-right: 3rem;
 }
@@ -849,20 +841,14 @@ video {
 .pt-4 {
   padding-top: 1rem;
 }
-.pt-6 {
-  padding-top: 1.5rem;
-}
-.pr-1 {
-  padding-right: 0.25rem;
-}
-.pr-2 {
-  padding-right: 0.5rem;
-}
 .pt-5 {
   padding-top: 1.25rem;
 }
-.pb-\[33\%\] {
-  padding-bottom: 33%;
+.pt-6 {
+  padding-top: 1.5rem;
+}
+.pt-0 {
+  padding-top: 0px;
 }
 .text-left {
   text-align: left;
@@ -972,6 +958,9 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Custom CSS */
@@ -1195,52 +1184,15 @@ h3 i {
     transform: rotateY(180deg);
 }
 
-/* Accordion Styles */
- /* Style the buttons that are used to open and close the accordion panel */
- .accordion {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  border-radius: 1rem;
-  outline: none;
-  transition: 0.4s;
-}
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: var(--text-color);
-  color: var(--bg-color);
-  border-radius: 1rem;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: var(--featured-color-v-light-blue);
-  color: var(--featured-color-dark-navy);
-  display: none;
-  border-radius: 1rem;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-} 
-
-.accordion:after {
+.expandButton:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
   float: right;
   margin-left: 5px;
-  border-radius: 1rem;
-  color: var(--featured-color-v-light-blue);
 }
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
-  color: var(--featured-color-v-light-blue);
 }
 
 .hover\:border-b-\[var\(--bg-color\)\]:hover {
@@ -1267,10 +1219,6 @@ h3 i {
   color: var(--featured-color-medium-blue);
 }
 
-.focus\:bg-\[var\(--featured-color\)\]:focus {
-  background-color: var(--featured-color);
-}
-
 .focus\:bg-\[var\(--featured-color-v-light-blue\)\]:focus {
   background-color: var(--featured-color-v-light-blue);
 }
@@ -1288,9 +1236,6 @@ h3 i {
   .sm\:hidden {
     display: none;
   }
-  .sm\:min-w-full {
-    min-width: 100%;
-  }
   .sm\:max-w-36 {
     max-width: 9rem;
   }
@@ -1306,6 +1251,10 @@ h3 i {
   .sm\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+  .sm\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
   .sm\:text-2xl {
     font-size: 1.5rem;
@@ -1375,6 +1324,9 @@ h3 i {
   }
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .lg\:gap-8 {
     gap: 2rem;

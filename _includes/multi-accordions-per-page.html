@@ -1,0 +1,32 @@
+<section id="">
+  <div class="max-width mx-auto pb-16 px-16 sm:px-32">
+    <!-- Actual content starts here, so that the above has the max width -->
+
+    {% if block.section-heading %}
+
+    <h2
+      class="px-8 sm:px-16 featured-text font-bold uppercase text-5xl"
+    >
+      {{block.section-heading}}
+    </h2>
+
+    {% endif %}
+
+    <!-- Dan's multi-accordion -->
+    {% for item in block.accordion-loop %} 
+      {% if item.question and item.answer_html %}
+      <div class="p-4 border border-[#0F2343] rounded-2xl font-semibold">
+        <button class="expandButton active duration-2000 ease-in-out w-full text-left" data-target-button="one">{{item.question}}</button>
+
+        <div class="pt-2 expandable duration-2000 ease-in-out hidden font-thin" data-target-more="one">
+            <p>{{item.answer_html}}</p>
+        </div>
+      </div>
+      {% endif %} 
+    {% endfor %}
+
+    
+
+    <!-- Don't delete the below; these are for the starting id and class above -->
+  </div>
+</section>

@@ -49,15 +49,15 @@ blocks:
     button-2-link: 
     button-2-text: 
     scheme-name: light-blue-background
-  - id: accordion
+  - id: multi-accordions-per-page
     section-heading: 
     accordion-loop:
       - question: Eligability Requirements
-        answer: Curabitur ut augue eu tellus congue suscipit eget in magna. Sed porttitor laoreet ipsum at vestibulum. Nunc volutpat viverra orci nec posuere. 
+        answer_html: <p> Curabitur ut augue eu tellus congue suscipit eget in magna. Sed porttitor laoreet ipsum at vestibulum. Nunc volutpat viverra orci nec posuere. </p>
       - question:
-        answer: 
+        answer_html: <p></p>
       - question:
-        answer: 
+        answer_html: <p></p>
     scheme-name: light-blue-background
 
   - id: image-text-numbers
@@ -86,15 +86,15 @@ blocks:
     button-2-link: 
     button-2-text: 
     scheme-name: v-light-blue-background
-  - id: accordion
+  - id: multi-accordions-per-page
     section-heading: 
     accordion-loop:
       - question: Eligability Requirements
-        answer: Curabitur ut augue eu tellus congue suscipit eget in magna. Sed porttitor laoreet ipsum at vestibulum. Nunc volutpat viverra orci nec posuere. 
+        answer_html: <p>Curabitur ut augue eu tellus congue suscipit eget in magna. Sed porttitor laoreet ipsum at vestibulum. Nunc volutpat viverra orci nec posuere. </p> 
       - question:
-        answer: 
+        answer_html: <p></p>
       - question:
-        answer: 
+        answer_html: <p></p>
     scheme-name: v-light-blue-background
 
   - id: image-text-numbers
@@ -124,25 +124,25 @@ blocks:
     button-2-link: 
     button-2-text: 
     scheme-name: white-background-green-highlight
-  - id: accordion
+  - id: multi-accordions-per-page
     section-heading: 
     accordion-loop:
       - question: Eligability Requirements
-        answer: Curabitur ut augue eu tellus congue suscipit eget in magna. Sed porttitor laoreet ipsum at vestibulum. Nunc volutpat viverra orci nec posuere. 
-      - question: Other Requirements
-        answer: Curabitur ut augue eu tellus congue suscipit eget in magna. Sed porttitor laoreet ipsum at vestibulum. Nunc volutpat viverra orci nec posuere. 
+        answer_html: <p> Curabitur ut augue eu tellus congue suscipit eget in magna. Sed porttitor laoreet ipsum at vestibulum. Nunc volutpat viverra orci nec posuere. </p> 
+      - question: 
+        answer_html: <p></p>
       - question:
-        answer: 
+        answer_html: <p></p>
     scheme-name: white-background-green-highlight
 
   - id: text-banner 
     large-text-width: half
     paragraph-width: half
     large-text-placement: left
+    large-text-alignment: left
+    paragraph-text-alignment: left
     heading: Apply to any of the programs above
-    text-1: Small line goes here to tell people that the application is easy
-    text-2: 
-    text-3:
+    text_html: Small line goes here to tell people that the application is easy
     button-1-link: /index
     button-1-text: Apply here
     button-2-link: /index
@@ -167,29 +167,31 @@ blocks:
 
 ---
 
-<style>
-  .panel {
-    padding: 0 18px;
-    background-color: var(--featured-color-v-light-blue);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+
+
+<script>
+  // 1) like all js lets start with our constants. As this is nice efficient code we we just have the one.  
+  // this is defining all our buttons
+  const buttons = document.querySelectorAll(".expandButton");
+
+  // This is a function that find the element that was clicked then finds the next child of its parent and removes the class of hidden
+    // 2) lets start our function that we want to use to show more
+  function showMore() {
+
+      //5) now we get to something new :D we are going to target an element based off of it's position relative to the triggering element. 
+      
+      console.log(this.previousElementSibling);
+      console.log(this.nextElementSibling);
+
+      // 6) using this we can target the section we want to appear and toggle the hidden class :D 
+      this.nextElementSibling.classList.toggle('hidden');
   }
-  </style>
-  
-  <script>
-  var acc = document.getElementsByClassName("accordion");
-  var i;
-  
-  for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
-      }
-    });
-  }
-  </script>
+
+    // 3) next we want to loop over all of our buttons using that classic forEach method
+  buttons.forEach(button =>
+      // 4) and add an event listener to each of them that triggers our function
+      button.addEventListener('click', showMore)
+      
+  )
+
+</script>
