@@ -31,12 +31,27 @@
           {% endif %}
 
           <!-- Icon Info Section -->
-          {% if item.location and item.commitment  %}
+          {% if item.location  %}
           <div class="inline-block mr-4">
             <p class=""><i class="fa-solid fa-location-dot pr-1"></i> {{item.location}} </p>
           </div>
+          {% endif %}
+
+          {% if item.commitment  %}
           <div class="inline-block mr-4">
             <p class=""><i class="fa-solid fa-clock pr-1"></i> {{item.commitment}} </p>
+          </div>
+          {% endif %}
+
+          {% if item.minimum-experience %}
+          <div class="inline-block mr-4">
+            <p class=""><i class="fa-solid fa-briefcase pr-1"></i> {{item.minimum-experience}} </p>
+          </div>
+          {% endif %}
+
+          {% if item.salary-range %}
+          <div class="inline-block mr-4">
+            <p class=""><i class="fa-solid fa-money-bill-wave pr-1"></i> {{item.salary-range}} </p>
           </div>
           {% endif %}
 

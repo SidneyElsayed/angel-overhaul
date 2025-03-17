@@ -1,0 +1,25 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto p-8 sm:p-16 py-16">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+  <div class="px-8 sm:px-16 py-20">
+
+    {% if block.section-heading %}
+  
+    <h2 class="pb-10 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl">{{block.section-heading}}</h2>
+  
+    {% endif %}
+
+    <div class="w-full min-h-[50vh] rounded-2xl" style="max-width:100%;overflow:hidden;">
+      <div id="g-mapdisplay">
+        <iframe class="w-full min-h-[50vh] rounded-2xl" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Angel+Foundation™+1155+Centre+Pointe+Drive,+Ste.+7+Mendota+Heights,+Minnesota+55120&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+      </div>
+        <a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="grab-maps-authorization"></a>
+        <style>#g-mapdisplay .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;}</style>
+        
+
+  </div>
+
+  <!-- Don't delete the below; these are for the starting id and class above -->
+</div>
+</section>
