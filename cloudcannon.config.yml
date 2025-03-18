@@ -150,7 +150,7 @@ _inputs:
   overlay:
     type: select
     label: Image overlay color
-    comment: Choose what opaque color should go over the image to make the text stand out. Note that for dark, only use the 'dark navy' or 'angel blue' color schemes. 
+    comment: Choose what opaque color should go over the image to make the text stand out. Note that for dark, only use the 'dark navy' or 'angel blue' color schemes down below.
     options:
       values: 
         - overlay-light
