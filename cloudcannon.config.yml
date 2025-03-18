@@ -25,6 +25,13 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
 timezone: Asia/Riyadh
+_inputs:
+  content:
+    type: html
+    options:
+      bold: true
+      italics: true
+      underline: true
 markdown:
   engine: commonmark
   options:
