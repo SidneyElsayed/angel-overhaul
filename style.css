@@ -28,17 +28,17 @@ section {
 .featured-text { font-family: "Montserrat", serif;}
 
 /* Italic for color-highlight hack */
-h1 i {
+h1 strong {
     font-style: normal;
     color: var(--featured-color);
 }
 
-h2 i {
+h2 strong {
     font-style: normal;
     color: var(--featured-color);
 }
 
-h3 i {
+h3 strong {
     font-style: normal;
     color: var(--featured-color);
 }

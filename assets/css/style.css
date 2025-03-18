@@ -496,14 +496,14 @@ video {
 .right-0 {
   right: 0px;
 }
+.top-0 {
+  top: 0px;
+}
 .top-\[103\%\] {
   top: 103%;
 }
 .top-full {
   top: 100%;
-}
-.top-0 {
-  top: 0px;
 }
 .z-0 {
   z-index: 0;
@@ -583,6 +583,9 @@ video {
 .h-full {
   height: 100%;
 }
+.min-h-\[50vh\] {
+  min-height: 50vh;
+}
 .min-h-\[60\%\] {
   min-height: 60%;
 }
@@ -594,12 +597,6 @@ video {
 }
 .min-h-screen {
   min-height: 100vh;
-}
-.min-h-0\.5 {
-  min-height: 0.125rem;
-}
-.min-h-\[50vh\] {
-  min-height: 50vh;
 }
 .w-\[100px\] {
   width: 100px;
@@ -808,6 +805,9 @@ video {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
 .pb-16 {
   padding-bottom: 4rem;
 }
@@ -832,6 +832,9 @@ video {
 .pb-\[66\%\] {
   padding-bottom: 66%;
 }
+.pl-12 {
+  padding-left: 3rem;
+}
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -843,6 +846,9 @@ video {
 }
 .pr-5 {
   padding-right: 1.25rem;
+}
+.pt-0 {
+  padding-top: 0px;
 }
 .pt-10 {
   padding-top: 2.5rem;
@@ -861,18 +867,6 @@ video {
 }
 .pt-6 {
   padding-top: 1.5rem;
-}
-.pt-0 {
-  padding-top: 0px;
-}
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-.pl-10 {
-  padding-left: 2.5rem;
-}
-.pl-12 {
-  padding-left: 3rem;
 }
 .text-left {
   text-align: left;
@@ -976,13 +970,6 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1007,17 +994,17 @@ section {
 .featured-text { font-family: "Montserrat", serif;}
 
 /* Italic for color-highlight hack */
-h1 i {
+h1 strong {
     font-style: normal;
     color: var(--featured-color);
 }
 
-h2 i {
+h2 strong {
     font-style: normal;
     color: var(--featured-color);
 }
 
-h3 i {
+h3 strong {
     font-style: normal;
     color: var(--featured-color);
 }
@@ -1334,9 +1321,6 @@ h3 i {
   .md\:gap-14 {
     gap: 3.5rem;
   }
-  .md\:pr-12 {
-    padding-right: 3rem;
-  }
   .md\:pt-0 {
     padding-top: 0px;
   }
@@ -1351,9 +1335,6 @@ h3 i {
   }
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .lg\:gap-8 {
     gap: 2rem;
