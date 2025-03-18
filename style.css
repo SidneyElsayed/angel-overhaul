@@ -25,6 +25,10 @@ section {
 
 }
 
+p {
+  font-weight: 100;
+}
+
 .featured-text { font-family: "Montserrat", serif;}
 
 
@@ -40,6 +44,7 @@ li {
   display: list-item;
   list-style-position: inside;
   padding-left: 0.5rem;
+  font-weight: 100;
 }
 
 /* Italic for color-highlight hack */
