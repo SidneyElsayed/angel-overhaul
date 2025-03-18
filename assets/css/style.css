@@ -737,9 +737,6 @@ video {
   -o-object-position: center;
      object-position: center;
 }
-.p-10 {
-  padding: 2.5rem;
-}
 .p-28 {
   padding: 7rem;
 }
@@ -999,10 +996,6 @@ section {
 
 .featured-text { font-family: "Montserrat", serif;}
 
-li {
-  display: list-item;
-  list-style-position: inside;
-}
 
 ul li {
   list-style-type: disc;
@@ -1010,6 +1003,12 @@ ul li {
 
 ol li {
   list-style-type: decimal;
+}
+
+li {
+  display: list-item;
+  list-style-position: inside;
+  padding-left: 0.5rem;
 }
 
 /* Italic for color-highlight hack */
