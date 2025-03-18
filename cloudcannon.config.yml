@@ -117,23 +117,51 @@ _inputs:
         - right
         - left
     cascade: true
+  text-alignment:
+    type: select
+    label: Text alignment
+    comment: Choose whether the text is aligned to the left or right
+    options:
+      values: 
+        - left
+        - center
+        - right
+    cascade: true
   large-text-alignment:
     type: select
     label: Large text alignment
-    comment: Choose whether the large text aligned to the left or right
+    comment: Choose whether the large text is aligned to the left or right
     options:
       values: 
-        - right
         - left
+        - center
+        - right
     cascade: true
   paragraph-text-alignment:
     type: select
     label: Paragraph text alignment
-    comment: Choose whether the large text aligned to the left or right
+    comment: Choose whether the paragraph text is aligned to the left or right
     options:
       values: 
-        - right
         - left
+        - center
+        - right
+    cascade: true
+  scheme-name:
+    type: select
+    label: Color scheme for the block
+    comment: Choose which background color to use, and text, button and highlight colors will be chosen automatically
+    options:
+      values: 
+        - White background green highlight
+        - White background blue highlight
+        - Angel blue background
+        - Dark navy background
+        - Medium blue background
+        - Light blue background
+        - Very light blue background
+        - Green background
+        - Light green background
     cascade: true
   type:
     type: select
