@@ -13,14 +13,14 @@
     {% if block.image-placement == 'right' %} md:order-first {% endif %}">
       <!-- Heading -->
       <div>
-        <h2 class="pb-8 featured-text text-6xl font-extrabold uppercase tracking-wide">{{block.heading}}</h2>
+        <h2 class="pb-8 featured-text text-6xl font-extrabold uppercase tracking-wide">{{block.heading_html}}</h2>
       </div>
 
       <!-- Paragraph text -->
       {% for item in block.info-loop %}
-      {% if item.text %}
+      {% if item.text_html %}
       <div>
-        <p class="pb-4">{{item.text}}</p>
+        <p class="pb-4">{{item.text_html}}</p>
       </div>
       {% endif %}
       {% endfor %}
