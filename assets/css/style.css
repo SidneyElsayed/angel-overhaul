@@ -511,11 +511,11 @@ video {
 .z-10 {
   z-index: 10;
 }
-.z-30 {
-  z-index: 30;
-}
 .z-20 {
   z-index: 20;
+}
+.z-30 {
+  z-index: 30;
 }
 .order-first {
   order: -9999;
@@ -995,6 +995,10 @@ section {
 }
 
 .featured-text { font-family: "Montserrat", serif;}
+
+li {
+  list-style-type: disc;
+}
 
 /* Italic for color-highlight hack */
 h1 strong {

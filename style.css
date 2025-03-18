@@ -27,6 +27,10 @@ section {
 
 .featured-text { font-family: "Montserrat", serif;}
 
+li {
+  list-style-type: disc;
+}
+
 /* Italic for color-highlight hack */
 h1 strong {
     font-weight: inherit;
