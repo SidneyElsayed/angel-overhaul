@@ -11,95 +11,93 @@ blocks:
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
     text-placement: center
-    heading_html: Our Partners
+    heading_html: Our <strong>Partners</strong>
     info-loop:
       - text_html:
     button-1-link: /index
     button-1-text: Become a partner today
-    button-2-link: 
-    button-2-text: 
+    button-2-link:
+    button-2-text:
     scheme-name: white-background-green-highlight
-
-  - id: text-banner 
+  - id: text-banner
     large-text-width: half
     paragraph-width: half
     large-text-placement: left
     large-text-alignment: left
     paragraph-text-alignment: left
     heading: Meet our Angel Investors
-    text_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet ut et voluptat. Repudiandae sint et molestiae non recusandae.
+    text_html: >-
+      Lorem ebitis aut rerum necessitatibus saepe eveniet ut et voluptates
+      repudiandae sint et molestiae non recusandae. Itaque earum rerum hic 
+      tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet ut
+      et voluptat. Repudiandae sint et molestiae non recusandae.
     button-1-link: /index
     button-1-text: Become a partner today
-    button-2-link: 
-    button-2-text: 
+    button-2-link:
+    button-2-text:
     scheme-name: angel-blue-background
-
 partner-loop:
   - title: $250,000+ Annual Commitment
     tag: 250
     partners:
-    - image: /images/logo-ames.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-    - image: /images/logo-ames.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-    - image: /images/logo-mn-oncology.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-
+      - image: /images/logo-ames.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - image: /images/logo-ames.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - image: /images/logo-mn-oncology.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
   - title: $100,000+ Annual Commitment
     tag: 100
     partners:
-    - image: /images/logo-ames.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-    - image: /images/logo-bcbsmn.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-
+      - image: /images/logo-ames.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - image: /images/logo-bcbsmn.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
   - title: $50,000+ Annual Commitment
     tag: 50
     partners:
-    - image: /images/logo-ames.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-    - image: /images/logo-bcbsmn.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-    - image: /images/logo-bcbsmn.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-    - image: /images/logo-ames.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-    - image: /images/logo-mn-oncology.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-    - image: /images/logo-ames.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
-
+      - image: /images/logo-ames.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - image: /images/logo-bcbsmn.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - image: /images/logo-bcbsmn.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - image: /images/logo-ames.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - image: /images/logo-mn-oncology.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - image: /images/logo-ames.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
   - title: $49,000+ Annual Commitment
     tag: 49
     partners:
-    - image: /images/logo-mn-oncology.jpg
-      alt:
-      image-horizontal-focal-point: center
-      image-vertical-focal-point: center
+      - image: /images/logo-mn-oncology.jpg
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
 ---
-
 <section id="back-to-top" class="px-8 sm:px-16 py-16 grid grid-cols-3 bg-white">
   <div class="col-span-1">
     <h3 class="pb-2 featured-text uppercase font-bold text-xl">Categories</h3>
@@ -136,7 +134,7 @@ partner-loop:
     <div class="pb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> 
     {% for item in commitment.partners %}
       <div class="p-8 sm:p-6 col-span-1 w-full h-full">
-        <img class="object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}">
+        <img class="object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}" />
       </div>
     {% endfor %}
     </div>
