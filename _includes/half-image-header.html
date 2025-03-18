@@ -17,13 +17,11 @@
       </div>
 
       <!-- Paragraph text -->
-      {% for item in block.info-loop %}
-      {% if item.text_html %}
+      {% if block.text_html %}
       <div>
-        <p class="pb-4">{{item.text_html}}</p>
+        <p class="pb-4">{{block.text_html}}</p>
       </div>
       {% endif %}
-      {% endfor %}
 
       <!-- Buttons -->
       <div class="pt-6">
