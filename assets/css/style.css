@@ -995,17 +995,17 @@ section {
 
 /* Italic for color-highlight hack */
 h1 strong {
-    font-style: normal;
+    font-weight: inherit;
     color: var(--featured-color);
 }
 
 h2 strong {
-    font-style: normal;
+    font-weight: inherit;
     color: var(--featured-color);
 }
 
 h3 strong {
-    font-style: normal;
+    font-weight: inherit;
     color: var(--featured-color);
 }
 
