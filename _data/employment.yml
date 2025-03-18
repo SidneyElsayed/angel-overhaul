@@ -3,7 +3,7 @@ card-loop:
         alt:
         overline: Administration
         heading: Executive Assistant
-        short-description: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
+        short-description_html: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
         location: Angel Office
         commitment: Full-time
         minimum-experience: 
@@ -16,7 +16,7 @@ card-loop:
         alt:
         overline: Relationship building
         heading: Resource Navigator
-        short-description: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
+        short-description_html: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
         location: Remote
         commitment: Part-time
         minimum-experience: Manager
@@ -29,7 +29,7 @@ card-loop:
         alt:
         overline: Healthcare
         heading: Director of Research
-        short-description: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
+        short-description_html: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
         location: Remote
         commitment: Full-time
         minimum-experience: Director

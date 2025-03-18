@@ -3,7 +3,7 @@ card-loop:
         alt:
         overline: Saturday, January 25, 2025
         heading: Angel Gala 2025
-        short-description: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
+        short-description_html: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
         location: The Depot, Minneapolis
         commitment: One-time commitment
         button-1-link: /index
@@ -14,7 +14,7 @@ card-loop:
         alt:
         overline: Ongoing
         heading: Angel Packs&#8482; Packing Parties
-        short-description: Snt et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet ut et voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
+        short-description_html: Snt et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet ut et voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
         location: Remote
         commitment: One-time commitment
         button-1-link: 
@@ -25,7 +25,7 @@ card-loop:
         alt:
         overline: Ongoing
         heading: Volunteer as a CPA
-        short-description: Voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet. 
+        short-description_html: Voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet. 
         location: Angel Office
         commitment: Min 3 - 6 months | 4 hrs per week
         button-1-link: /index
@@ -36,7 +36,7 @@ card-loop:
         alt:
         overline: Ongoing
         heading: Emergency Financial Assistance Program Internship
-        short-description: Voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet. 
+        short-description_html: Voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet. 
         location: Angel Office
         commitment: Min 3 - 6 months | 4 hrs per week
         minimum-experience: 

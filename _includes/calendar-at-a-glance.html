@@ -27,8 +27,8 @@
           <!-- Heading -->
           <h3 class="featured-text font-semibold py-2 text-lg">{{item.heading}}</h3>
           <!-- Description -->
-          {% if item.short-description %}
-          <p class="pb-6 font-thin">{{item.short-description}}</p>
+          {% if item.short-description_html %}
+          <p class="pb-6 font-thin">{{item.short-description_html}}</p>
           {% endif %}
           <!-- Button -->
           {% if item.button-link and item.button-text %}

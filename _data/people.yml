@@ -4,7 +4,7 @@ card-loop:
         job-title:
         phone-number:
         email:
-        short-description: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet 
+        short-description_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet 
         button-text: 
         button-link: 
         image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
@@ -14,18 +14,9 @@ card-loop:
         job-title:
         phone-number:
         email:
-        short-description: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet necessitatibus saepe eveniet ebitis aut.
+        short-description_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet necessitatibus saepe eveniet ebitis aut.
         button-text: 
         button-link: 
         image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
-      - heading: Meet Mark
-        name:
-        job-title:
-        phone-number:
-        email:
-        short-description: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet necessitatibus saepe eveniet ebitis aut.
-        button-text: 
-        button-link: 
-        image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
-        alt:
+      

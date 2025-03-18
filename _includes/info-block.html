@@ -25,9 +25,9 @@
           <p class="font-semibold uppercase text-xs tracking-widest text-[var(--featured-color)]">{{item.overline}}</p>
           <!-- Heading -->
           <h3 class="featured-text font-semibold py-3 text-2xl">{{item.heading}}</h3>
-          {% if item.short-description %}
           <!-- Short Description -->
-          <p class="pb-3 font-thin">{{item.short-description}}</p>
+          {% if item.short-description_html %}
+          <p class="pb-3 font-thin">{{item.short-description_html}}</p>
           {% endif %}
 
           <!-- Icon Info Section -->
