@@ -28,7 +28,16 @@ section {
 .featured-text { font-family: "Montserrat", serif;}
 
 li {
+  display: list-item;
+  list-style-position: inside;
+}
+
+ul li {
   list-style-type: disc;
+}
+
+ol li {
+  list-style-type: decimal;
 }
 
 /* Italic for color-highlight hack */
