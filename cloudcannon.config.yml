@@ -147,21 +147,30 @@ _inputs:
         - center
         - right
     cascade: true
+  overlay:
+    type: select
+    label: Image overlay color
+    comment: Choose what opaque color should go over the image to make the text stand out. Note that for dark, only use the 'dark navy' or 'angel blue' color schemes. 
+    options:
+      values: 
+        - overlay-light
+        - overlay-dark
+    cascade: true
   scheme-name:
     type: select
     label: Color scheme for the block
-    comment: Choose which background color to use, and text, button and highlight colors will be chosen automatically
+    comment: Choose which background color to use, then the text, button and highlight colors will be chosen automatically
     options:
       values: 
-        - White background green highlight
-        - White background blue highlight
-        - Angel blue background
-        - Dark navy background
-        - Medium blue background
-        - Light blue background
-        - Very light blue background
-        - Green background
-        - Light green background
+        - white-background-green-highlight
+        - white-background-blue-highlight
+        - angel-blue-background
+        - dark-navy-background
+        - medium-blue-background
+        - light-blue-background
+        - v-light-blue-background
+        - green-background
+        - light-green-background
     cascade: true
   type:
     type: select
