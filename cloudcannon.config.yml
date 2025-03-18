@@ -32,6 +32,125 @@ _inputs:
       bold: true
       italics: true
       underline: true
+  layout:
+    type: select
+    label: Layout
+    comment: Choose the page layout type
+    options:
+      values: 
+        - default
+    cascade: true
+  # This header style section is a perfect example for making the dropdown for the client in cloud cannon
+  screen-height:
+    type: select
+    label: Screen height
+    comment: Choose the height of the banner
+    options:
+      values: 
+        - full 
+        - 80%
+        - 60%
+    cascade: true
+  image-horizontal-focal-point:
+    type: select
+    label: Horizontal image focal point
+    comment: Choose where the focus/positioning of the image should be
+    options:
+      values: 
+        - center
+        - left
+        - right
+    cascade: true
+  image-vertical-focal-point:
+    type: select
+    label: Vertical image focal point
+    comment: Choose where the focus/positioning of the image should be
+    options:
+      values: 
+        - center
+        - top
+        - bottom
+    cascade: true
+  image-placement:
+    type: select
+    label: Image placement
+    comment: Choose whether the image is on the left or right
+    options:
+      values: 
+        - left
+        - right
+    cascade: true
+  text-placement:
+    type: select
+    label: Text placement
+    comment: Choose where the text in placed in relation to the image
+    options:
+      values: 
+        - top
+        - center
+        - bottom
+    cascade: true
+  large-text-width:
+    type: select
+    label: Large text width
+    comment: Choose whether the large text takes up half or the full width of the page
+    options:
+      values: 
+        - half
+        - full
+    cascade: true
+  paragraph-text-width:
+    type: select
+    label: Paragraph text width
+    comment: Choose whether the paragraph text takes up half or the full width of the page
+    options:
+      values: 
+        - half
+        - full
+    cascade: true
+  large-text-placement:
+    type: select
+    label: Large text placement
+    comment: Choose whether the large text is on the left or right
+    options:
+      values: 
+        - right
+        - left
+    cascade: true
+  large-text-alignment:
+    type: select
+    label: Large text alignment
+    comment: Choose whether the large text aligned to the left or right
+    options:
+      values: 
+        - right
+        - left
+    cascade: true
+  paragraph-text-alignment:
+    type: select
+    label: Paragraph text alignment
+    comment: Choose whether the large text aligned to the left or right
+    options:
+      values: 
+        - right
+        - left
+    cascade: true
+  type:
+    type: select
+    label: Information type
+    comment: Choose what information is pulled into this block
+    options:
+      values: 
+        - calendar
+        - donate
+        - employment
+        - financials
+        - news
+        - people
+        - programs
+        - testimonials
+        - volunteer opportunities
+    cascade: true
 markdown:
   engine: commonmark
   options:
