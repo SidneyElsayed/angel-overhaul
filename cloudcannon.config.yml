@@ -111,7 +111,7 @@ _inputs:
   large-text-placement:
     type: select
     label: Large text placement
-    comment: Choose whether the large text is on the left or right
+    comment: Choose whether the large text is on the left or right. If text will be full width, choose left here.
     options:
       values: 
         - right
