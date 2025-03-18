@@ -514,6 +514,9 @@ video {
 .z-30 {
   z-index: 30;
 }
+.z-20 {
+  z-index: 20;
+}
 .order-first {
   order: -9999;
 }
