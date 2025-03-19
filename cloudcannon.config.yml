@@ -105,7 +105,7 @@ _inputs:
     label: Large text width
     comment: Choose whether the large text takes up half or the full width of the page
     cascade: true
-  paragraph-text-width:
+  paragraph-width:
     type: select
     options:
       allow_empty: false
@@ -281,11 +281,10 @@ _structures:
           scheme-name:
       - label: info cards
         value:
-          id: info-cards
+          type: 
+          card-description:
           section-heading:
           text-alignment: 
-          card-description:
-          type: 
           scheme-name:
 timezone: Asia/Riyadh
 markdown:
