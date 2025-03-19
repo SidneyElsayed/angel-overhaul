@@ -35,7 +35,7 @@ _inputs:
   layout:
     type: select
     options:
-      allow_empty: true
+      allow_empty: false
       values:
         - default
     label: Layout
@@ -44,7 +44,7 @@ _inputs:
   screen-height:
     type: select
     options:
-      allow_empty: true
+      allow_empty: false
       values:
         - full
         - 80%
@@ -98,7 +98,7 @@ _inputs:
   large-text-width:
     type: select
     options:
-      allow_empty: true
+      allow_empty: false
       values:
         - half
         - full
@@ -108,7 +108,7 @@ _inputs:
   paragraph-text-width:
     type: select
     options:
-      allow_empty: true
+      allow_empty: false
       values:
         - half
         - full
@@ -120,14 +120,13 @@ _inputs:
   large-text-placement:
     type: select
     options:
-      allow_empty: true
+      allow_empty: false
       values:
         - right
         - left
     label: Large text placement
     comment: >-
-      Choose whether the large text is on the left or right. If text will be
-      full width, choose left here.
+      Choose whether the large text is on the left or right. If text will be full width, choose left here.
     cascade: true
   text-alignment:
     type: select
@@ -162,10 +161,15 @@ _inputs:
     label: Paragraph text alignment
     comment: Choose whether the paragraph text is aligned to the left or right
     cascade: true
+  card-description:
+    type: checkbox
+    label: Card description
+    comment: Do you want these cards to show the short description?
+    cascade: true
   overlay:
     type: select
     options:
-      allow_empty: true
+      allow_empty: false
       values:
         - overlay-light
         - overlay-dark
@@ -263,6 +267,25 @@ _structures:
           image-vertical-focal-point: 
           text-placement:
           text-alignment:
+          scheme-name:
+      - label: text banner
+        value:
+          id: text-banner
+          heading:
+          text_html:
+          large-text-width: 
+          paragraph-width: 
+          large-text-placement: 
+          large-text-alignment: 
+          paragraph-text-alignment: 
+          scheme-name:
+      - label: info cards
+        value:
+          id: info-cards
+          section-heading:
+          text-alignment: 
+          card-description:
+          type: 
           scheme-name:
 timezone: Asia/Riyadh
 markdown:
