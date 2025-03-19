@@ -281,6 +281,7 @@ _structures:
           scheme-name:
       - label: info cards
         value:
+          id: info-cards
           type: 
           card-description:
           section-heading:
