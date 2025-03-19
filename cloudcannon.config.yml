@@ -279,12 +279,37 @@ _structures:
           large-text-alignment: 
           paragraph-text-alignment: 
           scheme-name:
-      - label: text banner
+      - label: info cards
         value:
-          id: text-banner
+          id: info-cards
           section-heading:
           type:
           card-description:
+          text-alignment:
+          scheme-name:
+      - label: info block
+        value:
+          id: info-block
+          section-heading:
+          type:
+          text-alignment:
+          scheme-name:
+      - label: facts
+        value:
+          id: facts
+          section-heading:
+          facts-loop:
+            - number:
+              text:
+          text-alignment:
+          scheme-name:
+      - label: interactive cards
+        value:
+          id: interactive-cards
+          section-heading:
+          card-loop:
+            - front:
+              back:
           text-alignment:
           scheme-name:
 timezone: Asia/Riyadh
