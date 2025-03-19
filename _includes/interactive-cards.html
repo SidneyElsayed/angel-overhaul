@@ -10,7 +10,7 @@
 
   {% endif %}
 
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-10 pt-10 {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-10 pt-10 {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">
 
     {% for item in block.card-loop %}
 
