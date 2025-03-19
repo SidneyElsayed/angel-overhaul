@@ -580,6 +580,12 @@ video {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
+.aspect-\[66\%\] {
+  aspect-ratio: 66%;
+}
+.aspect-\[100\%\] {
+  aspect-ratio: 100%;
+}
 .h-72 {
   height: 18rem;
 }
@@ -1343,6 +1349,9 @@ h3 strong {
   }
   .md\:gap-14 {
     gap: 3.5rem;
+  }
+  .md\:p-16 {
+    padding: 4rem;
   }
   .md\:pt-0 {
     padding-top: 0px;
