@@ -1,9 +1,25 @@
 quote-loop:
-      - quote_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error.
-        name: Annie, efa recipient
-      - quote_html: Eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error.
-        name: Maddy, Development & Communications Associate
-      - quote_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur.
-        name: Dave, President & CEO
-      - quote_html:
-        name:
+      - name: Annie, efa recipient
+        quote_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error.
+        image: https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - name: Maddy, Development & Communications Associate
+        quote_html: Eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error.
+        image: 
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - name: Dave, President & CEO
+        quote_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur.
+        image: https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center
+      - name:
+        quote_html:
+        image: 
+        alt:
+        image-horizontal-focal-point: center
+        image-vertical-focal-point: center

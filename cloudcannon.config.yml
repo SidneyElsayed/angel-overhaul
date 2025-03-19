@@ -114,8 +114,7 @@ _inputs:
         - full
     label: Paragraph text width
     comment: >-
-      Choose whether the paragraph text takes up half or the full width of the
-      page
+      Choose whether the paragraph text takes up half or the full width of the page
     cascade: true
   large-text-placement:
     type: select
@@ -137,7 +136,7 @@ _inputs:
         - center
         - right
     label: Text alignment
-    comment: Choose whether the text is aligned to the left or right
+    comment: Choose whether the text is aligned to the left, center, or right
     cascade: true
   large-text-alignment:
     type: select
@@ -148,7 +147,7 @@ _inputs:
         - center
         - right
     label: Large text alignment
-    comment: Choose whether the large text is aligned to the left or right
+    comment: Choose whether the large text is aligned to the left, center, or right
     cascade: true
   paragraph-text-alignment:
     type: select
@@ -159,7 +158,7 @@ _inputs:
         - center
         - right
     label: Paragraph text alignment
-    comment: Choose whether the paragraph text is aligned to the left or right
+    comment: Choose whether the paragraph text is aligned to the left, center, or right
     cascade: true
   card-description:
     type: checkbox
@@ -310,6 +309,36 @@ _structures:
           card-loop:
             - front:
               back:
+          text-alignment:
+          scheme-name:
+      - label: accordion
+        value:
+          id: accordion
+          section-heading:
+          accordion-loop:
+            - question:
+              answer_html:
+          scheme-name:
+      - label: multiple accordions on one page
+        value:
+          id: multi-accordions-per-page
+          section-heading:
+          accordion-loop:
+            - question:
+              answer_html:
+          scheme-name:
+      - label: calendar at a glance
+        value:
+          id: calendar-at-a-glance
+          section-heading:
+          type:
+          text-alignment:
+          scheme-name:
+      - label: testimonials
+        value:
+          id: testimonials
+          section-heading:
+          type:
           text-alignment:
           scheme-name:
 timezone: Asia/Riyadh
