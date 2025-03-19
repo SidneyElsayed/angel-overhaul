@@ -214,8 +214,56 @@ _inputs:
 _structures:
   blocks:
     style: select
-    id_key:
     values:
+      - label: full image header
+        value:
+          id: full-image-header
+          heading_html:
+          image:
+          image-horizontal-focal-point:
+          image-vertical-focal-point:
+          overlay:
+          scheme-name:
+      - label: half image header
+        value:
+          id: half-image-header
+          image:
+          alt:
+          heading_html:
+          text_html:
+          button-1-text: 
+          button-1-link: 
+          button-2-text: 
+          button-2-link: 
+          screen-height: 
+          image-placement: 
+          image-horizontal-focal-point: 
+          image-vertical-focal-point: 
+          text-placement:
+          scheme-name:
+      - label: image text numbers
+        value:
+          id: image-text-numbers
+          image:
+          alt:
+          subtitle:
+          section-heading:
+          text-block-heading:
+          facts-loop:
+            - number:
+              text:
+          description_html:
+          button-1-text: 
+          button-1-link: 
+          button-2-text: 
+          button-2-link: 
+          screen-height: 
+          image-placement: 
+          image-horizontal-focal-point: 
+          image-vertical-focal-point: 
+          text-placement:
+          text-alignment:
+          scheme-name:
 timezone: Asia/Riyadh
 markdown:
   engine: commonmark
