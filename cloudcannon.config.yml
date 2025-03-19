@@ -24,7 +24,6 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
-timezone: Asia/Riyadh
 _inputs:
   content:
     type: html
@@ -32,136 +31,155 @@ _inputs:
       bold: true
       italics: true
       underline: true
+    cascade: true
   layout:
     type: select
+    options:
+      allow_empty: true
+      values:
+        - default
     label: Layout
     comment: Choose the page layout type
-    options:
-      values: 
-        - default
     cascade: true
-  # This header style section is a perfect example for making the dropdown for the client in cloud cannon
   screen-height:
     type: select
-    label: Screen height
-    comment: Choose the height of the banner
     options:
-      values: 
-        - full 
+      allow_empty: true
+      values:
+        - full
         - 80%
         - 60%
+    label: Screen height
+    comment: Choose the height of the banner
     cascade: true
   image-horizontal-focal-point:
     type: select
-    label: Horizontal image focal point
-    comment: Choose where the focus/positioning of the image should be
     options:
-      values: 
+      allow_empty: true
+      values:
         - center
         - left
         - right
+    label: Horizontal image focal point
+    comment: Choose where the focus/positioning of the image should be
     cascade: true
   image-vertical-focal-point:
     type: select
-    label: Vertical image focal point
-    comment: Choose where the focus/positioning of the image should be
     options:
-      values: 
+      allow_empty: true
+      values:
         - center
         - top
         - bottom
+    label: Vertical image focal point
+    comment: Choose where the focus/positioning of the image should be
     cascade: true
   image-placement:
     type: select
-    label: Image placement
-    comment: Choose whether the image is on the left or right
     options:
-      values: 
+      allow_empty: true
+      values:
         - left
         - right
+    label: Image placement
+    comment: Choose whether the image is on the left or right
     cascade: true
   text-placement:
     type: select
-    label: Text placement
-    comment: Choose where the text in placed in relation to the image
     options:
-      values: 
+      allow_empty: true
+      values:
         - top
         - center
         - bottom
+    label: Text placement
+    comment: Choose where the text in placed in relation to the image
     cascade: true
   large-text-width:
     type: select
-    label: Large text width
-    comment: Choose whether the large text takes up half or the full width of the page
     options:
-      values: 
+      allow_empty: true
+      values:
         - half
         - full
+    label: Large text width
+    comment: Choose whether the large text takes up half or the full width of the page
     cascade: true
   paragraph-text-width:
     type: select
-    label: Paragraph text width
-    comment: Choose whether the paragraph text takes up half or the full width of the page
     options:
-      values: 
+      allow_empty: true
+      values:
         - half
         - full
+    label: Paragraph text width
+    comment: >-
+      Choose whether the paragraph text takes up half or the full width of the
+      page
     cascade: true
   large-text-placement:
     type: select
-    label: Large text placement
-    comment: Choose whether the large text is on the left or right. If text will be full width, choose left here.
     options:
-      values: 
+      allow_empty: true
+      values:
         - right
         - left
+    label: Large text placement
+    comment: >-
+      Choose whether the large text is on the left or right. If text will be
+      full width, choose left here.
     cascade: true
   text-alignment:
     type: select
-    label: Text alignment
-    comment: Choose whether the text is aligned to the left or right
     options:
-      values: 
+      allow_empty: true
+      values:
         - left
         - center
         - right
+    label: Text alignment
+    comment: Choose whether the text is aligned to the left or right
     cascade: true
   large-text-alignment:
     type: select
-    label: Large text alignment
-    comment: Choose whether the large text is aligned to the left or right
     options:
-      values: 
+      allow_empty: true
+      values:
         - left
         - center
         - right
+    label: Large text alignment
+    comment: Choose whether the large text is aligned to the left or right
     cascade: true
   paragraph-text-alignment:
     type: select
-    label: Paragraph text alignment
-    comment: Choose whether the paragraph text is aligned to the left or right
     options:
-      values: 
+      allow_empty: true
+      values:
         - left
         - center
         - right
+    label: Paragraph text alignment
+    comment: Choose whether the paragraph text is aligned to the left or right
     cascade: true
   overlay:
     type: select
-    label: Image overlay color
-    comment: Choose what opaque color should go over the image to make the text stand out. Note that for dark, only use the 'dark navy' or 'angel blue' color schemes down below.
     options:
-      values: 
+      allow_empty: true
+      values:
         - overlay-light
         - overlay-dark
+    label: Image overlay color
+    comment: >-
+      Choose what opaque color should go over the image to make the text stand
+      out. Note that for dark, only use the 'dark navy' or 'angel blue' color
+      schemes down below.
     cascade: true
   scheme-name:
     type: select
-    label: Color scheme for the block
-    comment: Choose which background color to use, then the text, button and highlight colors will be chosen automatically
     options:
-      values: 
+      allow_empty: true
+      values:
         - white-background-green-highlight
         - white-background-blue-highlight
         - angel-blue-background
@@ -171,13 +189,16 @@ _inputs:
         - v-light-blue-background
         - green-background
         - light-green-background
+    label: Color scheme for the block
+    comment: >-
+      Choose which background color to use, then the text, button and highlight
+      colors will be chosen automatically
     cascade: true
   type:
     type: select
-    label: Information type
-    comment: Choose what information is pulled into this block
     options:
-      values: 
+      allow_empty: true
+      values:
         - calendar
         - donate
         - employment
@@ -187,7 +208,15 @@ _inputs:
         - programs
         - testimonials
         - volunteer opportunities
+    label: Information type
+    comment: Choose what information is pulled into this block
     cascade: true
+_structures:
+  blocks:
+    style: select
+    id_key:
+    values:
+timezone: Asia/Riyadh
 markdown:
   engine: commonmark
   options:
