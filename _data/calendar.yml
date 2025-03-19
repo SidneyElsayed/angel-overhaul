@@ -1,37 +1,37 @@
 card-loop:
-      - image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+      - heading: Univeristy of Minnesota Women's
+        image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
         month: Mar
         day: 7
-        type: Making Memories
-        heading: Univeristy of Minnesota Women's
+        overline: Making Memories
         short-description_html: 
         button-text: Book now
         button-link: /index
-      - image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+      - heading: Financial Cancer Care | A Virtual Workshop
+        image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
         month: Mar
         day: 12
-        type: Workshop
-        heading: Financial Cancer Care | A Virtual Workshop
+        overline: Workshop
         short-description_html: 
         button-text:
         button-link: /index
-      - image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+      - heading: Kathy's Birthday
+        image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
         month: Mar 
         day: 29
-        type: Family Connections
-        heading: Kathy's Birthday
+        overline: Family Connections
         short-description_html: 
         button-text:
         button-link: /index
-      - image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+      - heading: Title of the Activity | With the Ability to be Descriptive
+        image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
         month: Apr 
         day: 5
-        type: Annual Fundraising Event
-        heading: Title of the Activity | With the Ability to be Descriptive
+        overline: Annual Fundraising Event
         short-description_html: 
         button-text:
         button-link: /index
