@@ -34,9 +34,9 @@ _inputs:
     cascade: true
   layout:
     type: select
-    options:
-      allow_empty: false
-      values:
+    options: 
+      allow_empty: true
+      values: 
         - default
     label: Layout
     comment: Choose the page layout type
@@ -278,14 +278,6 @@ _structures:
           large-text-placement: 
           large-text-alignment: 
           paragraph-text-alignment: 
-          scheme-name:
-      - label: info cards
-        value:
-          id: info-cards
-          type: 
-          card-description:
-          section-heading:
-          text-alignment: 
           scheme-name:
 timezone: Asia/Riyadh
 markdown:
