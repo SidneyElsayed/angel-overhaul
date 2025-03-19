@@ -249,7 +249,7 @@ _structures:
           id: image-text-numbers
           image:
           alt:
-          subtitle:
+          caption:
           section-heading:
           text-block-heading:
           facts-loop:
@@ -260,12 +260,11 @@ _structures:
           button-1-link: 
           button-2-text: 
           button-2-link: 
-          screen-height: 
           image-placement: 
           image-horizontal-focal-point: 
           image-vertical-focal-point: 
           text-placement:
-          text-alignment:
+          large-text-alignment:
           scheme-name:
       - label: text banner
         value:
@@ -277,6 +276,10 @@ _structures:
           large-text-placement: 
           large-text-alignment: 
           paragraph-text-alignment: 
+          button-1-text: 
+          button-1-link: 
+          button-2-text: 
+          button-2-link: 
           scheme-name:
       - label: info cards
         value:
@@ -339,6 +342,7 @@ _structures:
           id: testimonials
           section-heading:
           type:
+          show:
           text-alignment:
           scheme-name:
       - label: button banner
