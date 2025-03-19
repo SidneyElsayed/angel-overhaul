@@ -6,8 +6,8 @@ card-loop:
         type: Making Memories
         heading: Univeristy of Minnesota Women's
         short-description_html: 
-        button-link: /index
         button-text: Book now
+        button-link: /index
       - image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
         month: Mar
@@ -15,8 +15,8 @@ card-loop:
         type: Workshop
         heading: Financial Cancer Care | A Virtual Workshop
         short-description_html: 
-        button-link: /index
         button-text:
+        button-link: /index
       - image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
         month: Mar 
@@ -24,8 +24,8 @@ card-loop:
         type: Family Connections
         heading: Kathy's Birthday
         short-description_html: 
-        button-link: /index
         button-text:
+        button-link: /index
       - image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
         month: Apr 
@@ -33,6 +33,6 @@ card-loop:
         type: Annual Fundraising Event
         heading: Title of the Activity | With the Ability to be Descriptive
         short-description_html: 
-        button-link: /index
         button-text:
+        button-link: /index
     

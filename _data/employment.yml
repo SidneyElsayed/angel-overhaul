@@ -8,10 +8,10 @@ card-loop:
         commitment: Full-time
         minimum-experience: 
         salary-range: School credit
-        button-1-link: /index
         button-1-text: Learn more
-        button-2-link: /index
+        button-1-link: /index
         button-2-text: Apply now
+        button-2-link: /index
       - image: https://images.unsplash.com/photo-1576091160651-e028ca26a943?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzA4fHx8ZW58MHx8fHx8
         alt:
         overline: Relationship building
@@ -21,10 +21,10 @@ card-loop:
         commitment: Part-time
         minimum-experience: Manager
         salary-range: $50,000 - $60,000
-        button-1-link: 
         button-1-text: 
-        button-2-link: 
+        button-1-link: 
         button-2-text: 
+        button-2-link: 
       - image: https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
         alt:
         overline: Healthcare
@@ -34,8 +34,8 @@ card-loop:
         commitment: Full-time
         minimum-experience: Director
         salary-range: $80,000 - $100,000
-        button-1-link: 
         button-1-text: 
-        button-2-link: 
+        button-1-link: 
         button-2-text: 
+        button-2-link: 
       
