@@ -165,6 +165,18 @@ _inputs:
     label: Card description
     comment: Do you want these cards to show the short description?
     cascade: true
+  tag:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - 250
+        - 100
+        - 50
+        - 49
+    label: Paragraph text alignment
+    comment: Choose whether the paragraph text is aligned to the left, center, or right
+    cascade: true
   overlay:
     type: select
     options:
