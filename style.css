@@ -217,6 +217,38 @@ h3 strong {
     position: relative;
   }
 
+/* Info Card Styles */
+.info-card-image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.info-card-middle {
+  transition: .5s ease;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.info-card-short-description {
+  background-color: var(--featured-color-light-blue);
+}
+
+.info-card-container:hover .info-card-image {
+  opacity: 0.3;
+}
+
+.info-card-container:hover .info-card-middle {
+  opacity: 1;
+}
+
 /* Interactive Card Styles */
 .container {
     width: 250px;

@@ -1,7 +1,7 @@
 card-loop:
       - heading: Emergency Financial Assistance
-        short-description_html: 
-        button-text: Read more
+        short-description_html: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
+        button-text: Find out more
         button-link: /index
         image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
@@ -15,8 +15,8 @@ card-loop:
           - question:
             answer_html:
       - heading: Financial Cancer Care
-        short-description_html: 
-        button-text: Read more
+        short-description_html: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        button-text: Learn more
         button-link: /index
         image: https://images.unsplash.com/photo-1631217871099-88310a909a32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D
         alt:
@@ -30,7 +30,7 @@ card-loop:
         question:
         answer_html:
       - heading: Adult & Family Programs
-        short-description_html: 
+        short-description_html: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         button-text: Read more
         button-link: /index
         image: https://images.unsplash.com/photo-1580281667316-a9b64f3080a7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjA3fHx8ZW58MHx8fHx8
@@ -44,7 +44,7 @@ card-loop:
         question: What support do we offer children, preteens, and teens?
         answer_html: Children learn about cancer in age-appropriate and evidence-based programs and activities, such as Camp Angel, medical play sessions, and family retreats. These activities help children understand they can’t “catch” cancer like a cold or influenza, they didn’t cause their parent’s cancer by anything they did or said, and that it’s okay to cry. Children benefit from peer support with other kids who are going through a similar experience. Through Angel Foundation’s™ community of support, they see that they do not have to go through the cancer experience alone.
       - heading: Angel Packs
-        short-description_html: 
+        short-description_html: Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         button-text: Read more
         button-link: /index
         image: https://images.unsplash.com/photo-1577896849786-738ed6c78bd3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjczfHx8ZW58MHx8fHx8

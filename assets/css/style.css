@@ -544,12 +544,13 @@ video {
 .m-8 {
   margin: 2rem;
 }
-.m-2 {
-  margin: 0.5rem;
-}
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
+}
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -559,10 +560,6 @@ video {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -571,9 +568,6 @@ video {
 }
 .mt-0 {
   margin-top: 0px;
-}
-.mr-2 {
-  margin-right: 0.5rem;
 }
 .block {
   display: block;
@@ -617,6 +611,9 @@ video {
 .w-\[100px\] {
   width: 100px;
 }
+.w-\[80\%\] {
+  width: 80%;
+}
 .w-\[calc\(100\%_-_80px\)\] {
   width: calc(100% - 80px);
 }
@@ -626,8 +623,32 @@ video {
 .min-w-full {
   min-width: 100%;
 }
+.min-w-0\.5 {
+  min-width: 0.125rem;
+}
+.min-w-64 {
+  min-width: 16rem;
+}
+.min-w-32 {
+  min-width: 8rem;
+}
 .max-w-24 {
   max-width: 6rem;
+}
+.max-w-0\.5 {
+  max-width: 0.125rem;
+}
+.max-w-lg {
+  max-width: 32rem;
+}
+.max-w-md {
+  max-width: 28rem;
+}
+.max-w-\[20rem\] {
+  max-width: 20rem;
+}
+.max-w-\[16rem\] {
+  max-width: 16rem;
 }
 .grow {
   flex-grow: 1;
@@ -735,6 +756,12 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-\[var\(--featured-color-v-light-blue\)\] {
+  background-color: var(--featured-color-v-light-blue);
+}
+.bg-\[var\(--base-color\)\] {
+  background-color: var(--base-color);
 }
 .bg-cover {
   background-size: cover;
@@ -1199,6 +1226,38 @@ h3 strong {
     position: relative;
   }
 
+/* Info Card Styles */
+.info-card-image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.info-card-middle {
+  transition: .5s ease;
+  opacity: 0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.info-card-short-description {
+  background-color: var(--featured-color-light-blue);
+}
+
+.info-card-container:hover .info-card-image {
+  opacity: 0.3;
+}
+
+.info-card-container:hover .info-card-middle {
+  opacity: 1;
+}
+
 /* Interactive Card Styles */
 .container {
     width: 250px;
@@ -1338,6 +1397,9 @@ h3 strong {
   }
   .md\:h-full {
     height: 100%;
+  }
+  .md\:min-w-full {
+    min-width: 100%;
   }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
