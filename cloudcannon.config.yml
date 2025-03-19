@@ -279,6 +279,14 @@ _structures:
           large-text-alignment: 
           paragraph-text-alignment: 
           scheme-name:
+      - label: text banner
+        value:
+          id: text-banner
+          section-heading:
+          type:
+          card-description:
+          text-alignment:
+          scheme-name:
 timezone: Asia/Riyadh
 markdown:
   engine: commonmark
