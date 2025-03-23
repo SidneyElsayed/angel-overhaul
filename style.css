@@ -163,6 +163,7 @@ h3 strong {
 
 /* Button Styles */
 [class*='button'] {
+    display: inline-block;
     border-radius: 0.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
