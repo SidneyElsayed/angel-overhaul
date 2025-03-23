@@ -1,3 +1,9 @@
+// Hamburger Button
+$('.hamburger-button').click(function(){
+  $('.mobile-menu').fadeToggle(100);
+  $(this).toggleClass('active');
+});
+
 // accordion javascript
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -17,3 +23,4 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 } 
+
