@@ -544,6 +544,9 @@ video {
 .m-8 {
   margin: 2rem;
 }
+.m-2 {
+  margin: 0.5rem;
+}
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -750,6 +753,9 @@ video {
 .bg-\[var\(--featured-color-dark-navy\)\] {
   background-color: var(--featured-color-dark-navy);
 }
+.bg-\[var\(--featured-color-green\)\] {
+  background-color: var(--featured-color-green);
+}
 .bg-cover {
   background-size: cover;
 }
@@ -834,6 +840,10 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -1002,6 +1012,9 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
