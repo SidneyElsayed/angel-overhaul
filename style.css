@@ -125,38 +125,40 @@ h3 strong {
       cursor: pointer;
       font-size: 2.5rem;
       line-height: 0.8;
+      position: relative;
+      z-index: 30;
     }
 
   .hamburger-button:hover {
     color: var(--featured-color-light-blue)
   }
     
-    /* Styles when the hamburger button is active  */
-    .hamburger-button.active {
-      color: var(--featured-color-dark-navy);
-    }
+  /* Styles when the hamburger button is active  */
+  .hamburger-button.active {
+    color: var(--featured-color-v-light-blue);
+  }
     
     
-    .mobile-menu {
-      display: none; 
-      background-color: var(--featured-color-dark-navy);
-      padding: 5%;
-      position: fixed; 
-      z-index:3;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      text-align: center;
-    }
-    
-    .mobile-menu a {
-      text-decoration: none; 
-      color: inherit; 
-      padding: 2%;
-      display: block;
-      font-weight: normal;
-    }
+.mobile-menu {
+  display: none; 
+  background-color: var(--featured-color-dark-navy);
+  padding: 5%;
+  position: fixed; 
+  z-index:3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.mobile-menu a {
+  text-decoration: none; 
+  color: inherit; 
+  padding: 2%;
+  display: block;
+  font-weight: normal;
+}
 
 /* Button Styles */
 [class*='button'] {
@@ -296,6 +298,6 @@ h3 strong {
   margin-left: 5px;
 }
 
-.active:after {
+.accordion .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }

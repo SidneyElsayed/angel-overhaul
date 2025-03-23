@@ -686,6 +686,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.gap-4 {
+  gap: 1rem;
+}
 .gap-x-32 {
   -moz-column-gap: 8rem;
        column-gap: 8rem;
@@ -718,6 +721,10 @@ video {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
 .border {
   border-width: 1px;
 }
@@ -739,6 +746,9 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-\[var\(--featured-color-dark-navy\)\] {
+  background-color: var(--featured-color-dark-navy);
 }
 .bg-cover {
   background-size: cover;
@@ -980,6 +990,12 @@ video {
 .text-\[var\(--featured-color\)\] {
   color: var(--featured-color);
 }
+.text-\[var\(--base-color\)\] {
+  color: var(--base-color);
+}
+.text-\[var\(--featured-color-medium-blue\)\] {
+  color: var(--featured-color-medium-blue);
+}
 .overline {
   text-decoration-line: overline;
 }
@@ -1108,38 +1124,40 @@ h3 strong {
       cursor: pointer;
       font-size: 2.5rem;
       line-height: 0.8;
+      position: relative;
+      z-index: 30;
     }
 
   .hamburger-button:hover {
     color: var(--featured-color-light-blue)
   }
     
-    /* Styles when the hamburger button is active  */
-    .hamburger-button.active {
-      color: var(--featured-color-dark-navy);
-    }
+  /* Styles when the hamburger button is active  */
+  .hamburger-button.active {
+    color: var(--featured-color-v-light-blue);
+  }
     
     
-    .mobile-menu {
-      display: none; 
-      background-color: var(--featured-color-dark-navy);
-      padding: 5%;
-      position: fixed; 
-      z-index:3;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      text-align: center;
-    }
-    
-    .mobile-menu a {
-      text-decoration: none; 
-      color: inherit; 
-      padding: 2%;
-      display: block;
-      font-weight: normal;
-    }
+.mobile-menu {
+  display: none; 
+  background-color: var(--featured-color-dark-navy);
+  padding: 5%;
+  position: fixed; 
+  z-index:3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.mobile-menu a {
+  text-decoration: none; 
+  color: inherit; 
+  padding: 2%;
+  display: block;
+  font-weight: normal;
+}
 
 /* Button Styles */
 [class*='button'] {
@@ -1279,7 +1297,7 @@ h3 strong {
   margin-left: 5px;
 }
 
-.active:after {
+.accordion .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
@@ -1335,6 +1353,9 @@ h3 strong {
   }
   .sm\:p-8 {
     padding: 2rem;
+  }
+  .sm\:p-4 {
+    padding: 1rem;
   }
   .sm\:px-16 {
     padding-left: 4rem;
@@ -1404,6 +1425,9 @@ h3 strong {
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
+  .md\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
   .md\:content-center {
     align-content: center;
   }
@@ -1415,6 +1439,10 @@ h3 strong {
   }
   .md\:p-16 {
     padding: 4rem;
+  }
+  .md\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
   .md\:pl-16 {
     padding-left: 4rem;
@@ -1436,6 +1464,9 @@ h3 strong {
   }
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
   .lg\:gap-8 {
     gap: 2rem;

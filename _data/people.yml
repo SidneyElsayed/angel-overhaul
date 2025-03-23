@@ -1,7 +1,7 @@
 card-loop:
       - heading: Meet Margie
-        name:
-        job-title:
+        name: Margie
+        job-title: Founder
         phone-number:
         email:
         short-description_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet 
@@ -10,8 +10,8 @@ card-loop:
         image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
       - heading: Meet Mark
-        name:
-        job-title:
+        name: Mark
+        job-title: Founder
         phone-number:
         email:
         short-description_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus saepe eveniet necessitatibus saepe eveniet ebitis aut.
@@ -19,4 +19,33 @@ card-loop:
         button-link: 
         image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
-      
+      - heading: 
+        name: Dave Becker
+        job-title: President & CEO
+        phone-number: 612-627-9000 ext. 504
+        email: dbecker@mnangel.org
+        short-description_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum necessitat saepe eveniet atibus saepe eveniet ebitis aut.
+        button-text: 
+        button-link: 
+        image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        alt:
+      - heading: 
+        name: Maddy Lamers
+        job-title: Development & Communications Associate
+        phone-number: 612-627-9000 ext. 504
+        email: malmers@mnangel.org
+        short-description_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum necessitat saepe eveniet atibus saepe eveniet ebitis aut.
+        button-text: 
+        button-link: 
+        image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        alt:
+      - heading: 
+        name: Kathy Tolo
+        job-title: Vice President of Development
+        phone-number: 612-627-9000 ext. 504
+        email: dbecker@mnangel.org
+        short-description_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum necessitat saepe eveniet atibus saepe eveniet ebitis aut.
+        button-text: 
+        button-link: 
+        image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        alt:
