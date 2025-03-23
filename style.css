@@ -47,6 +47,10 @@ li {
   font-weight: 100;
 }
 
+::marker {
+  display: inline-block;
+}
+
 /* Italic for color-highlight hack */
 h1 strong {
     font-weight: inherit;
