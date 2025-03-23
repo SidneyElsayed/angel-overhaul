@@ -1,11 +1,11 @@
 <section id="">
-  <div class="max-width mx-auto pb-16 px-8 sm:px-16">
+  <div class="max-width mx-auto py-16 px-8 sm:px-16">
     <!-- Actual content starts here, so that the above has the max width -->
 
     {% if block.section-heading %}
 
     <h2
-      class="px-8 sm:px-16 featured-text font-bold uppercase text-5xl"
+      class="pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl"
     >
       {{block.section-heading}}
     </h2>
@@ -14,11 +14,11 @@
 
     <!-- w3 schools accordion -->
     {% for item in block.accordion-loop %} 
-      {% if item.question and item.answer %}
-      <div class="border border-[#0F2343] rounded-2xl">
-        <button class="accordion">{{item.question}}</button>
+      {% if item.question and item.answer_html %}
+      <div class="p-4 border border-[var(--text-color)] rounded-2xl">
+        <button class="accordion font-semibold">{{item.question}}</button>
 
-        <div class="panel">
+        <div class="pt-2 panel ease-in-out hidden font-thin">
             <p>{{item.answer_html}}</p>
         </div>
       </div>

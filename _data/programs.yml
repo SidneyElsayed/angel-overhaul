@@ -5,7 +5,7 @@ card-loop:
         button-link: /index
         image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
-        question-loop:
+        accordion-loop:
           - question: Can patients visit the Angel Foundation™ office to expedite the process?
             answer_html: While we are unable to take walk-ins, we are available by phone or email to answer questions. 
           - question: Can a patient apply again after the initial financial assistance is received?
@@ -43,7 +43,7 @@ card-loop:
         answer_html: Parenting through cancer can be difficult. Adult & Family programming and Angel Packs™ offer parents guidance on how to open up healthy lines of communication with their children; how to talk honestly about their diagnosis; and different behaviors that may manifest in their child. Parents are also encouraged to reflect on their own needs, identify reliable self-care techniques, and build a support network through interaction with other families who attend program activities.
         question: What support do we offer children, preteens, and teens?
         answer_html: Children learn about cancer in age-appropriate and evidence-based programs and activities, such as Camp Angel, medical play sessions, and family retreats. These activities help children understand they can’t “catch” cancer like a cold or influenza, they didn’t cause their parent’s cancer by anything they did or said, and that it’s okay to cry. Children benefit from peer support with other kids who are going through a similar experience. Through Angel Foundation’s™ community of support, they see that they do not have to go through the cancer experience alone.
-      - heading: Angel Packs
+      - heading: Angel Packs™
         short-description_html: Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         button-text: Read more
         button-link: /index

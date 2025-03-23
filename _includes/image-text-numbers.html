@@ -26,10 +26,16 @@
     <div class="px-8 sm:px-16 pt-16 col-span-2 md:col-span-1 pr-12 {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %} 
     
     {% if block.image-placement == 'right' %} md:order-first {% endif %}">
+
+      <!-- Date on Annual Events Page -->
+      {% if block.date %}
+      <p class="pb-4 font-extrabold text-lg uppercase text-[var(--featured-color)] featured-text tracking-wide">{{block.date}}</p>
+      {% endif %}
+
       <!-- Text Block Heading -->
       {% if block.text-block-heading %}
       <div>
-        <h2 class="pb-8 featured-text text-5xl font-extrabold uppercase tracking-wide">{{block.text-block-heading}}</h2>
+        <h2 class="pb-6 featured-text text-5xl font-extrabold uppercase tracking-wide">{{block.text-block-heading}}</h2>
       </div>
       {% endif %}
 
@@ -45,6 +51,7 @@
         {% endfor %}
       </div>
 
+    
       <!-- Description -->
       {% if block.description_html %}
       <div>
