@@ -1009,9 +1009,13 @@ p {
 
 .featured-text { font-family: "Montserrat", serif;}
 
+ol, ul {
+  padding: 1.5rem;
+}
 
 ul li {
   list-style-type: disc;
+
 }
 
 ol li {
@@ -1020,14 +1024,16 @@ ol li {
 
 li {
   display: list-item;
-  list-style-position: inside;
-  padding-left: 0.5rem;
+  list-style-position: outside;
+  vertical-align: text-top;
   font-weight: 100;
+  padding-left: 0.5rem;
 }
 
-::marker {
-  display: inline-block;
-}
+
+
+
+
 
 /* Italic for color-highlight hack */
 h1 strong {
