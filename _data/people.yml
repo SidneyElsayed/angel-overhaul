@@ -9,7 +9,7 @@ jobs-loop:
           Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
           necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe
           eveniet ebitis aut rerum necessitatibus saepe eveniet
-        color:
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
         image: >-
