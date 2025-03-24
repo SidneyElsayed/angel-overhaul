@@ -20,7 +20,7 @@
     
     {% if block.paragraph-text-alignment == 'left' %} text-left {% elsif block.paragraph-text-alignment == 'center' %} text-center {% elsif block.paragraph-text-alignment == 'right' %} text-right {% endif %}">
       {% if block.text_html %}
-        <p class="{% if block.heading %} pt-2 {% else %} pt-0 {% endif %} pb-4 font-thin block">{{block.text_html}}</p>
+        <p class="{% if block.heading %} pt-2 {% else %} pt-0 {% endif %} font-thin block">{{block.text_html}}</p>
       {% endif %}
 
 
