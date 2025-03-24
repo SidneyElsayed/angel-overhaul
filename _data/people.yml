@@ -3,7 +3,7 @@ jobs-loop:
     people:
       - name: Dr. Uzma Ali
         job-title: Medical Oncologist
-        phone-number:
+        phone-number: <p>Minnesota Oncology Hematology, PA</p>
         email:
         short-description_html: >-
           Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
@@ -17,7 +17,7 @@ jobs-loop:
         alt:
       - name: Marc Baer
         job-title: Vice President
-        phone-number:
+        phone-number: <p>Centene Corporation</p>
         email:
         short-description_html: >-
           Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
@@ -71,28 +71,14 @@ jobs-loop:
         alt:
   - jd: Staff
     people:
-      - name: Margie
-        job-title: Founder
-        phone-number:
+      - name: Sidney Elsayed
+        job-title: Web Developer
+        phone-number: ''
         email:
         short-description_html: >-
           Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
           necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe
           eveniet ebitis aut rerum necessitatibus saepe eveniet
-        button-text:
-        button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
-        alt:
-      - name: Mark
-        job-title: Founder
-        phone-number:
-        email:
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe
-          eveniet ebitis aut rerum necessitatibus saepe eveniet necessitatibus
-          saepe eveniet ebitis aut.
         button-text:
         button-link:
         image: >-
