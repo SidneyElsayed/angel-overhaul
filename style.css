@@ -143,13 +143,12 @@ h3 strong {
   display: none; 
   background-color: var(--featured-color-dark-navy);
   padding: 5%;
-  position: fixed; 
+  padding-top: 12%;
+  position: fixed;
   z-index:3;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
-  text-align: center;
 }
 
 .mobile-menu a {
@@ -157,7 +156,22 @@ h3 strong {
   color: inherit; 
   padding: 2%;
   display: block;
-  font-weight: normal;
+}
+
+.mobile-menu a:hover {
+  color: var(--featured-color-v-light-blue)
+}
+
+.mobile-menu .title {
+  color: var(--featured-color-light-blue);
+  font-weight: 600;
+  font-family: "Montserrat", serif;
+  text-transform: uppercase;
+}
+
+.mobile-menu .mob-button {
+  color: var(--featured-color-dark-navy);
+  display: inline-block;
 }
 
 /* Button Styles */
@@ -181,7 +195,7 @@ h3 strong {
     color: var(--button-1-text-color);
 }
 
-.button-2 {
+.button-2, .jobButton.active {
     background-color: var(--button-2-bg);
     color: var(--button-2-text-color);
 }

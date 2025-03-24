@@ -2,7 +2,7 @@ card-loop:
       - heading: Emergency Financial Assistance
         short-description_html: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.
         button-text: Find out more
-        button-link: /index
+        button-link: /emergency-financial-assistance.html
         image: https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
         accordion-loop:
@@ -17,7 +17,7 @@ card-loop:
       - heading: Financial Cancer Care
         short-description_html: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         button-text: Learn more
-        button-link: /index
+        button-link: /financial-cancer-care.html
         image: https://images.unsplash.com/photo-1631217871099-88310a909a32?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D
         alt:
         question-loop:
@@ -32,7 +32,7 @@ card-loop:
       - heading: Adult & Family Programs
         short-description_html: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         button-text: Read more
-        button-link: /index
+        button-link: /adult-and-family-programs.html
         image: https://images.unsplash.com/photo-1580281667316-a9b64f3080a7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjA3fHx8ZW58MHx8fHx8
         alt:
         question: What services do the Adult & Family Programs provide?
@@ -46,7 +46,7 @@ card-loop:
       - heading: Angel Packs™
         short-description_html: Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         button-text: Read more
-        button-link: /index
+        button-link: /angel-packs.html
         image: https://images.unsplash.com/photo-1577896849786-738ed6c78bd3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjczfHx8ZW58MHx8fHx8
         alt:
         question:

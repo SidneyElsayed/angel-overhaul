@@ -15,21 +15,16 @@ blocks:
 <!-- Job buttons -->
 <div class="px-8 sm:px-16 py-8 flex flex-nowrap overflow-x-scroll no-scrollbar justify-center">
   {% for jobs in site.data.people.jobs-loop %}
-    <span class="button-1 shrink-0 jobButton text-base-color m-2" data-job-value="{{jobs.jd | replace:' ','-' }}">{{jobs.jd}}</span>
+    <span class="button-1 shrink-0 jobButton text-base-color m-2 {% if forloop.first %} active {% endif %}" data-job-value="{{jobs.jd | replace:' ','-' }}">{{jobs.jd}}</span>
   {% endfor %}
 </div>
 
 <!-- People in the job -->
 {% for jobs in site.data.people.jobs-loop %}
-{% assign people-count = 1 %}
-{% assign total-people = jobs.people.size %}
 <div class="{% unless forloop.first %} hidden {% endunless %} filterJob {{jobs.jd | replace:' ','-' }}">
-
-  {% for item in jobs.people %}
-
   <div class="px-8 md:px-16 py-16">
     <div class="grid grid-cols-3 lg:grid-cols-4 gap-6 text-center">
-    {% for item in site.data.people.jobs-loop %}
+    {% for item in jobs.people %}
 
         <!-- Jobs Loop -->
         <div class="col-span-1 rounded-lg bg-[var(--featured-color-green)] ">
@@ -39,19 +34,16 @@ blocks:
           </div>
 
           <!-- Text -->
-          <div class="p-5 sm:p-4 pb-8 rounded-b-lg {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %} bg-[var(--featured-color-dark-navy)] text-[var(--base-color)] ">
+          <div class="p-5 sm:p-4 pb-8 rounded-b-lg {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %} text-[var(--base-color)] bg-[var(--featured-color-dark-navy)]" {% if item.color %} style="background-color: {{item.color}}" {% endif %}>
             <h3 class="pb-2 featured-text font-semibold text-xl">{{item.name}}</h3>
             <p class="pb-2 font-semibold uppercase text-xs tracking-widest text-[var(--featured-color-medium-blue)]">{{item.job-title}}</p>
             <p class="">{{item.phone-number}}</p>
 
           </div>
-          {% assign people-count = people-count | plus: 1 %}
         </div>
-      
-      {% endfor %}
+      {% endfor %}    
     </div>
   </div>
-{% endfor %}
   
 </div>
 {% endfor %}
@@ -74,7 +66,7 @@ blocks:
 
     this.classList.add('active')
 
-    filterJob .forEach (day => {
+    filterJob .forEach (job => {
       console.log(job)
 
       if (job.classList.contains(this.dataset.jobValue))  {

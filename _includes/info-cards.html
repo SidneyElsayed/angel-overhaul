@@ -9,13 +9,16 @@
   <h2 class="pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl">{{block.section-heading}}</h2>
 
   {% endif %}
-
-  <div class="gap-10 pt-10 grid md:grid-cols-2 lg:grid-cols-4">
-
+  {% for item in item %}
+  {% if item.button-link == page.url %}
+  {% assign small-grid = true %}
+  {% endif %}
+  {% endfor %}
+  <div class="gap-10 pt-10 grid {% if small-grid %} md:grid-cols-3 {% else %} md:grid-cols-2 lg:grid-cols-4 {% endif %}">
   
 
     {% for item in item %}
-
+    {% unless item.button-link == page.url %}
       <!-- Card Loop -->
       <div class="rounded-lg bg-[var(--base-color)] ">
         <!-- Image -->
@@ -23,7 +26,7 @@
         <div class="info-card-container relative">
           <img class="aspect-square rounded-t-lg  object-cover w-full info-card-image" src="{{item.image}}" alt="{{item.alt}}">
           <div class="info-card-middle aspect-square rounded-t-lg  object-cover place-content-center w-[80%]">
-            <p class="info-card-short-description p-4 rounded-2xl">{{item.short-description_html}}</p>
+            <p class="info-card-short-description p-4 rounded-2xl">{{item.short-description_html | truncate:110}}</p>
           </div>
         </div>
         {% endif %}
@@ -42,7 +45,7 @@
 
         </div>
       </div>
-    
+    {% endunless %}
     {% endfor %}
 
   </div>
