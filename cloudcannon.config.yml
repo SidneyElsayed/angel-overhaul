@@ -177,6 +177,18 @@ _inputs:
     label: Card description
     comment: Do you want these cards to show the short description?
     cascade: true
+  color:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - var(--featured-color-dark-navy)
+        - var(--featured-color-angel-blue)
+        - var(--featured-color-medium-blue)
+    label: Card background color
+    comment: >-
+      Choose what color you want the background of the card to be.
+    cascade: true
   overlay:
     type: select
     options:
