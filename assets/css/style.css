@@ -668,6 +668,12 @@ video {
 .place-content-end {
   place-content: end;
 }
+.place-content-between {
+  place-content: space-between;
+}
+.place-content-evenly {
+  place-content: space-evenly;
+}
 .content-center {
   align-content: center;
 }
