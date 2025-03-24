@@ -24,7 +24,7 @@ jobs-loop:
           necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe
           eveniet ebitis aut rerum necessitatibus saepe eveniet necessitatibus
           saepe eveniet ebitis aut.
-        color: 
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: >-
@@ -38,7 +38,7 @@ jobs-loop:
           Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
           necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum
           necessitat saepe eveniet atibus saepe eveniet ebitis aut.
-        color:
+        color: var(--featured-color-angel-blue)
         button-text:
         button-link:
         image: >-
@@ -52,7 +52,7 @@ jobs-loop:
           Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
           necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum
           necessitat saepe eveniet atibus saepe eveniet ebitis aut.
-        color:
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
         image: >-
