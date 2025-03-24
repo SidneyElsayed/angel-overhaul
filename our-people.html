@@ -23,7 +23,7 @@ blocks:
 {% for jobs in site.data.people.jobs-loop %}
 <div class="{% unless forloop.first %} hidden {% endunless %} filterJob {{jobs.jd | replace:' ','-' }}">
   <div class="px-8 md:px-16 py-16">
-    <div class="grid grid-cols-3 lg:grid-cols-4 gap-6 text-center">
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-center">
     {% for item in jobs.people %}
 
         <!-- Jobs Loop -->
@@ -36,7 +36,7 @@ blocks:
           <!-- Text -->
           <div class="p-5 sm:p-4 pb-8 rounded-b-lg {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %} text-[var(--base-color)] bg-[var(--featured-color-dark-navy)]" {% if item.color %} style="background-color: {{item.color}}" {% endif %}>
             <h3 class="pb-2 featured-text font-semibold text-xl">{{item.name}}</h3>
-            <p class="pb-2 font-semibold uppercase text-xs tracking-widest text-[var(--featured-color-medium-blue)]">{{item.job-title}}</p>
+            <p class="pb-2 font-semibold uppercase text-xs tracking-widest {% if item.color == 'var(--featured-color-medium-blue)' %} text-[var(--featured-color-dark-navy)] {% else %} text-[var(--featured-color-medium-blue)] {% endif %}">{{item.job-title}}</p>
             <p class="">{{item.phone-number}}</p>
 
           </div>
