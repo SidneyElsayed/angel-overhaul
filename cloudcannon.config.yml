@@ -269,6 +269,14 @@ _structures:
           text-placement:
           scheme-name:
       - label: image text numbers
+        _inputs:
+          text-block-heading_html:
+            type: markdown
+            options:
+              bold: true
+              format: h2
+              italic: true
+            cascade: true
         value:
           id: image-text-numbers
           image:
