@@ -316,3 +316,13 @@ h3 strong {
 .accordion .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+/* No scroll bar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

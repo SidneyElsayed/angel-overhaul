@@ -635,6 +635,9 @@ video {
 .grow {
   flex-grow: 1;
 }
+.basis-\[80\%\] {
+  flex-basis: 80%;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -667,12 +670,6 @@ video {
 }
 .place-content-end {
   place-content: end;
-}
-.place-content-between {
-  place-content: space-between;
-}
-.place-content-evenly {
-  place-content: space-evenly;
 }
 .content-center {
   align-content: center;
@@ -710,6 +707,9 @@ video {
 }
 .self-center {
   align-self: center;
+}
+.overflow-x-auto {
+  overflow-x: auto;
 }
 .overflow-x-scroll {
   overflow-x: scroll;
@@ -1012,11 +1012,11 @@ video {
 .text-\[var\(--featured-color\)\] {
   color: var(--featured-color);
 }
-.text-\[var\(--featured-color-medium-blue\)\] {
-  color: var(--featured-color-medium-blue);
-}
 .text-\[var\(--featured-color-dark-navy\)\] {
   color: var(--featured-color-dark-navy);
+}
+.text-\[var\(--featured-color-medium-blue\)\] {
+  color: var(--featured-color-medium-blue);
 }
 .overline {
   text-decoration-line: overline;
@@ -1341,34 +1341,36 @@ h3 strong {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
+/* No scroll bar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 .hover\:border-b-\[var\(--bg-color\)\]:hover {
   border-bottom-color: var(--bg-color);
 }
-
 .hover\:border-b-\[var\(--featured-color-angel-blue\)\]:hover {
   border-bottom-color: var(--featured-color-angel-blue);
 }
-
 .hover\:border-b-\[var\(--featured-color-medium-blue\)\]:hover {
   border-bottom-color: var(--featured-color-medium-blue);
 }
-
 .hover\:text-\[var\(--bg-color\)\]:hover {
   color: var(--bg-color);
 }
-
 .hover\:text-\[var\(--featured-color-angel-blue\)\]:hover {
   color: var(--featured-color-angel-blue);
 }
-
 .hover\:text-\[var\(--featured-color-medium-blue\)\]:hover {
   color: var(--featured-color-medium-blue);
 }
-
 .focus\:bg-\[var\(--featured-color-v-light-blue\)\]:focus {
   background-color: var(--featured-color-v-light-blue);
 }
-
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -1385,8 +1387,8 @@ h3 strong {
   .sm\:max-w-36 {
     max-width: 9rem;
   }
-  .sm\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+  .sm\:basis-\[60\%\] {
+    flex-basis: 60%;
   }
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1424,7 +1426,6 @@ h3 strong {
     line-height: 1;
   }
 }
-
 @media (min-width: 768px) {
   .md\:-bottom-10 {
     bottom: -2.5rem;
@@ -1461,6 +1462,9 @@ h3 strong {
   }
   .md\:min-w-full {
     min-width: 100%;
+  }
+  .md\:basis-\[30\%\] {
+    flex-basis: 30%;
   }
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1500,7 +1504,6 @@ h3 strong {
     padding-top: 0px;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
