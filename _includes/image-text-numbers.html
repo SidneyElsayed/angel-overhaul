@@ -5,9 +5,9 @@
 
 
   <!-- Section Heading -->
-  {% if block.section-heading %}
+  {% if block.section-heading_html %}
 
-  <h2 class="pb-12 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
+  <h2 class="pb-12 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading_html}}</h2>
 
   {% endif %}
 
@@ -33,9 +33,9 @@
       {% endif %}
 
       <!-- Text Block Heading -->
-      {% if block.text-block-heading %}
+      {% if block.text-block-heading_html %}
       <div>
-        <h2 class="pb-6 featured-text text-5xl font-extrabold uppercase tracking-wide">{{block.text-block-heading}}</h2>
+        <h2 class="pb-6 featured-text text-5xl font-extrabold uppercase tracking-wide">{{block.text-block-heading_html}}</h2>
       </div>
       {% endif %}
 
