@@ -270,7 +270,7 @@ _structures:
           scheme-name:
       - label: image text numbers
         _inputs:
-          text-block-heading_html:
+          text-block-heading:
             type: markdown
             options:
               bold: true
