@@ -153,6 +153,76 @@ jobs-loop:
         button-link:
         image: ''
         alt:
+      - name: Ashley MacHolda
+        job-title: Enterprise Account Executive
+        phone-number: <p>Salesforce</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-angel-blue)
+        button-text:
+        button-link:
+        image: /uploads/BoardPhotos/ashley-macholda.jpg
+        alt:
+      - name: Beth Monsrud
+        job-title: Senior Vice President & Chief Financial Officer
+        phone-number: <p>UCare</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-dark-navy)
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: Amy Rewey
+        job-title: Vice President, Business Transformation
+        phone-number: <p>Blue Cross and Blue Shield of Minnesota</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-angel-blue)
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: Margie Sborov
+        job-title: Founder
+        phone-number: <p>Angel Foundation</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: Glynis Schons
+        job-title: Sales Enablement Principal
+        phone-number: <p>Allianz Life</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-angel-blue)
+        button-text:
+        button-link:
+        image: /uploads/BoardPhotos/Glynis-Schons-for-Angel.jpg
+        alt:
+      - name: Scott Schufman
+        job-title: Chief Financial Officer
+        phone-number: <p>South Country Health Alliance</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-dark-navy)
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: Caitlyn Squire
+        job-title: Manager of Patient Support & Education for Cancer Care
+        phone-number: <p>HealthPartners</p>
+        email: ''
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: ''
+        alt:
   - jd: Staff
     people:
       - name: Melonie Allyn-Schwerin
