@@ -74,59 +74,153 @@ jobs-loop:
         alt:
   - jd: Staff
     people:
-      - name: Sidney Elsayed
-        job-title: Web Developer
-        phone-number: ''
+      - name: Melonie Allyn-Schwerin
+        job-title: Senior Data Analyst
+        phone-number: <p>(612) 627-9000 ext. 501</p>
         email:
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe
-          eveniet ebitis aut rerum necessitatibus saepe eveniet
+        short-description_html: ''
         color:
         button-text:
         button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        image: /uploads/melonie-use-sm.png
+        alt:
+      - name: DeAnne Anderson
+        job-title: Senior Executive Assistant & Operations
+        phone-number: <p>(612) 627-9000 ext. 503</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-dark-navy)
+        button-text:
+        button-link:
+        image: /uploads/deanne-use-summer.jpg
         alt:
       - name: Dave Becker
         job-title: President & CEO
-        phone-number: 612-627-9000 ext. 504
+        phone-number: (612) 627-9000 ext. 504
         email: dbecker@mnangel.org
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum
-          necessitat saepe eveniet atibus saepe eveniet ebitis aut.
+        short-description_html: ''
+        color: var(--featured-color-angel-blue)
+        button-text:
+        button-link:
+        image: /uploads/dave-website-sm.png
+        alt:
+      - name: Norah Cooper
+        job-title: Vice President of Mission Delivery
+        phone-number: <p>(612) 627-9000 ext. 502</p>
+        email:
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/norah-headshot-summer.png
+        alt:
+      - name: Rachel Goven
+        job-title: Development Coordinator
+        phone-number: <p>(612) 627-9000 ext. 505</p>
+        email:
+        short-description_html: ''
+        color: var(--featured-color-dark-navy)
+        button-text:
+        button-link:
+        image: /uploads/rachel.jpg
+        alt:
+      - name: Brianna Hager
+        job-title: Emergency Financial Assistance Manager
+        phone-number: <p>(612) 627-9000 ext. 514</p>
+        email:
+        short-description_html: ''
         color:
         button-text:
         button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        image: /uploads/StaffPhotos/Bri-use-6.24.png
+        alt:
+      - name: ''
+        job-title: ''
+        phone-number: ''
+        email:
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: ''
+        job-title: ''
+        phone-number: ''
+        email:
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: ''
+        job-title: ''
+        phone-number: ''
+        email:
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: ''
         alt:
       - name: Maddy Lamers
         job-title: Development & Communications Associate
         phone-number: 612-627-9000 ext. 504
-        email: malmers@mnangel.org
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum
-          necessitat saepe eveniet atibus saepe eveniet ebitis aut.
+        email:
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/img-6784-use.jpg
+        alt:
+      - name: ''
+        job-title: ''
+        phone-number: ''
+        email:
+        short-description_html: ''
         color:
         button-text:
         button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        image: ''
+        alt:
+      - name: ''
+        job-title: ''
+        phone-number: ''
+        email:
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: ''
         alt:
       - name: Kathy Tolo
         job-title: Vice President of Development
         phone-number: 612-627-9000 ext. 504
-        email: dbecker@mnangel.org
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum
-          necessitat saepe eveniet atibus saepe eveniet ebitis aut.
+        email:
+        short-description_html: ''
         color:
         button-text:
         button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        image: /uploads/kathy-use-summer.jpg
+        alt:
+      - name: ''
+        job-title: ''
+        phone-number: ''
+        email:
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: ''
+        job-title: ''
+        phone-number: ''
+        email:
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: ''
         alt:
