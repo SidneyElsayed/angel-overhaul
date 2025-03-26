@@ -17,7 +17,7 @@ jobs-loop:
         phone-number: <p>Centene Corporation</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-dark-navy)
+        color: var(--featured-color-angel-blue)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/mark-baer.jpg
@@ -27,7 +27,7 @@ jobs-loop:
         phone-number: SIVO Insights
         email:
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
         image: >-
@@ -38,7 +38,7 @@ jobs-loop:
         phone-number: C.H. Robinson
         email:
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-angel-blue)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Michael-Castagnetto-highres.jpg
@@ -52,6 +52,106 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/kirstie-foster.jpg
+        alt:
+      - name: Whitney Greene-Nymo
+        job-title: Former Executive Director, Strategic Program Development
+        phone-number: <p>Stanford Cancer Institute</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-angel-blue)
+        button-text:
+        button-link:
+        image: /uploads/BoardPhotos/Whitney-Greene-Nymo.jpg
+        alt:
+      - name: Alexia Hansen
+        job-title: Author
+        phone-number: <p>Alexia Chantel Author</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/BoardPhotos/Lexi-Hansen-Headshot.jpg
+        alt:
+      - name: Lisa Horgeshimer
+        job-title: Senior Manager, Global Merchant Services
+        phone-number: <p>American Express</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-angel-blue)
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: Ken Horstman
+        job-title: Vice President & Chief Human Resource Officer
+        phone-number: <p>University of Minnesota</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-dark-navy)
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: Jennifer Jones
+        job-title: Vice President of Community Relations
+        phone-number: ''
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-angel-blue)
+        button-text:
+        button-link:
+        image: /uploads/BoardPhotos/Jennifer-Jones.png
+        alt:
+      - name: Sandy Jones
+        job-title: Senior Director, Healthcare | Client Partner
+        phone-number: <p>LTIMindtree</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/BoardPhotos/sandy-jones.jpg
+        alt:
+      - name: Marcy Keckler
+        job-title: ''
+        phone-number: ''
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-angel-blue)
+        button-text:
+        button-link:
+        image: ''
+        alt:
+      - name: Stephanie Kennelly
+        job-title: Program Coordinator, Center for Genome Engineering
+        phone-number: <p>University of Minnesota</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-dark-navy)
+        button-text:
+        button-link:
+        image: /uploads/BoardPhotos/stephanie-kennelly-use.jpg
+        alt:
+      - name: Danielle Kirkwood
+        job-title: Client Operations
+        phone-number: <p>Nextern, Inc.</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-angel-blue)
+        button-text:
+        button-link:
+        image: /uploads/BoardPhotos/Danielle-Kirkwood-use.jpg
+        alt:
+      - name: Kristin LeBre
+        job-title: Employment Law Counsel
+        phone-number: <p>Marvin</p>
+        email: ''
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: ''
         alt:
   - jd: Staff
     people:
