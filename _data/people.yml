@@ -122,7 +122,7 @@ jobs-loop:
         color: var(--featured-color-dark-navy)
         button-text:
         button-link:
-        image: /uploads/rachel.jpg
+        image: /uploads/StaffPhotos/rachel.jpg
         alt:
       - name: Brianna Hager
         job-title: Emergency Financial Assistance Manager
