@@ -134,93 +134,93 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/Bri-use-6.24.png
         alt:
-      - name: ''
-        job-title: ''
-        phone-number: ''
+      - name: Erica Hollom
+        job-title: Director of Individual Giving & Special Events
+        phone-number: <p>(612) 627-9000 ext. 506</p>
         email:
         short-description_html: ''
-        color:
+        color: var(--featured-color-angel-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/StaffPhotos/Erica-Use-6.24.png
         alt:
-      - name: ''
-        job-title: ''
-        phone-number: ''
-        email:
-        short-description_html: ''
-        color:
-        button-text:
-        button-link:
-        image: ''
-        alt:
-      - name: ''
-        job-title: ''
-        phone-number: ''
-        email:
-        short-description_html: ''
-        color:
-        button-text:
-        button-link:
-        image: ''
-        alt:
-      - name: Maddy Lamers
-        job-title: Development & Communications Associate
-        phone-number: 612-627-9000 ext. 504
+      - name: Audelia Kouame
+        job-title: Financial Cancer Care Manager
+        phone-number: <p>(612) 627-9000 ext. 517</p>
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
+        image: /uploads/StaffPhotos/Audelia-Use.JPG
+        alt:
+      - name: Heather Lake
+        job-title: Program Coordinator (Duluth)
+        phone-number: <p>(612) 627-9000 ext. 515</p>
+        email:
+        short-description_html: ''
+        color: var(--featured-color-dark-navy)
+        button-text:
+        button-link:
+        image: /uploads/StaffPhotos/Heather-Lake-Headshot.jpg
+        alt:
+      - name: Maddy Lamers
+        job-title: Development & Communications Associate
+        phone-number: 612-627-9000 ext. 508
+        email:
+        short-description_html: ''
+        color: var(--featured-color-dark-navy)
+        button-text:
+        button-link:
         image: /uploads/img-6784-use.jpg
         alt:
-      - name: ''
-        job-title: ''
-        phone-number: ''
+      - name: Holly Muhammad
+        job-title: Director of Outreach and Adult & Family Programs
+        phone-number: <p>(612) 627-9000 ext. 509</p>
         email:
         short-description_html: ''
-        color:
+        color: var(--featured-color-angel-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/StaffPhotos/Holly-Headshot.png
         alt:
-      - name: ''
-        job-title: ''
-        phone-number: ''
+      - name: Jim Thrubis
+        job-title: Corporate Relations Manager
+        phone-number: <p>(612) 627-9000 ext. 510</p>
         email:
         short-description_html: ''
-        color:
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/StaffPhotos/Jim-Headshot-Fall.JPG
         alt:
       - name: Kathy Tolo
         job-title: Vice President of Development
-        phone-number: 612-627-9000 ext. 504
+        phone-number: 612-627-9000 ext. 516
         email:
         short-description_html: ''
-        color:
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/kathy-use-summer.jpg
         alt:
-      - name: ''
-        job-title: ''
-        phone-number: ''
+      - name: Aleah Van Horne
+        job-title: Leadership Giving Officer
+        phone-number: <p>(612) 627-9000 ext. 513</p>
         email:
         short-description_html: ''
-        color:
+        color: var(--featured-color-angel-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/StaffPhotos/Aleah-use.JPG
         alt:
-      - name: ''
-        job-title: ''
-        phone-number: ''
+      - name: Ka Zoua Xiong
+        job-title: Program Coordinator
+        phone-number: <p>(612) 627-9000 ext. 507</p>
         email:
         short-description_html: ''
-        color:
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/StaffPhotos/Ka-Zoua-1.png
         alt:
