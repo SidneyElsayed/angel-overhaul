@@ -5,10 +5,7 @@ jobs-loop:
         job-title: Medical Oncologist
         phone-number: <p>Minnesota Oncology Hematology, PA</p>
         email:
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe
-          eveniet ebitis aut rerum necessitatibus saepe eveniet
+        short-description_html: ''
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
@@ -19,11 +16,7 @@ jobs-loop:
         job-title: Vice President
         phone-number: <p>Centene Corporation</p>
         email:
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessitatibus saepe evenie ebitis aut rerum necessitatibus saepe
-          eveniet ebitis aut rerum necessitatibus saepe eveniet necessitatibus
-          saepe eveniet ebitis aut.
+        short-description_html: ''
         color: var(--featured-color-dark-navy)
         button-text:
         button-link:
