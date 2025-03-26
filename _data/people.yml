@@ -20,50 +20,38 @@ jobs-loop:
         color: var(--featured-color-dark-navy)
         button-text:
         button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        image: /uploads/BoardPhotos/mark-baer.jpg
         alt:
-      - name: Dave Becker
-        job-title: President & CEO
-        phone-number: 612-627-9000 ext. 504
-        email: dbecker@mnangel.org
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum
-          necessitat saepe eveniet atibus saepe eveniet ebitis aut.
+      - name: Cindy Blackstock
+        job-title: Co-founder & CEO
+        phone-number: SIVO Insights
+        email:
+        short-description_html: ''
         color: var(--featured-color-angel-blue)
         button-text:
         button-link:
         image: >-
           https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
         alt:
-      - name: Maddy Lamers
-        job-title: Development & Communications Associate
-        phone-number: 612-627-9000 ext. 504
-        email: malmers@mnangel.org
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum
-          necessitat saepe eveniet atibus saepe eveniet ebitis aut.
+      - name: Michael Castagnetto
+        job-title: President, N.A.S.T.
+        phone-number: C.H. Robinson
+        email:
+        short-description_html: ''
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        image: /uploads/BoardPhotos/Michael-Castagnetto-highres.jpg
         alt:
-      - name: Kathy Tolo
-        job-title: Vice President of Development
-        phone-number: 612-627-9000 ext. 504
+      - name: Kirstie Foster
+        job-title: Head of Global Brand & Communications
+        phone-number: Graco
         email: dbecker@mnangel.org
-        short-description_html: >-
-          Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum
-          necessy evenie ebitis aut rerum necessitatib eveniet ebitis aut rerum
-          necessitat saepe eveniet atibus saepe eveniet ebitis aut.
-        color:
+        short-description_html: ''
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        image: /uploads/BoardPhotos/kirstie-foster.jpg
         alt:
   - jd: Staff
     people:
