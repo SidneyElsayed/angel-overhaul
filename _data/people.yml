@@ -172,7 +172,7 @@ jobs-loop:
         color: var(--featured-color-dark-navy)
         button-text:
         button-link:
-        image: /uploads/img-6784-use.jpg
+        image: /uploads/StaffPhotos/img-6784-use.jpg
         alt:
       - name: Holly Muhammad
         job-title: Director of Outreach and Adult & Family Programs
@@ -202,7 +202,7 @@ jobs-loop:
         color: var(--featured-color-dark-navy)
         button-text:
         button-link:
-        image: /uploads/kathy-use-summer.jpg
+        image: /uploads/StaffPhotos/kathy-use-summer.jpg
         alt:
       - name: Aleah Van Horne
         job-title: Leadership Giving Officer
