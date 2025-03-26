@@ -6,7 +6,7 @@ jobs-loop:
         phone-number: <p>Minnesota Oncology Hematology, PA</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Uzma-Ali-MD_2-scaled.jpg
@@ -93,7 +93,7 @@ jobs-loop:
         alt:
       - name: Jennifer Jones
         job-title: Vice President of Community Relations
-        phone-number: ''
+        phone-number: <p>Ameriprise</p>
         email: ''
         short-description_html: ''
         color: var(--featured-color-angel-blue)
