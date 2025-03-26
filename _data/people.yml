@@ -102,7 +102,7 @@ jobs-loop:
         color: var(--featured-color-angel-blue)
         button-text:
         button-link:
-        image: /uploads/dave-website-sm.png
+        image: /uploads/StaffPhotos/dave-website-sm.png
         alt:
       - name: Norah Cooper
         job-title: Vice President of Mission Delivery
@@ -112,7 +112,7 @@ jobs-loop:
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: /uploads/norah-headshot-summer.png
+        image: /uploads/StaffPhotos/norah-headshot-summer.png
         alt:
       - name: Rachel Goven
         job-title: Development Coordinator
