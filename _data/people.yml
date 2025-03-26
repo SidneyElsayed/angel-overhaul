@@ -82,7 +82,7 @@ jobs-loop:
         color:
         button-text:
         button-link:
-        image: /uploads/melonie-use-sm.png
+        image: /uploads/StaffPhotos/Melonie-use-sm.png
         alt:
       - name: DeAnne Anderson
         job-title: Senior Executive Assistant & Operations
@@ -92,7 +92,7 @@ jobs-loop:
         color: var(--featured-color-dark-navy)
         button-text:
         button-link:
-        image: /uploads/deanne-use-summer.jpg
+        image: /uploads/StaffPhotos/deanne-use-summer.jpg
         alt:
       - name: Dave Becker
         job-title: President & CEO
