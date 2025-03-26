@@ -9,8 +9,7 @@ jobs-loop:
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        image: /uploads/BoardPhotos/Uzma-Ali-MD_2-scaled.jpg
         alt:
       - name: Marc Baer
         job-title: Vice President
@@ -30,8 +29,7 @@ jobs-loop:
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: >-
-          https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
+        image: /uploads/BoardPhotos/Cindy-Blackstock-Bio-Photo-scaled.jpg
         alt:
       - name: Michael Castagnetto
         job-title: President, N.A.S.T.
@@ -81,7 +79,7 @@ jobs-loop:
         color: var(--featured-color-angel-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/BoardPhotos/Horgeshimer-Lisa-.jpg
         alt:
       - name: Ken Horstman
         job-title: Vice President & Chief Human Resource Officer
@@ -91,7 +89,7 @@ jobs-loop:
         color: var(--featured-color-dark-navy)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/BoardPhotos/Web-1-e1641233992284.jpg
         alt:
       - name: Jennifer Jones
         job-title: Vice President of Community Relations
@@ -121,7 +119,7 @@ jobs-loop:
         color: var(--featured-color-angel-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/BoardPhotos/Marcy-Keckler-pic-2016.jpg
         alt:
       - name: Stephanie Kennelly
         job-title: Program Coordinator, Center for Genome Engineering
@@ -151,7 +149,7 @@ jobs-loop:
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/BoardPhotos/LeBre_Kristin_Media.jpg
         alt:
       - name: Ashley MacHolda
         job-title: Enterprise Account Executive
@@ -171,7 +169,7 @@ jobs-loop:
         color: var(--featured-color-dark-navy)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/BoardPhotos/Monsrud-Beth-.jpg
         alt:
       - name: Amy Rewey
         job-title: Vice President, Business Transformation
@@ -181,7 +179,7 @@ jobs-loop:
         color: var(--featured-color-angel-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/BoardPhotos/Rewey_formal_drk-scaled.jpg
         alt:
       - name: Margie Sborov
         job-title: Founder
@@ -191,7 +189,7 @@ jobs-loop:
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/BoardPhotos/sborov-for-bio.jpg
         alt:
       - name: Glynis Schons
         job-title: Sales Enablement Principal
@@ -211,7 +209,7 @@ jobs-loop:
         color: var(--featured-color-dark-navy)
         button-text:
         button-link:
-        image: ''
+        image: /uploads/BoardPhotos/Schufman-Scott-for-board-bio.jpg
         alt:
       - name: Caitlyn Squire
         job-title: Manager of Patient Support & Education for Cancer Care
