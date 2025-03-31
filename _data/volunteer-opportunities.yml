@@ -1,47 +1,81 @@
 card-loop:
-      - heading: Angel Gala 2025
-        image: https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
-        alt:
-        overline: Saturday, January 25, 2025
-        short-description_html: Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
-        location: The Depot, Minneapolis
-        commitment: One-time commitment
-        button-1-text: Apply now
-        button-1-link: /index
-        button-2-text: 
-        button-2-link: 
-      - heading: Angel Packs&#8482; Packing Parties
-        image: https://images.unsplash.com/photo-1576091160651-e028ca26a943?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzA4fHx8ZW58MHx8fHx8
-        alt:
-        overline: Ongoing
-        short-description_html: Snt et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet ut et voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
-        location: Remote
-        commitment: One-time commitment
-        button-1-text: 
-        button-1-link: 
-        button-2-text: 
-        button-2-link: 
-      - heading: Volunteer as a CPA&#174;
-        image: https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
-        alt:
-        overline: Ongoing
-        short-description_html: Voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet. 
-        location: Angel Office
-        commitment: Min 3 - 6 months | 4 hrs per week
-        button-1-text: Apply now
-        button-1-link: /index
-        button-2-text: Another button
-        button-2-link: /index
-      - heading: Emergency Financial Assistance Program Internship
-        image: https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
-        alt:
-        overline: Ongoing
-        short-description_html: Voluptates  repudiandae sint et molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet. 
-        location: Angel Office
-        commitment: Min 3 - 6 months | 4 hrs per week
-        minimum-experience: 
-        salary-range: School credit
-        button-1-text: Learn more
-        button-1-link: /index
-        button-2-text: 
-        button-2-link: 
+  - heading: Angel Packs&#8482; Packing Party
+    image: /uploads/MiscPhotos/IMG_9788.jpeg
+    alt:
+    overline: Ongoing
+    short-description_html: >-
+      Join us for a one-of-a-kind experience by helping assemble Angel Packs™:
+      age-appropriate and therapeutic kits for kids with a parent or with a
+      loved one with cancer. We welcome groups of 10 or fewer to pack kits at
+      Angel Foundation's™ office in Mendota Heights.
+    location: Angel Foundation™ Office
+    commitment: One-time commitment
+    button-1-text: Learn More
+    button-1-link: >-
+      mailto:programs@mnangel.org?subject=Angel%20Pack%20Packing%20Party%20Inquiry
+    button-2-text:
+    button-2-link:
+  - heading: Event Volunteers
+    image: /uploads/MiscPhotos/20250125_angel-foundation_0110-sm.jpg
+    alt:
+    overline:
+    short-description_html: >-
+      Angel Foundation™ hosts three major fundraising events each year: the
+      Angel Gala in January, the Lives We Touch Luncheon in May, and the Angel
+      &amp; Eagles Golf Classic in July. We rely on individual and group
+      volunteers to help events run smoothly, both in advance and on event day.
+    location: The Depot, Minneapolis
+    commitment: One-time commitment
+    button-1-text: Apply
+    button-1-link: /index
+    button-2-text:
+    button-2-link:
+  - heading: Volunteer as a Certified Financial Planner&#174;
+    image: >-
+      https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
+    alt:
+    overline: Ongoing
+    short-description_html: >-
+      We are seeking Certified Financial Planners® to volunteer with our
+      Financial Cancer Care program to make a difference for cancer patients in
+      need of financial guidance. Patients and Certified Financial Planners®
+      meet one-on-one for up to three sessions.
+    location: Remote
+    commitment:
+    button-1-text: Apply
+    button-1-link: /index
+    button-2-text: Another button
+    button-2-link: /index
+  - heading: Making Memories Volunteer
+    image: ''
+    alt:
+    overline: ''
+    short-description_html: >-
+      <p>Making Memories is seeking friendly, reliable, and organized volunteers
+      to assist with event reminder calls and staffing at events
+      (nights/weekends). Training will be provided. Both individuals and small
+      (2-5 person) volunteer groups are welcome.</p>
+    location: Various
+    commitment: ''
+    minimum-experience:
+    salary-range: ''
+    button-1-text: ''
+    button-1-link: ''
+    button-2-text:
+    button-2-link:
+  - heading: Internship Opportunities
+    image: >-
+      https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
+    alt:
+    overline: Ongoing
+    short-description_html: >-
+      We are seeking enthusiastic and dedicated interns to support
+      administrative tasks and programs at our office.
+    location: Angel Office
+    commitment: Min 3 - 6 months | 4 hrs per week
+    minimum-experience:
+    salary-range: School credit
+    button-1-text: Learn more
+    button-1-link: /index
+    button-2-text:
+    button-2-link:
