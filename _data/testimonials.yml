@@ -1,25 +1,84 @@
 quote-loop:
-      - name: Annie, efa recipient
-        quote_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error.
-        image: https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
-        alt:
-        image-horizontal-focal-point: center
-        image-vertical-focal-point: center
-      - name: Maddy, Development & Communications Associate
-        quote_html: Eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur adipisicing elit. Excepturi ipsum dolorem, distinctio error.
-        image: 
-        alt:
-        image-horizontal-focal-point: center
-        image-vertical-focal-point: center
-      - name: Dave, President & CEO
-        quote_html: Lorem ebitis aut rerum necessitatibus saepe eveniet ebitis aut rerum necessitatibus dolor sit amet consectetur.
-        image: https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
-        alt:
-        image-horizontal-focal-point: center
-        image-vertical-focal-point: center
-      - name:
-        quote_html:
-        image: 
-        alt:
-        image-horizontal-focal-point: center
-        image-vertical-focal-point: center
+  - name: Adult & Family Programs Participant
+    quote_html: >-
+      "Thank you again for the Gopher tickets! It was such a great game and a
+      fun experience for our family. So much of the focus has been on me dealing
+      with my cancer diagnosis and treatment, but my husband has taken care of
+      me and kept our family functioning. Today, you helped fill his cup. I
+      loved seeing him smile. Thank you!"
+    image: >-
+      https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
+    alt:
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
+  - name: Adult & Family Programs Participant
+    quote_html: >-
+      "These Making Memories events are so helpful to families going through
+      cancer. They provide amazing opportunities for us to get out, live life,
+      and forget about cancer for a few hours."
+    image:
+    alt:
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
+  - name: Adult & Family Programs Participant
+    quote_html: >-
+      "The Making Memories program has motivated me and my family to prioritize
+      making memories together, even when I'm not feeling well. We are so
+      grateful not to have to worry about financial concerns of social outings
+      when so much else is uncertain."
+    image: >-
+      https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
+    alt:
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
+  - name: Adult & Family Programs Participant
+    quote_html: >-
+      <p>"Cancer can be all-consuming when you are feeling overwhelmed by nausea
+      and fatigue. The Making Memories events allow for low-key family time and
+      a chance to connect with others who are in the same situation. Thank
+      you!"</p>
+    image:
+    alt:
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
+  - name: Emergency Financial Assistance Recipient
+    quote_html: >-
+      <p>"Words cannot express how much that Emergency Financial Assistance
+      grant made a difference in my life. I had already fallen behind on a
+      couple of bills, causing me to feel stressed. Your grant took away the
+      stress and gave me peace knowing that I was able to drastically lower the
+      amounts I owed. Thank you for being there just when I needed you
+      most."</p>
+    image:
+    alt:
+    image-horizontal-focal-point: ''
+    image-vertical-focal-point: ''
+  - name: Emergency Financial Assistance Recipient
+    quote_html: >-
+      <p>"I am truly grateful that Angel Foundation™ exists to provide financial
+      support for people suffering from cancer. You make a tremendous difference
+      and have made me feel that I am not alone.  Thank you so much for your
+      support!"</p>
+    image:
+    alt:
+    image-horizontal-focal-point: ''
+    image-vertical-focal-point: ''
+  - name: Emergency Financial Assistance Recipient
+    quote_html: >-
+      <p>"Thank you so much for your help. It eased our stress to have rent
+      covered for a month and be able to buy groceries. We really appreciate
+      Angel Foundation™ and all you are doing to help people with cancer."</p>
+    image:
+    alt:
+    image-horizontal-focal-point: ''
+    image-vertical-focal-point: ''
+  - name: Emergency Financial Assistance Recipient
+    quote_html: >-
+      <p>"I want you to know how much I appreciate your help, sympathy, and
+      support as I navigate my cancer journey. Angel Foundation™ and the
+      Emergency Financial Assistance Program are so appreciated. I am grateful
+      for the support you have given me."</p>
+    image:
+    alt:
+    image-horizontal-focal-point: ''
+    image-vertical-focal-point: ''
