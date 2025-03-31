@@ -333,16 +333,6 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/Holly-Headshot.png
         alt:
-      - name: Jim Thrubis
-        job-title: Corporate Relations Manager
-        phone-number: <p>(612) 627-9000 ext. 510</p>
-        email:
-        short-description_html: ''
-        color: var(--featured-color-medium-blue)
-        button-text:
-        button-link:
-        image: /uploads/StaffPhotos/Jim-Headshot-Fall.JPG
-        alt:
       - name: Kathy Tolo
         job-title: Vice President of Development
         phone-number: 612-627-9000 ext. 516
