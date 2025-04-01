@@ -3,9 +3,8 @@ card-loop:
     short-description_html: Addresses immediate financial concerns for patients in active treatment.
     button-text: Find out more
     button-link: /emergency-financial-assistance.html
-    image: >-
-      https://images.unsplash.com/photo-1576089235406-0612d7bb033e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzE0fHx8ZW58MHx8fHx8
-    alt:
+    image: /uploads/MiscPhotos/Stock-photo-5-(1).jpg
+    alt: Smiling family of five in a sunny park.
     accordion-loop:
       - question: >-
           Can patients visit the Angel Foundation™ office to expedite the
