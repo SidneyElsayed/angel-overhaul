@@ -35,7 +35,7 @@ card-loop:
     question:
     answer_html: ''
   - heading: Adult & Family Programs
-    short-description_html: Provide social and educational programs to families impacted by cancer.
+    short-description_html: Provides social and educational programs to families impacted by cancer.
     button-text: Read more
     button-link: /adult-and-family-programs.html
     image: /uploads/MiscPhotos/IMG_7652-(1).jpg
@@ -52,8 +52,8 @@ card-loop:
       that they do not have to go through the cancer experience alone.
   - heading: Angel Packs™
     short-description_html: >-
-      Age-appropriate and therapeutic kits for kids who have a loved one with
-      cancer.
+      Offer age-appropriate and therapeutic kits for kids who have a loved one
+      with cancer.
     button-text: Read more
     button-link: /angel-packs.html
     image: /uploads/AngelPack/IMG_8011-(1).jpg
