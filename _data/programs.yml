@@ -1,9 +1,6 @@
 card-loop:
   - heading: Emergency Financial Assistance
-    short-description_html: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto.
+    short-description_html: Addresses immediate financial concerns for patients in active treatment.
     button-text: Find out more
     button-link: /emergency-financial-assistance.html
     image: >-
@@ -30,9 +27,7 @@ card-loop:
       - question:
         answer_html:
   - heading: Financial Cancer Care
-    short-description_html: >-
-      Helps patients create a long-term financial strategy to address the
-      financial burden of cancer.
+    short-description_html: Offers pro bono financial guidance for cancer patients and their families.
     button-text: Learn more
     button-link: /financial-cancer-care.html
     image: >-
@@ -42,12 +37,7 @@ card-loop:
     question:
     answer_html: ''
   - heading: Adult & Family Programs
-    short-description_html: >-
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-      doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-      inventore veritatis et quasi architecto. Ut enim ad minim veniam, quis
-      nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
+    short-description_html: Provide social and educational programs to families impacted by cancer.
     button-text: Read more
     button-link: /adult-and-family-programs.html
     image: >-
@@ -65,14 +55,12 @@ card-loop:
       that they do not have to go through the cancer experience alone.
   - heading: Angel Packs™
     short-description_html: >-
-      Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-      illo inventore veritatis et quasi architecto. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
+      Age-appropriate and therapeutic kits for kids who have a loved one with
+      cancer.
     button-text: Read more
     button-link: /angel-packs.html
     image: >-
       https://images.unsplash.com/photo-1577896849786-738ed6c78bd3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjczfHx8ZW58MHx8fHx8
     alt:
     question:
-    answer_html:
+    answer_html: ''
