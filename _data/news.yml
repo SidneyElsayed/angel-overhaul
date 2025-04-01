@@ -1,33 +1,62 @@
 card-loop:
-  - heading: Kare-11 News Segment
-    image: >-
-      https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
-    alt:
+  - heading: Angel Foundation™ Featured on AM950
+    image: /uploads/StaffPhotos/Holly-Headshot.png
+    alt: 'A smiling brunette woman against a leafy background. '
+    overline: March 1, 2025
+    short-description_html: >-
+      Holly Muhammad, staff member at Angel Foundation™, joined host Ken Haglind
+      on the “Living Healthy and Aging Well” radio show to discuss the resources
+      Angel Foundation™ offers to cancer patients and their families.
+    article-link: 'https://www.am950radio.com/living-healthy-and-aging-well-march-1-2025/ '
+  - heading: Angel Foundation™ President & CEO Joins KSTP for World Cancer Day
+    image: /uploads/MiscPhotos/KTSP-logo-(1).png
+    alt: 5 Eyewitness News Logo of a white 5 on a red background.
     overline: February 1, 2025
     short-description_html: >-
-      Earum rerum hic tenetur a sapiente. Non recusandae. Itaque earum rerum
-      hic  tenetur a sapiente earum rerum hic  tenetur a sapiente.
-    article-link: /index
-  - heading: Feature in the New York Times
-    image: >-
-      https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
-    alt:
-    overline: November 3, 2024
+      KTSP welcomed Dave Becker, President &amp; CEO of Angel Foundation™, to
+      speak on their World Cancer Day segment. In this news clip, Dave discusses
+      the wrap around services Angel Foundation™ provides to over 4,000 cancer
+      patients and their families annually.
+    article-link: >-
+      https://kstp.com/kstp-news/local-news/interview-angel-foundation-supports-cancer-patients-and-families/
+  - heading: JNBA Financial Welcomes Angel Foundation™ to Duluth
+    image: /uploads/MiscPhotos/JNBA-duluth-event-picture-(1).jpg
+    alt: >-
+      A welcome sign featuring Angel Foundation’s™ logo and a note that says
+      “thank you for joining us” above a JNBA Financial Advisors logo. 
+    overline: June 5, 2024
     short-description_html: >-
-      Voluptates  repudiandae sint et molestiae non recusandae. Itaque earum
-      rerum hic  tenetur a sapiente earum rerum hic tenetur a sapiente. Non
-      recusandae. Itaque earum rerum hic  tenetur a sapiente earum rerum hic 
-      tenetur a sapiente. Lorem ebitis aut rerum necessitatibus saepe eveniet.
-    article-link: /index
-  - heading: Washington Post Article
-    image: >-
-      https://images.unsplash.com/photo-1576091160651-e028ca26a943?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MzA4fHx8ZW58MHx8fHx8
-    alt:
-    overline: January 26, 2025
+      Angel Foundation™ expanded our service area to include St. Louis County at
+      the start of 2024. JNBA Financial hosted an event to introduce Angel
+      Foundation™ to the Duluth community and share information about the
+      critical services we offer cancer patients and their families.
+    article-link_html: >-
+      https://www.wdio.com/front-page/top-stories/hoops-brewing-welcomes-the-angel-foundation-to-duluth/
+  - heading: 'Angel Foundation™ Aims to Raise $1 Million to Support Cancer Patients '
+    image: /uploads/StaffPhotos/Erica-Use-6.24.png
+    alt: 'A smiling blonde woman against a leafy background. '
+    overline: January 26, 2024
     short-description_html: >-
-      Snt et molestiae non recusandae. Itaque earum rerum hic  tenetur a
-      sapiente earum rerum hic  tenetur a sapiente. Lorem ebitis aut rerum
-      necessitatibus saepe eveniet ut et voluptates  repudiandae sint et
-      molestiae non recusandae. Itaque earum rerum hic  tenetur a sapiente earum
-      rerum hic  tenetur a sapiente.
-    article-link_html: /index
+      <p>Erica Hollom, staff member at Angel Foundation™, joined KARE-11 to
+      share details about the 2024 Angel Gala, which aimed to raise over $1
+      Million to support Minnesotans impacted by cancer.</p>
+    article-link_html: >-
+      <p>https://www.kare11.com/article/news/local/news-at-noon/angel-gala-aims-to-raise-1-million-adults-and-families-with-cancer-minneapolis/89-0ac9907e-4317-41ca-92f2-453ccefb8b77</p>
+  - heading: Angel Foundation™ Featured on KARE-11 to Promote Angel Packs™
+    image: /uploads/AngelPack/IMG_8011-(1).jpg
+    alt: A smiling stuffed lion leaning against a blue Child’s Angel Pack™.
+    overline: July 31, 2023
+    short-description_html: >-
+      <p>KARE-11 sat down with a recipient of one of Angel Foundation’s™ Angel
+      Packs™. Following this meeting, KARE-11 published an article explaining
+      how these educational kits help children navigate the challenges of having
+      a parent or loved one with cancer, providing reassurance and valuable
+      support strategies.</p>
+    article-link_html: >-
+      <p>https://www.kare11.com/article/news/local/outreach/communities-that-kare/twin-cities-nonprofit-gives-angel-packs-to-help-children-whose-grown-up-has-cancer/89-f8a63171-d737-4bb4-a0ad-725174df7a69?utm_medium=email&amp;utm_campaign=07-31%20Sunrise%20Newsletter&amp;utm_content=07-31%20Sunrise%20Newsletter+CID_a01ea377db830ca687ddbf924b7f313a&amp;utm_source=tegna%20email%20newsletter</p>
+  - heading: ''
+    image: ''
+    alt: ''
+    overline: ''
+    short-description_html: ''
+    article-link_html: ''
