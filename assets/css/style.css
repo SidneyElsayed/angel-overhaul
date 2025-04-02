@@ -749,9 +749,6 @@ video {
 .bg-\[var\(--featured-color-dark-navy\)\] {
   background-color: var(--featured-color-dark-navy);
 }
-.bg-\[var\(--featured-color-green\)\] {
-  background-color: var(--featured-color-green);
-}
 .bg-\[var\(--text-color\)\] {
   background-color: var(--text-color);
 }
@@ -1069,7 +1066,8 @@ p {
 .featured-text { font-family: "Montserrat", serif;}
 
 ol, ul {
-  padding: 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
 
 ul li {
@@ -1087,6 +1085,11 @@ li {
   vertical-align: text-top;
   font-weight: 100;
   padding-left: 0.5rem;
+}
+
+li p {
+
+  padding-bottom: 0.6rem;
 }
 
 
