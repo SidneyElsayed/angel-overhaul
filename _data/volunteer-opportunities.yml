@@ -49,18 +49,18 @@ card-loop:
   - heading: Making Memories Volunteer
     image: https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
     alt:
-    overline: ''
+    overline: 
     short-description_html: >-
       <p>Making Memories is seeking friendly, reliable, and organized volunteers
       to assist with event reminder calls and staffing at events
       (nights/weekends). Training will be provided. Both individuals and small
       (2-5 person) volunteer groups are welcome.</p>
     location: Various
-    commitment: ''
+    commitment: 
     minimum-experience:
-    salary-range: ''
-    button-1-text: ''
-    button-1-link: ''
+    salary-range: 
+    button-1-text: 
+    button-1-link: 
     button-2-text:
     button-2-link:
   - heading: Internship Opportunities
