@@ -1120,7 +1120,7 @@ p {
 
 .featured-text { font-family: "Montserrat", serif;}
 
-p .facts-numbers {
+.facts-numbers {
   font-size: 3rem;
   line-height: 1;
   font-weight: 800;
