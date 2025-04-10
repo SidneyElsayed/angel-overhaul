@@ -96,7 +96,7 @@ p {
 
 .featured-text { font-family: "Montserrat", serif;}
 
-.facts-numbers {
+.facts-numbers p {
   font-size: 3rem;
   line-height: 1;
   font-weight: 800;
