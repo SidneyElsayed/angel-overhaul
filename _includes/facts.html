@@ -14,9 +14,9 @@
   <!-- Facts -->
   <div class="grid grid-cols-5 justify-center">
     {% for item in block.facts-loop | limit:5 %}
-    {% if item.number and item.text %}
+    {% if item.featured and item.text %}
     <div class="py-4 pr-5 text-center justify-center">
-        <p class="pb-3 text-3xl sm:text-5xl font-extrabold block text-[var(--featured-color)]">{{item.number}}</p>
+        <p class="pb-3 text-3xl sm:text-5xl font-extrabold block text-[var(--featured-color)]">{{item.featured}}</p>
         <p class="text-sm/5 font-semibold block">{{item.text}}</p>
     </div>
     {% endif %}
