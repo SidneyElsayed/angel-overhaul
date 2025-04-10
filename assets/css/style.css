@@ -1058,7 +1058,7 @@ h1 {
 }
 
 .heading-has-long-words h1 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1427,6 +1427,18 @@ h3 strong {
 .no-scrollbar {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+
+/* ---------- Foundation's: Media Query ----------*/
+@media(max-width:61em) {
+  .heading-has-long-words h1 {
+    font-size: 2.3rem;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+  }
 }
 .hover\:border-b-\[var\(--bg-color\)\]:hover {
   border-bottom-color: var(--bg-color);
