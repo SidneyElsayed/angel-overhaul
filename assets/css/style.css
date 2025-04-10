@@ -1058,7 +1058,7 @@ h1 {
 }
 
 .heading-has-long-words h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1433,7 +1433,7 @@ h3 strong {
 /* ---------- Foundation's: Media Query ----------*/
 @media(max-width:61em) {
   .heading-has-long-words h1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     line-height: 1;
     font-weight: 800;
     letter-spacing: 0.025em;
