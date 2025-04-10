@@ -415,4 +415,10 @@ h3 strong {
     letter-spacing: 0.025em;
     text-transform: uppercase;
   }
+
+  .container {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+  }
 }
