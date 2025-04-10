@@ -8,12 +8,12 @@
       <img class="absolute w-full h-full object-cover object-center" style="object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" src="{{block.image}}" alt="{{block.alt}}">
     </div>
     <!-- Text -->
-    <div class="p-8 sm:p-16 col-span-1 pr-12 {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %} 
+    <div class="p-8 md:p-16 col-span-1 pr-12 {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %} 
     
     {% if block.image-placement == 'right' %} md:order-first {% endif %}">
       <!-- Heading -->
       <div>
-        <div class="pb-8 featured-text {% if heading-has-long-words == true %} heading-has-long-words {% endif %}">{{block.heading_html}}</div>
+        <div class="pb-8 featured-text {% if block.heading-has-long-words %} heading-has-long-words {% endif %}">{{block.heading_html}}</div>
       </div>
 
       <!-- Paragraph text -->
