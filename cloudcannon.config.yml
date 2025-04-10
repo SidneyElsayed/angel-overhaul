@@ -39,6 +39,13 @@ _inputs:
       italics: true
       underline: true
     cascade: true
+  number:
+    type: html
+    options:
+      bold: true
+      italics: true
+      underline: true
+    cascade: true
   layout:
     type: select
     options: 
@@ -262,6 +269,7 @@ _structures:
           image:
           alt:
           heading_html:
+          heading-has-long-words:
           text_html:
           button-1-text: 
           button-1-link: 
@@ -279,8 +287,9 @@ _structures:
           image:
           alt:
           caption:
-          section-heading:
-          text-block-heading:
+          section-heading_html:
+          text-block-heading_html:
+          heading-has-long-words:
           facts-loop:
             - number:
               text:
@@ -298,7 +307,7 @@ _structures:
       - label: text banner
         value:
           id: text-banner
-          heading:
+          heading_html:
           text_html:
           large-text-width: 
           paragraph-width: 
