@@ -96,6 +96,14 @@ p {
 
 .featured-text { font-family: "Montserrat", serif;}
 
+.facts-numbers {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 800;
+  color: var(--featured-color);
+  display: block;
+}
+
 ol, ul {
   padding-right: 1.5rem;
   padding-left: 1.5rem;

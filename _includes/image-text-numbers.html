@@ -44,7 +44,7 @@
         {% for item in block.facts-loop | limit:3 %}
         {% if item.number and item.text %}
         <div class="py-4 pr-5">
-            <p class="text-3xl sm:text-5xl font-extrabold block text-[var(--featured-color)]">{{item.number}}</p>
+            <p class="facts-numbers">{{item.number}}</p>
             <p class="text-sm/5 font-semibold block">{{item.text}}</p>
         </div>
         {% endif %}
