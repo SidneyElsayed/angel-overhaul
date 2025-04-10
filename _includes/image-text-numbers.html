@@ -40,10 +40,10 @@
       {% endif %}
 
       <!-- Facts -->
-      <div class="grid grid-cols-3">
+      <div class="grid grid-cols-3 gap-4">
         {% for item in block.facts-loop | limit:3 %}
         {% if item.featured and item.text %}
-        <div class="py-4 pr-5">
+        <div class="py-4">
             <p class="facts-numbers">{{item.featured}}</p>
             <p class="text-sm/5 font-semibold block">{{item.text}}</p>
         </div>
