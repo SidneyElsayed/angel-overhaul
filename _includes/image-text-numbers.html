@@ -35,7 +35,7 @@
       <!-- Text Block Heading -->
       {% if block.text-block-heading_html %}
       <div>
-        <div class="pb-6 featured-text text-5xl {% if heading-has-long-words == true %} heading-has-long-words {% endif %} font-extrabold uppercase tracking-wide">{{block.text-block-heading_html }}</div>
+        <div class="pb-6 featured-text {% if heading-has-long-words == true %} heading-has-long-words {% endif %}">{{block.text-block-heading_html }}</div>
       </div>
       {% endif %}
 
