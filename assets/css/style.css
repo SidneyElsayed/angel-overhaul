@@ -1073,8 +1073,8 @@ h2 {
   text-transform: uppercase;
 }
 
-h2 .heading-has-long-words {
-  font-size: 2.75rem;
+.heading-has-long-words h2 {
+  font-size: 2.5rem;
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1089,7 +1089,7 @@ h3 {
   text-transform: uppercase;
 }
 
-h3 .heading-has-long-words {
+.heading-has-long-words h3 {
   font-size: 2rem;
   line-height: 2.5rem;
   font-weight: 800;
@@ -1105,7 +1105,7 @@ h4 {
   text-transform: uppercase;
 }
 
-h4 .heading-has-long-words {
+.heading-has-long-words h4 {
   font-size: 1.7rem;
   line-height: 2.25rem;
   font-weight: 800;
@@ -1584,11 +1584,11 @@ h3 strong {
   .md\:pb-16 {
     padding-bottom: 4rem;
   }
-  .md\:pl-16 {
-    padding-left: 4rem;
+  .md\:pl-12 {
+    padding-left: 3rem;
   }
-  .md\:pr-16 {
-    padding-right: 4rem;
+  .md\:pr-12 {
+    padding-right: 3rem;
   }
   .md\:pt-0 {
     padding-top: 0px;
