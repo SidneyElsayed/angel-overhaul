@@ -172,6 +172,11 @@ _inputs:
     label: Stacked block bottom padding
     comment: Check this box if the block below is the same block and background color. This will remove some of the bottom padding so it doesn't feel like there's an awkward space.
     cascade: true
+  heading-has-long-words:
+    type: checkbox
+    label: This heading has a long word
+    comment: Check this box if the heading has a long word in it that messes with things - this will allow you to keep the hierarchy while making the text just slighly smaller
+    cascade: true
   card-description:
     type: checkbox
     label: Card description

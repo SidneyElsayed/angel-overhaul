@@ -1054,8 +1054,24 @@ h1 {
   text-transform: uppercase;
 }
 
+.heading-has-long-words h1 {
+  font-size: 2.rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
 h2 {
   font-size: 3rem;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.heading-has-long-words h2 {
+  font-size: 2.75rem;
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1070,8 +1086,24 @@ h3 {
   text-transform: uppercase;
 }
 
+.heading-has-long-words h3 {
+  font-size: 2.rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
 h4 {
   font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 800;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
+.heading-has-long-words h4 {
+  font-size: 1.7rem;
   line-height: 2.25rem;
   font-weight: 800;
   letter-spacing: 0.025em;

@@ -7,7 +7,7 @@
   <!-- Section Heading -->
   {% if block.section-heading_html %}
 
-  <div class="pb-12 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading_html}}</div>
+  <div class="pb-12 featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading_html}}</div>
 
   {% endif %}
 
@@ -35,7 +35,7 @@
       <!-- Text Block Heading -->
       {% if block.text-block-heading_html %}
       <div>
-        <div class="pb-6 featured-text text-5xl font-extrabold uppercase tracking-wide">{{block.text-block-heading_html }}</div>
+        <div class="pb-6 featured-text text-5xl {% if heading-has-long-words == true %} heading-has-long-words {% endif %} font-extrabold uppercase tracking-wide">{{block.text-block-heading_html }}</div>
       </div>
       {% endif %}
 
