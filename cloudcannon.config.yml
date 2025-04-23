@@ -405,6 +405,23 @@ _structures:
             - text:
               link:
           scheme-name:
+      - label: image grid
+        value:
+          id: image-grid
+          hide-top-padding: 
+          hide-bottom-padding: 
+          image-loop:
+            - image:
+              alt:
+          scheme-name:
+      - label: logo image grid
+        value:
+          id: logo-image-grid
+          image-loop:
+            - image:
+              alt:
+              link:
+          scheme-name:
       - label: infographic image
         value:
           id: infographic-image

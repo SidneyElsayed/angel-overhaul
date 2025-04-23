@@ -320,6 +320,15 @@ h3 strong {
     position: relative;
   }
 
+/* Slick Slider Styles */
+.slider-container {
+  padding: 8%;
+}
+
+.slick-dots {
+  bottom: 0%;
+}
+
 /* Info Card Styles */
 .info-card-image {
   opacity: 1;
