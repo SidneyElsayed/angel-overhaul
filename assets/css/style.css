@@ -1027,6 +1027,12 @@ video {
 .overline {
   text-decoration-line: overline;
 }
+.placeholder-opacity-20::-moz-placeholder {
+  --tw-placeholder-opacity: 0.2;
+}
+.placeholder-opacity-20::placeholder {
+  --tw-placeholder-opacity: 0.2;
+}
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1447,8 +1453,8 @@ h3 strong {
   }
 
   .container {
-    width: 180px;
-    height: 180px;
+    width: 216px;
+    height: 270px;
     overflow: hidden;
   }
 }
@@ -1514,10 +1520,6 @@ h3 strong {
   .sm\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
-  }
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
   .sm\:text-5xl {
     font-size: 3rem;

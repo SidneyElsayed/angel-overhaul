@@ -10,9 +10,8 @@ card-loop:
       Angel Foundation's™ office in Mendota Heights.
     location: Angel Foundation™ Office
     commitment: One-time commitment
-    button-1-text: Learn More
-    button-1-link: >-
-      mailto:programs@mnangel.org?subject=Angel%20Pack%20Packing%20Party%20Inquiry
+    button-1-text: 
+    button-1-link: 
     button-2-text:
     button-2-link:
   - heading: Event Volunteers
@@ -26,8 +25,8 @@ card-loop:
       volunteers to help events run smoothly, both in advance and on event day.
     location: The Depot, Minneapolis
     commitment: One-time commitment
-    button-1-text: Apply
-    button-1-link: /index
+    button-1-text:
+    button-1-link: 
     button-2-text:
     button-2-link:
   - heading: Volunteer as a Certified Financial Planner&#174;
@@ -42,10 +41,10 @@ card-loop:
       meet one-on-one for up to three sessions.
     location: Remote
     commitment:
-    button-1-text: Apply
-    button-1-link: /index
-    button-2-text: Another button
-    button-2-link: /index
+    button-1-text: 
+    button-1-link: 
+    button-2-text: 
+    button-2-link: 
   - heading: Making Memories Volunteer
     image: https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
     alt:
@@ -75,7 +74,7 @@ card-loop:
     commitment: Min 3 - 6 months | 4 hrs per week
     minimum-experience:
     salary-range: School credit
-    button-1-text: Learn more
-    button-1-link: /index
+    button-1-text: 
+    button-1-link: 
     button-2-text:
     button-2-link:

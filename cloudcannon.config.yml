@@ -407,6 +407,7 @@ _structures:
         value:
           id: map
           section-heading:
+          large-text-alignment: 
           address:
           scheme-name: 
       - label: financial cards

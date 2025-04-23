@@ -1,19 +1,19 @@
 <section id="section-{{forloop.index}}">
-  <div class="max-width mx-auto p-8 sm:p-16 py-16">
+  <div class="max-width mx-auto px-8 sm:px-16 py-24">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="px-8 sm:px-16 py-20">
+  <div class="">
 
     {% if block.section-heading %}
   
-    <h2 class="pb-10 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl">{{block.section-heading}}</h2>
+    <h2 class="pb-10 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
   
     {% endif %}
     <div class="grid grid-cols-2">
       <div class="col-span-2 md:col-span-1 w-full min-h-[50vh] rounded-2xl" style="max-width:100%;overflow:hidden;">
         <iframe class="w-full min-h-[50vh] rounded-2xl"  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d5654.114399201905!2d-93.1501617!3d44.8814849!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x87f62d287e58f7db%3A0xf874380cd3de884e!2sAngel%20Foundation%201155%20Centre%20Pointe%20Dr%20Suite%207%20Mendota%20Heights%2C%20MN%2055120%20United%20States!3m2!1d44.8814849!2d-93.1501617!5e0!3m2!1sen!2ssa!4v1742217687890!5m2!1sen!2ssa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="col-span-2 md:col-span-1 order-first md:order-last pl-12 pb-10 self-center">
+      <div class="col-span-2 md:col-span-1 pl-12 pt-10 md:pt-0 self-center">
         <h3 class="text-3xl font-semibold">Angel Foundation&#8482;</h3>
         <p class="text-2xl font-thin">1155 Centre Pointe Drive, Suite 7 
           <br>Mendota Heights, 
