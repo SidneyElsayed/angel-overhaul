@@ -7,10 +7,10 @@ card-loop:
         short-description: Nam ornare turpis vel enim posuere, a laoreet magna feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit
         button-text: Learn more
         button-link: /planned-giving.html
-      - heading: More Ways to Give
+      - heading: Other Ways to Give
         short-description: Duis sed velit ornare, hendrerit nunc in, tristique eros. In at libero augue. Donec et tellus iaculis, placerat arcu eget, tincidunt erat. Proin gravida ex risus, a dictum est accumsan non.
         button-text: Learn more
-        button-link: /more-ways-to-give.html
+        button-link: /other-ways-to-give.html
       - heading: Donate
         short-description: Duis sed velit ornare, hendrerit nunc in, tristique eros. In at libero augue. Donec et tellus iaculis, placerat arcu eget, tincidunt erat. Proin gravida ex risus, a dictum est accumsan non.
         button-text: Donate
