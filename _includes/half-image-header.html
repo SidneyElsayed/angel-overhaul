@@ -30,7 +30,11 @@
         {% endif %}
 
         {% if block.button-2-link and block.button-2-text %}
-        <a href="{{block.button-2-link}}" class="my-4 p-4 button-2 {{block.button-2-bg}}">{{block.button-2-text}}</a>
+        <a href="{{block.button-2-link}}" class="mr-4 my-4 p-4 button-2 {{block.button-2-bg}}">{{block.button-2-text}}</a>
+        {% endif %}
+
+        {% if block.button-3-link and block.button-3-text %}
+        <a href="{{block.button-3-link}}" class="my-4 p-4 button-3 {{block.button-3-bg}}">{{block.button-3-text}}</a>
         {% endif %}
       </div>
 
