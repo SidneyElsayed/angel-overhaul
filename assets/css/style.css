@@ -689,6 +689,9 @@ video {
 .content-center {
   align-content: center;
 }
+.justify-start {
+  justify-content: flex-start;
+}
 .justify-center {
   justify-content: center;
 }
@@ -931,6 +934,9 @@ video {
 }
 .pt-6 {
   padding-top: 1.5rem;
+}
+.pt-36 {
+  padding-top: 9rem;
 }
 .text-left {
   text-align: left;
@@ -1573,6 +1579,9 @@ h3 strong {
   }
   .md\:m-36 {
     margin: 9rem;
+  }
+  .md\:m-20 {
+    margin: 5rem;
   }
   .md\:mr-12 {
     margin-right: 3rem;
