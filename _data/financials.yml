@@ -1,8 +1,4 @@
 card-loop:
-  - year: 2024
-    annual-report:
-    990-form: /index
-    audited-financials: /index
   - year: 2023
     annual-report: /index
     990-form: /index
