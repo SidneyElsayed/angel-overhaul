@@ -10,8 +10,8 @@ card-loop:
       Angel Foundation's™ office in Mendota Heights.
     location: Angel Foundation™ Office
     commitment: One-time commitment
-    button-1-text: 
-    button-1-link: 
+    button-1-text:
+    button-1-link:
     button-2-text:
     button-2-link:
   - heading: Event Volunteers
@@ -26,7 +26,7 @@ card-loop:
     location: The Depot, Minneapolis
     commitment: One-time commitment
     button-1-text:
-    button-1-link: 
+    button-1-link:
     button-2-text:
     button-2-link:
   - heading: Volunteer as a Certified Financial Planner&#174;
@@ -41,25 +41,26 @@ card-loop:
       meet one-on-one for up to three sessions.
     location: Remote
     commitment:
-    button-1-text: 
-    button-1-link: 
-    button-2-text: 
-    button-2-link: 
+    button-1-text:
+    button-1-link:
+    button-2-text:
+    button-2-link:
   - heading: Making Memories Volunteer
-    image: https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
+    image: >-
+      https://images.unsplash.com/photo-1583912268183-a34d41fe464a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTMwfHx8ZW58MHx8fHx8
     alt:
-    overline: 
+    overline:
     short-description_html: >-
       <p>Making Memories is seeking friendly, reliable, and organized volunteers
       to assist with event reminder calls and staffing at events
       (nights/weekends). Training will be provided. Both individuals and small
       (2-5 person) volunteer groups are welcome.</p>
     location: Various
-    commitment: 
+    commitment:
     minimum-experience:
-    salary-range: 
-    button-1-text: 
-    button-1-link: 
+    salary-range:
+    button-1-text:
+    button-1-link:
     button-2-text:
     button-2-link:
   - heading: Internship Opportunities
@@ -74,7 +75,7 @@ card-loop:
     commitment: Min 3 - 6 months | 4 hrs per week
     minimum-experience:
     salary-range: School credit
-    button-1-text: 
-    button-1-link: 
+    button-1-text:
+    button-1-link:
     button-2-text:
     button-2-link:
