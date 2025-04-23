@@ -23,11 +23,13 @@
       <div class="rounded-lg bg-[var(--base-color)] ">
         <!-- Image -->
         {% if item.image %}
-        <div class="info-card-container relative">
+        <div class="{% if item.short-description_html %} info-card-container {% endif %} relative">
           <img class="aspect-square rounded-t-lg  object-cover w-full info-card-image" src="{{item.image}}" alt="{{item.alt}}">
+          {% if item.short-description_html %}
           <div class="info-card-middle aspect-square rounded-t-lg  object-cover place-content-center w-[80%]">
             <p class="info-card-short-description p-4 rounded-2xl">{{item.short-description_html | truncate:110}}</p>
           </div>
+          {% endif %}
         </div>
         {% endif %}
 

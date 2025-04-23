@@ -1,10 +1,10 @@
 card-loop:
       - heading: Blue Ribbon Circle
-        short-description_html: Curabitur ut augue eu tellus congue suscipit eget in magna. Sed porttitor laoreet ipsum at vestibulum. Nunc volutpat viverra orci nec posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+        short-description_html: 
         button-text: Learn more
         button-link: /blue-ribbon-circle.html
-        image: 
-        alt: 
+        image: /uploads/MiscPhotos/Stock-photo-6.jpg
+        alt: Cancer patient and her daughter hugging on a couch.
       - heading: Planned Giving
         short-description_html: Nam ornare turpis vel enim posuere, a laoreet magna feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit
         button-text: Learn more
