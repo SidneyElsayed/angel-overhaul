@@ -363,6 +363,7 @@ _structures:
         value:
           id: accordion
           section-heading:
+          large-text-alignment:
           accordion-loop:
             - question:
               answer_html:
@@ -379,6 +380,7 @@ _structures:
         value:
           id: calendar-at-a-glance
           section-heading:
+          large-text-alignment:
           type:
           text-alignment:
           scheme-name:
@@ -386,6 +388,7 @@ _structures:
         value:
           id: testimonials
           section-heading:
+          large-text-alignment:
           type:
           show:
           text-alignment:
