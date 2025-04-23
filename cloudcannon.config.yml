@@ -181,6 +181,11 @@ _inputs:
     label: Paragraph text alignment
     comment: Choose whether the paragraph text is aligned to the left, center, or right
     cascade: true
+  hide-top-padding:
+    type: checkbox
+    label: Stacked block top padding
+    comment: Check this box if the block above is the same block and background color. This will remove some of the top padding so it doesn't feel like there's an awkward space.
+    cascade: true
   hide-bottom-padding:
     type: checkbox
     label: Stacked block bottom padding

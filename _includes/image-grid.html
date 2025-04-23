@@ -2,7 +2,7 @@
   <div class="max-width mx-auto">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="px-8 sm:px-16 py-32 gap-10 {% if block.hide-bottom-padding %} pb-0 {% endif %} flex overflow-x-auto w-full no-scrollbar">
+  <div class="px-8 sm:px-16 py-32 gap-10 {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %} flex overflow-x-auto w-full no-scrollbar">
     {% for item in block.image-loop %}
     <div class="basis-[80%] sm:basis-[60%] md:basis-[30%] shrink-0">
       <img class="aspect-square rounded-lg object-cover w-full" src="{{item.image}}" alt="{{item.alt}}">
