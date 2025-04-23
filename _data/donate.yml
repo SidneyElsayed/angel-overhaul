@@ -3,8 +3,8 @@ card-loop:
         short-description_html: 
         button-text: Learn more
         button-link: /blue-ribbon-circle.html
-        image: /uploads/MiscPhotos/Stock-photo-6.jpg
-        alt: Cancer patient and her daughter hugging on a couch.
+        image: 
+        alt: 
       - heading: Planned Giving
         short-description_html: Nam ornare turpis vel enim posuere, a laoreet magna feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit
         button-text: Learn more
