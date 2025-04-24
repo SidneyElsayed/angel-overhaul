@@ -338,7 +338,7 @@ jobs-loop:
         phone-number: 612-627-9000 ext. 516
         email:
         short-description_html: ''
-        color: var(--featured-color-dark-navy)
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/kathy-use-summer.jpg
@@ -348,7 +348,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 513</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Aleah-use.JPG
@@ -358,7 +358,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 507</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Ka-Zoua-1.png
