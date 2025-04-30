@@ -2,7 +2,7 @@ card-loop:
   - heading: Blue Ribbon Circle
     short-description_html: >-
       <p>Donors who give $1,000+ annually, recurring gifts, or include us in
-      their estate plans.</p>
+      estate plans.</p>
     button-text: Blue Ribbon Circle
     button-link: /blue-ribbon-circle.html
     image: /uploads/MiscPhotos/BRC-Main.jpg
@@ -16,15 +16,13 @@ card-loop:
   - heading: Other Ways to Give
     short-description_html: >-
       <p>Information about Donor Advised Funds, Matching Gifts, Stock Donations,
-      In Kind Giving, and Workplace Giving.</p>
+      In Kind and Workplace Giving.</p>
     button-text: Other Ways to Give
     button-link: /other-ways-to-give.html
     image: /uploads/NewStockPics/shutterstock_1979937377.jpg
     alt: Asian mom with cancer and her son on a couch.
   - heading: Donate
-    short-description_html: >-
-      The work we do is not possible without our community of support. Consider
-      a donation.
+    short-description_html: The work we do is not possible without our community of support.
     button-text: Donate
     button-link: /donate.html
     image: /uploads/NewStockPics/family-donate.jpg
