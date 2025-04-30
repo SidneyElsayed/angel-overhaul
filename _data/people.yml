@@ -100,7 +100,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Jennifer-Jones.png
-        alt: A headshot Jennifer Jones
+        alt: A headshot of Jennifer Jones
       - name: Sandy Jones
         job-title: Senior Director, Healthcare | Client Partner
         phone-number: <p>LTIMindtree</p>
@@ -232,7 +232,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Melonie-use-sm.png
-        alt:
+        alt: A headshot of Melonie Allyn-Schwerin
       - name: DeAnne Anderson
         job-title: Senior Executive Assistant & Operations
         phone-number: <p>(612) 627-9000 ext. 503</p>
@@ -242,7 +242,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/deanne-use-summer.jpg
-        alt:
+        alt: A headshot of DeAnne Anderson
       - name: Dave Becker
         job-title: President & CEO
         phone-number: (612) 627-9000 ext. 504
@@ -252,7 +252,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/dave-website-sm.png
-        alt:
+        alt: A headshot of Dave Becker
       - name: Norah Cooper
         job-title: Vice President of Mission Delivery
         phone-number: <p>(612) 627-9000 ext. 502</p>
@@ -262,7 +262,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/norah-headshot-summer.png
-        alt:
+        alt: A headshot of Norah Cooper
       - name: Rachel Goven
         job-title: Development Coordinator
         phone-number: <p>(612) 627-9000 ext. 505</p>
@@ -272,7 +272,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/rachel.jpg
-        alt:
+        alt: A headshot of Rachel Goven
       - name: Brianna Hager
         job-title: Emergency Financial Assistance Manager
         phone-number: <p>(612) 627-9000 ext. 514</p>
@@ -282,7 +282,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Bri-use-6.24.png
-        alt:
+        alt: A headshot of Brianna Hager
       - name: Erica Hollom
         job-title: Director of Individual Giving & Special Events
         phone-number: <p>(612) 627-9000 ext. 506</p>
@@ -292,7 +292,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Erica-Use-6.24.png
-        alt:
+        alt: A headshot of Erica Hollom
       - name: Audelia Kouame
         job-title: Financial Cancer Care Manager
         phone-number: <p>(612) 627-9000 ext. 517</p>
@@ -302,7 +302,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Audelia-Use.JPG
-        alt:
+        alt: A headshot of Audelia Kouame
       - name: Heather Lake
         job-title: Program Coordinator (Duluth)
         phone-number: <p>(612) 627-9000 ext. 515</p>
@@ -312,7 +312,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Heather-Lake-Headshot.jpg
-        alt:
+        alt: A headshot of Heather Lake
       - name: Maddy Lamers
         job-title: Development & Communications Associate
         phone-number: 612-627-9000 ext. 508
@@ -322,7 +322,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/img-6784-use.jpg
-        alt:
+        alt: A headshot of Maddy Lamers
       - name: Holly Muhammad
         job-title: Director of Outreach and Adult & Family Programs
         phone-number: <p>(612) 627-9000 ext. 509</p>
@@ -332,7 +332,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Holly-Headshot.png
-        alt:
+        alt: A headshot of Holly Muhammad
       - name: Kathy Tolo
         job-title: Vice President of Development
         phone-number: 612-627-9000 ext. 516
@@ -342,7 +342,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/kathy-use-summer.jpg
-        alt:
+        alt: A headshot of Kathy Tolo
       - name: Aleah Van Horne
         job-title: Leadership Giving Officer
         phone-number: <p>(612) 627-9000 ext. 513</p>
@@ -352,7 +352,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Aleah-use.JPG
-        alt:
+        alt: A headshot of Aleah Van Horne
       - name: Ka Zoua Xiong
         job-title: Program Coordinator
         phone-number: <p>(612) 627-9000 ext. 507</p>
@@ -362,4 +362,4 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Ka-Zoua-1.png
-        alt:
+        alt: A headshot of Ka Zoua Xiong
