@@ -10,7 +10,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Uzma-Ali-MD_2-scaled.jpg
-        alt:
+        alt: A headshot of Dr. Uzma Ali
       - name: Marc Baer
         job-title: Vice President
         phone-number: <p>Centene Corporation</p>
@@ -20,7 +20,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/mark-baer.jpg
-        alt:
+        alt: A headshot of Marc Baer
       - name: Cindy Blackstock
         job-title: Co-founder & CEO
         phone-number: SIVO Insights
@@ -30,7 +30,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Cindy-Blackstock-Bio-Photo-scaled.jpg
-        alt:
+        alt: A headshot of Cindy Blackstock
       - name: Michael Castagnetto
         job-title: President, N.A.S.T.
         phone-number: C.H. Robinson
@@ -40,7 +40,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Michael-Castagnetto-highres.jpg
-        alt:
+        alt: A headshot of Michael Castagnetto
       - name: Kirstie Foster
         job-title: Head of Global Brand & Communications
         phone-number: Graco
@@ -50,7 +50,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/kirstie-foster.jpg
-        alt:
+        alt: A headshot of Kirstie Foster
       - name: Whitney Greene-Nymo
         job-title: Former Executive Director, Strategic Program Development
         phone-number: <p>Stanford Cancer Institute</p>
@@ -60,7 +60,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Whitney-Greene-Nymo.jpg
-        alt:
+        alt: A headshot of Whitney Greene-Nymo
       - name: Alexia Hansen
         job-title: Author
         phone-number: <p>Alexia Chantel Author</p>
@@ -70,7 +70,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Lexi-Hansen-Headshot.jpg
-        alt:
+        alt: A headshot of Alexia Hansen
       - name: Lisa Horgeshimer
         job-title: Senior Manager, Global Merchant Services
         phone-number: <p>American Express</p>
@@ -80,7 +80,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Horgeshimer-Lisa-.jpg
-        alt:
+        alt: A headshot of Lisa Horgeshimer
       - name: Ken Horstman
         job-title: Vice President & Chief Human Resource Officer
         phone-number: <p>University of Minnesota</p>
@@ -90,7 +90,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Web-1-e1641233992284.jpg
-        alt:
+        alt: A headshot of Ken Horstman
       - name: Jennifer Jones
         job-title: Vice President of Community Relations
         phone-number: <p>Ameriprise</p>
@@ -100,7 +100,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Jennifer-Jones.png
-        alt:
+        alt: A headshot Jennifer Jones
       - name: Sandy Jones
         job-title: Senior Director, Healthcare | Client Partner
         phone-number: <p>LTIMindtree</p>
@@ -110,7 +110,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/sandy-jones.jpg
-        alt:
+        alt: A headshot of Sandy Jones
       - name: Marcy Keckler
         job-title: ''
         phone-number: ''
@@ -120,7 +120,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Marcy-Keckler-pic-2016.jpg
-        alt:
+        alt: A headshot of Marcy Keckler
       - name: Stephanie Kennelly
         job-title: Program Coordinator, Center for Genome Engineering
         phone-number: <p>University of Minnesota</p>
@@ -130,7 +130,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/stephanie-kennelly-use.jpg
-        alt:
+        alt: A headshot of Stephanie Kennelly
       - name: Danielle Kirkwood
         job-title: Client Operations
         phone-number: <p>Nextern, Inc.</p>
@@ -140,7 +140,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Danielle-Kirkwood-use.jpg
-        alt:
+        alt: A headshot of Danielle Kirkwood
       - name: Kristin LeBre
         job-title: Employment Law Counsel
         phone-number: <p>Marvin</p>
@@ -150,7 +150,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/LeBre_Kristin_Media.jpg
-        alt:
+        alt: A headshot of Kristin LeBre
       - name: Ashley MacHolda
         job-title: Enterprise Account Executive
         phone-number: <p>Salesforce</p>
@@ -160,7 +160,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/ashley-macholda.jpg
-        alt:
+        alt: A headshot of Ashley MacHolda
       - name: Beth Monsrud
         job-title: Senior Vice President & Chief Financial Officer
         phone-number: <p>UCare</p>
@@ -170,7 +170,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Monsrud-Beth-.jpg
-        alt:
+        alt: A headshot of Beth Monsrud
       - name: Amy Rewey
         job-title: Vice President, Business Transformation
         phone-number: <p>Blue Cross and Blue Shield of Minnesota</p>
@@ -180,7 +180,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Rewey_formal_drk-scaled.jpg
-        alt:
+        alt: A headshot of Amy Rewey
       - name: Margie Sborov
         job-title: Founder
         phone-number: <p>Angel Foundation</p>
@@ -190,7 +190,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/sborov-for-bio.jpg
-        alt:
+        alt: A headshot of Margie Sborov
       - name: Glynis Schons
         job-title: Sales Enablement Principal
         phone-number: <p>Allianz Life</p>
@@ -200,7 +200,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Glynis-Schons-for-Angel.jpg
-        alt:
+        alt: A headshot of Glynis Schons
       - name: Scott Schufman
         job-title: Chief Financial Officer
         phone-number: <p>South Country Health Alliance</p>
@@ -210,7 +210,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Schufman-Scott-for-board-bio.jpg
-        alt:
+        alt: A headshot of Scott Schufman
       - name: Caitlyn Squire
         job-title: Manager of Patient Support & Education for Cancer Care
         phone-number: <p>HealthPartners</p>
@@ -220,7 +220,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/BoardPhotos/caitlyn-squire.jpg
-        alt:
+        alt: A headshot of Caitlyn Squire
   - jd: Staff
     people:
       - name: Melonie Allyn-Schwerin
