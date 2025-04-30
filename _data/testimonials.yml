@@ -16,20 +16,19 @@ quote-loop:
       These Making Memories events are so helpful to families going through
       cancer. They provide amazing opportunities for us to get out, live life,
       and forget about cancer for a few hours.
-    image:
-    alt:
+    image: /uploads/MiscPhotos/752D45C7-47D8-4EEF-A3F3-AE7A1857A236.jpeg
+    alt: A girl getting her face painted
     image-horizontal-focal-point: center
-    image-vertical-focal-point: center
+    image-vertical-focal-point: top
   - name: Adult & Family Programs Participant
     quote_html: >-
       The Making Memories program has motivated me and my family to prioritize
       making memories together, even when I'm not feeling well. We are so
       grateful not to have to worry about financial concerns of social outings
       when so much else is uncertain.
-    image: >-
-      https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MjcxfHx8ZW58MHx8fHx8
-    alt:
-    image-horizontal-focal-point: center
+    image: /uploads/AFPPics/914539F1-5F39-4B68-81F1-2E81E083371A.jpeg
+    alt: Kids in yellow go karts.
+    image-horizontal-focal-point: right
     image-vertical-focal-point: center
   - name: Adult & Family Programs Participant
     quote_html: >-
@@ -37,10 +36,10 @@ quote-loop:
       and fatigue. The Making Memories events allow for low-key family time and
       a chance to connect with others who are in the same situation. Thank
       you!</p>
-    image:
-    alt:
+    image: /uploads/AFPPics/S1.jpg
+    alt: A mom and daughter holding turkeys and pumpkins.
     image-horizontal-focal-point: center
-    image-vertical-focal-point: center
+    image-vertical-focal-point: top
   - name: Emergency Financial Assistance Recipient
     quote_html: >-
       <p>Words cannot express how much that Emergency Financial Assistance grant
@@ -48,39 +47,39 @@ quote-loop:
       bills, causing me to feel stressed. Your grant took away the stress and
       gave me peace knowing that I was able to drastically lower the amounts I
       owed. Thank you for being there just when I needed you most.</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/NewStockPics/olderfolks.jpg
+    alt: An older couple looking wistfully out a window.
+    image-horizontal-focal-point: right
+    image-vertical-focal-point: center
   - name: Emergency Financial Assistance Recipient
     quote_html: >-
       <p>I am truly grateful that Angel Foundation™ exists to provide financial
       support for people suffering from cancer. You make a tremendous difference
       and have made me feel that I am not alone.  Thank you so much for your
       support!</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/NewStockPics/momdaug.jpg
+    alt: A mom and a daughter share a sweet glance.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: top
   - name: Emergency Financial Assistance Recipient
     quote_html: >-
       <p>Thank you so much for your help. It eased our stress to have rent
       covered for a month and be able to buy groceries. We really appreciate
       Angel Foundation™ and all you are doing to help people with cancer.</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/MiscPhotos/MWANGEL_0428.jpg
+    alt: A family of three smiles against a window.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
   - name: Emergency Financial Assistance Recipient
     quote_html: >-
       <p>I want you to know how much I appreciate your help, sympathy, and
       support as I navigate my cancer journey. Angel Foundation™ and the
       Emergency Financial Assistance Program are so appreciated. I am grateful
       for the support you have given me.</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/MiscPhotos/AngelThursdayHires-326.jpg
+    alt: A couple smiles against a leafy background.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: top
   - name: Financial Cancer Care Program Participant
     quote_html: >-
       <p>Thank you so much for offering the Financial Cancer Care Program. It
@@ -89,10 +88,10 @@ quote-loop:
       been an absolute blessing. I am 38 years old and have no savings
       whatsoever, but after participating in your program, I finally feel like I
       can change that.</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/MiscPhotos/AngelTuesdayHiRes-243.jpg
+    alt: A smiling couple hugs against a leafy background.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
   - name: Financial Cancer Care Program Participant
     quote_html: >-
       <p>I would recommend the Financial Cancer Care workshop because cancer is
@@ -100,10 +99,10 @@ quote-loop:
       past some of the obstacles in my way. I am so grateful for the opportunity
       to meet with a Certified Financial Planner®, a resource that would not
       have been available to me otherwise. Thank you!</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/MiscPhotos/Wendy-Mitchell-and-Mia-McCoy-1-Feb-24th-2018.jpg
+    alt: Two women smile indoors.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
   - name: Financial Cancer Care Program Participant
     quote_html: >-
       <p>The Financial Cancer Care Program taught me that I should not be
@@ -111,30 +110,30 @@ quote-loop:
       experienced a similar situation to mine. I really felt like he wanted to
       help. He helped me find options for my mortgage, navigate insurance, and
       begin estate planning.</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/NewStockPics/fam-of-three.jpg
+    alt: A family of three hugs in a field.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: top
   - name: Angel Pack™ Recipient
     quote_html: >-
       <p>My kids received their Angel Packs™ tonight and they were so
       appreciated. They opened them and read through all the books. They loved
       the activities! It was nice to see them excited and interested when there
       has been so much going on.</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/AngelPack/IMG_8025.jpg
+    alt: A "What is Cancer?" booklet for kids.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: top
   - name: Angel Pack™ Recipient
     quote_html: >-
       <p>When my husband started his cancer treatment, his provider gave our
       four children your wonderful Angel Packs™. What a great aid in helping
       explain, demonstrate, and reassure them. They loved Rory and held him
       close. We truly appreciate your mission.</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/AngelPack/IMG_9169.jpg
+    alt: Rory the stuffed lion in medical play gear.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: top
   - name: Angel Pack™ Recipient
     quote_html: >-
       <p>I think the Angel Packs™ meant a lot to my kids, because they had
@@ -142,16 +141,16 @@ quote-loop:
       diagnosis. It was like they had someone looking out for them while their
       mom was busy, and having the kits tailored to different ages meant that my
       kids were getting information appropriate for each of them.</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/NewStockPics/momandson.jpg
+    alt: A mom with cancer and her son play outside.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
   - name: Angel Pack™ Recipient
     quote_html: >-
       <p>We really appreciated receiving the Angel Packs™ and treasure them. All
       the focus is on me right now and my kids love having something for them.
       My son sleeps with Rory the Lion every night. Thank you.</p>
-    image:
-    alt:
-    image-horizontal-focal-point: ''
-    image-vertical-focal-point: ''
+    image: /uploads/NewStockPics/shutterstock_1979937377.jpg
+    alt: A mom and her son laugh together.
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: top
