@@ -3,13 +3,13 @@ card-loop:
     short-description_html: >-
       <p>Donors who give $1,000+ annually, recurring gifts, or include us in
       estate plans.</p>
-    button-text: Blue Ribbon Circle
+    button-text: Learn More
     button-link: /blue-ribbon-circle.html
     image: /uploads/MiscPhotos/BRC-Main.jpg
     alt: Black woman and white man smiling.
   - heading: Planned Giving
     short-description_html: Learn about including us as a beneficiary in your will or estate plan.
-    button-text: Planned Giving
+    button-text: Learn More
     button-link: /planned-giving.html
     image: /uploads/MiscPhotos/AngelTuesdayHiRes-262.jpg
     alt: A family of five smiling in a park
@@ -17,13 +17,13 @@ card-loop:
     short-description_html: >-
       <p>Information about Donor Advised Funds, Matching Gifts, Stock Donations,
       In Kind and Workplace Giving.</p>
-    button-text: Other Ways to Give
+    button-text: Learn More
     button-link: /other-ways-to-give.html
     image: /uploads/NewStockPics/shutterstock_1979937377.jpg
     alt: Asian mom with cancer and her son on a couch.
   - heading: Donate
     short-description_html: The work we do is not possible without our community of support.
-    button-text: Donate
+    button-text: Give Now
     button-link: /donate.html
     image: /uploads/NewStockPics/family-donate.jpg
     alt: A family of three impacted by cancer smiling.
