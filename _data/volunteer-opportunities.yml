@@ -1,7 +1,7 @@
 card-loop:
   - heading: Angel Packs&#8482; Packing Party
     image: /uploads/VolunteerPics/Vol-AP.jpg
-    alt:
+    alt: A group of young women hold Angel Packs and smile.
     overline: Ongoing
     short-description_html: >-
       Join us for a one-of-a-kind experience by helping assemble Angel Packs™:
@@ -14,9 +14,11 @@ card-loop:
     button-1-link:
     button-2-text:
     button-2-link:
-  - heading: Event Volunteers
+  - heading: Special Event Volunteers
     image: /uploads/20250125_angel-foundation_0110-sm.jpg
-    alt:
+    alt: >-
+      Two women wearing angel wings and halos distribute raffle tickets at the
+      Angel Gala
     overline:
     short-description_html: >-
       Angel Foundation™ hosts three major fundraising events each year: the
@@ -63,7 +65,7 @@ card-loop:
     button-2-link:
   - heading: Internship Opportunities
     image: /uploads/VolunteerPics/Vol---intern.jpeg
-    alt:
+    alt: Two young people sit at an Angel Foundation table.
     overline: Ongoing
     short-description_html: >-
       We are seeking enthusiastic and dedicated interns to support
