@@ -16,9 +16,9 @@
     {% for item in block.accordion-loop %} 
       {% if item.question and item.answer_html %}
       <div class="p-4 border border-[var(--text-color)] rounded-2xl">
-        <button class="accordion font-semibold">{{item.question}}</button>
+        <button class="accordion font-semibold {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{item.question}}</button>
 
-        <div class="pt-2 panel ease-in-out hidden font-thin">
+        <div class="pt-2 panel ease-in-out hidden font-thin {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">
             <p>{{item.answer_html}}</p>
         </div>
       </div>
