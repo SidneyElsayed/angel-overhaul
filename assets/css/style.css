@@ -938,9 +938,6 @@ video {
 .pt-6 {
   padding-top: 1.5rem;
 }
-.pt-36 {
-  padding-top: 9rem;
-}
 .text-left {
   text-align: left;
 }
@@ -1579,9 +1576,6 @@ h3 strong {
   }
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
-  }
-  .md\:m-36 {
-    margin: 9rem;
   }
   .md\:m-20 {
     margin: 5rem;
