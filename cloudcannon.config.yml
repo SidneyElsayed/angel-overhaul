@@ -46,6 +46,13 @@ _inputs:
       italics: true
       underline: true
     cascade: true
+  featured:
+    type: html
+    options:
+      bold: true
+      italics: true
+      underline: true
+    cascade: true
   date:
     type: html
     options:

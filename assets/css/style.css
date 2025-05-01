@@ -783,9 +783,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
-.bg-\[var\(--angel-color\)\] {
-  background-color: var(--angel-color);
-}
 .bg-cover {
   background-size: cover;
 }
@@ -1044,9 +1041,6 @@ video {
 }
 .text-\[var\(--featured-color-medium-blue\)\] {
   color: var(--featured-color-medium-blue);
-}
-.text-\[var\(--text-color\)\] {
-  color: var(--text-color);
 }
 .overline {
   text-decoration-line: overline;
