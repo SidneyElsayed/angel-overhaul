@@ -14,6 +14,7 @@
 
     <!-- w3 schools accordion -->
     {% for item in block.accordion-loop %} 
+    {% assign questions-count = 1 %}
       {% if item.question and item.answer_html %}
       <div class="p-4 border border-[var(--text-color)] rounded-2xl">
         <button class="accordion font-semibold {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{item.question}}</button>
