@@ -30,3 +30,73 @@
     <!-- Don't delete the below; these are for the starting id and class above -->
   </div>
 </section>
+
+
+
+<!-- FROM MASteR BASE that workED -->
+
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto">
+    {% if block.section-heading %}
+      <div class="content-block">{{block.section-heading}}</div>
+    {% endif %}
+
+    <div>
+      <ul class=" border border-black">
+      {% for item in block.question-loop %}
+        <li class="relative border-b border-black" x-data="{selected:null}">
+          <button
+            type="button"
+            class="w-full text-{{block.question-block.question-text-alignment}}"
+            @click="selected !== {{forloop.index}} ? selected = {{forloop.index}} : selected = null">
+            <div class="flex items-center justify-between">
+              <span class="font-semibold text-xl">{{item.question}}</span>
+              <span x-bind:class="selected == {{forloop.index}} ? 'inline' : 'hidden' ">-</span>
+              <span x-bind:class="selected == {{forloop.index}} ? 'hidden' : 'inline' ">+</span>
+            </div>
+          </button>
+
+          <div
+            class="relative overflow-hidden transition-all max-h-0 duration-700"
+            style=""
+            x-ref="container{{forloop.index}}"
+            x-bind:style="selected == {{forloop.index}} ? 'max-height: ' + $refs.container{{forloop.index}}.scrollHeight + 'px' : ''">
+            <div class="pb-6 px-8">
+              <p>{{item.answer-html}}</p>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Mini Style Sheet -->
+<style>
+  #section-{{forloop.index}} .content-block {
+    text-align: {{block.heading-text-alignment}};
+  }
+
+  #section-{{forloop.index}} .question-block {
+    text-align: {{block.question-text-alignment}};
+}
+  </style>
+
+
+{% comment %}
+
+<!-- FRONT MATTER REFERENCE -->
+- id: accordion
+  section-heading: This is a heading
+  heading-text-alignment: left
+  question-text-alignment: left
+  question-loop:
+    - question: Lorem ipsum dolor sit amet consectetur adipisicing elit?
+      answer-html: Harum tempora rerum debitis! Quo fugiat eius accusamus suscipit dignissimos aspernatur aliquid nisi repellat expedita veritatis saepe, delectus, dolorem consequatur autem fugit.
+    - question: Lorem ipsum dolor sit amet consectetur adipisicing elit?
+      answer-html: Harum tempora rerum debitis! Quo fugiat eius accusamus suscipit dignissimos aspernatur aliquid nisi repellat expedita veritatis saepe, delectus, dolorem consequatur autem fugit.
+    - question: Lorem ipsum dolor sit amet consectetur adipisicing elit?
+      answer-html: Harum tempora rerum debitis! Quo fugiat eius accusamus suscipit dignissimos aspernatur aliquid nisi repellat expedita veritatis saepe, delectus, dolorem consequatur autem fugit.
+
+{% endcomment %}
