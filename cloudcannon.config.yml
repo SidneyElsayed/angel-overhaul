@@ -149,6 +149,18 @@ _inputs:
     comment: >-
       Choose whether the input takes up one-third, half or the full width of the page
     cascade: true
+  name:
+    type: text
+    label: Name for receiving the form information
+    options: 
+      allow_empty: false
+    comment: When you receive the form in your email, this is what the form will export to you
+  label:
+    type: text
+    label: Title above the input area
+    options: 
+      allow_empty: false
+    comment: If you want to label the form input, this is where you add the title
   paragraph-width:
     type: select
     options:
