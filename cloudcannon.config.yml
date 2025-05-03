@@ -380,14 +380,7 @@ _structures:
           id: accordion
           section-heading:
           large-text-alignment:
-          accordion-loop:
-            - question:
-              answer_html:
-          scheme-name:
-      - label: multiple accordions on one page
-        value:
-          id: multi-accordions-per-page
-          section-heading:
+          text-alignment: 
           accordion-loop:
             - question:
               answer_html:
