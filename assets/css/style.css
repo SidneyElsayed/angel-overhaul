@@ -728,6 +728,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.gap-2 {
+  gap: 0.5rem;
+}
 .gap-x-32 {
   -moz-column-gap: 8rem;
        column-gap: 8rem;
@@ -1601,6 +1604,12 @@ h3 strong {
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
   }
+  .md\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+  .md\:col-span-6 {
+    grid-column: span 6 / span 6;
+  }
   .md\:m-20 {
     margin: 5rem;
   }
@@ -1630,6 +1639,9 @@ h3 strong {
   }
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
   .md\:content-center {
     align-content: center;

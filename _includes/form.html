@@ -1,0 +1,47 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto">
+    <form class="grid md:grid-cols-6 gap-2">
+      {% for input in block.inputs %}
+        <div class="
+        {% case input.width %}
+
+        {% when 'full' %} md:col-span-6
+        {% when 'half' %} md:col-span-3
+        {% when 'third' %} md:col-span-2
+
+        {% endcase %}
+        ">
+
+          {% if input.label %}
+          <label>
+            <h3>{{input.label}} {% if input.required %} * {% endif %} </h3>
+          {% endif %}
+
+          {% case input.type %}
+
+            {% when 'text' %}
+
+
+              <input type="text" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}" {% if input.required %} required {% endif %}>
+
+              
+              {% when 'email' %}
+              <input type="email" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
+              
+              {% when 'phone' %}
+              <input type="tel" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
+              
+              {% when 'textarea' %}
+              <textarea name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}></textarea>
+              
+              {% endcase %}
+
+          {% if input.label %}  
+          </label>
+          {% endif %}
+
+        </div>
+      {% endfor %}
+    </form>
+  </div>
+</section>

@@ -375,6 +375,20 @@ _structures:
               back:
           text-alignment:
           scheme-name:
+      - label: form
+        inputs:
+        - type: text
+          name: First name
+          label: First name
+          placeholder-text: John
+          width: half
+          required: true
+        - type: textarea
+          name: Message
+          label: Message
+          placeholder-text: Write your message here
+          width: full
+          required: true
       - label: accordion
         value:
           id: accordion
