@@ -1,5 +1,15 @@
 <section id="section-{{forloop.index}}">
-  <div class="max-width mx-auto">
+  <div class="max-width mx-auto px-8 sm:px-16 py-28">
+
+    {% if block.section-heading %}
+
+    <h2 class="featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
+  
+    <p class="pt-6 font-thin">{{block.section-text}}</p>
+  
+    {% endif %}
+  
+
     <form class="grid md:grid-cols-6 gap-2">
       {% for input in block.inputs %}
         <div class="
@@ -13,26 +23,26 @@
         ">
 
           {% if input.label %}
-          <label>
-            <h3>{{input.label}} {% if input.required %} * {% endif %} </h3>
+          <label class="featured-text text-xl tracking-wide font-semibold pb-2 block" >
+            <h5>{{input.label}} {% if input.required %} * {% endif %} </h5>
           {% endif %}
 
-          {% case input.type %}
+          {% case input.form-type %}
 
             {% when 'text' %}
 
 
-              <input type="text" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}" {% if input.required %} required {% endif %}>
+              <input class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="text" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}" {% if input.required %} required {% endif %}>
 
               
               {% when 'email' %}
-              <input type="email" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
+              <input class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="email" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
               
               {% when 'phone' %}
-              <input type="tel" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
+              <input class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="tel" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
               
               {% when 'textarea' %}
-              <textarea name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}></textarea>
+              <textarea class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}></textarea>
               
               {% endcase %}
 

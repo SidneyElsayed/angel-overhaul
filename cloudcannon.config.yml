@@ -378,6 +378,9 @@ _structures:
       - label: form
         value:
           id: form
+          section-heading:
+          large-text-alignment:
+          section-text:
           inputs:
           - form-type: text
             name: First name
