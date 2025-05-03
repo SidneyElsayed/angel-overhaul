@@ -137,6 +137,18 @@ _inputs:
     label: Large text width
     comment: Choose whether the large text takes up half or the full width of the page
     cascade: true
+  width:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - half
+        - full
+        - third
+    label: Text/box width
+    comment: >-
+      Choose whether the input takes up one-third, half or the full width of the page
+    cascade: true
   paragraph-width:
     type: select
     options:
@@ -272,6 +284,18 @@ _inputs:
         - volunteer opportunities
     label: Information type
     comment: Choose what information is pulled into this block
+    cascade: true
+  form-type:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - text
+        - email
+        - phone
+        - textarea
+    label: Form input type
+    comment: Choose what type of information people are putting into the form (text is for things like forst and last name, textarea is for a larger area for text)
     cascade: true
 _structures:
   blocks:
