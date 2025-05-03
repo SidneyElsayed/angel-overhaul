@@ -6,7 +6,7 @@
 
     <div>
       <div class="border border-black rounded-2xl">
-      {% for item in block.question-loop %}
+      {% for item in block.accordion-loop %}
         <div class="relative {% unless forloop.last %} border-b border-black {% endunless %}" x-data="{selected:null}">
           <button
             type="button"
