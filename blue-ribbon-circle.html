@@ -89,6 +89,9 @@ blocks:
     text-alignment: left
     scheme-name: light-green-background
   - id: form
+    section-heading: Contact Us
+    large-text-alignment: center
+    section-text:
     inputs:
       - form-type: text
         name: First name
@@ -108,8 +111,11 @@ blocks:
         placeholder-text: Write your message here
         width: full
         required: true
-    scheme-name:
-    section-heading: Contact Us
-    large-text-alignment: center
-    section-text:
+      - form-type: email
+        name: Email
+        label: Email
+        placeholder-text: youremail@gmail.com
+        width: full
+        required: true
+    scheme-name: medium-blue-background
 ---
