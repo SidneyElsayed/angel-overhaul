@@ -25,6 +25,10 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
 _inputs:
+  id:
+    type: text
+    hidden: true
+    cascade: true
   content:
     type: html
     options:
