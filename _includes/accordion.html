@@ -1,33 +1,36 @@
-<section id="">
+<section id="section-{{forloop.index}}">
   <div class="max-width mx-auto py-16 px-8 sm:px-16">
-    <!-- Actual content starts here, so that the above has the max width -->
-
     {% if block.section-heading %}
-
-    <h2
-      class="pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}"
-    >
-      {{block.section-heading}}
-    </h2>
-
+      <div class="content-block pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl  text-{{block.question-block.large-text-alignment}}">{{block.section-heading}}</div>
     {% endif %}
 
-    <!-- w3 schools accordion -->
-    {% for item in block.accordion-loop %} 
-    {% assign questions-count = 1 %}
-      {% if item.question and item.answer_html %}
-      <div class="p-4 border border-[var(--text-color)] rounded-2xl">
-        <button class="accordion font-semibold {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{item.question}}</button>
+    <div>
+      <div class="border border-black rounded-2xl">
+      {% for item in block.question-loop %}
+        <div class="relative {% unless forloop.last %} border-b border-black {% endunless %}" x-data="{selected:null}">
+          <button
+            type="button"
+            class="w-full"
+            @click="selected !== {{forloop.index}} ? selected = {{forloop.index}} : selected = null">
+            <div class="flex items-center justify-between py-6 px-8">
+              <span class="font-semibold text-xl text-{{block.text-alignment}}">{{item.question}}</span>
+              <span x-bind:class="selected == {{forloop.index}} ? 'inline' : 'hidden' " class="pl-2">–</span>
+              <span x-bind:class="selected == {{forloop.index}} ? 'hidden' : 'inline' " class="pl-2">+</span>
+            </div>
+          </button>
 
-        <div class="pt-2 panel ease-in-out hidden font-thin {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">
-            <p>{{item.answer_html}}</p>
+          <div
+            class="relative overflow-hidden transition-all max-h-0 duration-700"
+            style=""
+            x-ref="container{{forloop.index}}"
+            x-bind:style="selected == {{forloop.index}} ? 'max-height: ' + $refs.container{{forloop.index}}.scrollHeight + 'px' : ''">
+            <div class="pt-0 pb-4 px-8 text-{{block.text-alignment}}">
+              <p>{{item.answer_html}}</p>
+            </div>
+          </div>
         </div>
+        {% endfor %}
       </div>
-      {% endif %} 
-    {% endfor %}
-
-    
-
-    <!-- Don't delete the below; these are for the starting id and class above -->
+    </div>
   </div>
 </section>

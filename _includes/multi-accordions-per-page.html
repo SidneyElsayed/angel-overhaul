@@ -12,10 +12,10 @@
             type="button"
             class="w-full"
             @click="selected !== {{forloop.index}} ? selected = {{forloop.index}} : selected = null">
-            <div class="flex items-center justify-between p-4">
+            <div class="flex items-center justify-between py-6 px-8">
               <span class="font-semibold text-xl text-{{block.text-alignment}}">{{item.question}}</span>
-              <span x-bind:class="selected == {{forloop.index}} ? 'inline' : 'hidden' ">-</span>
-              <span x-bind:class="selected == {{forloop.index}} ? 'hidden' : 'inline' ">+</span>
+              <span x-bind:class="selected == {{forloop.index}} ? 'inline' : 'hidden' " class="pl-2">–</span>
+              <span x-bind:class="selected == {{forloop.index}} ? 'hidden' : 'inline' " class="pl-2">+</span>
             </div>
           </button>
 
@@ -24,7 +24,7 @@
             style=""
             x-ref="container{{forloop.index}}"
             x-bind:style="selected == {{forloop.index}} ? 'max-height: ' + $refs.container{{forloop.index}}.scrollHeight + 'px' : ''">
-            <div class="pt-0 pb-4 px-4 text-{{block.text-alignment}}">
+            <div class="pt-0 pb-4 px-8 text-{{block.text-alignment}}">
               <p>{{item.answer_html}}</p>
             </div>
           </div>
