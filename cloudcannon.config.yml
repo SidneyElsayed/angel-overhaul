@@ -125,8 +125,19 @@ _inputs:
         - center
         - bottom
     label: Text placement
-    comment: Choose where the text in placed in relation to the image
+    comment: Choose where the text is placed in relation to the image
     cascade: true
+  button-alignment: 
+    type: select
+      options:
+        allow_empty: false
+        values:
+          - right
+          - center
+          - left
+      label: Button placement
+      comment: Choose where the button is placed in relation to the form
+      cascade: true
   large-text-width:
     type: select
     options:
@@ -418,6 +429,7 @@ _structures:
           large-text-alignment:
           section-text:
           submit-button-text: Submit
+          button-alignment: center
           inputs:
           - form-type: text
             name: First name
