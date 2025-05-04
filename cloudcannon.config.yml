@@ -417,6 +417,7 @@ _structures:
           section-heading:
           large-text-alignment:
           section-text:
+          submit-button-text: Submit
           inputs:
           - form-type: text
             name: First name
