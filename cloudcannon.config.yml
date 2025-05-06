@@ -129,15 +129,15 @@ _inputs:
     cascade: true
   button-alignment: 
     type: select
-      options:
-        allow_empty: false
-        values:
-          - right
-          - center
-          - left
-      label: Button placement
-      comment: Choose where the button is placed in relation to the form
-      cascade: true
+    options:
+      allow_empty: false
+      values:
+        - right
+        - center
+        - left
+    label: Button placement
+    comment: Choose where the button is placed in relation to the form
+    cascade: true
   large-text-width:
     type: select
     options:
