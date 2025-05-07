@@ -433,3 +433,7 @@ h3 strong {
 }
 
 /* Virtuous Donate Form */
+form[id*=vcrm] .v_ig a.v_gao {
+  border-radius: 4rem;
+  overflow: hidden;
+}
