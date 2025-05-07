@@ -1503,6 +1503,20 @@ h3 strong {
     overflow: hidden;
   }
 }
+
+/* Virtuous Donate Form */
+/* Buttons */
+form[id*=vcrm] .v_ig a.v_gao {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+/* Most of the inputs */
+form[id*=vcrm] .v_fr .v_ig input, form[id*=vcrm] .v_fr .v_ig select, form[id*=vcrm] .v_ig .Select-control {
+  border-color: var(--v-input-border-color);
+  border-radius: var(--v-border-radius);
+  border-radius: 0.5rem;
+}
 .hover\:border-b-\[var\(--bg-color\)\]:hover {
   border-bottom-color: var(--bg-color);
 }
