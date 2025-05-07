@@ -1517,27 +1517,49 @@ form[id*=vcrm] .v_fr .v_ig input, form[id*=vcrm] .v_fr .v_ig select, form[id*=vc
   border-radius: var(--v-border-radius);
   border-radius: 0.5rem;
 }
+
+/* Text area */
+form[id*="vcrm"] .v_ig textarea, form[id*="vcrm"] .v_ig input[type="checkbox"], form[id*="vcrm"] .v_ig input[type="radio"] {
+  border-radius: 0.5rem;
+}
+
+/* Payment Element (Stripe) */
+StripeElement {
+  border-radius: 0.5rem;
+}
+
+form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm"] .v_ig input[type="button"], form[id*="vcrm"] .v_ig input[type="submit"] {
+  border-radius: 0.5rem;
+}
+
 .hover\:border-b-\[var\(--bg-color\)\]:hover {
   border-bottom-color: var(--bg-color);
 }
+
 .hover\:border-b-\[var\(--featured-color-angel-blue\)\]:hover {
   border-bottom-color: var(--featured-color-angel-blue);
 }
+
 .hover\:border-b-\[var\(--featured-color-medium-blue\)\]:hover {
   border-bottom-color: var(--featured-color-medium-blue);
 }
+
 .hover\:text-\[var\(--bg-color\)\]:hover {
   color: var(--bg-color);
 }
+
 .hover\:text-\[var\(--featured-color-angel-blue\)\]:hover {
   color: var(--featured-color-angel-blue);
 }
+
 .hover\:text-\[var\(--featured-color-medium-blue\)\]:hover {
   color: var(--featured-color-medium-blue);
 }
+
 .focus\:bg-\[var\(--featured-color-v-light-blue\)\]:focus {
   background-color: var(--featured-color-v-light-blue);
 }
+
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -1585,6 +1607,7 @@ form[id*=vcrm] .v_fr .v_ig input, form[id*=vcrm] .v_fr .v_ig select, form[id*=vc
     line-height: 1;
   }
 }
+
 @media (min-width: 768px) {
   .md\:-bottom-10 {
     bottom: -2.5rem;
@@ -1672,6 +1695,7 @@ form[id*=vcrm] .v_fr .v_ig input, form[id*=vcrm] .v_fr .v_ig select, form[id*=vc
     padding-top: 0px;
   }
 }
+
 @media (min-width: 1024px) {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
@@ -1686,3 +1710,4 @@ form[id*=vcrm] .v_fr .v_ig input, form[id*=vcrm] .v_fr .v_ig select, form[id*=vc
     gap: 2rem;
   }
 }
+
