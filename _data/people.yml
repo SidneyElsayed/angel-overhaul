@@ -22,8 +22,8 @@ jobs-loop:
         image: /uploads/BoardPhotos/mark-baer.jpg
         alt: A headshot of Marc Baer
       - name: Cindy Blackstock
-        job-title: Co-founder & CEO
-        phone-number: SIVO Insights
+        job-title:
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
