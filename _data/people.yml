@@ -206,7 +206,7 @@ jobs-loop:
         phone-number: <p>HealthPartners</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/caitlyn-squire.jpg
