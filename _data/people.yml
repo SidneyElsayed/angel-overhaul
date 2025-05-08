@@ -12,8 +12,8 @@ jobs-loop:
         image: /uploads/BoardPhotos/Uzma-Ali-MD_2-scaled.jpg
         alt: A headshot of Dr. Uzma Ali
       - name: Marc Baer
-        job-title: Vice President
-        phone-number: <p>Centene Corporation</p>
+        job-title: Chief Operating Officer
+        phone-number: <p>Hazelden Betty Ford Foundation</p>
         email:
         short-description_html: ''
         color: var(--featured-color-angel-blue)
@@ -132,7 +132,7 @@ jobs-loop:
         image: /uploads/BoardPhotos/stephanie-kennelly-use.jpg
         alt: A headshot of Stephanie Kennelly
       - name: Danielle Kirkwood
-        job-title: Client Operations
+        job-title: Director Process Optimization, CS Projects
         phone-number: <p>Nextern, Inc.</p>
         email: ''
         short-description_html: ''
@@ -201,16 +201,6 @@ jobs-loop:
         button-link:
         image: /uploads/BoardPhotos/Glynis-Schons-for-Angel.jpg
         alt: A headshot of Glynis Schons
-      - name: Scott Schufman
-        job-title: Chief Financial Officer
-        phone-number: <p>South Country Health Alliance</p>
-        email: ''
-        short-description_html: ''
-        color: var(--featured-color-dark-navy)
-        button-text:
-        button-link:
-        image: /uploads/BoardPhotos/Schufman-Scott-for-board-bio.jpg
-        alt: A headshot of Scott Schufman
       - name: Caitlyn Squire
         job-title: Manager of Patient Support & Education for Cancer Care
         phone-number: <p>HealthPartners</p>
