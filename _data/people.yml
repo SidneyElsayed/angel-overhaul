@@ -133,7 +133,7 @@ jobs-loop:
         alt: A headshot of Stephanie Kennelly
       - name: Danielle Kirkwood
         job-title: Director Process Optimization, CS Projects
-        phone-number: <p>Nextern, Inc.</p>
+        phone-number: <p>Sevita</p>
         email: ''
         short-description_html: ''
         color: var(--featured-color-angel-blue)
