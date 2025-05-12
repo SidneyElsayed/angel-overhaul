@@ -1,7 +1,7 @@
 card-loop:
   - heading: Emergency Financial Assistance
     short-description_html: Addresses immediate financial concerns for patients in active treatment.
-    button-text: Find out more
+    button-text: Learn More
     button-link: /emergency-financial-assistance.html
     image: /uploads/EFAFCCPics/EFA-Second.jpg
     alt: Smiling family of five in a sunny park.
@@ -27,7 +27,7 @@ card-loop:
         answer_html:
   - heading: Financial Cancer Care
     short-description_html: Offers pro bono financial guidance for cancer patients and their families.
-    button-text: Learn more
+    button-text: Learn More
     button-link: /financial-cancer-care.html
     image: /uploads/EFAFCCPics/cfpfccsq.jpg
     alt: Cancer patient and her daughter hugging on a couch.
@@ -36,7 +36,7 @@ card-loop:
     answer_html: ''
   - heading: Adult & Family Programs
     short-description_html: Provides social and educational programs to families impacted by cancer.
-    button-text: Read more
+    button-text: Learn More
     button-link: /adult-and-family-programs.html
     image: /uploads/AFPPics/IMG_7652-(1).jpg
     alt:
@@ -54,7 +54,7 @@ card-loop:
     short-description_html: >-
       Offer age-appropriate and therapeutic kits for kids who have a loved one
       with cancer.
-    button-text: Read more
+    button-text: Learn More
     button-link: /angel-packs.html
     image: /uploads/AngelPack/IMG_8011-(1).jpg
     alt: A smiling stuffed lion leaning on a blue box titled "Angel Pack."
