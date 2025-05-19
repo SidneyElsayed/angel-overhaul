@@ -320,6 +320,11 @@ h3 strong {
     position: relative;
   }
 
+/* Major Funders Grid */
+.major-funders-grid {
+  grid-template-columns: 12rem 1fr 1fr;
+}
+
 /* Slick Slider Styles */
 .slider-container {
   padding: 8%;
@@ -327,6 +332,7 @@ h3 strong {
 
 .slick-dots {
   bottom: 0%;
+  left: 0;
 }
 
 /* Info Card Styles */

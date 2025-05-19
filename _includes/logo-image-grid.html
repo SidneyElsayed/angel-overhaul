@@ -4,7 +4,7 @@
   <!-- Actual content starts here, so that the above has the max width -->
   <div class="bg-white py-16 gap-7 slider-container">
     {% for item in block.image-loop %}
-    <div class="slider-item max-h-32 min-w-32 w-full h-full overflow-x-auto flex-nowrap">
+    <div class="slider-item min-w-32 w-full h-full overflow-x-auto flex-nowrap">
       <a href="{{item.link}}" target="_blank" class="self-center">
         <img class="object-cover w-full h-full" src="{{item.image}}" alt="{{item.alt}}">
       </a>

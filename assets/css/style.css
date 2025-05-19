@@ -608,8 +608,8 @@ video {
 .max-h-0 {
   max-height: 0px;
 }
-.max-h-32 {
-  max-height: 8rem;
+.max-h-\[100vh\] {
+  max-height: 100vh;
 }
 .min-h-\[50vh\] {
   min-height: 50vh;
@@ -755,6 +755,9 @@ video {
 }
 .overflow-x-scroll {
   overflow-x: scroll;
+}
+.overflow-y-scroll {
+  overflow-y: scroll;
 }
 .rounded-2xl {
   border-radius: 1rem;
@@ -1392,6 +1395,11 @@ h3 strong {
     position: relative;
   }
 
+/* Major Funders Grid */
+.major-funders-grid {
+  grid-template-columns: 12rem 1fr 1fr;
+}
+
 /* Slick Slider Styles */
 .slider-container {
   padding: 8%;
@@ -1399,6 +1407,7 @@ h3 strong {
 
 .slick-dots {
   bottom: 0%;
+  left: 0;
 }
 
 /* Info Card Styles */
@@ -1540,20 +1549,12 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   border-bottom-color: var(--featured-color-angel-blue);
 }
 
-.hover\:border-b-\[var\(--featured-color-medium-blue\)\]:hover {
-  border-bottom-color: var(--featured-color-medium-blue);
-}
-
 .hover\:text-\[var\(--bg-color\)\]:hover {
   color: var(--bg-color);
 }
 
 .hover\:text-\[var\(--featured-color-angel-blue\)\]:hover {
   color: var(--featured-color-angel-blue);
-}
-
-.hover\:text-\[var\(--featured-color-medium-blue\)\]:hover {
-  color: var(--featured-color-medium-blue);
 }
 
 .focus\:bg-\[var\(--featured-color-v-light-blue\)\]:focus {
