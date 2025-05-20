@@ -28,20 +28,79 @@ blocks:
     type: volunteer-opportunities
     text-alignment: center
     scheme-name: v-light-blue-background
-  - id: text-banner
-    heading_html: <h2>How to apply</h2>
-    text_html: >-
-      To apply to volunteer and be added to our volunteer newsletter, click
-      “Apply.”
-    large-text-width: half
-    paragraph-width: half
-    large-text-placement: left
-    large-text-alignment: left
-    paragraph-text-alignment: left
-    button-1-text: Apply
-    button-1-link: /index
-    button-2-text:
-    button-2-link:
+  - id: form
+    section-heading: Apply to Volunteer
+    large-text-alignment: center
+    section-text:
+    submit-button-text: Submit
+    button-alignment: center
+    inputs:
+      - form-type: text
+        name: First Name
+        label: First Name
+        placeholder-text: John
+        width: half
+        required: true
+      - form-type: text
+        name: Last Name
+        label: Last Name
+        placeholder-text: Smith
+        width: half
+        required: true
+      - form-type: text
+        name: Date of Birth
+        label: Date of Birth (Must be 18+)
+        placeholder-text: mm/dd/yyyy
+        width: half
+        required: true
+      - form-type: text
+        name: Address Line 1
+        label: Address Line 1
+        placeholder-text: 123 ABC Street
+        width: full
+        required: true
+      - form-type: text
+        name: Address Line 2
+        label: Address Line 2
+        placeholder-text: ''
+        width: full
+        required: true
+      - form-type: text
+        name: City
+        label: City
+        placeholder-text: ''
+        width: half
+        required: true
+      - form-type: text
+        name: State
+        label: State
+        placeholder-text: Minnesota
+        width: half
+        required: true
+      - form-type: phone
+        name: Phone Number
+        label: Phone Number
+        placeholder-text: (XXX) XXX-XXXX
+        width: half
+        required: true
+      - form-type: email
+        name: Email Address
+        label: Email Address
+        placeholder-text: johnsmith@email.com
+        width: half
+        required: true
+      - form-type: text
+        name: Current Employer
+        label: Current Employer
+        placeholder-text: ''
+        width: half
+        required: true
+      - form-type: textarea
+        name: Interest
+        label: Why are you interested in volunteering at Angel Foundation™?
+        placeholder-text: ''
+        width: full
+        required: true
     scheme-name: light-green-background
   - id: accordion
     section-heading: Frequently Asked Questions
