@@ -2,10 +2,18 @@
   <div class="max-width mx-auto">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="bg-white py-16 gap-7 slider-container">
-    {% for item in block.image-loop %}
+  <div class="bg-white py-16 slider-container">
+    {% for item in site.data.partners.Major_Funders %}
     <div class="slider-item min-w-32 w-full h-full overflow-x-auto flex-nowrap">
-      <a href="{{item.link}}" target="_blank" class="self-center">
+      <a href="{{item.link}}" target="_blank" class="p-10">
+        <img class="object-cover w-full h-full" src="{{item.image}}" alt="{{item.alt}}">
+      </a>
+    </div>
+    {% endfor %}
+
+    {% for item in site.data.partners.Nonprofit_Partners %}
+    <div class="slider-item min-w-32 w-full h-full overflow-x-auto flex-nowrap">
+      <a href="{{item.link}}" target="_blank" class="p-10">
         <img class="object-cover w-full h-full" src="{{item.image}}" alt="{{item.alt}}">
       </a>
     </div>

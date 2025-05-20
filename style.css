@@ -330,6 +330,15 @@ h3 strong {
   padding: 8%;
 }
 
+.slider-testimonials {
+  padding: 8%;
+}
+
+.slick-track {
+  place-items: center;
+  display: flex;
+}
+
 .slick-dots {
   bottom: 0%;
   left: 0;

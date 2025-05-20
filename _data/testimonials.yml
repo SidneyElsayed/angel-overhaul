@@ -8,6 +8,7 @@ quote-loop:
       loved seeing him smile. Thank you!
     image: /uploads/AFPPics/Wolves-game-1-27-25-6.jpg
     alt: A family attending a sports game.
+    program: AFP
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
   - name: Adult & Family Programs Participant
@@ -17,6 +18,7 @@ quote-loop:
       and forget about cancer for a few hours.
     image: /uploads/MiscPhotos/752D45C7-47D8-4EEF-A3F3-AE7A1857A236.jpeg
     alt: A girl getting her face painted
+    program: AFP
     image-horizontal-focal-point: center
     image-vertical-focal-point: top
   - name: Adult & Family Programs Participant
@@ -27,6 +29,7 @@ quote-loop:
       when so much else is uncertain.
     image: /uploads/AFPPics/914539F1-5F39-4B68-81F1-2E81E083371A.jpeg
     alt: Kids in yellow go karts.
+    program: AFP
     image-horizontal-focal-point: right
     image-vertical-focal-point: center
   - name: Adult & Family Programs Participant

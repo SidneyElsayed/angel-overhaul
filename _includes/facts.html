@@ -13,7 +13,7 @@
 
   <!-- Facts -->
   <div class="grid grid-cols-5 gap-4">
-    {% for item in block.facts-loop | limit:5 %}
+    {% for item in site.data.facts.facts-loop | limit:5 %}
     {% if item.featured and item.text %}
     <div class="py-4 text-center">
         <p class="pb-3 text-3xl sm:text-5xl font-extrabold block text-[var(--featured-color)]">{{item.featured}}</p>
