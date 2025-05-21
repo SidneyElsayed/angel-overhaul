@@ -293,16 +293,6 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/Audelia-Use.JPG
         alt: A headshot of Audelia Kouame
-      - name: Heather Lake
-        job-title: Program Coordinator (Duluth)
-        phone-number: <p>(612) 627-9000 ext. 515</p>
-        email:
-        short-description_html: ''
-        color: var(--featured-color-dark-navy)
-        button-text:
-        button-link:
-        image: /uploads/StaffPhotos/Heather-Lake-Headshot.jpg
-        alt: A headshot of Heather Lake
       - name: Maddy Lamers
         job-title: Development & Communications Associate
         phone-number: 612-627-9000 ext. 508
@@ -318,7 +308,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 509</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Holly-Headshot.png
@@ -328,7 +318,7 @@ jobs-loop:
         phone-number: 612-627-9000 ext. 516
         email:
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-angel-blue)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/kathy-use-summer.jpg
@@ -338,7 +328,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 513</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-dark-navy)
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Aleah-use.JPG
