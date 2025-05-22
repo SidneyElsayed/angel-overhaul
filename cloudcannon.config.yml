@@ -320,6 +320,23 @@ _inputs:
     label: Form input type
     comment: Choose what type of information people are putting into the form (text is for things like forst and last name, textarea is for a larger area for text)
     cascade: true
+  event-type-filter:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - Annual Events
+        - Financial Cancer Care
+        - Making Memories | Rochester
+        - Making Memories | Duluth
+        - Making Memories | Twin Cities
+        - Educational Events
+        - Third Party Events
+    label: Color scheme for the block
+    comment: >-
+      Choose which background color to use, then the text, button and highlight
+      colors will be chosen automatically
+    cascade: true
 _structures:
   blocks:
     style: select
