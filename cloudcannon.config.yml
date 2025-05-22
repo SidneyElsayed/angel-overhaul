@@ -370,9 +370,6 @@ _structures:
       - label: image text numbers
         value:
           id: image-text-numbers
-          image:
-          alt:
-          caption:
           section-heading_html:
           text-block-heading_html:
           heading-has-long-words:
@@ -384,6 +381,9 @@ _structures:
           button-1-link: 
           button-2-text: 
           button-2-link: 
+          image:
+          alt:
+          caption:
           image-placement: 
           image-horizontal-focal-point: 
           image-vertical-focal-point: 
@@ -470,14 +470,6 @@ _structures:
             - question:
               answer_html:
           scheme-name:
-      - label: calendar at a glance
-        value:
-          id: calendar-at-a-glance
-          section-heading:
-          large-text-alignment:
-          type:
-          text-alignment:
-          scheme-name:
       - label: testimonials
         value:
           id: testimonials
@@ -530,6 +522,14 @@ _structures:
           section-heading:
           type:
           scheme-name:
+      - label: calendar list
+        value:
+          id: calendar-list
+          event-type-filter: 
+      - label: calendar month
+        value:
+          id: calendar-month
+          event-type-filter: 
 timezone: Asia/Riyadh
 markdown:
   engine: commonmark
