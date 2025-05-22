@@ -566,6 +566,10 @@ video {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.my-14 {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -698,11 +702,20 @@ video {
 .content-center {
   align-content: center;
 }
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
 .items-center {
   align-items: center;
 }
 .justify-start {
   justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
 }
 .justify-center {
   justify-content: center;
