@@ -332,10 +332,9 @@ _inputs:
         - Making Memories | Twin Cities
         - Educational Events
         - Third Party Events
-    label: Color scheme for the block
+    label: Event Type Filter
     comment: >-
-      Choose which background color to use, then the text, button and highlight
-      colors will be chosen automatically
+      Choose which event type to pre-filter. If left blank, the default is "all"
     cascade: true
 _structures:
   blocks:
