@@ -305,6 +305,7 @@ _inputs:
         - programs
         - testimonials
         - volunteer opportunities
+        - facts
     label: Information type
     comment: Choose what information is pulled into this block
     cascade: true
