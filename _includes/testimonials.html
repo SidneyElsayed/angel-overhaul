@@ -8,13 +8,13 @@
       <h2 class="pb-8 featured-text text-6xl font-extrabold uppercase tracking-wide {% if block.large-text-alignment == 'right' %} text-right {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'left' %} text-left {% endif %}">{{block.heading}}</h2>
     </div>
 
-    <div class="slider-testimonial grid grid-cols-3">
+    <div class="slider-testimonial">
       {% for item in item %}
       {% if item.program == block.program %}
-      <div class="col-span-3 grid grid-cols-3">
+      <div class="grid grid-cols-3">
         <!-- Image -->
         {% if item.image %}
-        <div class="col-span-3 md:col-span-1"> 
+        <div class="col-span-1"> 
           <div class="relative m-8">
             <img class="relative z-10 rounded-2xl object-cover object-center aspect-square" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}">
             <!-- Color block -->
@@ -24,7 +24,7 @@
         {% endif %}
 
         <!-- Quote -->
-        <div class="pt-10 md:p-16 col-span-3 md:col-span-2 order-first md:order-last grid grid-cols-8">
+        <div class="pt-10 md:p-16 col-span-2 order-first md:order-last grid grid-cols-8">
           <div class="col-span-1 text-7xl text-center">&ldquo;</div>
           <div class="pt-6 col-span-6">
             <!-- Quote -->

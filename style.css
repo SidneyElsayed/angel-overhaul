@@ -325,13 +325,18 @@ h3 strong {
   grid-template-columns: 12rem 1fr 1fr;
 }
 
+/* Testimonials Grid */
+.testimonials-grid {
+  grid-template-columns: 12rem 1fr;
+}
+
 /* Slick Slider Styles */
 .slider-container {
   padding: 8%;
 }
 
 .slider-testimonials {
-  padding: 8%;
+
 }
 
 .slick-track {

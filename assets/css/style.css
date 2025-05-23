@@ -541,9 +541,6 @@ video {
 .col-span-6 {
   grid-column: span 6 / span 6;
 }
-.m-12 {
-  margin: 3rem;
-}
 .m-2 {
   margin: 0.5rem;
 }
@@ -562,13 +559,13 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
 .my-14 {
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
+}
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -701,12 +698,6 @@ video {
 }
 .content-center {
   align-content: center;
-}
-.items-start {
-  align-items: flex-start;
-}
-.items-end {
-  align-items: flex-end;
 }
 .items-center {
   align-items: center;
@@ -1409,13 +1400,18 @@ h3 strong {
   grid-template-columns: 12rem 1fr 1fr;
 }
 
+/* Testimonials Grid */
+.testimonials-grid {
+  grid-template-columns: 12rem 1fr;
+}
+
 /* Slick Slider Styles */
 .slider-container {
   padding: 8%;
 }
 
 .slider-testimonials {
-  padding: 8%;
+
 }
 
 .slick-track {
@@ -1580,6 +1576,9 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
 }
 
 @media (min-width: 640px) {
+  .sm\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -1651,9 +1650,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   }
   .md\:col-span-6 {
     grid-column: span 6 / span 6;
-  }
-  .md\:m-20 {
-    margin: 5rem;
   }
   .md\:mr-12 {
     margin-right: 3rem;
