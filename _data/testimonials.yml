@@ -40,6 +40,7 @@ quote-loop:
       you!</p>
     image: /uploads/AFPPics/S1.jpg
     alt: A mom and daughter holding turkeys and pumpkins.
+    program: AFP
     image-horizontal-focal-point: center
     image-vertical-focal-point: top
   - name: Emergency Financial Assistance Recipient
@@ -51,6 +52,7 @@ quote-loop:
       owed. Thank you for being there just when I needed you most.</p>
     image: /uploads/NewStockPics/olderfolks.jpg
     alt: An older couple looking wistfully out a window.
+    program: EFA
     image-horizontal-focal-point: right
     image-vertical-focal-point: center
   - name: Emergency Financial Assistance Recipient
@@ -61,6 +63,7 @@ quote-loop:
       support!</p>
     image: /uploads/NewStockPics/momdaug.jpg
     alt: A mom and a daughter share a sweet glance.
+    program: EFA
     image-horizontal-focal-point: center
     image-vertical-focal-point: top
   - name: Emergency Financial Assistance Recipient
@@ -70,6 +73,7 @@ quote-loop:
       Angel Foundation™ and all you are doing to help people with cancer.</p>
     image: /uploads/MiscPhotos/MWANGEL_0428.jpg
     alt: A family of three smiles against a window.
+    program: EFA
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
   - name: Emergency Financial Assistance Recipient
@@ -80,6 +84,7 @@ quote-loop:
       for the support you have given me.</p>
     image: /uploads/MiscPhotos/AngelThursdayHires-326.jpg
     alt: A couple smiles against a leafy background.
+    program: EFA
     image-horizontal-focal-point: center
     image-vertical-focal-point: top
   - name: Financial Cancer Care Program Participant
@@ -92,6 +97,7 @@ quote-loop:
       can change that.</p>
     image: /uploads/MiscPhotos/AngelTuesdayHiRes-243.jpg
     alt: A smiling couple hugs against a leafy background.
+    program: FCC
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
   - name: Financial Cancer Care Program Participant
@@ -103,6 +109,7 @@ quote-loop:
       have been available to me otherwise. Thank you!</p>
     image: /uploads/MiscPhotos/Wendy-Mitchell-and-Mia-McCoy-1-Feb-24th-2018.jpg
     alt: Two women smile indoors.
+    program: FCC
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
   - name: Financial Cancer Care Program Participant
@@ -114,6 +121,7 @@ quote-loop:
       begin estate planning.</p>
     image: /uploads/NewStockPics/fam-of-three.jpg
     alt: A family of three hugs in a field.
+    program: FCC
     image-horizontal-focal-point: center
     image-vertical-focal-point: top
   - name: Angel Pack™ Recipient
@@ -124,6 +132,7 @@ quote-loop:
       has been so much going on.</p>
     image: /uploads/AngelPack/IMG_8025.jpg
     alt: A "What is Cancer?" booklet for kids.
+    program: FCC
     image-horizontal-focal-point: center
     image-vertical-focal-point: top
   - name: Angel Pack™ Recipient
@@ -134,6 +143,7 @@ quote-loop:
       close. We truly appreciate your mission.</p>
     image: /uploads/AngelPack/IMG_9169.jpg
     alt: Rory the stuffed lion in medical play gear.
+    program: AP
     image-horizontal-focal-point: center
     image-vertical-focal-point: top
   - name: Angel Pack™ Recipient
@@ -145,6 +155,7 @@ quote-loop:
       kids were getting information appropriate for each of them.</p>
     image: /uploads/NewStockPics/momandson.jpg
     alt: A mom with cancer and her son play outside.
+    program: AP
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
   - name: Angel Pack™ Recipient
@@ -154,5 +165,6 @@ quote-loop:
       My son sleeps with Rory the Lion every night. Thank you.</p>
     image: /uploads/NewStockPics/shutterstock_1979937377.jpg
     alt: A mom and her son laugh together.
+    program: AP
     image-horizontal-focal-point: center
     image-vertical-focal-point: top

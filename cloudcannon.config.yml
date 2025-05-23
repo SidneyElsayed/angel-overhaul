@@ -308,6 +308,18 @@ _inputs:
     label: Information type
     comment: Choose what information is pulled into this block
     cascade: true
+  program:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - AFP
+        - FCC
+        - EFA
+        - AP
+    label: Program type for testimonials
+    comment: Choose which program the testimonials will pull
+    cascade: true
   form-type:
     type: select
     options:
@@ -486,7 +498,7 @@ _structures:
           section-heading:
           large-text-alignment:
           type:
-          show:
+          program:
           text-alignment:
           scheme-name:
       - label: button banner
