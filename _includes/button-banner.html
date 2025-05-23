@@ -2,11 +2,11 @@
   <div class="max-width mx-auto">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="p-28 flex flex-nowrap overflow-x-scroll no-scrollbar justify-center gap-6 md:gap-14">
+  <div class="p-28 flex flex-nowrap overflow-x-scroll no-scrollbar justify-center gap-6 md:gap-14 {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %}">
   {% for item in block.button-loop %}
-  <div class="p-4 px-8 shrink-0 button-{% cycle '1','2','3' %} rounded-lg">
-    <a href="{{item.link}}" class="p-4 px-8 font-bold featured-text uppercase tracking-wide">{{item.text}}</a>
-  </div>
+    <div class="p-4 px-8 shrink-0 button-{% cycle '1','2','3' %} rounded-lg">
+      <a href="{{item.link}}" class="p-4 px-8 font-bold featured-text uppercase tracking-wide">{{item.text}}</a>
+    </div>
   {% endfor %}
 </div>
 

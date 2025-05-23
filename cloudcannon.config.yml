@@ -507,6 +507,8 @@ _structures:
           button-loop:
             - text:
               link:
+          hide-top-padding: 
+          hide-bottom-padding:
           scheme-name:
       - label: image grid
         value:
