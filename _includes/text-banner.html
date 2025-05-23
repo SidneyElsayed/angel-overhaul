@@ -14,7 +14,7 @@
     {% endif %}
 
     <!-- Paragraphs -->
-    <div class="{% if block.paragraph-width == 'full' %} col-span-2 {% elsif block.paragraph-width == 'half' %} col-span-2 md:col-span-1 {% endif %} 
+    <div class="lg:text-lg {% if block.paragraph-width == 'full' %} col-span-2 {% elsif block.paragraph-width == 'half' %} col-span-2 md:col-span-1 {% endif %} 
     
     {% if block.large-text-placement == 'right' %} md:order-first {% endif %}
     
