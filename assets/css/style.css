@@ -532,9 +532,6 @@ video {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
-.col-span-3 {
-  grid-column: span 3 / span 3;
-}
 .col-span-4 {
   grid-column: span 4 / span 4;
 }
@@ -1089,6 +1086,15 @@ html{
   scroll-behavior: smooth;
 }
 
+p a {
+  color:var(--featured-color-angel-blue);
+  border-bottom: 1px solid;
+}
+
+p a:hover {
+  color:var(--featured-color);
+}
+
 /* Typography */
 body {
     font-family: "Open Sans", serif;
@@ -1576,9 +1582,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
 }
 
 @media (min-width: 640px) {
-  .sm\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
   }
@@ -1674,9 +1677,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
   .md\:grid-cols-6 {
     grid-template-columns: repeat(6, minmax(0, 1fr));

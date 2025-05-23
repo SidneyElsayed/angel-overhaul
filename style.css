@@ -14,6 +14,15 @@ html{
   scroll-behavior: smooth;
 }
 
+p a {
+  color:var(--featured-color-angel-blue);
+  border-bottom: 1px solid;
+}
+
+p a:hover {
+  color:var(--featured-color);
+}
+
 /* Typography */
 body {
     font-family: "Open Sans", serif;
