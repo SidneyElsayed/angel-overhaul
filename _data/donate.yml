@@ -1,8 +1,6 @@
 card-loop:
   - heading: Blue Ribbon Circle
-    short-description_html: >-
-      <p>Donors who give $1,000+ annually, recurring gifts, or include us in
-      estate plans.</p>
+    short-description_html: Donors who give $1,000+ annually, recurring gifts, or include us in estate plans.
     button-text: Learn More
     button-link: /blue-ribbon-circle.html
     image: /uploads/MiscPhotos/BRC-Main.jpg
@@ -14,9 +12,7 @@ card-loop:
     image: /uploads/MiscPhotos/AngelTuesdayHiRes-262.jpg
     alt: A family of five smiling in a park
   - heading: Other Ways to Give
-    short-description_html: >-
-      <p>Information about Donor Advised Funds, Matching Gifts, Stock Donations,
-      In Kind and Workplace Giving.</p>
+    short-description_html: Information about Donor Advised Funds, Matching Gifts, Stock Donations, In Kind and Workplace Giving.
     button-text: Learn More
     button-link: /other-ways-to-give.html
     image: /uploads/NewStockPics/shutterstock_1979937377.jpg
