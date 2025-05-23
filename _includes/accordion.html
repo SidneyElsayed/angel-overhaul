@@ -25,7 +25,7 @@
             x-ref="container{{forloop.index}}"
             x-bind:style="selected == {{forloop.index}} ? 'max-height: ' + $refs.container{{forloop.index}}.scrollHeight + 'px' : ''">
             <div class="pt-0 pb-4 px-8 text-{{block.text-alignment}}">
-              <p>{{item.answer_html}}</p>
+              <p class="lg:text-lg">{{item.answer_html}}</p>
             </div>
           </div>
         </div>
