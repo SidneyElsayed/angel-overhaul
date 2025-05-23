@@ -8,7 +8,7 @@ card-loop:
   - heading: Planned Giving
     short-description_html: Learn about including us as a beneficiary in your will or estate plan.
     button-text: Learn More
-    button-link: /planned-giving.html
+    button-link: https://mnangel.planned.gifts/
     image: /uploads/MiscPhotos/AngelTuesdayHiRes-262.jpg
     alt: A family of five smiling in a park
   - heading: Other Ways to Give
