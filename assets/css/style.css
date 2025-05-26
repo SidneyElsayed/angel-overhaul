@@ -805,9 +805,6 @@ video {
   -o-object-position: center;
      object-position: center;
 }
-.p-10 {
-  padding: 2.5rem;
-}
 .p-28 {
   padding: 7rem;
 }
@@ -822,6 +819,10 @@ video {
 }
 .p-8 {
   padding: 2rem;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 .px-4 {
   padding-left: 1rem;
@@ -874,10 +875,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 .pb-0 {
   padding-bottom: 0px;
@@ -1401,12 +1398,17 @@ h3 strong {
     text-decoration: none;
     color: var(--base-color);
     background-color: var(--featured-color-angel-blue);
-    border: 1px solid var(--featured-color-angel-blue);
-    padding: 0.5rem 5%;
+    font-size: 0.75rem;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    border-radius: 0.5rem;
+    padding: 0.25rem 5%;
     display: inline-block;
     position: absolute;
     top:-1rem;
-    right:-1rem;
+    right:-0.9rem;
     margin:0;
     z-index: 2;
 }

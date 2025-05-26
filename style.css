@@ -334,12 +334,17 @@ h3 strong {
     text-decoration: none;
     color: var(--base-color);
     background-color: var(--featured-color-angel-blue);
-    border: 1px solid var(--featured-color-angel-blue);
-    padding: 0.5rem 5%;
+    font-size: 0.75rem;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    border-radius: 0.5rem;
+    padding: 0.25rem 5%;
     display: inline-block;
     position: absolute;
     top:-1rem;
-    right:-1rem;
+    right:-0.9rem;
     margin:0;
     z-index: 2;
 }
