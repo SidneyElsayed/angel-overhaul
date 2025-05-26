@@ -36,6 +36,15 @@ _inputs:
       italics: true
       underline: true
     cascade: true
+  annual-report:
+    type: document
+    cascade: true
+  annual-990-form:
+    type: document
+    cascade: true
+  audited-financials:
+    type: document
+    cascade: true
   phone-number:
     type: html
     options:
