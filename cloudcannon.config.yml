@@ -474,11 +474,13 @@ _structures:
         value:
           id: virtuous-form
           section-heading:
+          text-alignment:
           scheme-name:
       - label: newsletter form
         value:
           id: newsletter-form
           section-heading:
+          text-alignment: 
           scheme-name:
       - label: form
         value:
