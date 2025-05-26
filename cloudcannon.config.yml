@@ -171,10 +171,10 @@ _inputs:
     cascade: true
   name:
     type: text
-    label: Name for receiving the form information
+    label: Name of person OR for receiving the form information
     options: 
       allow_empty: false
-    comment: When you receive the form in your email, this is what the form will export to you
+    comment: Infor for the card OR for when you receive the form in your email, this is what the form will export to you
   label:
     type: text
     label: Title above the input area
@@ -235,6 +235,16 @@ _inputs:
         - right
     label: Paragraph text alignment
     comment: Choose whether the paragraph text is aligned to the left, center, or right
+    cascade: true
+  title:
+    type: checkbox
+    label: Does this person hold a title / need a tag on their info card?
+    comment: By checking this box, you'll add a tag to the top of the info card
+    cascade: true
+  title-tag:
+    type: text
+    label: Tag text
+    comment: This is what text will appear on the tag.
     cascade: true
   hide-top-padding:
     type: checkbox
