@@ -360,6 +360,10 @@ h3 strong {
   padding: 8%;
 }
 
+.slider-item a {
+  display: block;
+}
+
 .slider-testimonials {
 
 }
