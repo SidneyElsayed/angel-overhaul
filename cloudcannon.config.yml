@@ -174,7 +174,7 @@ _inputs:
     label: Name of person OR for receiving the form information
     options: 
       allow_empty: false
-    comment: Infor for the card OR for when you receive the form in your email, this is what the form will export to you
+    comment: Info for the card OR for when you receive the form in your email, this is what the form will export to you
   label:
     type: text
     label: Title above the input area

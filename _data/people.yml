@@ -3,6 +3,8 @@ jobs-loop:
     people:
       - name: Dr. Uzma Ali
         job-title: Medical Oncologist
+        title: true
+        title-tag: Vice Chair
         phone-number: <p>Minnesota Oncology Hematology, PA</p>
         email:
         short-description_html: ''
@@ -11,10 +13,8 @@ jobs-loop:
         button-link:
         image: /uploads/BoardPhotos/Uzma-Ali-MD_2-scaled.jpg
         alt: A headshot of Dr. Uzma Ali
-        title: true
-        title-tag: Vice Chair
       - name: Marc Baer
-        job-title: Chief Operating Officer
+        job-title: Chief Operating Officer 
         title: true
         title-tag: President
         phone-number: <p>Hazelden Betty Ford Foundation</p>
