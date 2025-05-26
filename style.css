@@ -329,6 +329,22 @@ h3 strong {
     position: relative;
   }
 
+/* Title tag for Our People Cards */
+  .job-title {
+    text-decoration: none;
+    color: var(--base-color);
+    background-color: var(--featured-color-angel-blue);
+    border: 1px solid var(--featured-color-angel-blue);
+    padding: 0.5rem 5%;
+    display: inline-block;
+    position: absolute;
+    top:-1rem;
+    right:-1rem;
+    margin:0;
+    z-index: 2;
+}
+
+
 /* Major Funders Grid */
 .major-funders-grid {
   grid-template-columns: 12rem 1fr 1fr;

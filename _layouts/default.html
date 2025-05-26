@@ -48,7 +48,7 @@
 
     {% for block in page.blocks %}
     <!-- {{block.id}} -->
-   <div class="scheme-{{block.scheme-name}}">
+   <div id="section-{{forloop.index}}" class="scheme-{{block.scheme-name}}">
     {% if block.type == 'calendar' %}
       {% assign item = site.data.calendar.card-loop %}
 

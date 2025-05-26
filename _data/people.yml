@@ -3,6 +3,8 @@ jobs-loop:
     people:
       - name: Dr. Uzma Ali
         job-title: Medical Oncologist
+        title: true
+        title-tag: Vice Chair
         phone-number: <p>Minnesota Oncology Hematology, PA</p>
         email:
         short-description_html: ''

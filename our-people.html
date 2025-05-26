@@ -28,20 +28,28 @@ blocks:
 
         <!-- Jobs Loop -->
         <div class="col-span-1 rounded-lg text-[var(--base-color)] bg-[var(--featured-color-dark-navy)]" {% if item.color %} style="background-color: {{item.color}}" {% endif %}>
-          <!-- Image -->
-          <div>
-            <img class="aspect-square rounded-t-lg  object-cover w-full" src="{{item.image}}" alt="{{item.alt}}" />
-          </div>
 
-          <!-- Text -->
-          <div class="p-5 sm:p-4 pb-8 rounded-b-lg {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">
-            <h3 class="pb-2 featured-text font-semibold text-xl">{{item.name}}</h3>
-            <p class="pb-2 font-semibold uppercase text-xs tracking-widest {% if item.color == 'var(--featured-color-medium-blue)' %} text-[var(--featured-color-dark-navy)] {% else %} text-[var(--featured-color-medium-blue)] {% endif %}">{{item.job-title}}</p>
-            <p>{{item.phone-number}}</p>
+        <div class="relative">
+          {% if item.title == true %}
+            <div>
+               <h4 class="job-title">{{item.title-tag}}</h4>
+            </div>
+          {% endif %}
 
-          </div>
+            <!-- Image -->
+            <div>
+              <img class="aspect-square rounded-t-lg  object-cover w-full" src="{{item.image}}" alt="{{item.alt}}" />
+            </div>
+
+            <!-- Text -->
+            <div class="p-5 sm:p-4 pb-8 rounded-b-lg {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">
+              <h3 class="pb-2 featured-text font-semibold text-xl">{{item.name}}</h3>
+              <p class="pb-2 font-semibold uppercase text-xs tracking-widest {% if item.color == 'var(--featured-color-medium-blue)' %} text-[var(--featured-color-dark-navy)] {% else %} text-[var(--featured-color-medium-blue)] {% endif %}">{{item.job-title}}</p>
+              <p>{{item.phone-number}}</p>
+            </div>
         </div>
-      {% endfor %}    
+      </div>
+    {% endfor %}    
     </div>
   </div>
   

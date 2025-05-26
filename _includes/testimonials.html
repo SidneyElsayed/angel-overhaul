@@ -11,6 +11,7 @@
     <div class="slider-testimonial">
       {% for item in item %}
       {% if item.program == block.program %}
+      <div>
       <div class="grid grid-cols-3">
         <!-- Image -->
         {% if item.image %}
@@ -36,6 +37,7 @@
           </div>
           <div class="col-span-1 text-7xl place-content-end pb-4 pl-2">&rdquo;</div>
         </div>
+      </div>
       </div>
     {% endif %}
     {% endfor %}
