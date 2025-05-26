@@ -125,7 +125,7 @@ _inputs:
         - center
         - bottom
     label: Text placement
-    comment: Choose where the text is placed in relation to the image
+    comment: Choose where the text is placed in relation to the image or paragraph text
     cascade: true
   button-alignment: 
     type: select
