@@ -100,7 +100,7 @@ h4 {
 
 p {
   font-weight: 100;
-  padding-bottom: 1rem;
+  padding-bottom: 0;
 }
 
 .featured-text { font-family: "Montserrat", serif;}
