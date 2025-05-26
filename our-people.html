@@ -8,7 +8,7 @@ blocks:
     text-placement: center
     image: /uploads/MiscPhotos/OP-Main.jpg
     image-horizontal-focal-point: right
-    image-vertical-focal-point: bottom
+    image-vertical-focal-point: center
     overlay: overlay-dark
     scheme-name: dark-navy-background
 ---
@@ -27,7 +27,7 @@ blocks:
     {% for item in jobs.people %}
 
         <!-- Jobs Loop -->
-        <div class="col-span-1 rounded-lg text-[var(--base-color)] bg-[var(--featured-color-dark-navy)]" {% if item.color %} style="background-color: {{item.color}}" {% endif %}>
+        <div class="col-span-1 rounded-lg text-[var(--base-color)] bg-[var(--featured-color-dark-navy)]" {% if item.color %} style="background-color: {{item.color}}" endif>
 
         <div class="relative">
           {% if item.title == true %}
