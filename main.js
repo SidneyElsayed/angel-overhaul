@@ -45,7 +45,7 @@ $('.slider-testimonial').slick({
 $('.slider-container').slick({
 	centerMode: false, // Makes the center photo slightly bigger
     centerPadding: '60px', // Padding for the photos
-    slidesToShow: 5, // Self explainatory
+    slidesToShow: 3, // Self explainatory
     autoplay: true, // Do we want it to autoplay? true or false
 	autoplaySpeed: 3000, // How long between each slide when auto-playing
 	speed: 1000, // How fast is the transition in milliseconds
