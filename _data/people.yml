@@ -3,7 +3,7 @@ jobs-loop:
     people:
       - name: Dr. Uzma Ali
         job-title: Medical Oncologist
-        title: true
+        tag: true
         title-tag: Vice Chair
         phone-number: <p>Minnesota Oncology Hematology, PA</p>
         email:
@@ -15,7 +15,7 @@ jobs-loop:
         alt: A headshot of Dr. Uzma Ali
       - name: Marc Baer
         job-title: Chief Operating Officer 
-        title: true
+        tag: true
         title-tag: President
         phone-number: <p>Hazelden Betty Ford Foundation</p>
         email:
@@ -27,7 +27,7 @@ jobs-loop:
         alt: A headshot of Marc Baer
       - name: Cindy Blackstock
         job-title:
-        title:
+        tag:
         title-tag:
         phone-number: ''
         email:
@@ -39,7 +39,7 @@ jobs-loop:
         alt: A headshot of Cindy Blackstock
       - name: Michael Castagnetto
         job-title: President, N.A.S.T.
-        title: true
+        tag: true
         title-tag: Chairman
         phone-number: C.H. Robinson
         email:
@@ -51,7 +51,7 @@ jobs-loop:
         alt: A headshot of Michael Castagnetto
       - name: Kirstie Foster
         job-title: Head of Global Brand & Communications
-        title:
+        tag:
         title-tag:
         phone-number: Graco
         email: dbecker@mnangel.org
@@ -63,7 +63,7 @@ jobs-loop:
         alt: A headshot of Kirstie Foster
       - name: Whitney Greene-Nymo
         job-title: Former Executive Director, Strategic Program Development
-        title:
+        tag:
         title-tag:
         phone-number: <p>Stanford Cancer Institute</p>
         email: ''
@@ -75,7 +75,7 @@ jobs-loop:
         alt: A headshot of Whitney Greene-Nymo
       - name: Alexia Hansen
         job-title: Author
-        title:
+        tag:
         title-tag:
         phone-number: <p>Alexia Chantel Author</p>
         email: ''
@@ -87,7 +87,7 @@ jobs-loop:
         alt: A headshot of Alexia Hansen
       - name: Lisa Horgeshimer
         job-title: Senior Manager, Global Merchant Services
-        title:
+        tag:
         title-tag:
         phone-number: <p>American Express</p>
         email: ''
@@ -99,7 +99,7 @@ jobs-loop:
         alt: A headshot of Lisa Horgeshimer
       - name: Ken Horstman
         job-title: Vice President & Chief Human Resource Officer
-        title:
+        tag:
         title-tag:
         phone-number: <p>University of Minnesota</p>
         email: ''
@@ -111,7 +111,7 @@ jobs-loop:
         alt: A headshot of Ken Horstman
       - name: Jennifer Jones
         job-title: Vice President of Community Relations
-        title:
+        tag:
         title-tag:
         phone-number: <p>Ameriprise</p>
         email: ''
@@ -123,7 +123,7 @@ jobs-loop:
         alt: A headshot of Jennifer Jones
       - name: Sandy Jones
         job-title: Senior Director, Healthcare | Client Partner
-        title:
+        tag:
         title-tag:
         phone-number: <p>LTIMindtree</p>
         email: ''
@@ -135,7 +135,7 @@ jobs-loop:
         alt: A headshot of Sandy Jones
       - name: Marcy Keckler
         job-title: ''
-        title:
+        tag:
         title-tag:
         phone-number: ''
         email: ''
@@ -147,7 +147,7 @@ jobs-loop:
         alt: A headshot of Marcy Keckler
       - name: Stephanie Kennelly
         job-title: Program Coordinator, Center for Genome Engineering
-        title:
+        tag:
         title-tag:
         phone-number: <p>University of Minnesota</p>
         email: ''
@@ -159,7 +159,7 @@ jobs-loop:
         alt: A headshot of Stephanie Kennelly
       - name: Danielle Kirkwood
         job-title: Director Process Optimization, CS Projects
-        title:
+        tag:
         title-tag:
         phone-number: <p>Sevita</p>
         email: ''
@@ -171,7 +171,7 @@ jobs-loop:
         alt: A headshot of Danielle Kirkwood
       - name: Kristin LeBre
         job-title: Employment Law Counsel
-        title:
+        tag:
         title-tag:
         phone-number: <p>Marvin</p>
         email: ''
@@ -183,7 +183,7 @@ jobs-loop:
         alt: A headshot of Kristin LeBre
       - name: Ashley MacHolda
         job-title: Enterprise Account Executive
-        title:
+        tag:
         title-tag:
         phone-number: <p>Salesforce</p>
         email: ''
@@ -195,7 +195,7 @@ jobs-loop:
         alt: A headshot of Ashley MacHolda
       - name: Beth Monsrud
         job-title: Senior Vice President & Chief Financial Officer
-        title:
+        tag:
         title-tag:
         phone-number: <p>UCare</p>
         email: ''
@@ -207,7 +207,7 @@ jobs-loop:
         alt: A headshot of Beth Monsrud
       - name: Amy Rewey
         job-title: Vice President, Business Transformation
-        title:
+        tag:
         title-tag:
         phone-number: <p>Blue Cross and Blue Shield of Minnesota</p>
         email: ''
@@ -219,7 +219,7 @@ jobs-loop:
         alt: A headshot of Amy Rewey
       - name: Margie Sborov
         job-title: Founder
-        title:
+        tag:
         title-tag:
         phone-number: <p>Angel Foundation</p>
         email: ''
@@ -231,7 +231,7 @@ jobs-loop:
         alt: A headshot of Margie Sborov
       - name: Glynis Schons
         job-title: Sales Enablement Principal
-        title:
+        tag:
         title-tag:
         phone-number: <p>Allianz Life</p>
         email: ''
@@ -243,7 +243,7 @@ jobs-loop:
         alt: A headshot of Glynis Schons
       - name: Caitlyn Squire
         job-title: Manager of Patient Support & Education for Cancer Care
-        title:
+        tag:
         title-tag:
         phone-number: <p>HealthPartners</p>
         email: ''
@@ -257,7 +257,7 @@ jobs-loop:
     people:
       - name: Melonie Allyn-Schwerin
         job-title: Senior Data Analyst
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 501</p>
         email:
@@ -269,7 +269,7 @@ jobs-loop:
         alt: A headshot of Melonie Allyn-Schwerin
       - name: DeAnne Anderson
         job-title: Senior Executive Assistant & Operations
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 503</p>
         email: ''
@@ -281,7 +281,7 @@ jobs-loop:
         alt: A headshot of DeAnne Anderson
       - name: Dave Becker
         job-title: President & CEO
-        title:
+        tag:
         title-tag:
         phone-number: (612) 627-9000 ext. 504
         email: dbecker@mnangel.org
@@ -293,7 +293,7 @@ jobs-loop:
         alt: A headshot of Dave Becker
       - name: Norah Cooper
         job-title: Vice President of Mission Delivery
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 502</p>
         email:
@@ -305,7 +305,7 @@ jobs-loop:
         alt: A headshot of Norah Cooper
       - name: Rachel Goven
         job-title: Development Coordinator
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 505</p>
         email:
@@ -317,7 +317,7 @@ jobs-loop:
         alt: A headshot of Rachel Goven
       - name: Brianna Hager
         job-title: Emergency Financial Assistance Manager
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 514</p>
         email:
@@ -329,7 +329,7 @@ jobs-loop:
         alt: A headshot of Brianna Hager
       - name: Erica Hollom
         job-title: Director of Individual Giving & Special Events
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 506</p>
         email:
@@ -341,7 +341,7 @@ jobs-loop:
         alt: A headshot of Erica Hollom
       - name: Audelia Kouame
         job-title: Financial Cancer Care Manager
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 517</p>
         email:
@@ -353,7 +353,7 @@ jobs-loop:
         alt: A headshot of Audelia Kouame
       - name: Maddy Lamers
         job-title: Development & Communications Associate
-        title:
+        tag:
         title-tag:
         phone-number: 612-627-9000 ext. 508
         email:
@@ -365,7 +365,7 @@ jobs-loop:
         alt: A headshot of Maddy Lamers
       - name: Holly Muhammad
         job-title: Director of Outreach and Adult & Family Programs
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 509</p>
         email:
@@ -377,7 +377,7 @@ jobs-loop:
         alt: A headshot of Holly Muhammad
       - name: Kathy Tolo
         job-title: Vice President of Development
-        title:
+        tag:
         title-tag:
         phone-number: 612-627-9000 ext. 516
         email:
@@ -389,7 +389,7 @@ jobs-loop:
         alt: A headshot of Kathy Tolo
       - name: Aleah Van Horne
         job-title: Leadership Giving Officer
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 513</p>
         email:
@@ -401,7 +401,7 @@ jobs-loop:
         alt: A headshot of Aleah Van Horne
       - name: Ka Zoua Xiong
         job-title: Program Coordinator
-        title:
+        tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 507</p>
         email:
