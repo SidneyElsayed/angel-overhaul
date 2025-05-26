@@ -39,8 +39,8 @@ jobs-loop:
         alt: A headshot of Cindy Blackstock
       - name: Michael Castagnetto
         job-title: President, N.A.S.T.
-        title:
-        title-tag:
+        title: true
+        title-tag: Chairman
         phone-number: C.H. Robinson
         email:
         short-description_html: ''
