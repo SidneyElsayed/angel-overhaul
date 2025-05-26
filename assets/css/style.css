@@ -1685,6 +1685,15 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .md\:h-full {
     height: 100%;
   }
+  .md\:min-h-\[60vh\] {
+    min-height: 60vh;
+  }
+  .md\:min-h-\[80vh\] {
+    min-height: 80vh;
+  }
+  .md\:min-h-screen {
+    min-height: 100vh;
+  }
   .md\:min-w-full {
     min-width: 100%;
   }

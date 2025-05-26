@@ -2,7 +2,7 @@
   <div class="max-width mx-auto">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="{% if block.screen-height == 'full' %} min-h-screen {% elsif block.screen-height == '80%' %} min-h-[80vh] {% elsif block.screen-height == '60%' %} min-h-[60vh] {% endif %}  grid md:grid-cols-2">
+  <div class="{% if block.screen-height == 'full' %} md:min-h-screen {% elsif block.screen-height == '80%' %} md:min-h-[80vh] {% elsif block.screen-height == '60%' %} md:min-h-[60vh] {% endif %}  grid md:grid-cols-2">
     <!-- md:h-full on the div negates the h-72, h-full on the image is still needed because of the position absolute -->
     <div class="grow relative h-72 md:h-full"> 
       <img class="absolute w-full h-full object-cover object-center" style="object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" src="{{block.image}}" alt="{{block.alt}}">
