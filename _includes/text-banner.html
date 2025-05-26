@@ -8,6 +8,8 @@
     <div class="featured-text text-5xl font-extrabold uppercase tracking-wide leading-snug
 
     {% if block.large-text-width == 'full' %} col-span-2 {% elsif block.large-text-width == 'half' %} col-span-2 md:col-span-1 {% endif %}
+
+    {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %}
     
     {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}"> {{block.heading_html}} 
   </div>
@@ -15,8 +17,6 @@
 
     <!-- Paragraphs -->
     <div class="lg:text-lg {% if block.paragraph-width == 'full' %} col-span-2 {% elsif block.paragraph-width == 'half' %} col-span-2 md:col-span-1 {% endif %} 
-
-    {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %}
     
     {% if block.large-text-placement == 'right' %} md:order-first {% endif %}
     
