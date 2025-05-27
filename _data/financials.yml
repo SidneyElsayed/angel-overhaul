@@ -1,6 +1,7 @@
 card-loop:
   - year: 2023
-    annual-report: /index
+    annual-report: >-
+      /uploads/Documents/open-arms-and-nutrition-and-food-assistance-information.pdf
     990-form: /index
     audited-financials: /index
   - year: 2022
