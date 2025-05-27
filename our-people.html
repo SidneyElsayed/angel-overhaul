@@ -5,10 +5,10 @@ blocks:
   - id: full-image-header
     heading_html: <h1>The <strong>people</strong> behind</h1><h1>Angel Foundation™</h1>
     heading-has-long-words:
-    text-placement: center
+    text-placement: top
     image: /uploads/MiscPhotos/OP-Main.jpg
     image-horizontal-focal-point: right
-    image-vertical-focal-point: center
+    image-vertical-focal-point: top
     overlay: overlay-dark
     scheme-name: dark-navy-background
 ---
@@ -27,7 +27,7 @@ blocks:
     {% for item in jobs.people %}
 
         <!-- Jobs Loop -->
-        <div class="col-span-1 rounded-lg text-[var(--base-color)] bg-[var(--featured-color-dark-navy)]" {% if item.color %} style="background-color: {{item.color}}" {% endif %}>
+        <div class="col-span-1 rounded-lg text-[var(--base-color)] bg-[var(--featured-color-dark-navy)]" {% if item.color %} style="background-color: {{item.color}}" endif>
 
         <div class="relative">
           {% if item.tag == true %}
