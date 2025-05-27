@@ -1,14 +1,13 @@
 card-loop:
   - year: 2023
-    annual-report: >-
-      /uploads/Documents/open-arms-and-nutrition-and-food-assistance-information.pdf
+    annual-report: /uploads/FinTran/2023AnnualReport-(1).pdf
     990-form: /index
-    audited-financials: /index
+    audited-financials: /uploads/FinTran/2023-Audit.pdf
   - year: 2022
-    annual-report: /index
+    annual-report: /uploads/FinTran/2022AnnualReport_WEB_v2.pdf
     990-form: /index
-    audited-financials: /index
+    audited-financials: /uploads/FinTran/2022-Audit.pdf
   - year: 2020
-    annual-report: /index
+    annual-report: /uploads/FinTran/2021-Annual-Report.pdf
     990-form: /index
-    audited-financials: /index
+    audited-financials: /uploads/FinTran/2021-Audit.pdf
