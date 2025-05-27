@@ -3,7 +3,7 @@ jobs-loop:
     people:
       - name: Dr. Uzma Ali
         job-title: Medical Oncologist
-        tag: true
+        tag: false
         title-tag: Vice Chair
         phone-number: <p>Minnesota Oncology Hematology, PA</p>
         email:
@@ -14,8 +14,8 @@ jobs-loop:
         image: /uploads/BoardPhotos/Uzma-Ali-MD_2-scaled.jpg
         alt: A headshot of Dr. Uzma Ali
       - name: Marc Baer
-        job-title: Chief Operating Officer 
-        tag: true
+        job-title: Chief Operating Officer
+        tag: false
         title-tag: President
         phone-number: <p>Hazelden Betty Ford Foundation</p>
         email:
@@ -39,7 +39,7 @@ jobs-loop:
         alt: A headshot of Cindy Blackstock
       - name: Michael Castagnetto
         job-title: President, N.A.S.T.
-        tag: true
+        tag: false
         title-tag: Chairman
         phone-number: C.H. Robinson
         email:
@@ -63,8 +63,8 @@ jobs-loop:
         alt: A headshot of Kirstie Foster
       - name: Whitney Greene-Nymo
         job-title: Former Executive Director, Strategic Program Development
-        tag:
-        title-tag:
+        tag: true
+        title-tag: Vice Chair
         phone-number: <p>Stanford Cancer Institute</p>
         email: ''
         short-description_html: ''
@@ -135,8 +135,8 @@ jobs-loop:
         alt: A headshot of Sandy Jones
       - name: Marcy Keckler
         job-title: ''
-        tag:
-        title-tag:
+        tag: true
+        title-tag: Board Chair
         phone-number: ''
         email: ''
         short-description_html: ''
@@ -207,8 +207,8 @@ jobs-loop:
         alt: A headshot of Beth Monsrud
       - name: Amy Rewey
         job-title: Vice President, Business Transformation
-        tag:
-        title-tag:
+        tag: true
+        title-tag: Secretary
         phone-number: <p>Blue Cross and Blue Shield of Minnesota</p>
         email: ''
         short-description_html: ''
@@ -219,8 +219,8 @@ jobs-loop:
         alt: A headshot of Amy Rewey
       - name: Margie Sborov
         job-title: Founder
-        tag:
-        title-tag:
+        tag: true
+        title-tag: Founder
         phone-number: <p>Angel Foundation</p>
         email: ''
         short-description_html: ''
