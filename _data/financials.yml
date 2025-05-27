@@ -1,13 +1,13 @@
 card-loop:
   - year: 2023
     annual-report: /uploads/FinTran/2023AnnualReport-(1).pdf
-    990-form: /index
+    990-form: /uploads/FinTran/2023-990.pdf
     audited-financials: /uploads/FinTran/2023-Audit.pdf
   - year: 2022
     annual-report: /uploads/FinTran/2022AnnualReport_WEB_v2.pdf
-    990-form: /index
+    990-form: /uploads/FinTran/2022-990-with-signature.pdf
     audited-financials: /uploads/FinTran/2022-Audit.pdf
   - year: 2020
     annual-report: /uploads/FinTran/2021-Annual-Report.pdf
-    990-form: /index
+    990-form: /uploads/FinTran/2021-Final-signed-990.pdf
     audited-financials: /uploads/FinTran/2021-Audit.pdf
