@@ -27,7 +27,7 @@ blocks:
     {% for item in jobs.people %}
 
         <!-- Jobs Loop -->
-        <div class="col-span-1 rounded-lg text-[var(--base-color)] bg-[var(--featured-color-dark-navy)]" {% if item.color %} style="background-color: {{item.color}}" endif>
+        <div class="col-span-1 rounded-lg text-[var(--base-color)] bg-[var(--featured-color-dark-navy)]" style="background-color: {{item.color}}">
 
         <div class="relative">
           {% if item.tag == true %}
