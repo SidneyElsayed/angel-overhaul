@@ -331,10 +331,8 @@ h3 strong {
 
 /* Video Embed Container */
   .youtube-container { 
-    max-width: 50%;
+    border-radius: 0.5rem;
   }
-  
-  /* This is fancy CSS that you haven't learnt yet. No need to understand it yet, but you're welcome to copy & paste */
   
   .embed-container { 
     position: relative;
