@@ -576,6 +576,35 @@ _structures:
         value:
           id: calendar-month
           event-type-filter: 
+      - label: video with text
+        value:
+          id: video-with-text
+          section-heading_html:
+          text-block-heading_html:
+          heading-has-long-words:
+          facts-loop:
+            - featured:
+              text:
+          description_html:
+          button-1-text: 
+          button-1-link: 
+          button-2-text: 
+          button-2-link: 
+          youtube-link:
+          image-placement: 
+          image-horizontal-focal-point: 
+          image-vertical-focal-point: 
+          text-placement:
+          large-text-alignment:
+          hide-bottom-padding:
+          scheme-name:
+      - label: video
+        value:
+          id: video
+          youtube-link:
+          hide-top-padding:
+          hide-bottom-padding:
+          scheme-name:
 timezone: Asia/Riyadh
 markdown:
   engine: commonmark

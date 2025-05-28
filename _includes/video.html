@@ -1,0 +1,12 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto px-8 sm:px-16 py-24 {% if block.hide-top-padding %} pt-0 md:pt-16 {% endif %} {% if block.hide-bottom-padding %} pb-0 md:pb-16 {% endif %}">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+
+  <div class="youtube-container min-h-[80vh]">
+    <iframe src='{{block.youtube-link}}' frameborder='0' allowfullscreen></iframe>
+  </div>
+
+  <!-- Don't delete the below; these are for the starting id and class above -->
+</div>
+</section>

@@ -1396,11 +1396,12 @@ h3 strong {
 /* Video Embed Container */
   .youtube-container { 
     border-radius: 0.5rem;
+    max-width: 100%; 
   }
   
   .embed-container { 
+    border-radius: 0.5rem;
     position: relative;
-    padding-bottom: 56.25%; 
     height: 0; 
     overflow: hidden; 
     max-width: 100%; 
@@ -1409,6 +1410,7 @@ h3 strong {
   .embed-container iframe, 
   .embed-container object, 
   .embed-container embed { 
+    border-radius: 0.5rem;
     position: absolute; 
       top: 0; 
       left: 0; 
@@ -1757,6 +1759,9 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   }
   .md\:pt-0 {
     padding-top: 0px;
+  }
+  .md\:pt-16 {
+    padding-top: 4rem;
   }
 }
 
