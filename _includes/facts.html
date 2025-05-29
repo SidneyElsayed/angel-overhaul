@@ -7,11 +7,11 @@
   <!-- Section Heading -->
   {% if block.section-heading %}
 
-  <h2 class="px-8 sm:px-16 py-16 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
+  <h2 class="px-8 sm:px-16 py-16 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
 
   {% endif %}
 
-  <!-- Facts -->
+  <!-- Facts Loop -->
   <div class="grid grid-cols-5 gap-4">
     {% for item in item %}
     {% if item.featured and item.text %}

@@ -456,10 +456,8 @@ _structures:
         value:
           id: facts
           section-heading:
-          facts-loop:
-            - featured:
-              text:
-          text-alignment:
+          type:
+          large-text-alignment:
           scheme-name:
       - label: interactive cards
         value:
