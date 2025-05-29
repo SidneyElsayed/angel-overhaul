@@ -8,7 +8,7 @@ jobs-loop:
         phone-number: <p>Minnesota Oncology Hematology, PA</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Uzma-Ali-MD_2-scaled.jpg
@@ -20,7 +20,7 @@ jobs-loop:
         phone-number: <p>Hazelden Betty Ford Foundation</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/mark-baer.jpg
@@ -32,7 +32,7 @@ jobs-loop:
         phone-number: ''
         email:
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Cindy-Blackstock-Bio-Photo-scaled.jpg
@@ -44,7 +44,7 @@ jobs-loop:
         phone-number: C.H. Robinson
         email:
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Michael-Castagnetto-highres.jpg
@@ -68,7 +68,7 @@ jobs-loop:
         phone-number: <p>Stanford Cancer Institute</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Whitney-Greene-Nymo.jpg
@@ -80,7 +80,7 @@ jobs-loop:
         phone-number: <p>Alexia Chantel Author</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Lexi-Hansen-Headshot.jpg
@@ -92,7 +92,7 @@ jobs-loop:
         phone-number: <p>American Express</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Horgeshimer-Lisa-.jpg
@@ -116,7 +116,7 @@ jobs-loop:
         phone-number: <p>Ameriprise</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Jennifer-Jones.png
@@ -128,7 +128,7 @@ jobs-loop:
         phone-number: <p>LTIMindtree</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/sandy-jones.jpg
@@ -140,7 +140,7 @@ jobs-loop:
         phone-number: ''
         email: ''
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Marcy-Keckler-pic-2016.jpg
@@ -164,7 +164,7 @@ jobs-loop:
         phone-number: <p>Sevita</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Danielle-Kirkwood-use.jpg
@@ -176,7 +176,7 @@ jobs-loop:
         phone-number: <p>Marvin</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/LeBre_Kristin_Media.jpg
@@ -188,7 +188,7 @@ jobs-loop:
         phone-number: <p>Salesforce</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/ashley-macholda.jpg
@@ -212,7 +212,7 @@ jobs-loop:
         phone-number: <p>Blue Cross and Blue Shield of Minnesota</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Rewey_formal_drk-scaled.jpg
@@ -224,7 +224,7 @@ jobs-loop:
         phone-number: <p>Angel Foundation</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/sborov-for-bio.jpg
@@ -236,7 +236,7 @@ jobs-loop:
         phone-number: <p>Allianz Life</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/Glynis-Schons-for-Angel.jpg
@@ -248,7 +248,7 @@ jobs-loop:
         phone-number: <p>HealthPartners</p>
         email: ''
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/BoardPhotos/caitlyn-squire.jpg
