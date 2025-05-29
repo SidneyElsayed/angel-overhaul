@@ -70,6 +70,9 @@
    {% elsif block.type == 'donate' %}
       {% assign item = site.data.donate.card-loop %}
 
+   {% elsif block.type == 'facts' %}
+      {% assign item = site.data.facts.facts-loop %}
+
    {% elsif block.type == 'employment' %}
       {% assign item = site.data.employment.card-loop %}
 
