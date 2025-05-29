@@ -359,10 +359,7 @@ _inputs:
       values:
         - Annual Events
         - Financial Cancer Care
-        - Making Memories | Rochester
-        - Making Memories | Duluth
-        - Making Memories | Twin Cities
-        - Educational Events
+        - Adult & Family Programs
         - Third Party Events
     label: Event Type Filter
     comment: >-
