@@ -40,6 +40,9 @@
               
               {% when 'phone' %}
               <input class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="tel" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
+
+              {% when 'checkbox' %}
+              <input class="font-thin text-featured rounded-2xl px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="checkbox" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}> {{input.checkbox-option}}
               
               {% when 'textarea' %}
               <textarea class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}></textarea>
@@ -55,7 +58,7 @@
 
       <div class="{% if block.button-alignment == 'left' %} text-left {% elsif block.button-alignment == 'center' %} text-center {% elsif block.button-alignment == 'right' %} text-right {% endif %} md:col-span-6">
         <input type="submit" value="{{block.submit-button-text}}" class="button-1">
-    </div>
+      </div>
     </form>
   </div>
 </section>

@@ -423,6 +423,7 @@ _structures:
         value:
           id: text-banner
           heading_html:
+          heading-has-long-words:
           text_html:
           large-text-width: 
           paragraph-width: 

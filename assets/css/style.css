@@ -1004,17 +1004,14 @@ video {
 .font-extrabold {
   font-weight: 800;
 }
+.font-normal {
+  font-weight: 400;
+}
 .font-semibold {
   font-weight: 600;
 }
 .font-thin {
   font-weight: 100;
-}
-.font-medium {
-  font-weight: 500;
-}
-.font-normal {
-  font-weight: 400;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1566,6 +1563,22 @@ h3 strong {
 /* ---------- Foundation's: Media Query ----------*/
 @media(max-width:61em) {
   .heading-has-long-words h1 {
+    font-size: 2.1rem;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+  }
+
+  .heading-has-long-words h2 {
+    font-size: 2.1rem;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+  }
+
+  .heading-has-long-words h3 {
     font-size: 2.1rem;
     line-height: 1;
     font-weight: 800;

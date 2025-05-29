@@ -503,6 +503,22 @@ h3 strong {
     text-transform: uppercase;
   }
 
+  .heading-has-long-words h2 {
+    font-size: 2.1rem;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+  }
+
+  .heading-has-long-words h3 {
+    font-size: 2.1rem;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+  }
+
   .container {
     width: 216px;
     height: 270px;

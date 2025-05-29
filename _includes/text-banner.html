@@ -11,7 +11,9 @@
 
     {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %}
     
-    {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}"> {{block.heading_html}} 
+    {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}
+    
+    {% if block.heading-has-long-words %} heading-has-long-words {% endif %}"> {{block.heading_html}} 
   </div>
     {% endif %}
 
