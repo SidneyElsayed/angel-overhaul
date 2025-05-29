@@ -262,7 +262,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 501</p>
         email:
         short-description_html: ''
-        color:
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Melonie-use-sm.png
@@ -286,7 +286,7 @@ jobs-loop:
         phone-number: (612) 627-9000 ext. 504
         email: dbecker@mnangel.org
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/dave-website-sm.png
@@ -298,7 +298,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 502</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/norah-headshot-summer.png
@@ -322,7 +322,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 514</p>
         email:
         short-description_html: ''
-        color:
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Bri-use-6.24.png
@@ -334,7 +334,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 506</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Erica-Use-6.24.png
@@ -346,7 +346,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 517</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Audelia-Use.JPG
@@ -382,7 +382,7 @@ jobs-loop:
         phone-number: 612-627-9000 ext. 516
         email:
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/kathy-use-summer.jpg
@@ -394,7 +394,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 513</p>
         email:
         short-description_html: ''
-        color: var(--featured-color-medium-blue)
+        color: var(--featured-color-dark-navy)
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Aleah-use.JPG
