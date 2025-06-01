@@ -621,8 +621,8 @@ video {
 .w-\[80\%\] {
   width: 80%;
 }
-.w-\[calc\(100\%_-_80px\)\] {
-  width: calc(100% - 80px);
+.w-\[calc\(100\%_-_120px\)\] {
+  width: calc(100% - 120px);
 }
 .w-full {
   width: 100%;
@@ -701,6 +701,9 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
 }
 .gap-10 {
   gap: 2.5rem;
@@ -820,6 +823,12 @@ video {
 .p-8 {
   padding: 2rem;
 }
+.p-1 {
+  padding: 0.25rem;
+}
+.p-2 {
+  padding: 0.5rem;
+}
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -875,6 +884,10 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .pb-0 {
   padding-bottom: 0px;
@@ -1173,7 +1186,6 @@ p {
 .featured-text { font-family: "Montserrat", serif;}
 
 .facts-numbers {
-  font-size: 2.6rem;
   line-height: 1;
   font-weight: 800;
   color: var(--featured-color);
@@ -1781,6 +1793,10 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .md\:pt-16 {
     padding-top: 4rem;
   }
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1799,6 +1815,10 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
