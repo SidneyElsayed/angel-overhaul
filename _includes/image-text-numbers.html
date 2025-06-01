@@ -40,7 +40,7 @@
       {% endif %}
 
       <!-- Facts -->
-      <div class="flex justify-between">
+      <div class="flex {% if block.facts-loop.size <= 2  %} {% else %} justify-between {% endif %}">
         {% for item in block.facts-loop | limit:3 %}
         {% if item.featured and item.text %}
         <div class="py-4 px-2">
