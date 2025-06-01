@@ -50,8 +50,8 @@
               {% when 'checkbox' %}
               <div class="">
                 {% for box in input.boxes %}
-                  <label class="block font-normal text-lg" for="{{box.value}}">
-                    <input class="font-thin text-featured rounded-2xl px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="checkbox" name="{{input.value}}" id="{{input.value}}"> {{box.checkbox-option}}
+                  <label class="block font-normal text-lg" for="{{box.checkbox-option}}">
+                    <input class="font-thin text-featured rounded-2xl px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="checkbox" name="{{box.checkbox-option}}" id="{{box.checkbox-option}}"> {{box.checkbox-option}}
                   </label>
                 {% endfor %}
               </div>
