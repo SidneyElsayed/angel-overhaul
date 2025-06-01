@@ -481,6 +481,18 @@ _structures:
             - checkbox-option: Other
               name: How did you hear about Angel Foundation™?
               value: Other
+      - label: Radio Button (single answer)
+        value:
+          form-type: radio
+          label: I understand that a background check is necessary, and I authorize Angel Foundation™ to perform a background check.
+          width: full
+          boxes:
+            - checkbox-option: Yes
+              name: I understand that a background check is necessary, and I authorize Angel Foundation™ to perform a background check.
+              value: Yes
+            - checkbox-option: No
+              name: I understand that a background check is necessary, and I authorize Angel Foundation™ to perform a background check.
+              value: No
   blocks:
     style: select
     values:
