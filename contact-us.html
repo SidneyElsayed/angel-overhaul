@@ -47,37 +47,40 @@ blocks:
     submit-button-text: Submit
     button-alignment: center
     form-inputs:
-      - form-type: auto
-        label: First name
+      - form-type: text
+        label: First Name
         cascade: true
-        form-type: text
-        name: First name
+        name: First Name
         placeholder-text: John
         width: half
         required: true
-      - form-type: auto
-        label: Message
+      - form-type: text
+        label: Last Name
         cascade: true
-        form-type: textarea
-        name: Message
-        placeholder-text: Write your message here
-        width: full
+        name: First Name
+        placeholder-text: Smith
+        width: half
         required: true
-      - form-type: ''
-        label: Email address
+      - form-type: email
+        label: Email Address
         cascade: true
-        form-type: email
-        name: Email
+        name: Email Address
         placeholder-text: youremail@gmail.com
         width: half
         required: true
-      - form-type: ''
+      - form-type: phone
         label: Phone Number
         cascade: true
-        form-type: phone
-        name: Phone
+        name: Phone Number
         placeholder-text: (XXX) XXX-XXXX
         width: half
+        required: true
+      - form-type: textarea
+        label: Message
+        cascade: true
+        name: Message
+        placeholder-text: Write your message here
+        width: full
         required: true
     scheme-name: green-background
 ---
