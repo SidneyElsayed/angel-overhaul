@@ -164,6 +164,17 @@ _inputs:
     label: Text placement
     comment: Choose where the text is placed in relation to the image or paragraph text
     cascade: true
+  content-placement:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - top
+        - center
+        - bottom
+    label: Content placement
+    comment: Choose where the content of this block (both text and video) is placed within the block
+    cascade: true
   button-alignment:
     type: select
     options:
@@ -698,7 +709,7 @@ _structures:
           image-placement:
           image-horizontal-focal-point:
           image-vertical-focal-point:
-          text-placement:
+          content-placement:
           large-text-alignment:
           hide-bottom-padding:
           scheme-name:
