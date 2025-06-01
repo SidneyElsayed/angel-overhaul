@@ -1,11 +1,11 @@
 facts-loop:
   - featured: 58K
-    text: Lives Touched
+    text_html: Lives Touched
   - featured: $15M
-    text: in Financial Aid
+    text_html: in Financial Aid
   - featured: 580+
-    text: Angel Packs&#8482; Delivered Annually
+    text_html: Angel Packs&#8482; Delivered Annually
   - featured: '76'
-    text: Counties Served
+    text_html: Counties Served
   - featured: 4K
-    text: Patients Served Each Year
+    text_html: Patients Served Each Year
