@@ -173,7 +173,9 @@ _inputs:
         - center
         - bottom
     label: Content placement
-    comment: Choose where the content of this block (both text and video) is placed within the block
+    comment: >-
+      Choose where the content of this block (both text and video) is placed
+      within the block
     cascade: true
   button-alignment:
     type: select
@@ -206,7 +208,8 @@ _inputs:
         - third
     label: Text/box width
     comment: >-
-      Choose whether the input takes up one-third, half or the full width of the page
+      Choose whether the input takes up one-third, half or the full width of the
+      page
     cascade: true
   name:
     type: text
@@ -409,7 +412,7 @@ _inputs:
       Choose what type of information people are putting into the form (text is
       for things like first and last name, textarea is for a larger area for
       text)
-    hidden: true
+    hidden: false
     cascade: true
   event-type-filter:
     type: select
@@ -487,16 +490,22 @@ _structures:
       - label: Radio Button (single answer)
         value:
           form-type: radio
-          label: I understand that a background check is necessary, and I authorize Angel Foundation™ to perform a background check.
+          label: >-
+            I understand that a background check is necessary, and I authorize
+            Angel Foundation™ to perform a background check.
           width: full
           acknowledgement:
           boxes:
-            - checkbox-option: Yes
-              name: I understand that a background check is necessary, and I authorize Angel Foundation™ to perform a background check.
-              value: Yes
-            - checkbox-option: No
-              name: I understand that a background check is necessary, and I authorize Angel Foundation™ to perform a background check.
-              value: No
+            - checkbox-option: 'Yes'
+              name: >-
+                I understand that a background check is necessary, and I
+                authorize Angel Foundation™ to perform a background check.
+              value: 'Yes'
+            - checkbox-option: 'No'
+              name: >-
+                I understand that a background check is necessary, and I
+                authorize Angel Foundation™ to perform a background check.
+              value: 'No'
   blocks:
     style: select
     values:
