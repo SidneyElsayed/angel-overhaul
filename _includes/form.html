@@ -10,7 +10,7 @@
     {% endif %}
   
 
-    <form class="grid md:grid-cols-6 gap-4">
+    <form netlify name="{{block.form-name}}" class="grid md:grid-cols-6 gap-4">
       {% for input in block.form-inputs %}
         <div class="
         {% case input.width %}

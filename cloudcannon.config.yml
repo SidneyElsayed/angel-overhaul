@@ -220,6 +220,15 @@ _inputs:
       Info for the card OR for when you receive the form in your email, this is
       what the form will export to you
     cascade: true
+  form-name:
+    type: text
+    options:
+      allow_empty: false
+    label: What you want the form to be named in your email.
+    comment: >-
+      When you receive the form in your email, this is
+      what the form name will be called (Contact Us Form, Volunteer Form)
+    cascade: true
   label:
     type: text
     options:
@@ -620,6 +629,7 @@ _structures:
       - label: form
         value:
           id: form
+          form-name: Name of this form
           section-heading:
           large-text-alignment:
           section-text:
