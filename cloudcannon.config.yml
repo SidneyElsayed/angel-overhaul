@@ -401,6 +401,8 @@ _inputs:
         - text
         - email
         - phone
+        - checkbox
+        - radio
         - textarea
     label: Form input type
     comment: >-

@@ -40,6 +40,10 @@
               
               {% when 'phone' %}
               <input class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="tel" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
+                <div>
+                  <input class="inline" type="checkbox" name="sms-consent" id="sms-consent" />
+                  <label class="inline featured-text text-sm/6 font-thin" for="_replyto"> I consent to receive SMS on this number. </label>
+                </div>
 
               {% when 'checkbox' %}
               <div class="">

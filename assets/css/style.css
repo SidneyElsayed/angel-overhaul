@@ -1025,6 +1025,10 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.text-sm\/6 {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1054,6 +1058,15 @@ video {
 }
 .leading-snug {
   line-height: 1.375;
+}
+.leading-none {
+  line-height: 1;
+}
+.leading-tight {
+  line-height: 1.25;
+}
+.leading-\[1rem\] {
+  line-height: 1rem;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
