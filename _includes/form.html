@@ -5,7 +5,7 @@
 
     <h2 class="featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
   
-    <p class="pt-6 font-thin">{{block.section-text}}</p>
+    <p class="py-6 font-thin">{{block.section-text}}</p>
   
     {% endif %}
   
@@ -40,6 +40,7 @@
               
               {% when 'phone' %}
               <input class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="tel" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
+                <!-- SMS Consent -->
                 <div>
                   <input class="inline" type="checkbox" name="sms-consent" id="sms-consent" />
                   <label class="inline featured-text text-sm/6 font-thin" for="_replyto"> I consent to receive SMS on this number. </label>
