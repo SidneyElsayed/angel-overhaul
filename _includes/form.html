@@ -10,7 +10,7 @@
     {% endif %}
   
 
-    <form class="grid md:grid-cols-6 gap-2">
+    <form class="grid md:grid-cols-6 gap-4">
       {% for input in block.form-inputs %}
         <div class="
         {% case input.width %}
@@ -24,7 +24,7 @@
 
           {% if input.label %}
           <label class="featured-text text-xl tracking-wide font-semibold pb-2 block" >
-            <h5>{{input.label}} {% if input.required %} * {% endif %} </h5>
+            <h5 class="pb-1">{{input.label}} {% if input.required %} * {% endif %} </h5>
           {% endif %}
 
           {% case input.form-type %}
@@ -44,7 +44,7 @@
               {% when 'checkbox' %}
               <div class="columns-2">
                 {% for box in input.boxes %}
-                  <label class="block" for="{{box.value}}">
+                  <label class="block font-normal" for="{{box.value}}">
                     <input class="font-thin text-featured rounded-2xl px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="checkbox" name="{{input.value}}" id="{{input.value}}"> {{box.checkbox-option}}
                   </label>
                 {% endfor %}
