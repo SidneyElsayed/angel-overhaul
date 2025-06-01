@@ -396,36 +396,6 @@ _inputs:
     label: Program type for testimonials
     comment: Choose which program the testimonials will pull
     cascade: true
-  form-type:
-    type: select
-    options:
-      allow_empty: false
-      values:
-        - text
-        - email
-        - phone
-        - checkbox
-        - radio
-        - textarea
-    label: Form input type
-    comment: >-
-      Choose what type of information people are putting into the form (text is
-      for things like first and last name, textarea is for a larger area for
-      text)
-    cascade: true
-  event-type-filter:
-    type: select
-    options:
-      allow_empty: true
-      values:
-        - Annual Events
-        - Financial Cancer Care
-        - Adult & Family Programs
-        - Third Party Events
-    label: Event Type Filter
-    comment: Choose which event type to pre-filter. If left blank, the default is "all"
-    cascade: true
-_structures:
   form-inputs:
     style: select
     values:
@@ -505,6 +475,36 @@ _structures:
                 I understand that a background check is necessary, and I
                 authorize Angel Foundation™ to perform a background check.
               value: 'No'
+  form-type:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - text
+        - email
+        - phone
+        - checkbox
+        - radio
+        - textarea
+    label: Form input type
+    comment: >-
+      Choose what type of information people are putting into the form (text is
+      for things like first and last name, textarea is for a larger area for
+      text)
+    cascade: true
+  event-type-filter:
+    type: select
+    options:
+      allow_empty: true
+      values:
+        - Annual Events
+        - Financial Cancer Care
+        - Adult & Family Programs
+        - Third Party Events
+    label: Event Type Filter
+    comment: Choose which event type to pre-filter. If left blank, the default is "all"
+    cascade: true
+_structures:
   blocks:
     style: select
     values:
