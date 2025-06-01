@@ -93,6 +93,32 @@ _inputs:
     label: Screen height
     comment: Choose the height of the banner
     cascade: true
+  block-height:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - full
+        - 80%
+        - 60%
+        - 50%
+        - 40%
+        - 30%
+        - 20%
+    label: Block height
+    comment: Choose the height of the banner
+    cascade: true
+  image-aspect-ratio:
+    type: select
+    options:
+      allow_empty: false
+      values:
+        - square
+        - landscape
+        - portrait
+    label: Image aspect ratio
+    comment: Choose the aspect ratio of the image and it will force the image into this view (be careful, because it will crop the photo to fit)
+    cascade: true
   image-horizontal-focal-point:
     type: select
     options:

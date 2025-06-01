@@ -597,6 +597,12 @@ video {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
+.aspect-\[2\/3\] {
+  aspect-ratio: 2/3;
+}
+.aspect-\[3\/2\] {
+  aspect-ratio: 3/2;
+}
 .h-72 {
   height: 18rem;
 }
@@ -799,6 +805,10 @@ video {
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .object-cover {
   -o-object-fit: cover;
@@ -1738,6 +1748,21 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .md\:h-full {
     height: 100%;
   }
+  .md\:max-h-\[20vh\] {
+    max-height: 20vh;
+  }
+  .md\:max-h-\[30vh\] {
+    max-height: 30vh;
+  }
+  .md\:max-h-\[40vh\] {
+    max-height: 40vh;
+  }
+  .md\:max-h-\[50vh\] {
+    max-height: 50vh;
+  }
+  .md\:max-h-\[60vh\] {
+    max-height: 60vh;
+  }
   .md\:min-h-\[60vh\] {
     min-height: 60vh;
   }
@@ -1746,6 +1771,18 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   }
   .md\:min-h-screen {
     min-height: 100vh;
+  }
+  .md\:min-h-\[20vh\] {
+    min-height: 20vh;
+  }
+  .md\:min-h-\[30vh\] {
+    min-height: 30vh;
+  }
+  .md\:min-h-\[40vh\] {
+    min-height: 40vh;
+  }
+  .md\:min-h-\[50vh\] {
+    min-height: 50vh;
   }
   .md\:min-w-full {
     min-width: 100%;
