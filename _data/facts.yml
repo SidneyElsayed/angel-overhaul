@@ -4,8 +4,8 @@ facts-loop:
   - featured: $15M
     text_html: in Financial Aid
   - featured: 580+
-    text_html: Angel Packs&#8482; Delivered Annually
+    text_html: Angel Packs™ <br />Delivered Annually
   - featured: '76'
     text_html: Counties Served
   - featured: 4K
-    text_html: Patients Served Each Year
+    text_html: Patients Served <p>Each Year</p>
