@@ -47,7 +47,7 @@ $('.slider-container').slick({
     centerPadding: '60px', // Padding for the photos
     slidesToShow: 3, // Self explainatory
     autoplay: true, // Do we want it to autoplay? true or false
-	autoplaySpeed: 3000, // How long between each slide when auto-playing
+	autoplaySpeed: 2000, // How long between each slide when auto-playing
 	speed: 1000, // How fast is the transition in milliseconds
 	arrows: true, // Do you want to show arrows to trigger each slide
 	accessibility: true, // Enables keyboard tabbing and arrow key navigation
