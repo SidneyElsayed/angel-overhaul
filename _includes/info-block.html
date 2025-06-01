@@ -6,7 +6,11 @@
 
   {% if block.section-heading %}
 
-  <h2 class="pb-8 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-5xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
+  <h2 class="pb-8 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-5xl 
+  
+  {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}
+  
+  {% if block.heading-has-long-words %} heading-has-long-words {% endif %}">{{block.section-heading}}</h2>
 
   {% endif %}
 

@@ -595,6 +595,7 @@ _structures:
         value:
           id: info-block
           section-heading:
+          heading-has-long-words: 
           large-text-alignment:
           type:
           scheme-name:
