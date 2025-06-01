@@ -1745,6 +1745,9 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .md\:mr-12 {
     margin-right: 3rem;
   }
+  .md\:block {
+    display: block;
+  }
   .md\:flex {
     display: flex;
   }
