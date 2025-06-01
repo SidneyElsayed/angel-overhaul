@@ -75,9 +75,9 @@ _inputs:
     cascade: true
   layout:
     type: select
-    options: 
+    options:
       allow_empty: true
-      values: 
+      values:
         - default
     label: Layout
     comment: Choose the page layout type
@@ -117,7 +117,9 @@ _inputs:
         - landscape
         - portrait
     label: Image aspect ratio
-    comment: Choose the aspect ratio of the image and it will force the image into this view (be careful, because it will crop the photo to fit)
+    comment: >-
+      Choose the aspect ratio of the image and it will force the image into this
+      view (be careful, because it will crop the photo to fit)
     cascade: true
   image-horizontal-focal-point:
     type: select
@@ -162,7 +164,7 @@ _inputs:
     label: Text placement
     comment: Choose where the text is placed in relation to the image or paragraph text
     cascade: true
-  button-alignment: 
+  button-alignment:
     type: select
     options:
       allow_empty: false
@@ -193,20 +195,25 @@ _inputs:
         - third
     label: Text/box width
     comment: >-
-      Choose whether the input takes up one-third, half or the full width of the page
+      Choose whether the input takes up one-third, half or the full width of the
+      page
     cascade: true
   name:
     type: text
-    label: Name of person OR for receiving the form information
-    options: 
+    options:
       allow_empty: false
-    comment: Info for the card OR for when you receive the form in your email, this is what the form will export to you
+    label: Name of person OR for receiving the form information
+    comment: >-
+      Info for the card OR for when you receive the form in your email, this is
+      what the form will export to you
+    cascade: true
   label:
     type: text
-    label: Title above the input area
-    options: 
+    options:
       allow_empty: false
+    label: Title above the input area
     comment: If you want to label the form input, this is where you add the title
+    cascade: true
   paragraph-width:
     type: select
     options:
@@ -216,7 +223,8 @@ _inputs:
         - full
     label: Paragraph text width
     comment: >-
-      Choose whether the paragraph text takes up half or the full width of the page
+      Choose whether the paragraph text takes up half or the full width of the
+      page
     cascade: true
   large-text-placement:
     type: select
@@ -227,7 +235,8 @@ _inputs:
         - left
     label: Large text placement
     comment: >-
-      Choose whether the large text is on the left or right. If text will be full width, choose left here.
+      Choose whether the large text is on the left or right. If text will be
+      full width, choose left here.
     cascade: true
   text-alignment:
     type: select
@@ -275,17 +284,26 @@ _inputs:
   hide-top-padding:
     type: checkbox
     label: Stacked block top padding
-    comment: Check this box if the block above is the same block and background color. This will remove some of the top padding so it doesn't feel like there's an awkward space.
+    comment: >-
+      Check this box if the block above is the same block and background color.
+      This will remove some of the top padding so it doesn't feel like there's
+      an awkward space.
     cascade: true
   hide-bottom-padding:
     type: checkbox
     label: Stacked block bottom padding
-    comment: Check this box if the block below is the same block and background color. This will remove some of the bottom padding so it doesn't feel like there's an awkward space.
+    comment: >-
+      Check this box if the block below is the same block and background color.
+      This will remove some of the bottom padding so it doesn't feel like
+      there's an awkward space.
     cascade: true
   heading-has-long-words:
     type: checkbox
     label: This heading has a long word
-    comment: Check this box if the heading has a long word in it that messes with things - this will allow you to keep the hierarchy while making the text just slighly smaller
+    comment: >-
+      Check this box if the heading has a long word in it that messes with
+      things - this will allow you to keep the hierarchy while making the text
+      just slighly smaller
     cascade: true
   card-description:
     type: checkbox
@@ -301,8 +319,7 @@ _inputs:
         - var(--featured-color-angel-blue)
         - var(--featured-color-medium-blue)
     label: Card background color
-    comment: >-
-      Choose what color you want the background of the card to be.
+    comment: Choose what color you want the background of the card to be.
     cascade: true
   overlay:
     type: select
@@ -376,7 +393,10 @@ _inputs:
         - phone
         - textarea
     label: Form input type
-    comment: Choose what type of information people are putting into the form (text is for things like forst and last name, textarea is for a larger area for text)
+    comment: >-
+      Choose what type of information people are putting into the form (text is
+      for things like first and last name, textarea is for a larger area for
+      text)
     cascade: true
   event-type-filter:
     type: select
@@ -388,8 +408,7 @@ _inputs:
         - Adult & Family Programs
         - Third Party Events
     label: Event Type Filter
-    comment: >-
-      Choose which event type to pre-filter. If left blank, the default is "all"
+    comment: Choose which event type to pre-filter. If left blank, the default is "all"
     cascade: true
 _structures:
   form-inputs:
@@ -412,7 +431,7 @@ _structures:
           width: third
           required: true
       - label: Checkbox (multi-answer)
-        value: 
+        value:
           form-type: checkbox
           label: How did you hear about Angel Foundation™?
           boxes:
@@ -454,14 +473,14 @@ _structures:
           heading_html:
           heading-has-long-words:
           text_html:
-          button-1-text: 
-          button-1-link: 
-          button-2-text: 
-          button-2-link: 
-          screen-height: 
-          image-placement: 
-          image-horizontal-focal-point: 
-          image-vertical-focal-point: 
+          button-1-text:
+          button-1-link:
+          button-2-text:
+          button-2-link:
+          screen-height:
+          image-placement:
+          image-horizontal-focal-point:
+          image-vertical-focal-point:
           text-placement:
           scheme-name:
       - label: image text numbers
@@ -474,16 +493,16 @@ _structures:
             - featured:
               text:
           description_html:
-          button-1-text: 
-          button-1-link: 
-          button-2-text: 
-          button-2-link: 
+          button-1-text:
+          button-1-link:
+          button-2-text:
+          button-2-link:
           image:
           alt:
           caption:
-          image-placement: 
-          image-horizontal-focal-point: 
-          image-vertical-focal-point: 
+          image-placement:
+          image-horizontal-focal-point:
+          image-vertical-focal-point:
           text-placement:
           large-text-alignment:
           scheme-name:
@@ -493,15 +512,15 @@ _structures:
           heading_html:
           heading-has-long-words:
           text_html:
-          large-text-width: 
-          paragraph-width: 
-          large-text-placement: 
-          large-text-alignment: 
-          paragraph-text-alignment: 
-          button-1-text: 
-          button-1-link: 
-          button-2-text: 
-          button-2-link: 
+          large-text-width:
+          paragraph-width:
+          large-text-placement:
+          large-text-alignment:
+          paragraph-text-alignment:
+          button-1-text:
+          button-1-link:
+          button-2-text:
+          button-2-link:
           scheme-name:
       - label: info cards
         value:
@@ -544,7 +563,7 @@ _structures:
         value:
           id: newsletter-form
           section-heading:
-          text-alignment: 
+          text-alignment:
           scheme-name:
       - label: form
         value:
@@ -555,25 +574,29 @@ _structures:
           submit-button-text: Submit
           button-alignment: center
           inputs:
-          - form-type: text
-            name: First name
-            label: First name
-            placeholder-text: John
-            width: half
-            required: true
-          - form-type: textarea
-            name: Message
-            label: Message
-            placeholder-text: Write your message here
-            width: full
-            required: true
+            - type: auto
+              label: First name
+              cascade: true
+              form-type: text
+              name: First name
+              placeholder-text: John
+              width: half
+              required: true
+            - type: auto
+              label: Message
+              cascade: true
+              form-type: textarea
+              name: Message
+              placeholder-text: Write your message here
+              width: full
+              required: true
           scheme-name:
       - label: accordion
         value:
           id: accordion
           section-heading:
           large-text-alignment:
-          text-alignment: 
+          text-alignment:
           accordion-loop:
             - question:
               answer_html:
@@ -593,14 +616,14 @@ _structures:
           button-loop:
             - text:
               link:
-          hide-top-padding: 
+          hide-top-padding:
           hide-bottom-padding:
           scheme-name:
       - label: image grid
         value:
           id: image-grid
-          hide-top-padding: 
-          hide-bottom-padding: 
+          hide-top-padding:
+          hide-bottom-padding:
           image-loop:
             - image:
               alt:
@@ -623,9 +646,9 @@ _structures:
         value:
           id: map
           section-heading:
-          large-text-alignment: 
+          large-text-alignment:
           address:
-          scheme-name: 
+          scheme-name:
       - label: financial cards
         value:
           id: financial-cards
@@ -635,11 +658,11 @@ _structures:
       - label: calendar list
         value:
           id: calendar-list
-          event-type-filter: 
+          event-type-filter:
       - label: calendar month
         value:
           id: calendar-month
-          event-type-filter: 
+          event-type-filter:
       - label: video with text
         value:
           id: video-with-text
@@ -650,14 +673,14 @@ _structures:
             - featured:
               text:
           description_html:
-          button-1-text: 
-          button-1-link: 
-          button-2-text: 
-          button-2-link: 
+          button-1-text:
+          button-1-link:
+          button-2-text:
+          button-2-link:
           youtube-link:
-          image-placement: 
-          image-horizontal-focal-point: 
-          image-vertical-focal-point: 
+          image-placement:
+          image-horizontal-focal-point:
+          image-vertical-focal-point:
           text-placement:
           large-text-alignment:
           hide-bottom-padding:
