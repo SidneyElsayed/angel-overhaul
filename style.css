@@ -331,12 +331,12 @@ h3 strong {
 /* Video Embed Container */
   .youtube-container { 
     border-radius: 0.5rem;
+    overflow: hidden;
   }
   
   .embed-container { 
     border-radius: 0.5rem;
-    position: relative;
-    height: 0; 
+    position: relative; 
     overflow: hidden; 
     max-width: 100%; 
   } 

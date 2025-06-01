@@ -12,14 +12,15 @@
   {% endif %}
 
   
-  <div class="grid grid-cols-2">
+  <div class="grid grid-cols-2 
+  {% if block.content-placement == 'top' %} items-start {% elsif block.content-placement == 'center' %} items-center {% elsif block.content-placement == 'bottom' %} items-end {% endif %}">
     <!-- Video -->
       <div class="col-span-2 md:col-span-1 youtube-container">
-          <iframe src='{{block.youtube-link}}' frameborder="0" allow="accelerometer; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe class="w-full embed-container" src='{{block.youtube-link}}' frameborder="0" allow="accelerometer; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="aspect-ratio: 1.7;"> </iframe>
       </div>
 
     <!-- Text Block -->
-    <div class=" col-span-2 md:col-span-1 pt-20 md:pt-0 {% if block.text-placement == 'top' %} self-start {% elsif block.text-placement == 'center' %} self-center {% elsif block.text-placement == 'bottom' %} self-end {% endif %} 
+    <div class=" col-span-2 md:col-span-1 pt-20 md:pt-0 
     
     {% if block.image-placement == 'right' %} md:pr-12 md:order-first {% else %} md:pl-12 {% endif %}">
 

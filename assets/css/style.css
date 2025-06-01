@@ -594,14 +594,14 @@ video {
 .hidden {
   display: none;
 }
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
 .aspect-\[2\/3\] {
   aspect-ratio: 2/3;
 }
 .aspect-\[3\/2\] {
   aspect-ratio: 3/2;
+}
+.aspect-square {
+  aspect-ratio: 1 / 1;
 }
 .h-72 {
   height: 18rem;
@@ -693,6 +693,12 @@ video {
 .content-center {
   align-content: center;
 }
+.items-start {
+  align-items: flex-start;
+}
+.items-end {
+  align-items: flex-end;
+}
 .items-center {
   align-items: center;
 }
@@ -707,9 +713,6 @@ video {
 }
 .justify-between {
   justify-content: space-between;
-}
-.justify-around {
-  justify-content: space-around;
 }
 .gap-10 {
   gap: 2.5rem;
@@ -833,15 +836,13 @@ video {
 .p-8 {
   padding: 2rem;
 }
-.p-1 {
-  padding: 0.25rem;
-}
-.p-2 {
-  padding: 0.5rem;
-}
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .px-4 {
   padding-left: 1rem;
@@ -894,10 +895,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 .pb-0 {
   padding-bottom: 0px;
@@ -1421,12 +1418,12 @@ h3 strong {
 /* Video Embed Container */
   .youtube-container { 
     border-radius: 0.5rem;
+    overflow: hidden;
   }
   
   .embed-container { 
     border-radius: 0.5rem;
-    position: relative;
-    height: 0; 
+    position: relative; 
     overflow: hidden; 
     max-width: 100%; 
   } 
@@ -1748,21 +1745,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .md\:h-full {
     height: 100%;
   }
-  .md\:max-h-\[20vh\] {
-    max-height: 20vh;
-  }
-  .md\:max-h-\[30vh\] {
-    max-height: 30vh;
-  }
-  .md\:max-h-\[40vh\] {
-    max-height: 40vh;
-  }
-  .md\:max-h-\[50vh\] {
-    max-height: 50vh;
-  }
-  .md\:max-h-\[60vh\] {
-    max-height: 60vh;
-  }
   .md\:min-h-\[60vh\] {
     min-height: 60vh;
   }
@@ -1771,18 +1753,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   }
   .md\:min-h-screen {
     min-height: 100vh;
-  }
-  .md\:min-h-\[20vh\] {
-    min-height: 20vh;
-  }
-  .md\:min-h-\[30vh\] {
-    min-height: 30vh;
-  }
-  .md\:min-h-\[40vh\] {
-    min-height: 40vh;
-  }
-  .md\:min-h-\[50vh\] {
-    min-height: 50vh;
   }
   .md\:min-w-full {
     min-width: 100%;
@@ -1830,10 +1800,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .md\:pt-16 {
     padding-top: 4rem;
   }
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1849,13 +1815,13 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .lg\:gap-8 {
     gap: 2rem;
   }
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
