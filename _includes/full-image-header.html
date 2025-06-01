@@ -6,7 +6,7 @@
   <section class="{{block.overlay}} bg-cover bg-no-repeat flex flex-col grow  min-h-[80vh] {% if block.text-placement == 'top' %} justify-start {% elsif block.text-placement == 'center' %} justify-center {% elsif block.text-placement == 'bottom' %} justify-end {% endif %} " style="background-image: url('{{block.image}}'); background-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}" >
   {% endif %}
   
-    <div class="z-20 my-14 text-center featured-text text-6xl font-extrabold uppercase tracking-wide">{{block.heading_html}}</div>
+    <div class="z-20 my-14 text-center featured-text text-6xl font-extrabold uppercase tracking-wide {% if block.heading-has-long-words %} heading-has-long-words {% endif %}">{{block.heading_html}}</div>
 
     
   </section>
