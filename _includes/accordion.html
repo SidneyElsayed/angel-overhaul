@@ -1,13 +1,13 @@
 <section id="section-{{forloop.index}}">
   <div class="max-width mx-auto py-16 px-8 sm:px-16">
-    {% if block.section-heading %}
-      <div class="content-block pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl  text-{{block.question-block.large-text-alignment}}">{{block.section-heading}}</div>
+    {% if block.section-heading_html %}
+      <div class="content-block pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-{{block.question-block.large-text-alignment}}">{{block.section-heading_html}}</div>
     {% endif %}
 
     <div>
-      <div class="border border-black rounded-2xl">
+      <div class="border border-[var(--text-color)] rounded-2xl">
       {% for item in block.accordion-loop %}
-        <div class="relative {% unless forloop.last %} border-b border-black {% endunless %}" x-data="{selected:null}">
+        <div class="relative {% unless forloop.last %} border-b border-[var(--text-color)] {% endunless %}" x-data="{selected:null}">
           <button
             type="button"
             class="w-full"

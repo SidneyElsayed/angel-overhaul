@@ -538,6 +538,9 @@ video {
 .col-span-6 {
   grid-column: span 6 / span 6;
 }
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
 .m-2 {
   margin: 0.5rem;
 }
@@ -783,6 +786,9 @@ video {
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+.border-\[var\(--text-color\)\] {
+  border-color: var(--text-color);
 }
 .bg-\[var\(--base-color\)\] {
   background-color: var(--base-color);
@@ -1670,6 +1676,9 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   }
   .sm\:col-span-4 {
     grid-column: span 4 / span 4;
+  }
+  .sm\:col-span-1 {
+    grid-column: span 1 / span 1;
   }
   .sm\:block {
     display: block;
