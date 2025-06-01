@@ -412,7 +412,6 @@ _inputs:
       Choose what type of information people are putting into the form (text is
       for things like first and last name, textarea is for a larger area for
       text)
-    hidden: false
     cascade: true
   event-type-filter:
     type: select
