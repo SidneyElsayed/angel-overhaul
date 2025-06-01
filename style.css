@@ -292,6 +292,7 @@ h3 strong {
     color: var(--button-3-text-color);
 }
 
+
 /* Image Styles */
 .overlay-dark::after {
     position: absolute;
@@ -522,6 +523,17 @@ h3 strong {
     width: 216px;
     height: 270px;
     overflow: hidden;
+  }
+
+  .mobile-menu .button {
+    display: block;
+    font-size: small;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
   }
 }
 

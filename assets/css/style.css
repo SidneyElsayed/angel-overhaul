@@ -523,23 +523,20 @@ video {
 .z-30 {
   z-index: 30;
 }
-.order-first {
-  order: -9999;
-}
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
 .col-span-4 {
   grid-column: span 4 / span 4;
 }
 .col-span-6 {
   grid-column: span 6 / span 6;
-}
-.col-span-3 {
-  grid-column: span 3 / span 3;
 }
 .m-2 {
   margin: 0.5rem;
@@ -666,9 +663,6 @@ video {
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
 .grid-cols-6 {
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
@@ -782,10 +776,6 @@ video {
 }
 .border-b {
   border-bottom-width: 1px;
-}
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 .border-\[var\(--text-color\)\] {
   border-color: var(--text-color);
@@ -1389,6 +1379,7 @@ h3 strong {
     color: var(--button-3-text-color);
 }
 
+
 /* Image Styles */
 .overlay-dark::after {
     position: absolute;
@@ -1620,6 +1611,17 @@ h3 strong {
     height: 270px;
     overflow: hidden;
   }
+
+  .mobile-menu .button {
+    display: block;
+    font-size: small;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
 }
 
 /* Virtuous Donate Form */
@@ -1677,9 +1679,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .sm\:col-span-4 {
     grid-column: span 4 / span 4;
   }
-  .sm\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
   .sm\:block {
     display: block;
   }
@@ -1730,9 +1729,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   }
   .md\:order-first {
     order: -9999;
-  }
-  .md\:order-last {
-    order: 9999;
   }
   .md\:col-span-1 {
     grid-column: span 1 / span 1;
