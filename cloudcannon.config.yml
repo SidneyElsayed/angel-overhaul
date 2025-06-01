@@ -206,8 +206,7 @@ _inputs:
         - third
     label: Text/box width
     comment: >-
-      Choose whether the input takes up one-third, half or the full width of the
-      page
+      Choose whether the input takes up one-third, half or the full width of the page
     cascade: true
   name:
     type: text
@@ -462,6 +461,7 @@ _structures:
         value:
           form-type: checkbox
           label: How did you hear about Angel Foundation™?
+          width: full
           boxes:
             - checkbox-option: Website
               name: How did you hear about Angel Foundation™?
