@@ -68,6 +68,10 @@
           </label>
           {% endif %}
 
+          {% if input.acknowledgement %}
+            <p>{{input.acknowledgement}}</p>
+          {% endif %}
+
         </div>
       {% endfor %}
 

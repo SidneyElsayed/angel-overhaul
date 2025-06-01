@@ -433,6 +433,7 @@ _structures:
           placeholder-text: John
           width: third
           required: true
+          acknowledgement:
       - label: Phone Number
         value:
           form-type: phone
@@ -486,6 +487,7 @@ _structures:
           form-type: radio
           label: I understand that a background check is necessary, and I authorize Angel Foundation™ to perform a background check.
           width: full
+          acknowledgement:
           boxes:
             - checkbox-option: Yes
               name: I understand that a background check is necessary, and I authorize Angel Foundation™ to perform a background check.
