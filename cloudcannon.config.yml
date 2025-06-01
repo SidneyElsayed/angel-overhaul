@@ -431,6 +431,22 @@ _structures:
           placeholder-text: (XXX) XXX-XXXX
           width: third
           required: true
+      - label: Email
+        value:
+          form-type: email
+          name: Email Address
+          label: Email Address
+          placeholder-text: johnsmith@email.com
+          width: third
+          required: true
+      - label: Text Area
+        value:
+          form-type: textarea
+          name: Interest
+          label: Why are you interested in volunteering at Angel Foundation™?
+          placeholder-text: ''
+          width: full
+          required: true
       - label: Checkbox (multi-answer)
         value:
           form-type: checkbox
