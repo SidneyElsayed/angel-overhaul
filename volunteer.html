@@ -34,7 +34,7 @@ blocks:
     section-text:
     submit-button-text: Submit
     button-alignment: center
-    inputs:
+    form-inputs:
       - form-type: text
         name: First Name
         label: First Name
@@ -84,37 +84,31 @@ blocks:
         width: third
         required: true
       - form-type: checkbox
-        name: How did you hear about Angel Foundation™?
         label: How did you hear about Angel Foundation™?
+        boxes:
+          - checkbox-option: Website
+            name: How did you hear about Angel Foundation™?
+            value: Website
+          - checkbox-option: Event
+            name: How did you hear about Angel Foundation™?
+            value: Event
+          - checkbox-option: Friend/Family
+            name: How did you hear about Angel Foundation™?
+            value: Friend/Family
+          - checkbox-option: Social Media
+            name: How did you hear about Angel Foundation™?
+            value: Social Media
+          - checkbox-option: Brochure
+            name: How did you hear about Angel Foundation™?
+            value: Brochure
+          - checkbox-option: Other
+            name: How did you hear about Angel Foundation™?
+            value: Other
+        name: How did you hear about Angel Foundation™?
         placeholder-text: 
         width: full
         required: true
         checkbox-option: Website
-      - form-type: checkbox
-        name: How did you hear about Angel Foundation™?
-        label: 
-        placeholder-text: 
-        width: full
-        required: true
-        checkbox-option: Event
-      - form-type: checkbox
-        name: How did you hear about Angel Foundation™?
-        label: 
-        placeholder-text: 
-        width: full
-        required: true
-        checkbox-option: Social Media
-      - form-type: checkbox
-        name: How did you hear about Angel Foundation™?
-        label: 
-        placeholder-text: 
-        width: full
-        required: true
-        checkbox-option: Event
-        checkbox-option: Friend/Family
-        checkbox-option: Social Media
-        checkbox-option: Brochure
-        checkbox-option: Other
       - form-type: text
         name: Current Employer
         label: Current Employer

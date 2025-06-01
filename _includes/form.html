@@ -11,7 +11,7 @@
   
 
     <form class="grid md:grid-cols-6 gap-2">
-      {% for input in block.inputs %}
+      {% for input in block.form-inputs %}
         <div class="
         {% case input.width %}
 
@@ -42,7 +42,13 @@
               <input class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="tel" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}>
 
               {% when 'checkbox' %}
-              <input class="font-thin text-featured rounded-2xl px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="checkbox" name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}> {{input.checkbox-option}}
+              <div class="columns-2">
+                {% for box in input.boxes %}
+                  <label class="block" for="{{box.value}}">
+                    <input class="font-thin text-featured rounded-2xl px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  type="checkbox" name="{{input.value}}" id="{{input.value}}"> {{box.checkbox-option}}
+                  </label>
+                {% endfor %}
+              </div>
               
               {% when 'textarea' %}
               <textarea class="font-thin text-featured rounded-2xl block w-full px-4 py-2 outline-none focus:bg-[var(--featured-color-v-light-blue)]"  name="{{input.name}}" id="{{input.name}}" placeholder="{{input.placeholder-text}}"  {% if input.required %} required {% endif %}></textarea>

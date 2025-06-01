@@ -392,6 +392,48 @@ _inputs:
       Choose which event type to pre-filter. If left blank, the default is "all"
     cascade: true
 _structures:
+  form-inputs:
+    style: select
+    values:
+      - label: Text input
+        value:
+          form-type: text
+          name: First Name
+          label: First Name
+          placeholder-text: John
+          width: third
+          required: true
+      - label: Phone Number
+        value:
+          form-type: phone
+          name: Phone Number
+          label: Phone Number
+          placeholder-text: (XXX) XXX-XXXX
+          width: third
+          required: true
+      - label: Checkbox (multi-answer)
+        value: 
+          form-type: checkbox
+          label: How did you hear about Angel Foundation™?
+          boxes:
+            - checkbox-option: Website
+              name: How did you hear about Angel Foundation™?
+              value: Website
+            - checkbox-option: Event
+              name: How did you hear about Angel Foundation™?
+              value: Event
+            - checkbox-option: Friend/Family
+              name: How did you hear about Angel Foundation™?
+              value: Friend/Family
+            - checkbox-option: Social Media
+              name: How did you hear about Angel Foundation™?
+              value: Social Media
+            - checkbox-option: Brochure
+              name: How did you hear about Angel Foundation™?
+              value: Brochure
+            - checkbox-option: Other
+              name: How did you hear about Angel Foundation™?
+              value: Other
   blocks:
     style: select
     values:
