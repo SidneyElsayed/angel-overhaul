@@ -656,7 +656,8 @@ _structures:
       - label: accordion
         value:
           id: accordion
-          section-heading:
+          section-heading_html:
+          heading-has-long-words:
           large-text-alignment:
           text-alignment:
           accordion-loop:

@@ -1,7 +1,11 @@
 <section id="section-{{forloop.index}}">
   <div class="max-width mx-auto py-16 px-8 sm:px-16">
     {% if block.section-heading_html %}
-      <div class="content-block pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-{{block.question-block.large-text-alignment}}">{{block.section-heading_html}}</div>
+      <div class="content-block pb-8 
+      
+      {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %} 
+      
+      {% if block.heading-has-long-words %} heading-has-long-words {% endif %}">{{block.section-heading_html}}</div>
     {% endif %}
 
     <div>
