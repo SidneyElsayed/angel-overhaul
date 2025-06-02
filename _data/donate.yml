@@ -1,8 +1,6 @@
 card-loop:
   - heading: Blue Ribbon Circle
-    short-description_html: >-
-      Donors who give $1,000+ annually, recurring gifts, or include us in estate
-      plans.
+    short-description_html: Recognizes our most committed supporters.
     button-text: Learn More
     button-link: /blue-ribbon-circle.html
     image: /uploads/MiscPhotos/BRC-Main.jpg
