@@ -732,6 +732,7 @@ _structures:
       - label: our partners page logos
         value:
           id: our-partners-page-logos
+          type:
           scheme-name:
       - label: video with text
         value:
