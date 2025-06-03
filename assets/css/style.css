@@ -1819,6 +1819,9 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
