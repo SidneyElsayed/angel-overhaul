@@ -9,9 +9,9 @@
   <div class="">
     <!-- Major Funders -->
     <h2 class="pb-6 featured-text text-5xl font-extrabold uppercase tracking-wide">Major Funders</h2>
-    <div class="pb-20 grid grid-cols-3"> 
-    {% for item in item %}
-      <div class="p-8 sm:p-6 col-span-1 md:col-span-2 lg:col-span-3 w-full h-full">
+    <div class="pb-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"> 
+      {% for item in item %}
+      <div class="p-8 sm:p-6 col-span-1 w-full h-full">
         <a href="{{item.link}}" target="_blank">
           <img class="object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}" /></a>
       </div>
@@ -20,9 +20,9 @@
 
     <!-- Nonprofit Partners -->
     <h2 class="pb-6 featured-text text-5xl font-extrabold uppercase tracking-wide">Nonprofit Partners</h2>
-    <div class="grid grid-cols-3"> 
-    {% for item in item-2 %}
-      <div class="p-8 sm:p-6 col-span-1 md:col-span-2 lg:col-span-3 w-full h-full">
+    <div class="pb-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3"> 
+      {% for item in item-2 %}
+      <div class="p-8 sm:p-6 col-span-1 w-full h-full">
         <a href="{{item.link}}" target="_blank">
           <img class="object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}" /></a>
       </div>
