@@ -386,6 +386,7 @@ _inputs:
         - financials
         - news
         - people
+        - partners
         - programs
         - testimonials
         - volunteer opportunities
@@ -728,6 +729,10 @@ _structures:
         value:
           id: calendar-month
           event-type-filter:
+      - label: our partners page logos
+        value:
+          id: our-partners-page-logos
+          scheme-name:
       - label: video with text
         value:
           id: video-with-text
