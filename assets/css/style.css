@@ -845,10 +845,6 @@ video {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1317,7 +1313,7 @@ h3 strong {
   display: none; 
   background-color: var(--featured-color-dark-navy);
   padding: 5%;
-  padding-top: 12%;
+  padding-top: 2rem;
   position: fixed;
   z-index:3;
   top: 0;
@@ -1346,6 +1342,10 @@ h3 strong {
 .mobile-menu .mob-button {
   color: var(--featured-color-dark-navy);
   display: inline-block;
+}
+
+.mobile-menu .mob-button:hover{
+  color: white;
 }
 
 /* Button Styles */
@@ -1622,6 +1622,7 @@ h3 strong {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
   }
+
 }
 
 /* Virtuous Donate Form */
