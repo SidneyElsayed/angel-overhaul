@@ -688,11 +688,23 @@ _structures:
       - label: image grid
         value:
           id: image-grid
-          hide-top-padding:
-          hide-bottom-padding:
           image-loop:
             - image:
               alt:
+          image-horizontal-focal-point:
+          image-vertical-focal-point:
+          hide-top-padding:
+          hide-bottom-padding:
+          scheme-name:
+      - label: small image grid
+        value:
+          id: small-image-grid
+          image-loop:
+            - image:
+              alt:
+              link:
+          hide-top-padding:
+          hide-bottom-padding:
           scheme-name:
       - label: logo image grid
         value:
