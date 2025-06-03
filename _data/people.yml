@@ -26,10 +26,10 @@ jobs-loop:
         image: /uploads/BoardPhotos/mark-baer.jpg
         alt: A headshot of Marc Baer
       - name: Cindy Blackstock
-        job-title:
+        job-title: Community Volunteer
         tag:
         title-tag:
-        phone-number: ''
+        phone-number: <p>Retired</p>
         email:
         short-description_html: ''
         color: var(--featured-color-dark-navy)
@@ -134,10 +134,10 @@ jobs-loop:
         image: /uploads/BoardPhotos/sandy-jones.jpg
         alt: A headshot of Sandy Jones
       - name: Marcy Keckler
-        job-title: ''
+        job-title: Community Volunteer
         tag: true
         title-tag: Board Chair
-        phone-number: ''
+        phone-number: <p>Retired</p>
         email: ''
         short-description_html: ''
         color: var(--featured-color-dark-navy)
