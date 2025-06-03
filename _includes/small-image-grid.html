@@ -2,12 +2,10 @@
   <div class="max-width mx-auto {}">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="px-8 sm:px-16 py-32 gap-10 {% if block.image-loop.size <= 3  %} justify-center {% endif %} {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %} flex overflow-x-auto w-full no-scrollbar">
-    {% for item in block.image-loop %}
-    <div class="relative basis-[80%] sm:basis-[60%] md:basis-[30%] shrink-0 h-full w-full inset-0
-    
-    {% if block.image-aspect-ratio == 'square' %} aspect-square {% elsif block.image-aspect-ratio == 'landscape' %} aspect-[3/2] {% elsif block.image-aspect-ratio == 'portrait' %} aspect-[2/3] {% endif %}">
-      <img class="absolute rounded-lg object-contain h-full w-full inset-0" src="{{item.image}}" alt="{{item.alt}}"
+  <div class="px-8 sm:px-16 py-32 gap-10 justify-center {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %} w-full h-full inset-0">
+    {% for item in block.image-loop  %}
+    <div class="relative h-full w-full inset-0">
+      <img class="absolute object-contain h-full w-full inset-0" src="{{item.image}}" alt="{{item.alt}}"
       
       style="object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}">
     </div>
