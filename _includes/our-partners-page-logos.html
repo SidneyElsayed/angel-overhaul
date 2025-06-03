@@ -1,0 +1,38 @@
+<section id="section-{{forloop.index}}">
+  <div class="max-width mx-auto">
+
+  <!-- Actual content starts here, so that the above has the max width -->
+  
+
+<div class="px-8 sm:px-16 py-16 bg-white">
+
+  <div class="grid grid-cols-3">
+    <h2 class="col-span-3 pb-6 featured-text text-5xl font-extrabold uppercase tracking-wide">Major Funders</h2>
+    <div class="pb-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> 
+    {% for item in item %}
+      <div class="p-8 sm:p-6 col-span-1 w-full h-full">
+        <a href="{{item.link}}" target="_blank">
+          <img class="object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}" />
+      </a>
+      </div>
+    {% endfor %}
+    </div>
+
+    <h2 class="col-span-3 pb-6 featured-text text-5xl font-extrabold uppercase tracking-wide">Nonprofit Partners</h2>
+    <div class="pb-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> 
+    {% for item in item-2 %}
+      <div class="p-8 sm:p-6 col-span-1 w-full h-full">
+        <a href="{{item.link}}" target="_blank">
+          <img class="object-cover object-center" style="object-position: {{item.image-horizontal-focal-point}} {{item.image-vertical-focal-point}}" src="{{item.image}}" alt="{{item.alt}}" />
+      </a>
+      </div>
+    {% endfor %}
+    </div>
+
+  </div>
+</div>
+
+
+  <!-- Don't delete the below; these are for the starting id and class above -->
+</div>
+</section>

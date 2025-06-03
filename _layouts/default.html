@@ -64,6 +64,10 @@
    {% elsif block.type == 'people' %}
       {% assign item = site.data.people.card-loop %}
 
+   {% elsif block.type == 'partners' %}
+      {% assign item = site.data.partners.Major_Funders %}
+      {% assign item-2 = site.data.partners.Nonprofit_Partners %}
+
    {% elsif block.type == 'financials' %}
       {% assign item = site.data.financials.card-loop %}
 
