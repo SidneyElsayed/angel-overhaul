@@ -616,9 +616,9 @@ _structures:
               back:
           text-alignment:
           scheme-name:
-      - label: virtuous form
+      - label: donate form
         value:
-          id: virtuous-form
+          id: donate-form
           section-heading:
           text-alignment:
           scheme-name:
