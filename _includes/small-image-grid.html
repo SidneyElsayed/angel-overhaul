@@ -7,7 +7,7 @@
     <div class="relative basis-[80%] sm:basis-[60%] md:basis-[30%] shrink-0
     
     {% if block.image-aspect-ratio == 'square' %} aspect-square {% elsif block.image-aspect-ratio == 'landscape' %} aspect-[3/2] {% elsif block.image-aspect-ratio == 'portrait' %} aspect-[2/3] {% endif %}">
-      <img class="absolute rounded-lg object-cover h-full inset-0 w-full" src="{{item.image}}" alt="{{item.alt}}"
+      <img class="absolute rounded-lg object-contain h-full inset-0 w-full" src="{{item.image}}" alt="{{item.alt}}"
       
       style="object-position: {{block.image-horizontal-focal-point}} {{block.image-vertical-focal-point}}">
     </div>

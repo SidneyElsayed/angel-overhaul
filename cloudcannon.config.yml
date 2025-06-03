@@ -691,6 +691,7 @@ _structures:
           image-loop:
             - image:
               alt:
+          image-aspect-ratio:
           image-horizontal-focal-point:
           image-vertical-focal-point:
           hide-top-padding:
