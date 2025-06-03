@@ -397,7 +397,7 @@ _inputs:
   program:
     type: select
     options:
-      allow_empty: false
+      allow_empty: true
       values:
         - AFP
         - FCC
