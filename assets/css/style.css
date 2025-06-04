@@ -1622,6 +1622,12 @@ h3 strong {
 
 }
 
+
+/* xxs Media Query Max 576px */
+@media (max-width: 36em) {
+  .full-image-heading-has-long-words   {font-size: 2.4rem;}
+}
+
 /* Virtuous Donate Form */
 /* Buttons */
 form[id*=vcrm] .v_ig a.v_gao {
