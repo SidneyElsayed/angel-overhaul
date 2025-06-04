@@ -508,9 +508,6 @@ video {
 .top-\[103\%\] {
   top: 103%;
 }
-.top-full {
-  top: 100%;
-}
 .z-0 {
   z-index: 0;
 }
@@ -710,9 +707,6 @@ video {
 }
 .justify-between {
   justify-content: space-between;
-}
-.justify-items-center {
-  justify-items: center;
 }
 .gap-10 {
   gap: 2.5rem;
@@ -1023,6 +1017,9 @@ video {
 .font-extrabold {
   font-weight: 800;
 }
+.font-light {
+  font-weight: 300;
+}
 .font-normal {
   font-weight: 400;
 }
@@ -1031,12 +1028,6 @@ video {
 }
 .font-thin {
   font-weight: 100;
-}
-.font-light {
-  font-weight: 300;
-}
-.font-extralight {
-  font-weight: 200;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1499,7 +1490,7 @@ h3 strong {
 }
 
 .slick-dots {
-  bottom: 0%;
+  bottom: -2%;
   left: 0;
 }
 
@@ -1666,16 +1657,8 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   border-bottom-color: var(--bg-color);
 }
 
-.hover\:border-b-\[var\(--featured-color-angel-blue\)\]:hover {
-  border-bottom-color: var(--featured-color-angel-blue);
-}
-
 .hover\:text-\[var\(--bg-color\)\]:hover {
   color: var(--bg-color);
-}
-
-.hover\:text-\[var\(--featured-color-angel-blue\)\]:hover {
-  color: var(--featured-color-angel-blue);
 }
 
 .focus\:bg-\[var\(--featured-color-v-light-blue\)\]:focus {
@@ -1827,12 +1810,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
 @media (min-width: 1024px) {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
-  }
-  .lg\:col-span-3 {
-    grid-column: span 3 / span 3;
-  }
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
