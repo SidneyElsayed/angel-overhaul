@@ -159,8 +159,8 @@ blocks:
     text-placement: top
     large-text-placement: left
     large-text-alignment: left
-    paragraph-text-alignment: center
-    button-alignment:
+    paragraph-text-alignment: left
+    button-alignment: left
     button-1-text: Apply
     button-1-link: https://webportalapp.com/sp/login/angelfoundationafp
     button-2-text: Contact Us
@@ -178,9 +178,9 @@ blocks:
     paragraph-width: half
     text-placement: top
     large-text-placement: right
-    large-text-alignment: right
+    large-text-alignment: left
     paragraph-text-alignment: left
-    button-alignment:
+    button-alignment: left
     button-1-text: Application
     button-1-link: /uploads/ProgramDocuments/Current-Program-Application-Q225.pdf
     button-2-text: Medical Form
@@ -189,14 +189,14 @@ blocks:
   - id: calendar-list
     event-type-filter: Adult & Family Programs
   - id: info-cards
-    section-heading_html: Other Programs
+    section-heading_html: <h3>Other Programs</h3>
     type: programs
     card-description: false
     text-alignment: left
     scheme-name: green-background
   - id: accordion
-    section-heading_html: <h2>Frequently Asked Questions</h2>
-    heading-has-long-words:
+    section-heading_html: <h3>Frequently Asked Questions</h3>
+    heading-has-long-words: true
     large-text-alignment: center
     text-alignment: left
     accordion-loop:
@@ -243,7 +243,7 @@ blocks:
           virtual events are open to all, regardless of location.</p>
     scheme-name: white-background-blue-highlight
   - id: testimonials
-    section-heading_html: <h2>The Lives We Touch</h2>
+    section-heading_html: <h3>The Lives We Touch</h3>
     large-text-alignment: center
     type: testimonials
     program: AFP
