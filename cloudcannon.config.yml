@@ -743,6 +743,7 @@ _structures:
         value:
           id: financial-cards
           section-heading_html:
+          large-text-alignment:
           type:
           scheme-name:
       - label: calendar list
