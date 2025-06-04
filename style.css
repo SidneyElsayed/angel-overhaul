@@ -265,6 +265,7 @@ h3 strong {
   color: white;
 }
 
+
 /* Button Styles */
 [class*='button'] {
     display: inline-block;
@@ -395,10 +396,6 @@ h3 strong {
 
 .slider-item a {
   display: block;
-}
-
-.slider-testimonials {
-
 }
 
 .slick-track {
