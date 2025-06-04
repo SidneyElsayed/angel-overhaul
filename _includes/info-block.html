@@ -4,13 +4,13 @@
   <!-- Actual content starts here, so that the above has the max width -->
   <div class="px-8 sm:px-16 py-24">
 
-  {% if block.section-heading %}
+  {% if block.section-heading_html %}
 
-  <h2 class="pb-8 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-5xl 
+  <div class="pb-8 featured-text text-5xl font-extrabold uppercase tracking-wide leading-snug
   
   {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}
   
-  {% if block.heading-has-long-words %} heading-has-long-words {% endif %}">{{block.section-heading}}</h2>
+  {% if block.heading-has-long-words %} heading-has-long-words {% endif %}">{{block.section-heading_html}}</div>
 
   {% endif %}
 
@@ -36,7 +36,7 @@
 
           <!-- Icon Info Section -->
           {% if item.location  %}
-          <div class="inline-block mr-4">
+          <div class="pt-3 inline-block mr-4">
             <p class=""><i class="fa-solid fa-location-dot pr-1"></i> {{item.location}} </p>
           </div>
           {% endif %}

@@ -1,5 +1,5 @@
 <section id="section-{{forloop.index}}">
-  <div class="max-width mx-auto p-8 sm:p-16 py-16">
+  <div class="max-width mx-auto p-8 sm:p-16 py-28">
 
   <!-- Actual content starts here, so that the above has the max width -->
 
@@ -7,12 +7,12 @@
   <!-- Section Heading -->
   {% if block.section-heading_html %}
 
-  <div class="px-8 sm:px-16 py-16 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading_html}}</div>
+  <div class="px-8 sm:px-16 pb-10 featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading_html}}</div>
 
   {% endif %}
 
   <!-- Facts Loop -->
-  <div class="flex flex-row flex-wrap justify-center gap-12 pt-10">
+  <div class="flex flex-row flex-wrap justify-center gap-12">
     {% for item in item %}
     {% if item.featured and item.text_html %}
     <div class="py-4 text-center">
