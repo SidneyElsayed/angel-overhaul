@@ -1448,7 +1448,7 @@ h3 strong {
   .job-title {
     text-decoration: none;
     color: var(--base-color);
-    background-color: var(--featured-color-angel-blue);
+    background-color: var(--featured-color);
     font-size: 0.75rem;
     letter-spacing: 0.025em;
     font-weight: 600;

@@ -17,7 +17,7 @@ seo:
   index: true
 ---
 <!-- Job buttons -->
-<div class="px-8 sm:px-16 py-8 flex flex-nowrap overflow-x-scroll no-scrollbar justify-center">
+<div class="px-8 sm:px-16 pt-20 flex flex-nowrap overflow-x-scroll no-scrollbar justify-center">
   {% for jobs in site.data.people.jobs-loop %}
     <span class="button-1 shrink-0 jobButton text-base-color m-2 {% if forloop.first %} active {% endif %}" data-job-value="{{jobs.jd | replace:' ','-' }}">{{jobs.jd}}</span>
   {% endfor %}
