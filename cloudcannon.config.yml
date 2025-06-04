@@ -588,7 +588,7 @@ _structures:
       - label: info cards
         value:
           id: info-cards
-          section-heading:
+          section-heading_html:
           type:
           card-description:
           text-alignment:
@@ -596,7 +596,7 @@ _structures:
       - label: info block
         value:
           id: info-block
-          section-heading:
+          section-heading_html:
           heading-has-long-words: 
           large-text-alignment:
           type:
@@ -604,14 +604,14 @@ _structures:
       - label: facts
         value:
           id: facts
-          section-heading:
+          section-heading_html:
           type:
           large-text-alignment:
           scheme-name:
       - label: interactive cards
         value:
           id: interactive-cards
-          section-heading:
+          section-heading_html:
           card-loop:
             - front:
               back:
@@ -620,20 +620,20 @@ _structures:
       - label: donate form
         value:
           id: donate-form
-          section-heading:
+          section-heading_html:
           text-alignment:
           scheme-name:
       - label: newsletter form
         value:
           id: newsletter-form
-          section-heading:
+          section-heading_html:
           text-alignment:
           scheme-name:
       - label: form
         value:
           id: form
           form-name: Name of this form
-          section-heading:
+          section-heading_html:
           large-text-alignment:
           section-text:
           submit-button-text: Submit
@@ -670,7 +670,7 @@ _structures:
       - label: testimonials
         value:
           id: testimonials
-          section-heading:
+          section-heading_html:
           large-text-alignment:
           type:
           program:
@@ -724,14 +724,14 @@ _structures:
       - label: map
         value:
           id: map
-          section-heading:
+          section-heading_html:
           large-text-alignment:
           address:
           scheme-name:
       - label: financial cards
         value:
           id: financial-cards
-          section-heading:
+          section-heading_html:
           type:
           scheme-name:
       - label: calendar list

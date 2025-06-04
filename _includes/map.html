@@ -4,9 +4,9 @@
   <!-- Actual content starts here, so that the above has the max width -->
   <div class="">
 
-    {% if block.section-heading %}
+    {% if block.section-heading_html %}
   
-    <h2 class="pb-10 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
+    <h2 class="pb-10 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading_html}}</h2>
   
     {% endif %}
     <div class="grid grid-cols-2">

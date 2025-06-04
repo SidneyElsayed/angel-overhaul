@@ -1,9 +1,9 @@
 <section id="section-{{forloop.index}}">
   <div class="max-width mx-auto px-8 sm:px-16 py-28">
 
-    {% if block.section-heading %}
+    {% if block.section-heading_html %}
 
-    <h2 class="featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading}}</h2>
+    <h2 class="featured-text font-extrabold uppercase tracking-wide text-4xl sm:text-6xl {% if block.large-text-alignment == 'left' %} text-left {% elsif block.large-text-alignment == 'center' %} text-center {% elsif block.large-text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading_html}}</h2>
   
     <p class="py-6 font-thin">{{block.section-text}}</p>
   
