@@ -1134,7 +1134,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1150,7 +1150,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   line-height: 2.5rem;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1656,18 +1656,23 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   border-radius: 0.5rem;
 }
 
+/* ElfSight Calendar List App */
+.eapp-events-calendar-events-calendar-title.jsx-2466809487 {
+  font-size: 2.8rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
 .hover\:border-b-\[var\(--bg-color\)\]:hover {
   border-bottom-color: var(--bg-color);
 }
-
 .hover\:text-\[var\(--bg-color\)\]:hover {
   color: var(--bg-color);
 }
-
 .focus\:bg-\[var\(--featured-color-v-light-blue\)\]:focus {
   background-color: var(--featured-color-v-light-blue);
 }
-
 @media (min-width: 640px) {
   .sm\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -1715,7 +1720,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
     line-height: 1;
   }
 }
-
 @media (min-width: 768px) {
   .md\:order-first {
     order: -9999;
@@ -1800,7 +1804,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
     padding-top: 4rem;
   }
 }
-
 @media (min-width: 1024px) {
   .lg\:-bottom-10 {
     bottom: -2.5rem;
@@ -1844,4 +1847,3 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
     line-height: 1.75rem;
   }
 }
-
