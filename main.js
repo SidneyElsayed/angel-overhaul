@@ -30,7 +30,7 @@ $('.slider-testimonial').slick({
     centerPadding: '60px', // Padding for the photos
     slidesToShow: 1, // Self explainatory
     autoplay: true, // Do we want it to autoplay? true or false
-	autoplaySpeed: 4000, // How long between each slide when auto-playing
+	autoplaySpeed: 7000, // How long between each slide when auto-playing
 	speed: 1000, // How fast is the transition in milliseconds
 	arrows: true, // Do you want to show arrows to trigger each slide
 	accessibility: true, // Enables keyboard tabbing and arrow key navigation
