@@ -2,13 +2,15 @@
   <div class="max-width mx-auto align-items-center">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="grid grid-cols-2 gap-4 px-8 sm:px-16 py-24 {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %} snap-center">
-    {% for item in block.image-loop  %}
-    <div class="col-span-2 md:col-span-1 first:ml-40 ">
-      <a href="{{item.link}}" class="grid grid-cols-1 place-content-center">
-        <img class="object-contain max-w-[40%] place-content-center" src="{{item.image}}" alt="{{item.alt}}">
-      </a>
+  <div class="px-8 sm:px-16 py-32 gap-10 justify-center {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %} w-full h-full inset-0">
+
+  {% for item in block.image-loop %}
+  <a href="{{item.link}}"
+    <div class="relative h-full w-full inset-0">
+      <img class="absolute object-contain h-full w-full inset-0" src="{{item.image}}" alt="{{item.alt}}">
     </div>
+  </a>
+ {% endfor %}
 
 
   <!-- Don't delete the below; these are for the starting id and class above -->
