@@ -1,5 +1,5 @@
 <section id="section-{{forloop.index}}">
-  <div class="max-width mx-auto px-8 sm:px-16 py-32 {% if block.hide-bottom-padding %} pb-0 md:pb-16 {% endif %}">
+  <div class="max-width mx-auto px-8 sm:px-16 py-32 {% if block.hide-bottom-padding %} pb-0 lg:pb-16 {% endif %}">
 
   <!-- Actual content starts here, so that the above has the max width -->
 
@@ -15,14 +15,14 @@
   <div class="grid grid-cols-2 
   {% if block.content-placement == 'top' %} items-start {% elsif block.content-placement == 'center' %} items-center {% elsif block.content-placement == 'bottom' %} items-end {% endif %}">
     <!-- Video -->
-      <div class="col-span-2 md:col-span-1 youtube-container">
+      <div class="col-span-2 lg:col-span-1 youtube-container">
           <iframe class="w-full embed-container" src='{{block.youtube-link}}' frameborder="0" allow="accelerometer; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="aspect-ratio: 1.7;"> </iframe>
       </div>
 
     <!-- Text Block -->
-    <div class=" col-span-2 md:col-span-1 pt-20 md:pt-0 
+    <div class=" col-span-2 lg:col-span-1 pt-20 lg:pt-0 
     
-    {% if block.image-placement == 'right' %} md:pr-12 md:order-first {% else %} md:pl-12 {% endif %}">
+    {% if block.image-placement == 'right' %} lg:pr-12 lg:order-first {% else %} lg:pl-12 {% endif %}">
 
       <!-- Text Block Heading -->
       {% if block.text-block-heading_html %}
