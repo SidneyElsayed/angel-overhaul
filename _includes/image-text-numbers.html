@@ -29,7 +29,7 @@
 
       <!-- Date on Annual Events Page -->
       {% if block.date %}
-      <div class="font-extrabold text-lg uppercase text-[var(--featured-color)] featured-text tracking-wide">{{block.date}}</div>
+      <p class="font-extrabold text-lg uppercase text-[var(--featured-color)] featured-text tracking-wide">{{block.date}}</p>
       {% endif %}
 
       <!-- Text Block Heading -->
@@ -55,7 +55,7 @@
       <!-- Description -->
       {% if block.description_html %}
       <div>
-        <p class="pb-4 font-thin lg:text-lg">{{block.description_html}}</p>
+        <div class="pb-4 font-thin lg:text-lg">{{block.description_html}}</div>
       </div>
       {% endif %}
 
