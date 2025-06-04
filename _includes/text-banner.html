@@ -30,7 +30,7 @@
 
 
       <!-- Buttons -->
-      <div class="pt-3">
+      <div class="pt-3 {% if block.button-alignment == 'left' %} text-left {% elsif block.button-alignment == 'center' %} text-center {% elsif block.button-alignment == 'right' %} text-right {% endif %}">
         {% if block.button-1-link and block.button-1-text %}
         <a href="{{block.button-1-link}}" class="pt-4 mr-4 relative button-1 {{block.button-1-bg}}">{{block.button-1-text}}</a>
         {% endif %}

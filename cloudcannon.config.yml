@@ -589,6 +589,7 @@ _structures:
           large-text-placement:
           large-text-alignment:
           paragraph-text-alignment:
+          button-alignment:
           button-1-text:
           button-1-link:
           button-2-text:
