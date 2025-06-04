@@ -714,6 +714,9 @@ video {
 .gap-12 {
   gap: 3rem;
 }
+.gap-16 {
+  gap: 4rem;
+}
 .gap-4 {
   gap: 1rem;
 }
@@ -722,12 +725,6 @@ video {
 }
 .gap-8 {
   gap: 2rem;
-}
-.gap-14 {
-  gap: 3.5rem;
-}
-.gap-16 {
-  gap: 4rem;
 }
 .gap-x-32 {
   -moz-column-gap: 8rem;
@@ -1663,7 +1660,7 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
 }
 
 /* ElfSight Calendar List App */
-.eapp-events-calendar-events-calendar-title.jsx-2466809487 {
+.eapp-events-calendar-events-calendar-title.jsx-2466809487 .eapp-events-calendar-events-calendar-title.jsx-4086988196 {
   font-size: 2.8rem;
   line-height: 2.5rem;
   font-weight: 800;
@@ -1796,12 +1793,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   }
   .md\:pb-16 {
     padding-bottom: 4rem;
-  }
-  .md\:pl-12 {
-    padding-left: 3rem;
-  }
-  .md\:pr-12 {
-    padding-right: 3rem;
   }
   .md\:pt-0 {
     padding-top: 0px;
