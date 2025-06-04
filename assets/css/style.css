@@ -609,9 +609,6 @@ video {
 .max-h-0 {
   max-height: 0px;
 }
-.max-h-32 {
-  max-height: 8rem;
-}
 .max-h-\[100vh\] {
   max-height: 100vh;
 }
@@ -642,9 +639,6 @@ video {
 .max-w-\[16rem\] {
   max-width: 16rem;
 }
-.max-w-\[40\%\] {
-  max-width: 40%;
-}
 .shrink-0 {
   flex-shrink: 0;
 }
@@ -653,9 +647,6 @@ video {
 }
 .basis-\[80\%\] {
   flex-basis: 80%;
-}
-.snap-center {
-  scroll-snap-align: center;
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1143,7 +1134,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1151,7 +1142,7 @@ h2 {
 }
 
 .heading-has-long-words h2 {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   line-height: 1;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1159,7 +1150,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   line-height: 2.5rem;
   font-weight: 800;
   letter-spacing: 0.025em;
@@ -1659,10 +1650,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   border-radius: 0.5rem;
 }
 
-.first\:ml-40:first-child {
-  margin-left: 10rem;
-}
-
 .hover\:border-b-\[var\(--bg-color\)\]:hover {
   border-bottom-color: var(--bg-color);
 }
@@ -1724,12 +1711,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
 }
 
 @media (min-width: 768px) {
-  .md\:-bottom-10 {
-    bottom: -2.5rem;
-  }
-  .md\:-right-\[30px\] {
-    right: -30px;
-  }
   .md\:order-first {
     order: -9999;
   }
@@ -1744,9 +1725,6 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
   }
   .md\:col-span-6 {
     grid-column: span 6 / span 6;
-  }
-  .md\:mr-12 {
-    margin-right: 3rem;
   }
   .md\:block {
     display: block;
@@ -1818,14 +1796,38 @@ form[id*="vcrm"] .v_ig button:not(.react-datepicker__navigation), form[id*="vcrm
 }
 
 @media (min-width: 1024px) {
+  .lg\:-bottom-10 {
+    bottom: -2.5rem;
+  }
+  .lg\:-right-\[30px\] {
+    right: -30px;
+  }
+  .lg\:order-first {
+    order: -9999;
+  }
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
+  }
+  .lg\:mr-12 {
+    margin-right: 3rem;
   }
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
   .lg\:gap-8 {
     gap: 2rem;
+  }
+  .lg\:pb-16 {
+    padding-bottom: 4rem;
+  }
+  .lg\:pl-12 {
+    padding-left: 3rem;
+  }
+  .lg\:pr-12 {
+    padding-right: 3rem;
+  }
+  .lg\:pt-0 {
+    padding-top: 0px;
   }
   .lg\:text-5xl {
     font-size: 3rem;
