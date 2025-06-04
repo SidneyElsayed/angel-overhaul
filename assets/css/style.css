@@ -1629,6 +1629,8 @@ h3 strong {
 /* xxs Media Query Max 576px */
 @media (max-width: 36em) {
   .full-image-heading-has-long-words h1  {font-size: 2.4rem;}
+
+  .large-heading-has-long-words h2  {font-size: 2.4rem;}
 }
 
 /* Virtuous Donate Form */
