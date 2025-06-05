@@ -1,13 +1,13 @@
 <section id="section-{{forloop.index}}">
-  <div class="mx-auto align-items-center">
+  <div class="mx-auto">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class="px-8 sm:px-16 py-32 gap-10 justify-center {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %} w-full h-full inset-0">
+  <div class=" px-8 sm:px-16 py-20 gap-10 justify-center {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %} w-full h-full inset-0">
 
     {% for item in block.image-loop %}
     <a href="{{item.link}}">
-      <div class="relative h-full w-full inset-0">
-        <img class="absolute object-contain h-full w-full inset-0" src="{{item.image}}" alt="{{item.alt}}">
+      <div class="relative h-36 sm:pb-4">
+        <img class="absolute object-contain h-36 w-full inset-0" src="{{item.image}}" alt="{{item.alt}}">
       </div>
     </a>
     {% endfor %}
