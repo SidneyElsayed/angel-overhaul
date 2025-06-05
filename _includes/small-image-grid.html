@@ -2,12 +2,12 @@
   <div class="mx-auto">
 
   <!-- Actual content starts here, so that the above has the max width -->
-  <div class=" px-8 sm:px-16 py-20 gap-10 justify-center {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %} w-full h-full inset-0">
+  <div class="px-8 sm:px-16 py-20 gap-10 flex justify-center {% if block.hide-bottom-padding %} pb-0 {% endif %} {% if block.hide-top-padding %} pt-0 {% endif %} w-full h-full inset-0">
 
     {% for item in block.image-loop %}
-    <a href="{{item.link}}">
-      <div class="relative h-36 sm:pb-4">
-        <img class="absolute object-contain h-36 w-full inset-0" src="{{item.image}}" alt="{{item.alt}}">
+    <a href="{{item.link}}" class="inline-block">
+      <div class="relative w-36 h-36 sm:pb-4">
+        <img class="absolute object-contain h-full w-full inset-0" src="{{item.image}}" alt="{{item.alt}}">
       </div>
     </a>
     {% endfor %}
