@@ -785,7 +785,7 @@ _structures:
           hide-top-padding:
           hide-bottom-padding:
           scheme-name:
-timezone: Asia/Riyadh
+timezone: America/Chicago
 markdown:
   engine: commonmark
   options:
