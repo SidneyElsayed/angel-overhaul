@@ -634,6 +634,13 @@ _structures:
           section-heading_html:
           text-alignment:
           scheme-name:
+      - label: virtuous form
+        value:
+          id: virtuous-form
+          section-heading_html:
+          text-alignment:
+          data-vform:
+          scheme-name:
       - label: newsletter form
         value:
           id: newsletter-form
