@@ -45,6 +45,9 @@ _inputs:
   audited-financials:
     type: document
     cascade: true
+  effectiveness-metrics:
+    type: document
+    cascade: true
   phone-number:
     type: html
     options:
