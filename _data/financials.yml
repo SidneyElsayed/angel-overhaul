@@ -1,4 +1,9 @@
 card-loop:
+  - year: 2024
+    annual-report: ''
+    annual-990-form: ''
+    audited-financials: ''
+    effectiveness-metrics: /uploads/af-effectivenessassessmetrics-nobleed.pdf
   - year: 2023
     annual-report: /uploads/FinTran/2023AnnualReport-(1).pdf
     annual-990-form: /uploads/FinTran/2023-990.pdf
