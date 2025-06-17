@@ -9,3 +9,7 @@
 [[redirects]]
   from = "/shop"
   to = "https://angelpacks.mnangel.org/"
+
+[[redirects]]
+  from = "/volunteer-2"
+  to = "/volunteer"
