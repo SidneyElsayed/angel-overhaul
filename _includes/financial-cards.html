@@ -18,17 +18,23 @@
     <div class="p-5 sm:p-8 pb-8 text-center rounded-2xl bg-[var(--featured-color)]">
       <h3 class="featured-text font-semibold py-2 text-3xl">{{item.year}}</h3>
       <!-- Annual Report -->
+      {% if item.annual-report %}
       <div class="block mb-2">
         <a href="{{item.annual-report}}" target="_blank" class="hover:text-[var(--bg-color)] border-b hover:border-b-[var(--bg-color)]" download>Annual Report</a>
       </div>
+      {% endif %}
       <!-- 990 Form -->
+      {% if item.annual-990-form %}
       <div class="block mb-2">
         <a href="{{item.annual-990-form}}" target="_blank"  class="hover:text-[var(--bg-color)] border-b hover:border-b-[var(--bg-color)]" download>990 Form</a>
       </div>
+      {% endif %}
       <!-- Audited Financials -->
+      {% if item.audited-financials %}
       <div class="block mb-2">
         <a href="{{item.audited-financials}}" target="_blank" class="hover:text-[var(--bg-color)] border-b hover:border-b-[var(--bg-color)]" download>Audited Financials</a>
       </div>
+      {% endif %}
       <!-- Effectiveness -->
       {% if item.effectiveness-metrics %}
       <div class="block mb-2">

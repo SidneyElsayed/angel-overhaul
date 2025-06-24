@@ -38,15 +38,23 @@ _inputs:
     cascade: true
   annual-report:
     type: document
+    options:
+      allow_empty: true
     cascade: true
   annual-990-form:
     type: document
+    options:
+      allow_empty: true
     cascade: true
   audited-financials:
     type: document
+    options:
+      allow_empty: true
     cascade: true
   effectiveness-metrics:
     type: document
+    options:
+      allow_empty: true
     cascade: true
   phone-number:
     type: html
