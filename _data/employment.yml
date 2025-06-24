@@ -1,7 +1,7 @@
 card-loop:
   - heading: Director of Corporate and Community Partnerships
-    image: /uploads/MiscPhotos/Angel-Foundation-Winter-Retreat-2019-16.jpg
-    alt: A woman speaking to a group
+    image:
+    alt:
     overline:
     short-description_html: >-
       <strong>SUMMARY:</strong> The Director of Corporate and Community
@@ -93,8 +93,8 @@ card-loop:
     button-2-text:
     button-2-link:
   - heading: Program Coordinator - Duluth
-    image: /uploads/VolunteerPics/Vol-Main.jpg
-    alt: A man wearing a blue shirt that reads "Volunteer"
+    image:
+    alt:
     overline:
     short-description_html: >-
       <strong>SUMMARY</strong><p>This role is at the heart of our mission to
