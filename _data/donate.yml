@@ -20,7 +20,7 @@ card-loop:
     image: /uploads/NewStockPics/shutterstock_1979937377.jpg
     alt: Asian mom with cancer and her son on a couch.
   - heading: Donate
-    short-description_html: The work we do is not possible without our community of support.
+    short-description_html: 'The work we do is not possible without our community of support. '
     button-text: Give Now
     button-link: /donate.html
     image: /uploads/NewStockPics/family-donate.jpg
