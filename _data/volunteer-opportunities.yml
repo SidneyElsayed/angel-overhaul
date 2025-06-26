@@ -1,4 +1,31 @@
 card-loop:
+  - heading: Family Camp Angel Volunteer
+    image: /uploads/AFPPics/752D45C7-47D8-4EEF-A3F3-AE7A1857A236.jpeg
+    alt: A girl getting her face painted at Camp Angel.
+    overline: Saturday, July 19th, 2025
+    short-description_html: >-
+      <p>Angel Foundation™ invites you to volunteer at our Annual Family Camp
+      Angel from 2:30 to 8:30 p.m. on Saturday, July 19th, 2025, at the St Louis
+      Park Recreation Center. Be part of this meaningful event that will bring
+      over 150 cancer patients and families to a day of connection, self-care,
+      swim, and fun.</p><p>Volunteers are welcome to sign up for one or multiple
+      shifts based on their availability and will be treated to a complimentary
+      dinner. A brief virtual training session will be offered on Tuesday, July
+      15 at 2:00 PM. If you are unable to make it, we will send you the video
+      recording.</p><p>Please note that all volunteers will need to pass a
+      background check. If you have any questions, please contact us at
+      programs@mnangel.org.</p>
+    location: >-
+      St. Louis Park Recreation Center: 3700 Monterey Drive, St. Louis Park, MN
+      55416
+    commitment: One Time Committment
+    minimum-experience:
+    salary-range: ''
+    button-1-text: Sign Up Directly
+    button-1-link: >-
+      https://signup.com/client/invitation2/secure/12641752900105/false#/invitation
+    button-2-text:
+    button-2-link:
   - heading: Angel Pack&#8482; Packing Party
     image: /uploads/VolunteerPics/Vol-AP.jpg
     alt: A group of young women hold Angel Packs and smile.
