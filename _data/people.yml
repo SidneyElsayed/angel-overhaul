@@ -159,7 +159,7 @@ jobs-loop:
         alt: A headshot of Stephanie Kennelly
       - name: Danielle Kirkwood
         job-title: Director Process Optimization, CS Projects
-        tag:
+        tag: true
         title-tag: Treasurer
         phone-number: <p>Sevita</p>
         email: ''
