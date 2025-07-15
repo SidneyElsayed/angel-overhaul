@@ -34,7 +34,6 @@ Major_Funders:
     link: https://www.schulzefamilyfoundation.org/
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
-
 Nonprofit_Partners:
   - image: /uploads/SponsorLogos/acs-hope-lodge.png
     alt: American Cancer Society Hope Lodge Logo
@@ -45,6 +44,11 @@ Nonprofit_Partners:
   - image: /uploads/SponsorLogos/aicaf-logo.png
     alt: American Indian Cancer Foundation Logo
     link: https://americanindiancancer.org/
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
+  - image: /uploads/SponsorLogos/best-christmas-ever-logo.png
+    alt: Best Christmas Ever Logo
+    link: https://www.bcemovement.org/
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
   - image: /uploads/SponsorLogos/foundation-for-financial-planning-website.png
