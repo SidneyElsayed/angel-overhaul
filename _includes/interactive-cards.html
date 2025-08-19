@@ -6,11 +6,11 @@
 
   {% if block.section-heading_html %}
 
-  <h2 class="pb-8 text-center featured-text font-extrabold uppercase tracking-wide text-5xl sm:text-6xl">{{block.section-heading_html}}</h2>
+  <div class="pb-8 featured-text font-extrabold uppercase tracking-wide {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">{{block.section-heading_html}}</div>
 
   {% endif %}
 
-  <div class="flex flex-row flex-wrap justify-center gap-12 pt-10 {% if block.text-alignment == 'left' %} text-left {% elsif block.text-alignment == 'center' %} text-center {% elsif block.text-alignment == 'right' %} text-right {% endif %}">
+  <div class="flex flex-row flex-wrap justify-center gap-12 pt-10 {% if block.card-text-alignment == 'left' %} text-left {% elsif block.card-text-alignment == 'center' %} text-center {% elsif block.card-text-alignment == 'right' %} text-right {% endif %}">
 
     {% for item in block.card-loop %}
 

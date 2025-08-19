@@ -634,10 +634,11 @@ _structures:
         value:
           id: interactive-cards
           section-heading_html:
+          text-alignment:
+          card-text-alignment:
           card-loop:
             - front:
               back:
-          text-alignment:
           scheme-name:
       - label: donate form
         value:
