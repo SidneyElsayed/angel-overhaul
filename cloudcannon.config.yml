@@ -338,6 +338,14 @@ _inputs:
       things - this will allow you to keep the hierarchy while making the text
       just slighly smaller
     cascade: true
+  large-heading-has-long-words:
+    type: checkbox
+    label: This heading has a long word
+    comment: >-
+      Check this box if the heading has a long word in it that messes with
+      things - this will allow you to keep the hierarchy while making the text
+      just slighly smaller
+    cascade: true
   full-image-heading-has-long-words:
     type: checkbox
     label: This heading has a long word, specifically on the full image headers
