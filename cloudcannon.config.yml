@@ -773,13 +773,12 @@ _structures:
           large-text-alignment:
           type:
           scheme-name:
-      - label: calendar list
-        value:
-          id: calendar-list
-          event-type-filter:
       - label: calendar month
         value:
           id: calendar-month
+      - label: calendar list
+        value:
+          id: calendar-list
           event-type-filter:
       - label: our partners page logos
         value:
