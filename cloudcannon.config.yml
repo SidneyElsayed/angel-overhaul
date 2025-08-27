@@ -775,9 +775,12 @@ _structures:
           scheme-name:
       - label: calendar month
         value:
+          _type: month
           id: calendar-month
+          event-type-filter:
       - label: calendar list
         value:
+          _type: list
           id: calendar-list
           event-type-filter:
       - label: our partners page logos
