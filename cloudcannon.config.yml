@@ -575,6 +575,8 @@ _structures:
           text-placement:
           scheme-name:
       - label: image text numbers
+        preview:
+          text: image text numbers
         value:
           id: image-text-numbers
           section-heading_html:
