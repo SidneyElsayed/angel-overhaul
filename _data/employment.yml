@@ -92,7 +92,7 @@ card-loop:
     button-2-text:
     button-2-link:
   - heading: Financial Cancer Care Manager
-    image: /uploads/img-0356-1.jpg
+    image:
     alt: >-
       A photo of a smiling woman in front of a board that reads "Financial
       Cancer Care."
