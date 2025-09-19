@@ -93,9 +93,7 @@ card-loop:
     button-2-link:
   - heading: Financial Cancer Care Manager
     image:
-    alt: >-
-      A photo of a smiling woman in front of a board that reads "Financial
-      Cancer Care."
+    alt:
     overline:
     short-description_html: >-
       <p>The Financial Cancer Care Program Manager is responsible for providing
