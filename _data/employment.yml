@@ -95,17 +95,7 @@ card-loop:
     image:
     alt:
     overline:
-    short-description_html: >-
-      <p>The Financial Cancer Care Program Manager is responsible for providing
-      program management for an innovative program, Financial Cancer Care (FCC),
-      FCC works to help cancer patients, and their families tackle the financial
-      toxicity a cancer diagnosis often brings. The Program Manager works with
-      oncology healthcare professionals in identifying patients, facilitates a
-      monthly workshop on financial planning, and manages a cadre of Pro Bono
-      Certified Financial Planner volunteers. The ideal candidate is resource
-      driven and passionate about reducing cancer-related financial toxicity for
-      oncology patients and helping patients find the resources they need to
-      cope with their diagnosis.</p>
+    short-description_html: ''
     location:
     commitment:
     minimum-experience:
