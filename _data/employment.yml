@@ -45,32 +45,6 @@ card-loop:
       https://jobs.minnesotanonprofits.org/jobs?country=&state=&city=&zip=&latitude=&longitude=&keywords=angel+foundation&city_state_zip=&locale=en&page=1&sort=date&job_id=103278
     button-2-text:
     button-2-link:
-  - heading: Financial Cancer Care Manager
-    image: /uploads/img-0356-1.jpg
-    alt: >-
-      A photo of a smiling woman in front of a board that reads "Financial
-      Cancer Care."
-    overline:
-    short-description_html: >-
-      <p>The Financial Cancer Care Program Manager is responsible for providing
-      program management for an innovative program, Financial Cancer Care (FCC),
-      FCC works to help cancer patients, and their families tackle the financial
-      toxicity a cancer diagnosis often brings. The Program Manager works with
-      oncology healthcare professionals in identifying patients, facilitates a
-      monthly workshop on financial planning, and manages a cadre of Pro Bono
-      Certified Financial Planner volunteers. The ideal candidate is resource
-      driven and passionate about reducing cancer-related financial toxicity for
-      oncology patients and helping patients find the resources they need to
-      cope with their diagnosis.</p>
-    location: 1155 Centre Pointe Dr, Ste 7, Mendota Heights, MN, 55120
-    commitment: Full Time
-    minimum-experience: 3 years program delivery experience
-    salary-range: $57,000-$60,000
-    button-1-text: Apply or Learn More
-    button-1-link: >-
-      https://jobs.minnesotanonprofits.org/job/financial-cancer-care-program-manager-mendota-heights-minnesota-102873
-    button-2-text:
-    button-2-link:
   - heading: Development Coordinator
     image: /uploads/AnnualEventsPics/AE-HIM-2.jpg
     alt: ''
@@ -115,5 +89,31 @@ card-loop:
     button-1-text: Apply or Learn More
     button-1-link: >-
       https://jobs.minnesotanonprofits.org/job/marketing-and-communications-manager-mendota-heights-minnesota-103599
+    button-2-text:
+    button-2-link:
+  - heading: Financial Cancer Care Manager
+    image: /uploads/img-0356-1.jpg
+    alt: >-
+      A photo of a smiling woman in front of a board that reads "Financial
+      Cancer Care."
+    overline:
+    short-description_html: >-
+      <p>The Financial Cancer Care Program Manager is responsible for providing
+      program management for an innovative program, Financial Cancer Care (FCC),
+      FCC works to help cancer patients, and their families tackle the financial
+      toxicity a cancer diagnosis often brings. The Program Manager works with
+      oncology healthcare professionals in identifying patients, facilitates a
+      monthly workshop on financial planning, and manages a cadre of Pro Bono
+      Certified Financial Planner volunteers. The ideal candidate is resource
+      driven and passionate about reducing cancer-related financial toxicity for
+      oncology patients and helping patients find the resources they need to
+      cope with their diagnosis.</p>
+    location: 1155 Centre Pointe Dr, Ste 7, Mendota Heights, MN, 55120
+    commitment: Full Time
+    minimum-experience: 3 years program delivery experience
+    salary-range: $57,000-$60,000
+    button-1-text: Apply or Learn More
+    button-1-link: >-
+      https://jobs.minnesotanonprofits.org/job/financial-cancer-care-program-manager-mendota-heights-minnesota-102873
     button-2-text:
     button-2-link:
