@@ -145,18 +145,6 @@ jobs-loop:
         button-link:
         image: /uploads/BoardPhotos/Marcy-Keckler-pic-2016.jpg
         alt: A headshot of Marcy Keckler
-      - name: Stephanie Kennelly
-        job-title: Program Coordinator, Center for Genome Engineering
-        tag:
-        title-tag:
-        phone-number: <p>University of Minnesota</p>
-        email: ''
-        short-description_html: ''
-        color: var(--featured-color-dark-navy)
-        button-text:
-        button-link:
-        image: /uploads/BoardPhotos/stephanie-kennelly-use.jpg
-        alt: A headshot of Stephanie Kennelly
       - name: Danielle Kirkwood
         job-title: Director Process Optimization, CS Projects
         tag: true
