@@ -375,3 +375,15 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/Ka-Zoua-1.png
         alt: A headshot of Ka Zoua Xiong
+      - name: Maddy Wolfe
+        job-title: Financial Cancer Care Manager
+        tag:
+        title-tag:
+        phone-number: ''
+        email:
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/dsc01580-2.jpeg
+        alt: A headshot of Maddy Wolfe
