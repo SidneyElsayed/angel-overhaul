@@ -289,7 +289,7 @@ jobs-loop:
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: /uploads/dsc01613-1.jpeg
+        image: /uploads/dsc01613.jpeg
         alt: ''
       - name: Norah Cooper
         job-title: Vice President of Mission Delivery
