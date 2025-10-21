@@ -343,7 +343,7 @@ jobs-loop:
         job-title: Development Coordinator
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. </p>
+        phone-number: <p>(612) 627-9000 ext. 5</p>
         email: knakagaki@mnangel.org
         short-description_html: ''
         color: var(--featured-color-medium-blue)
