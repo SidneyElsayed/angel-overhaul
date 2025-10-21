@@ -339,6 +339,18 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/Holly-Headshot.png
         alt: A headshot of Holly Muhammad
+      - name: Kara Nakagaki
+        job-title: Development Coordinator
+        tag:
+        title-tag:
+        phone-number: <p>(612) 627-9000 ext. </p>
+        email: knakagaki@mnangel.org
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: /uploads/dsc01594-1.jpeg
+        alt: ''
       - name: Kathy Tolo
         job-title: Vice President of Development
         tag:
