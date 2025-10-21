@@ -279,6 +279,18 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/dave-website-sm.png
         alt: A headshot of Dave Becker
+      - name: ''
+        job-title: Program Coordinator
+        tag:
+        title-tag:
+        phone-number: <p>(612) 627-9000 ext. 515</p>
+        email: ' mchang@mnangel.org'
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/dsc01613-1.jpeg
+        alt: ''
       - name: Norah Cooper
         job-title: Vice President of Mission Delivery
         tag:
