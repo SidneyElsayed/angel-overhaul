@@ -343,13 +343,13 @@ jobs-loop:
         job-title: Development Coordinator
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 5</p>
+        phone-number: <p>(612) 627-9000 ext. 510</p>
         email: knakagaki@mnangel.org
         short-description_html: ''
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: /uploads/img-3686-1.jpeg
+        image: /uploads/img-3686-1-1.jpeg
         alt: A headshot of Kara
       - name: Kathy Tolo
         job-title: Vice President of Development
