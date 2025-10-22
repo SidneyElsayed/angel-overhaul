@@ -361,7 +361,7 @@ jobs-loop:
         color: var(--featured-color-medium-blue)
         button-text:
         button-link:
-        image: /uploads/img-3686-1-1.jpeg
+        image: /uploads/dsc01606.jpeg
         alt: A headshot of Kara
       - name: Kathy Tolo
         job-title: Vice President of Development
