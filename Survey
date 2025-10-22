@@ -1,0 +1,67 @@
+---
+layout: default
+blocks:
+  - id: half-image-header
+    image: /uploads/NewStockPics/olderfolks.jpg
+    alt: Couple impacted by cancer gazing out window.
+    heading_html: <h1>Donate</h1>
+    heading-has-long-words: false
+    text_html: >-
+      Thank you for your gift to Angel Foundation™. As demand for our services
+      continues to grow, you are helping families keep food on the table, a roof
+      overhead, and gas in the tank amid the overwhelming financial impact of a
+      cancer diagnosis. We are grateful to have you in our community of support,
+      which has enabled Angel Foundation™ to distribute more than <strong>$15
+      million</strong> in emergency financial assistance and provided more than
+      <strong>58,000 services</strong> to individuals facing cancer since 2001.
+      <em>Thank you.</em>
+    button-1-text: Contact Us
+    button-1-link: /contact-us
+    button-2-text: Other Ways to Give
+    button-2-link: /other-ways-to-give
+    screen-height: 80%
+    image-placement: left
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
+    text-placement: center
+    scheme-name: white-background-green-highlight
+  - id: virtuous-form
+    section-heading_html: <h1>Thank You For Your Support!</h1>
+    text-alignment:
+    data-vform: 4958F1C8-BBAF-4EF3-9CDD-AB40BAA3863A
+    scheme-name: green-background
+  - id: facts
+    section-heading_html: <h2>Angel's Impact</h2>
+    type: facts
+    large-text-alignment: center
+    scheme-name: white-background-green-highlight
+  - id: info-cards
+    section-heading_html: <h3>Giving for Lasting Change</h3>
+    type: donate
+    card-description: true
+    text-alignment: left
+    scheme-name: medium-blue-background
+  - id: half-image-header
+    image:
+    alt:
+    heading_html: ''
+    heading-has-long-words:
+    text_html: ''
+    button-1-text:
+    button-1-link:
+    button-2-text:
+    button-2-link:
+    screen-height:
+    image-placement:
+    image-horizontal-focal-point:
+    image-vertical-focal-point:
+    text-placement:
+    scheme-name:
+seo:
+  title: Angel Foundation™ | Donate
+  description: >-
+    Support Angel Foundation™ to provide relief to cancer patients and their
+    families in Minnesota.
+  image:
+  index: true
+---
