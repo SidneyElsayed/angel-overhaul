@@ -656,9 +656,16 @@ _structures:
           section-heading_html:
           text-alignment:
           scheme-name:
-      - label: virtuous form
+      - label: virtuous form for donations
         value:
           id: virtuous-form
+          section-heading_html:
+          text-alignment:
+          data-vform:
+          scheme-name:
+      - label: virtuous form - no donation
+        value:
+          id: basic-virtuous-form
           section-heading_html:
           text-alignment:
           data-vform:
