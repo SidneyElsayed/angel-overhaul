@@ -304,7 +304,7 @@ jobs-loop:
         image: /uploads/StaffPhotos/norah-headshot-summer.png
         alt: A headshot of Norah Cooper
       - name: Rachel Drevlow
-        job-title: Development Coordinator
+        job-title: Corporate and Community Partnerships Manager
         tag:
         title-tag:
         phone-number: <p>(612) 627-9000 ext. 505</p>
