@@ -652,6 +652,7 @@ _structures:
           scheme-name:
       - label: donate form
         value:
+          _type: main donate
           id: donate-form
           section-heading_html:
           text-alignment:
@@ -674,12 +675,14 @@ _structures:
           scheme-name:
       - label: newsletter form
         value:
+          _type: newsletter
           id: newsletter-form
           section-heading_html:
           text-alignment:
           scheme-name:
       - label: form
         value:
+          _type: basic form
           id: form
           form-name: Name of this form
           section-heading_html:
