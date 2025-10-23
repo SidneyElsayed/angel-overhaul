@@ -279,6 +279,18 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/dave-website-sm.png
         alt: A headshot of Dave Becker
+      - name: Mindy Chang
+        job-title: Program Coordinator
+        tag:
+        title-tag:
+        phone-number: <p>(612) 627-9000 ext. 515</p>
+        email: ' mchang@mnangel.org'
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/dsc01613-2.jpeg
+        alt: ''
       - name: Norah Cooper
         job-title: Vice President of Mission Delivery
         tag:
@@ -291,7 +303,7 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/norah-headshot-summer.png
         alt: A headshot of Norah Cooper
-      - name: Rachel Goven
+      - name: Rachel Drevlow
         job-title: Development Coordinator
         tag:
         title-tag:
@@ -339,6 +351,18 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/Holly-Headshot.png
         alt: A headshot of Holly Muhammad
+      - name: Kara Nakagaki
+        job-title: Development Coordinator
+        tag:
+        title-tag:
+        phone-number: <p>(612) 627-9000 ext. 510</p>
+        email: knakagaki@mnangel.org
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/dsc01606.jpeg
+        alt: A headshot of Kara
       - name: Kathy Tolo
         job-title: Vice President of Development
         tag:
