@@ -62,7 +62,7 @@ jobs-loop:
         image: /uploads/BoardPhotos/kirstie-foster.jpg
         alt: A headshot of Kirstie Foster
       - name: Whitney Greene-Nymo
-        job-title: Former Executive Director, Strategic Program Development
+        job-title: Chief Operating Officer of Insight Vision Care
         tag: true
         title-tag: Vice Chair
         phone-number: <p>Stanford Cancer Institute</p>
