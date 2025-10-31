@@ -62,10 +62,10 @@ jobs-loop:
         image: /uploads/BoardPhotos/kirstie-foster.jpg
         alt: A headshot of Kirstie Foster
       - name: Whitney Greene-Nymo
-        job-title: Chief Operating Officer of Insight Vision Care
+        job-title: 'Chief Operating Officer '
         tag: true
         title-tag: Vice Chair
-        phone-number: <p>Stanford Cancer Institute</p>
+        phone-number: <p>Insight Vision Care</p>
         email: ''
         short-description_html: ''
         color: var(--featured-color-dark-navy)
