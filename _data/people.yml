@@ -418,7 +418,7 @@ jobs-loop:
         phone-number: <p>(612) 627-9000 ext. 508</p>
         email:
         short-description_html: ''
-        color:
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
         image: /uploads/cajsa.jpg
