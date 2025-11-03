@@ -339,6 +339,18 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/Erica-Use-6.24.png
         alt: A headshot of Erica Hollom
+      - name: Cajsa Mosbakk
+        job-title: Manager, Marketing & Communications
+        tag:
+        title-tag:
+        phone-number: <p>(612) 627-9000 ext. 508</p>
+        email:
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/cajsa.jpg
+        alt: A headshot of Cajsa
       - name: Holly Muhammad
         job-title: Director of Outreach and Adult & Family Programs
         tag:
@@ -411,15 +423,3 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/Ka-Zoua-1.png
         alt: A headshot of Ka Zoua Xiong
-      - name: Cajsa Mosbakk
-        job-title: Manager, Marketing & Communications
-        tag:
-        title-tag:
-        phone-number: <p>(612) 627-9000 ext. 508</p>
-        email:
-        short-description_html: ''
-        color: var(--featured-color-medium-blue)
-        button-text:
-        button-link:
-        image: /uploads/cajsa.jpg
-        alt: A headshot of Cajsa
