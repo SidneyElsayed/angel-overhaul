@@ -303,18 +303,6 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/norah-headshot-summer.png
         alt: A headshot of Norah Cooper
-      - name: Rachel Drevlow
-        job-title: Corporate and Community Partnerships Manager
-        tag:
-        title-tag:
-        phone-number: <p>(612) 627-9000 ext. 505</p>
-        email:
-        short-description_html: ''
-        color: var(--featured-color-medium-blue)
-        button-text:
-        button-link:
-        image: /uploads/StaffPhotos/rachel.jpg
-        alt: A headshot of Rachel Goven
       - name: Brianna Hager
         job-title: Emergency Financial Assistance Manager
         tag:
