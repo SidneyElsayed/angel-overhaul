@@ -1,18 +1,6 @@
 jobs-loop:
   - jd: Board of Directors
     people:
-      - name: Dr. Uzma Ali
-        job-title: Medical Oncologist
-        tag: false
-        title-tag: Vice Chair
-        phone-number: <p>Minnesota Oncology Hematology, PA</p>
-        email:
-        short-description_html: ''
-        color: var(--featured-color-dark-navy)
-        button-text:
-        button-link:
-        image: /uploads/BoardPhotos/Uzma-Ali-MD_2-scaled.jpg
-        alt: A headshot of Dr. Uzma Ali
       - name: Marc Baer
         job-title: Chief Operating Officer
         tag: false
@@ -25,18 +13,6 @@ jobs-loop:
         button-link:
         image: /uploads/BoardPhotos/mark-baer.jpg
         alt: A headshot of Marc Baer
-      - name: Cindy Blackstock
-        job-title: Community Volunteer
-        tag:
-        title-tag:
-        phone-number: <p>Retired</p>
-        email:
-        short-description_html: ''
-        color: var(--featured-color-dark-navy)
-        button-text:
-        button-link:
-        image: /uploads/BoardPhotos/Cindy-Blackstock-Bio-Photo-scaled.jpg
-        alt: A headshot of Cindy Blackstock
       - name: Michael Castagnetto
         job-title: President, N.A.S.T.
         tag: false
@@ -49,18 +25,6 @@ jobs-loop:
         button-link:
         image: /uploads/BoardPhotos/Michael-Castagnetto-highres.jpg
         alt: A headshot of Michael Castagnetto
-      - name: Kirstie Foster
-        job-title: Head of Global Brand & Communications
-        tag:
-        title-tag:
-        phone-number: Graco
-        email: dbecker@mnangel.org
-        short-description_html: ''
-        color: var(--featured-color-dark-navy)
-        button-text:
-        button-link:
-        image: /uploads/BoardPhotos/kirstie-foster.jpg
-        alt: A headshot of Kirstie Foster
       - name: Whitney Greene-Nymo
         job-title: 'Chief Operating Officer '
         tag: true
