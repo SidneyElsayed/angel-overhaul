@@ -4,13 +4,11 @@ blocks:
   - id: half-image-header
     image: /uploads/NewStockPics/family-donate.jpg
     alt: Family of three impacted by cancer.
-    heading_html: <h1>Donate</h1>
+    heading_html: <h1>Double your impact!</h1>
     heading-has-long-words: false
     text_html: >-
-      Since 2001, Angel Foundation™ has distributed more than $15 million in
-      emergency financial assistance and provided more than 58,000 services to
-      individuals facing cancer. The work we do is not possible without our
-      community of support.
+      Many employers will match employee donations to a charity. Check below to
+      see if your company offers this benefit.
     button-1-text: Contact Us
     button-1-link: /contact-us
     button-2-text: Other Ways to Give
@@ -37,6 +35,32 @@ blocks:
     card-description: true
     text-alignment: left
     scheme-name: medium-blue-background
+  - _type: basic form
+    id: form
+    form-name: Name of this form
+    section-heading_html: ''
+    large-text-alignment:
+    section-text:
+    submit-button-text: Submit
+    button-alignment: center
+    inputs:
+      - type: auto
+        label: First name
+        cascade: true
+        form-type: text
+        name: First name
+        placeholder-text: John
+        width: half
+        required: true
+      - type: auto
+        label: Message
+        cascade: true
+        form-type: textarea
+        name: Message
+        placeholder-text: Write your message here
+        width: full
+        required: true
+    scheme-name:
 seo:
   title: Angel Foundation™ | Donate
   description: >-
