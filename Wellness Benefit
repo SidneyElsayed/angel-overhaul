@@ -1,0 +1,285 @@
+---
+layout: default
+blocks:
+  - id: half-image-header
+    image: /uploads/AFPPics/IMG_7652-(1).jpg
+    alt: A young Asian girl wearing a Camp Angel T-shirt draws.
+    heading_html: <h1>Adult &amp; <strong>Family </strong>Programs</h1>
+    heading-has-long-words: false
+    text_html: >-
+      <p>Adult &amp; Family Programs offer education and social activities
+      designed to help emotionally and practically after a loved one is
+      diagnosed with cancer. The program is comprised of Making Memories events,
+      Educational Programming, and Family Camp Angel.</p>
+    button-1-text: Apply
+    button-1-link: https://webportalapp.com/sp/login/angelfoundationafp
+    button-2-text: Contact Us
+    button-2-link: /contact-us
+    screen-height: 60%
+    image-placement: left
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
+    text-placement: center
+    scheme-name: white-background-green-highlight
+  - id: image-text-numbers
+    section-heading_html: ''
+    large-heading-has-long-words:
+    text-block-heading_html: <h3>Making Memories</h3>
+    heading-has-long-words:
+    facts-loop:
+      - featured:
+        text:
+      - featured:
+        text:
+      - featured:
+        text:
+    description_html: >-
+      <p>Family-friendly activities provided free of cost that offer support and
+      guidance in navigating a cancer diagnosis. Events in the Twin Cities,
+      Duluth, and Rochester create opportunities to learn coping strategies,
+      build community, and experience moments of joy.</p>
+    button-1-link: /adult-and-family-programs#section-8
+    button-1-text: View Events
+    button-2-link:
+    button-2-text:
+    image: /uploads/AFPPics/2A0759A7-446D-4601-9C4B-8AA956B1EC57.jpeg
+    alt: >-
+      Family attends a Minnesota Wild hockey game through the Making Memories
+      program.
+    caption: Family at a Minnesota Wild game through Making Memories
+    image-placement: right
+    image-horizontal-focal-point: left
+    image-vertical-focal-point: center
+    text-placement: center
+    large-text-alignment: center
+    hide-bottom-padding: false
+    scheme-name: dark-navy-background
+  - id: image-text-numbers
+    section-heading_html:
+    large-heading-has-long-words:
+    text-block-heading_html: <h3>Educational Programs</h3>
+    heading-has-long-words: true
+    facts-loop:
+      - featured:
+        text:
+      - featured:
+        text:
+      - featured:
+        text:
+    description_html: >-
+      In-person and virtual sessions for patients and caregivers on topics like
+      nutrition, yoga, meditation, mental health, and more are offered
+      throughout the year.
+    button-1-text: View Events
+    button-1-link: /adult-and-family-programs#section-8
+    button-2-text:
+    button-2-link:
+    image: /uploads/AFPPics/Angel-Foundation-Winter-Retreat-Feb-24th-2018-0303.jpg
+    alt: A woman speaking to a circle of people.
+    caption: A woman speaking at an Educational Program
+    image-placement:
+    image-horizontal-focal-point:
+    image-vertical-focal-point:
+    text-placement: center
+    large-text-alignment:
+    hide-bottom-padding: false
+    scheme-name: medium-blue-background
+  - id: image-text-numbers
+    section-heading_html: ''
+    large-heading-has-long-words:
+    text-block-heading_html: <h3>Camp Angel</h3>
+    heading-has-long-words:
+    facts-loop:
+      - featured:
+        text:
+      - featured:
+        text:
+      - featured:
+        text:
+    description_html: >-
+      Supportive experiences for kids or the entire family with thoughtfully
+      designed therapeutic activities, peer support, and traditional camp
+      experiences. Offered twice a year.
+    button-1-text: Register or Learn More
+    button-1-link: >-
+      https://mnangel.org/calendar#calendar-938d1ba4-31fd-4088-8fc6-8eb486d8b04a-event-mabj3adf
+    button-2-text:
+    button-2-link:
+    image: /uploads/AFPPics/IMG_2392.jpg
+    alt: Three young girls smiling at Camp Angel
+    caption: Three Camp Angel campers
+    image-placement: right
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
+    text-placement: center
+    large-text-alignment: left
+    hide-bottom-padding: false
+    scheme-name: light-blue-background
+  - id: image-text-numbers
+    section-heading_html:
+    large-heading-has-long-words:
+    text-block-heading_html: <h3>Eligibility Requirements</h3>
+    heading-has-long-words: true
+    facts-loop:
+      - featured:
+        text:
+      - featured:
+        text:
+      - featured:
+        text:
+    description_html: >-
+      <p>To be eligible to participate in Adult &amp; Family Programs, you
+      must:</p><ul><li><p>Be a cancer survivor, current cancer patient, or a
+      family member of someone going through
+      cancer.</p></li></ul><ul><li><p>Live or be treated in our service area
+      (Anoka, Carver, Chisago, Dakota, Hennepin, Isanti, Olmsted, Ramsey, Scott,
+      Sherburne, St. Louis, Washington, or Wright Counties in Minnesota, and
+      Douglas and St. Croix Counties in Wisconsin.) We request that families
+      attend Adult &amp; Family Programs in the metro area where they reside
+      (Twin Cities, Duluth, or Rochester.)</p></li></ul>
+    button-1-text:
+    button-1-link:
+    button-2-text:
+    button-2-link:
+    image: /uploads/Maps/mn-map-updated-6225-1.png
+    alt: >-
+      Locations on a map of Minnesota by county, outlining where the Angel
+      Foundation&#8482; can provide support
+    caption: Our Service Area
+    image-placement: left
+    image-horizontal-focal-point: center
+    image-vertical-focal-point: center
+    text-placement: center
+    large-text-alignment: left
+    hide-bottom-padding: false
+    scheme-name: white-background-green-highlight
+  - id: text-banner
+    heading_html: >-
+      <h4>Only one application is needed to participate in any Adult &amp;
+      Family Program and can be completed online in any language.</h4>
+    heading-has-long-words: true
+    text_html: ''
+    large-text-width: half
+    paragraph-width: half
+    text-placement: top
+    large-text-placement: left
+    large-text-alignment: left
+    paragraph-text-alignment: left
+    button-alignment: left
+    button-1-text: Apply
+    button-1-link: https://webportalapp.com/sp/login/angelfoundationafp
+    button-2-text: Contact Us
+    button-2-link: /contact-us
+    scheme-name: angel-blue-background
+  - id: text-banner
+    heading_html: <h3>Download the Application</h3>
+    heading-has-long-words: true
+    text_html: >-
+      <p>If you are unable to complete the online application or do not have an
+      email address, download the application below. Please note that the
+      application requires your oncology clinic to complete a Medical
+      Information Form before the application can be processed.</p>
+    large-text-width: half
+    paragraph-width: half
+    text-placement: top
+    large-text-placement: right
+    large-text-alignment: left
+    paragraph-text-alignment: left
+    button-alignment: left
+    button-1-text: Application
+    button-1-link: /uploads/ProgramDocuments/Current-Program-Application-Q225.pdf
+    button-2-text: Medical Form
+    button-2-link: /uploads/ProgramDocuments/Medical-Information-Form-2025.pdf
+    scheme-name: medium-blue-background
+  - _type: month
+    id: calendar-list
+    event-type-filter: Adult & Family Programs
+  - id: info-cards
+    section-heading_html: <h3>Other Programs</h3>
+    type: programs
+    card-description: false
+    text-alignment: left
+    scheme-name: green-background
+  - id: accordion
+    section-heading_html: <h3>Frequently Asked Questions</h3>
+    heading-has-long-words: true
+    large-text-alignment: center
+    text-alignment: left
+    accordion-loop:
+      - question: >-
+          I have a profile from applying to another Angel Foundation™ program
+          (Emergency Financial Assistance, Financial Cancer Care, Angel Packs™).
+          Do I need to start a new one?
+        answer_html: >-
+          <p>No, please use your existing profile. You can apply to any of our
+          programs using that profile.</p>
+      - question: I do not remember if I completed an application. How can I check?
+        answer_html: >-
+          <p>Log in to your portal <a
+          href="https://webportalapp.com/sp/login/angelfoundationafp"
+          title="Login Portal" target="_blank" rel="nofollow
+          noopener"><strong>here</strong></a>. If you have not completed an
+          application, you will see a box that says “+ Get Started.” If you have
+          completed an application, the box will say your name with “Completed”
+          or “Approved” under it.</p>
+      - question: >-
+          I completed an application to attend an event in the past. Do I need
+          to complete another one for the next event?
+        answer_html: >-
+          <p>No. One application covers all Adult &amp; Family Programs.
+          However, a separate registration form is required for each Making
+          Memories or Educational Program. Instructions to complete registration
+          for an Adult &amp; Family Programs event are available <a
+          href="/Registration-PDF.pdf" target="_blank"
+          rel="noopener">here</a>.</p>
+      - question: I’m trying to register for an event and am having trouble. Help!
+        answer_html: >-
+          <p>Please follow the process described <a href="/Registration-PDF.pdf"
+          target="_blank" rel="noopener"><strong>here.</strong></a> If you still
+          need help, call 612-627-9000 or email programs@mnangel.org.</p>
+      - question: >-
+          If my family visits an area where a Making Memories event is planned,
+          but we do not live nearby, can we still attend?
+        answer_html: >-
+          <p>A key goal of our Adult &amp; Family programs is to help
+          participants connect with their local cancer communities. We ask that
+          you only attend events in the area where you live or receive treatment
+          (e.g., Duluth events are for St. Louis County residents or those
+          treated in Duluth). Family Camp Angel, Family Camp Snow Angel, and
+          virtual events are open to all, regardless of location.</p>
+    scheme-name: white-background-blue-highlight
+  - id: testimonials
+    section-heading_html: <h3>The Lives We Touch</h3>
+    large-text-alignment: center
+    type: testimonials
+    program: AFP
+    text-alignment: left
+    scheme-name: medium-blue-background
+  - id: image-text-numbers
+    section-heading_html: ''
+    large-heading-has-long-words:
+    text-block-heading_html: ''
+    heading-has-long-words:
+    facts-loop:
+      - featured:
+        text:
+    description_html: ''
+    button-1-text: Open Instruction
+    button-1-link: /uploads/angel-pack-ordering-instructions-2026-bcbs-1-1.pdf
+    button-2-text:
+    button-2-link:
+    image:
+    alt:
+    caption:
+    image-placement:
+    image-horizontal-focal-point:
+    image-vertical-focal-point:
+    text-placement:
+    large-text-alignment:
+    scheme-name:
+seo:
+  title: Angel Foundation™ | Wellness Benefit
+  description:
+  image:
+  index: false
+---
