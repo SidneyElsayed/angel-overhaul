@@ -26,15 +26,15 @@
       <!-- Buttons -->
       <div class="pt-3">
         {% if block.button-1-link and block.button-1-text %}
-        <a href="{{block.button-1-link}}" class="mr-4 p-4 button-1 {{block.button-1-bg}}">{{block.button-1-text}}</a>
+        <a href="{{block.button-1-link}}" class="mr-4 p-4 button-1 {{block.button-1-bg}}" {% if block.button-1-link contains 'http' %} target="_blank" {% endif %} {% if block.button-1-link contains 'pdf' %} target="_blank" {% endif %}>{{block.button-1-text}}</a>
         {% endif %}
 
         {% if block.button-2-link and block.button-2-text %}
-        <a href="{{block.button-2-link}}" class="mr-4 my-4 p-4 button-2 {{block.button-2-bg}}">{{block.button-2-text}}</a>
+        <a href="{{block.button-2-link}}" class="mr-4 my-4 p-4 button-2 {{block.button-2-bg}}" {% if block.button-2-link contains 'http' %} target="_blank" {% endif %} {% if block.button-2-link contains 'pdf' %} target="_blank" {% endif %}>{{block.button-2-text}}</a>
         {% endif %}
 
         {% if block.button-3-link and block.button-3-text %}
-        <a href="{{block.button-3-link}}" class="my-4 p-4 button-3 {{block.button-3-bg}}">{{block.button-3-text}}</a>
+        <a href="{{block.button-3-link}}" class="my-4 p-4 button-3 {{block.button-3-bg}}" {% if block.button-3-link contains 'http' %} target="_blank" {% endif %} {% if block.button-3-link contains 'pdf' %} target="_blank" {% endif %}>{{block.button-3-text}}</a>
         {% endif %}
       </div>
 
