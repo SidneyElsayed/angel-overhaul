@@ -217,6 +217,42 @@ jobs-loop:
         button-link:
         image: /uploads/2026headshot-bpa-002-edited.jpg
         alt: ''
+      - name: Beth Aza
+        job-title: Vice President
+        tag:
+        title-tag:
+        phone-number: <p>MidWestOne Bank </p>
+        email: ''
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: /uploads/headshot-beth-aza.jpg
+        alt: ''
+      - name: ''
+        job-title: ''
+        tag:
+        title-tag:
+        phone-number: ''
+        email: ''
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: ''
+        alt: ''
+      - name: ''
+        job-title: ''
+        tag:
+        title-tag:
+        phone-number: ''
+        email: ''
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: ''
+        alt: ''
   - jd: Staff
     people:
       - name: Melonie Allyn-Schwerin
