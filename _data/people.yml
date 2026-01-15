@@ -257,9 +257,9 @@ jobs-loop:
         job-title: 'Breast Surgical Oncologist     '
         tag:
         title-tag:
-        phone-number: ''
+        phone-number: <p>Minnesota Oncology</p>
         email: ''
-        short-description_html: <p>Minnesota Oncology </p>
+        short-description_html: ''
         color:
         button-text:
         button-link:
