@@ -253,6 +253,18 @@ jobs-loop:
         button-link:
         image: /uploads/headshot-katien-f.jpg
         alt: ''
+      - name: Lisa Hamilton
+        job-title: 'Breast Surgical Oncologist     '
+        tag:
+        title-tag:
+        phone-number: ''
+        email: ''
+        short-description_html: <p>Minnesota Oncology </p>
+        color:
+        button-text:
+        button-link:
+        image: /uploads/lisahamiltonmd.png
+        alt: ''
   - jd: Staff
     people:
       - name: Melonie Allyn-Schwerin
