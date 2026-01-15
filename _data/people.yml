@@ -205,6 +205,18 @@ jobs-loop:
         button-link:
         image: /uploads/BoardPhotos/caitlyn-squire.jpg
         alt: A headshot of Caitlyn Squire
+      - name: Bryan Altman
+        job-title: Executive Director
+        tag:
+        title-tag:
+        phone-number: <p>Association of Family and Conciliation Courts </p>
+        email: ''
+        short-description_html: ''
+        color:
+        button-text:
+        button-link:
+        image: /uploads/2026headshot-bpa-002-edited.jpg
+        alt: ''
   - jd: Staff
     people:
       - name: Melonie Allyn-Schwerin
