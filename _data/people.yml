@@ -229,29 +229,29 @@ jobs-loop:
         button-link:
         image: /uploads/headshot-beth-aza-edited-format.jpg
         alt: ''
-      - name: ''
-        job-title: ''
+      - name: Jason Bui
+        job-title: Head of Payer Solutions
         tag:
         title-tag:
-        phone-number: ''
+        phone-number: <p>UiPath </p>
         email: ''
         short-description_html: ''
         color:
         button-text:
         button-link:
-        image: ''
+        image: /uploads/headshot-small-short.jpg
         alt: ''
-      - name: ''
-        job-title: ''
+      - name: Katie Frandrup
+        job-title: 'Benefit Broker '
         tag:
         title-tag:
         phone-number: ''
         email: ''
-        short-description_html: ''
+        short-description_html: <p>Marsh MacLennan</p>
         color:
         button-text:
         button-link:
-        image: ''
+        image: /uploads/headshot-katien-f.jpg
         alt: ''
   - jd: Staff
     people:
