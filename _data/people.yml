@@ -230,7 +230,7 @@ jobs-loop:
         image: /uploads/headshot-beth-aza-edited-format.jpg
         alt: ''
       - name: Jason Bui
-        job-title: Head of Payer Solutions
+        job-title: Head of Healthcare Industry Practice
         tag:
         title-tag:
         phone-number: <p>UiPath </p>
