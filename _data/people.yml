@@ -271,7 +271,7 @@ jobs-loop:
         job-title: Senior Data Analyst
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 501</p>
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -283,7 +283,7 @@ jobs-loop:
         job-title: Senior Executive Assistant & Operations
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 503</p>
+        phone-number: ''
         email: ''
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -295,7 +295,7 @@ jobs-loop:
         job-title: President & CEO
         tag:
         title-tag:
-        phone-number: (612) 627-9000 ext. 504
+        phone-number: ''
         email: dbecker@mnangel.org
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -307,7 +307,7 @@ jobs-loop:
         job-title: Program Coordinator
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 515</p>
+        phone-number: ''
         email: ' mchang@mnangel.org'
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -319,7 +319,7 @@ jobs-loop:
         job-title: Vice President of Mission Delivery
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 502</p>
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -331,7 +331,7 @@ jobs-loop:
         job-title: Emergency Financial Assistance Manager
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 514</p>
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -343,7 +343,7 @@ jobs-loop:
         job-title: Director of Individual Giving & Special Events
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 506</p>
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -355,7 +355,7 @@ jobs-loop:
         job-title: Manager, Marketing & Communications
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 508</p>
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -367,7 +367,7 @@ jobs-loop:
         job-title: Director of Outreach and Adult & Family Programs
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 509</p>
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -379,7 +379,7 @@ jobs-loop:
         job-title: Development Coordinator
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 510</p>
+        phone-number: ''
         email: knakagaki@mnangel.org
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -391,7 +391,7 @@ jobs-loop:
         job-title: Vice President of Development
         tag:
         title-tag:
-        phone-number: 612-627-9000 ext. 516
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -403,7 +403,7 @@ jobs-loop:
         job-title: Leadership Giving Officer
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 513</p>
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
@@ -415,7 +415,7 @@ jobs-loop:
         job-title: Financial Cancer Care Manager
         tag:
         title-tag:
-        phone-number: <p>(612) 627-9000 ext. 517</p>
+        phone-number: ''
         email:
         short-description_html: ''
         color: var(--featured-color-medium-blue)
