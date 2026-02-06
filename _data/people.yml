@@ -227,7 +227,7 @@ jobs-loop:
         color:
         button-text:
         button-link:
-        image: /uploads/headshot-beth-aza-edited-format.jpg
+        image: /uploads/2.jpg
         alt: ''
       - name: Jason Bui
         job-title: Head of Healthcare Industry Practice
@@ -239,7 +239,7 @@ jobs-loop:
         color:
         button-text:
         button-link:
-        image: /uploads/headshot-small-short.jpg
+        image: /uploads/3.jpg
         alt: ''
       - name: Katie Frandrup
         job-title: 'Benefit Broker '
