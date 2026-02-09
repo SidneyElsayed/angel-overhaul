@@ -227,7 +227,7 @@ jobs-loop:
         color:
         button-text:
         button-link:
-        image: /uploads/2.jpg
+        image: /uploads/untitled-1080-x-1080-px-2.png
         alt: ''
       - name: Jason Bui
         job-title: Head of Healthcare Industry Practice
@@ -239,7 +239,7 @@ jobs-loop:
         color:
         button-text:
         button-link:
-        image: /uploads/3.jpg
+        image: /uploads/untitled-1080-x-1080-px-3.png
         alt: ''
       - name: Katie Frandrup
         job-title: 'Benefit Broker '
@@ -251,7 +251,7 @@ jobs-loop:
         color:
         button-text:
         button-link:
-        image: /uploads/untitled-1080-x-1080-px.png
+        image: /uploads/untitled-1080-x-1080-px-1.png
         alt: ''
       - name: Lisa Hamilton
         job-title: 'Breast Surgical Oncologist     '
