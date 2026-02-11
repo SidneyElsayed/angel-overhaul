@@ -85,18 +85,6 @@ jobs-loop:
         button-link:
         image: /uploads/BoardPhotos/Jennifer-Jones.png
         alt: A headshot of Jennifer Jones
-      - name: Sandy Jones
-        job-title: Senior Director, Healthcare | Client Partner
-        tag:
-        title-tag:
-        phone-number: <p>LTIMindtree</p>
-        email: ''
-        short-description_html: ''
-        color: var(--featured-color-dark-navy)
-        button-text:
-        button-link:
-        image: /uploads/BoardPhotos/sandy-jones.jpg
-        alt: A headshot of Sandy Jones
       - name: Marcy Keckler
         job-title: Community Volunteer
         tag: true
