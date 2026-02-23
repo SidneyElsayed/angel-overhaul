@@ -797,6 +797,15 @@ _structures:
           _type: list
           id: calendar-list
           event-type-filter:
+      - label: DD matching gift
+        value:
+          id: dd-matching-gift
+      - label: DD payroll giving
+        value:
+          id: dd-payroll-giving
+      - label: DD volunteer
+        value:
+          id: dd-volunteer
       - label: our partners page logos
         value:
           id: our-partners-page-logos
