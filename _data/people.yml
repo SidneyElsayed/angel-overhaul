@@ -110,10 +110,10 @@ jobs-loop:
         image: /uploads/BoardPhotos/Danielle-Kirkwood-use.jpg
         alt: A headshot of Danielle Kirkwood
       - name: Kristin LeBre
-        job-title: Employment Law Counsel
+        job-title: Community Volunteer
         tag:
         title-tag:
-        phone-number: <p>Marvin</p>
+        phone-number:
         email: ''
         short-description_html: ''
         color: var(--featured-color-dark-navy)
