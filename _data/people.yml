@@ -411,3 +411,15 @@ jobs-loop:
         button-link:
         image: /uploads/StaffPhotos/maddy-use-jpeg.jpeg
         alt: A headshot of Maddy Wolfe
+      - name: Natasha Lokodo
+        job-title: 'Program Coordinator '
+        tag:
+        title-tag:
+        phone-number: ''
+        email:
+        short-description_html: ''
+        color: var(--featured-color-medium-blue)
+        button-text:
+        button-link:
+        image: /uploads/square-staff-natasha-1.jpg
+        alt: A headshot of Natasha Lokodo
