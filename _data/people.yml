@@ -418,7 +418,7 @@ jobs-loop:
         phone-number: ''
         email:
         short-description_html: ''
-        color: ''
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
         image: /uploads/jim-photo-web.jpg
