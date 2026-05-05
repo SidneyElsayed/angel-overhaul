@@ -411,3 +411,15 @@ jobs-loop:
         button-link:
         image: /uploads/square-staff-natasha-1.jpg
         alt: A headshot of Natasha Lokodo
+      - name: Jim Smith
+        job-title: Manager of Community Engagement
+        tag:
+        title-tag:
+        phone-number: ''
+        email:
+        short-description_html: ''
+        color: ''
+        button-text:
+        button-link:
+        image: /uploads/jim-photo-web.jpg
+        alt: ''
