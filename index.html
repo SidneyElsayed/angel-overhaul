@@ -152,3 +152,111 @@ seo:
   image:
   index: true
 ---
+
+<style>
+  /* The structural backdrop layout */
+  .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      /* Start invisible and unclickable */
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.4s ease;
+  }
+
+  /* Classes to trigger structural display visibility */
+  .popup-overlay.show {
+      opacity: 1;
+      pointer-events: auto;
+  }
+
+  /* The actual message container */
+  .popup-box {
+      background-color: #3AA1CE;
+      /* padding: 30px; */
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      max-width: 50vw;
+      width: 90%;
+      text-align: center;
+      position: relative;
+      display: inline-block;
+  }
+
+  .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #333;
+  }
+
+  .cta-btn {
+      background-color: #3AA1CE;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+      position: absolute;
+      top: 73.5%;
+      left: 66%;
+      transform: translate(-50%,-50%);
+
+  }
+
+  .cta-btn:hover {
+    background-color: #812D7B;
+    font: bold;
+  }
+</style>
+
+<!-- Pop-up Structural Container Markup -->
+<div class="popup-overlay" id="timedPopup">
+  <div class="popup-box">
+      <button class="close-btn" id="closePopupBtn">&times;</button>
+      <img src="/uploads/MiscPhotos/popup.jpg">
+      <a href="https://raceroster.com/events/2026/115806/2026-hope-in-motion-presented-by-minnesota-oncology" class="cta-btn">Sign Up Here</a>
+  </div>
+</div>
+
+<!-- JavaScript Logic Control -->
+<script>
+  // DOM Elements
+  const popup = document.getElementById('timedPopup');
+  const closeBtn = document.getElementById('closePopupBtn');
+
+  // Timing Configuration: Delay in milliseconds (e.g., 5000ms = 5 seconds)
+  const delayTime = 1500; 
+
+  // Trigger the display state after the set timeframe
+  window.addEventListener('DOMContentLoaded', () => {
+      setTimeout(() => {
+          popup.classList.add('show');
+      }, delayTime);
+  });
+
+  // Event listener to remove structural visibility on click
+  closeBtn.addEventListener('click', () => {
+      popup.classList.remove('show');
+  });
+
+  // Optional: Close modal if background overlay is clicked
+  popup.addEventListener('click', (e) => {
+      if (e.target === popup) {
+          popup.classList.remove('show');
+      }
+  });
+</script>
