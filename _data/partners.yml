@@ -29,6 +29,11 @@ Major_Funders:
     link: https://www.schulzefamilyfoundation.org/
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
+  - image: /uploads/astrazeneca-logo-colour.svg
+    alt: ''
+    link: https://www.astrazeneca.com/
+    image-horizontal-focal-point: ''
+    image-vertical-focal-point: ''
 Nonprofit_Partners:
   - image: /uploads/SponsorLogos/acs-hope-lodge.png
     alt: American Cancer Society Hope Lodge Logo
