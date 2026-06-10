@@ -66,3 +66,8 @@ Nonprofit_Partners:
     link: https://triagecancer.org/
     image-horizontal-focal-point: center
     image-vertical-focal-point: center
+  - image: /uploads/png-foundation-logo.png
+    alt: ''
+    link: https://raichfamilyfoundation.com/
+    image-horizontal-focal-point: ''
+    image-vertical-focal-point: ''
