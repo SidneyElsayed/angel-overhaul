@@ -159,7 +159,7 @@ jobs-loop:
         alt: ''
       - name: Kristin LeBre
         job-title: Community Volunteer
-        tag:
+        tag: false
         title-tag: Secretary
         phone-number:
         email: ''
