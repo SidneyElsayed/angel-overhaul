@@ -16,7 +16,7 @@ jobs-loop:
       - name: Amy Rewey
         job-title: Vice President, Business Transformation
         tag: true
-        title-tag: Secretary
+        title-tag:
         phone-number: <p>Blue Cross and Blue Shield of Minnesota</p>
         email: ''
         short-description_html: ''
@@ -160,7 +160,7 @@ jobs-loop:
       - name: Kristin LeBre
         job-title: Community Volunteer
         tag:
-        title-tag:
+        title-tag: Secretary
         phone-number:
         email: ''
         short-description_html: ''
@@ -242,10 +242,10 @@ jobs-loop:
         image: /uploads/BoardPhotos/Michael-Castagnetto-highres.jpg
         alt: A headshot of Michael Castagnetto
       - name: Whitney Greene-Nymo
-        job-title: 'Chief Operating Officer '
+        job-title: Community volunteer
         tag: true
         title-tag: Vice Chair
-        phone-number: <p>Insight Vision Care</p>
+        phone-number:
         email: ''
         short-description_html: ''
         color: var(--featured-color-dark-navy)
