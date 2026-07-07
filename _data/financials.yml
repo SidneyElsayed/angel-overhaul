@@ -1,4 +1,9 @@
 card-loop:
+  - year: 2025
+    annual-report:
+    annual-990-form: /uploads/af-12-31-2025-tax-public-copy-990.pdf
+    audited-financials: /uploads/2025-signed-final-report-and-financial-statements.pdf
+    effectiveness-metrics:
   - year: 2024
     annual-report: /uploads/angelfnd-2024annualreport-lowres-final.pdf
     annual-990-form: /uploads/2024-990.pdf
