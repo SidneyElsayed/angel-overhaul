@@ -13,3 +13,7 @@
 [[redirects]]
   from = "/volunteer-2"
   to = "/volunteer"
+
+[[redirects]]
+  from = "/lives-we-touch-luncheon"
+  to = "/angel-after-hours"
