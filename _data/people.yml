@@ -38,10 +38,10 @@ jobs-loop:
         image: /uploads/BoardPhotos/ashley-macholda.jpg
         alt: A headshot of Ashley MacHolda
       - name: Beth Aza
-        job-title: Vice President
+        job-title: VP Private Client Advisor
         tag:
         title-tag:
-        phone-number: <p>MidWestOne Bank </p>
+        phone-number: <p>Nicolet National Bank</p>
         email: ''
         short-description_html: ''
         color:
@@ -98,10 +98,10 @@ jobs-loop:
         image: /uploads/BoardPhotos/Danielle-Kirkwood-use.jpg
         alt: A headshot of Danielle Kirkwood
       - name: Glynis Schons
-        job-title: Sales Enablement Principal
+        job-title: Community Volunteer
         tag:
         title-tag:
-        phone-number: <p>Allianz Life</p>
+        phone-number:
         email: ''
         short-description_html: ''
         color: var(--featured-color-dark-navy)
