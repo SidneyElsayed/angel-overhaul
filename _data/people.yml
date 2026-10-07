@@ -255,7 +255,7 @@ jobs-loop:
         alt: A headshot of Whitney Greene-Nymo
   - jd: Staff
     people:
-      - name: Melonie Allyn-Schwerin
+      - name: Melonie Allyn
         job-title: Senior Data Analyst
         tag:
         title-tag:
@@ -266,7 +266,7 @@ jobs-loop:
         button-text:
         button-link:
         image: /uploads/StaffPhotos/Melonie-use-sm.png
-        alt: A headshot of Melonie Allyn-Schwerin
+        alt: A headshot of Melonie Allyn
       - name: DeAnne Anderson
         job-title: Senior Executive Assistant & Operations
         tag:
