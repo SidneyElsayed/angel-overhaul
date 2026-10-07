@@ -611,6 +611,8 @@ _structures:
           large-text-placement:
           large-text-alignment:
           paragraph-text-alignment:
+          hide-top-padding: 
+          hide-bottom-padding: 
           button-alignment:
           button-1-text:
           button-1-link:
