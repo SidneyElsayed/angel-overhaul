@@ -430,7 +430,7 @@ jobs-loop:
         phone-number: ''
         email:
         short-description_html: ''
-        color: var(--featured-color-angel-blue)
+        color: var(--featured-color-medium-blue)
         button-text:
         button-link:
         image: /uploads/img-1503-edited.jpg
