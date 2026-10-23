@@ -430,8 +430,8 @@ jobs-loop:
         phone-number: ''
         email:
         short-description_html: ''
-        color: ''
+        color: var(--featured-color-angel-blue)
         button-text:
         button-link:
-        image: /uploads/img-1503-nick-web.jpg
+        image: /uploads/img-1503-edited.jpg
         alt: ''
