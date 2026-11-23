@@ -292,7 +292,7 @@ jobs-loop:
         image: /uploads/StaffPhotos/dave-website-sm.png
         alt: A headshot of Dave Becker
       - name: Mindy Chang
-        job-title: Program Coordinator
+        job-title: Resource Navigation Manager
         tag:
         title-tag:
         phone-number: ''
