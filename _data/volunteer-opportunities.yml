@@ -3,11 +3,10 @@ card-loop:
     image: /uploads/VolunteerPics/Vol-AP.jpg
     alt: A group of young women hold Angel Packs and smile.
     overline: Ongoing
-    short-description_html: >-
-      Join us for a one-of-a-kind experience by helping assemble Angel Packs™:
-      age-appropriate and therapeutic kits for kids with an adult with cancer.
-      We welcome groups of 10 or fewer to pack kits at Angel Foundation's™
-      office in Mendota Heights.
+    short-description_html: "Join us for a one-of-a-kind experience by helping
+      assemble Angel Packs™: age-appropriate and therapeutic kits for kids with
+      an adult with cancer. We welcome groups of 10 or fewer to pack kits at
+      Angel Foundation's™ office in Mendota Heights."
     location: Angel Foundation™ Office
     commitment: One-time commitment
     button-1-text:
@@ -16,15 +15,14 @@ card-loop:
     button-2-link:
   - heading: Special Event Volunteers
     image: /uploads/20250125_angel-foundation_0110-sm.jpg
-    alt: >-
-      Two women wearing angel wings and halos distribute raffle tickets at the
+    alt: Two women wearing angel wings and halos distribute raffle tickets at the
       Angel Gala
     overline:
-    short-description_html: >-
-      Angel Foundation™ hosts three major fundraising events each year: the
-      Angel Gala in January, the Lives We Touch Luncheon in May, and the Angel
-      &amp; Eagles Golf Classic in July. We rely on individual and group
-      volunteers to help events run smoothly, both in advance and on event day.
+    short-description_html: 'Angel Foundation™ hosts three major fundraising events
+      each year: the Angel Gala in January, the Lives We Touch Luncheon in May,
+      and the Angel &amp; Eagles Golf Classic in July. We rely on individual and
+      group volunteers to help events run smoothly, both in advance and on event
+      day.'
     location: Event-dependent location
     commitment: One-time commitment
     button-1-text:
@@ -35,11 +33,10 @@ card-loop:
     image: /uploads/MiscPhotos/Angel-Foundation-Winter-Retreat-Feb-24th-2018-0361.jpg
     alt: A woman in a pink shirt speaking.
     overline: Ongoing
-    short-description_html: >-
-      We are seeking Certified Financial Planners® to volunteer with our
-      Financial Cancer Care program to make a difference for cancer patients in
-      need of financial guidance. Patients and Certified Financial Planners®
-      meet one-on-one for up to three sessions.
+    short-description_html: We are seeking Certified Financial Planners® to
+      volunteer with our Financial Cancer Care program to make a difference for
+      cancer patients in need of financial guidance. Patients and Certified
+      Financial Planners® meet one-on-one for up to three sessions.
     location: Remote
     commitment:
     button-1-text:
@@ -50,11 +47,10 @@ card-loop:
     image: /uploads/VolunteerPics/Camp-Angel-Day-2-Aug-17th-2018-28-(1).jpg
     alt: A young woman helps a child with a craft project.
     overline:
-    short-description_html: >-
-      <p>The Making Memories program is seeking friendly, reliable, and
-      organized volunteers to assist with event reminder calls and staffing at
-      events (nights/weekends) for monthly Making Memories programs and Family
-      Camp Angel. Training will be provided. Both individuals and small (2-5
+    short-description_html: <p>The Making Memories program is seeking friendly,
+      reliable, and organized volunteers to assist with event reminder calls and
+      staffing at events (nights/weekends) for monthly Making Memories programs
+      and Camp Angel. Training will be provided. Both individuals and small (2-5
       person) volunteer groups are welcome.</p>
     location: Event-dependent location
     commitment:
@@ -68,9 +64,8 @@ card-loop:
     image: /uploads/VolunteerPics/Vol---intern.jpeg
     alt: Two young people sit at an Angel Foundation table.
     overline: Ongoing
-    short-description_html: >-
-      We are seeking enthusiastic and dedicated interns to support
-      administrative tasks and programs at our office.
+    short-description_html: We are seeking enthusiastic and dedicated interns to
+      support administrative tasks and programs at our office.
     location: Angel Office
     commitment: Min 3 - 6 months | 4 hrs per week
     minimum-experience:
